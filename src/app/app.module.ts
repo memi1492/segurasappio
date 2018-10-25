@@ -30,7 +30,7 @@ import { TabsPage } from '../pages/tabs/tabs';
   entryComponents: [
     MyApp,
     HomePage,
-    NewPlacePage
+    NewPlacePage,
     AboutPage,
     ContactPage,
     TabsPage
