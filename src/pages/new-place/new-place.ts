@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-
+import { InfoPage } from '../info/info';
+import { Info2Page } from '../info2/info2';
 /**
  * Generated class for the NewPlacePage page.
  *
@@ -22,4 +23,13 @@ export class NewPlacePage {
     console.log('ionViewDidLoad NewPlacePage');
   }
 
+domestica(){
+    console.log("InfoPage")
+    this.navCtrl.push(InfoPage);
+}
+
+sexual(){
+    console.log("Info2Page")
+    this.navCtrl.push(Info2Page);
+} 
 }

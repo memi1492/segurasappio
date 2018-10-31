@@ -11,6 +11,8 @@ import { HomePage } from '../pages/home/home';
 import { AboutPage } from '../pages/about/about';
 import { ContactPage } from '../pages/contact/contact';
 import { TabsPage } from '../pages/tabs/tabs';
+import { InfoPage } from '../pages/info/info';
+import { Info2Page } from '../pages/info2/info2';
 
 
 @NgModule({
@@ -20,7 +22,9 @@ import { TabsPage } from '../pages/tabs/tabs';
     NewPlacePage,
     AboutPage,
     ContactPage,
-    TabsPage
+    TabsPage,
+    InfoPage,
+    Info2Page
   ],
   imports: [
     BrowserModule,
@@ -33,7 +37,9 @@ import { TabsPage } from '../pages/tabs/tabs';
     NewPlacePage,
     AboutPage,
     ContactPage,
-    TabsPage
+    TabsPage,
+    InfoPage,
+    Info2Page
   ],
   providers: [
     StatusBar,

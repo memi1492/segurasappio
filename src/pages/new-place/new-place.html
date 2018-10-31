@@ -1,58 +1,35 @@
 
 <ion-header>
 
-  <ion-navbar>
-    <ion-title>Tipos de Violencia</ion-title>
+  <ion-navbar color="primary">
+    <ion-title>Violencia</ion-title>
   </ion-navbar>
 
 </ion-header>
 
 <ion-content padding >
     
-
-        <div style="text-align: center;"><img style="width : 60% ; height : 50%; " src="assets/imgs/1ViolenciaDomestica.jpeg"></div>
-    
-      <div style="text-align: center;"><img style="width : 60% ; height : 50%; " src="assets/imgs/2ViolenciaSexual.jpeg"></div>
-      
-     
-  
-
-        
-       <!-- <div class = "card">
-   <div class = "item item-avatar">
-      <img src = "my-image.png">
-      <h2>Card Name</h2>
-   </div>
-
-   <div class = "item item-body">
-      <img class = "full-image" src = "my-image.png">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eget 
-      pharetra tortor. Proin quis eros imperdiet, facilisis nisi in, tincidunt orci. 
-      Nam tristique elit massa, quis faucibus augue finibus ac.
-   </div>
-</div>
-        
-    <!--
-   
-  <ion-card-content align-items-center style="height: 100%" >
-     <p> <img  src="assets/imgs/1ViolenciaDomestica.jpeg"  /></p> 
-    </ion-card-content>
- 
-</ion-card>
-    </ion-row>
-      
-    <div>&nbsp;</div>
-    
-    
-    <ion-row >
-
+ <div>&nbsp;</div>
+       <div>&nbsp;</div>
     <ion-card>
  
   <ion-card-content style="height: 100%">
-      <p> <img  src="assets/imgs/2ViolenciaSexual.jpeg" style="background-size: fit"/></p>
+      <div (click)="domestica()"> <img  src="assets/imgs/domestica.jpeg" style="background-size: fit"/></div>
   </ion-card-content>
 </ion-card>
--->
+     <div>&nbsp;</div>
+       <div>&nbsp;</div>
+   
+    <ion-card>
+        
+ 
+  <ion-card-content style="height: 100%">
+      <div (click)="sexual()">  <img  src="assets/imgs/sexual.jpeg" style="background-size: fit"/></div>
+  </ion-card-content>
+</ion-card>
+    
+      
+    
    
    
 </ion-content>
