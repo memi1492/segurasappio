@@ -2,7 +2,7 @@ import { Component, ViewChild } from '@angular/core';
 import { IonicPage, NavController, NavParams, ModalController, ViewController, Slides } from 'ionic-angular';
 
 /**
- * Generated class for the CicloViolenciaPage page.
+ * Generated class for the ConsejosSeguridadPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
@@ -10,19 +10,18 @@ import { IonicPage, NavController, NavParams, ModalController, ViewController, S
 
 @IonicPage()
 @Component({
-  selector: 'page-ciclo-violencia',
-  templateUrl: 'ciclo-violencia.html',
+  selector: 'page-consejos-seguridad',
+  templateUrl: 'consejos-seguridad.html',
 })
-export class CicloViolenciaPage {
+export class ConsejosSeguridadPage {
 
   @ViewChild(Slides) slides: Slides;
 
-  constructor( private navParams: NavParams, private view: ViewController) {
+  constructor(private navParams: NavParams, private view: ViewController, public navCtrl: NavController) {
   }
 
   ionViewDidLoad() {
-
-    console.log('ionViewDidLoad CicloViolenciaPage');
+    console.log('ionViewDidLoad ConsejosSeguridadPage');
   }
 
   closemodal(){

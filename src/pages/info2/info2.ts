@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { IonicPage, NavController, NavParams, ModalController } from 'ionic-angular';
 
 /**
  * Generated class for the Info2Page page.
@@ -15,11 +15,24 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class Info2Page {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  constructor(public navCtrl: NavController, public navParams: NavParams, private modal:ModalController) {
   }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad Info2Page');
   }
+  Identificala() {
+    const Identificala = this.modal.create('IdentificaPage');
+    
+    Identificala.present();
+     }
+
+     Ninos() {
+      const Ninos = this.modal.create('NinosPage');
+      
+      Ninos.present();
+       }
+   
+    
 
 }

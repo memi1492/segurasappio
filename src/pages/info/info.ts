@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams, ModalController, IonicPage } from 'ionic-angular';
+import { IonicPage, NavController, NavParams, ModalController } from 'ionic-angular';
 
 /**
  * Generated class for the InfoPage page.
@@ -26,6 +26,11 @@ export class InfoPage {
  const CicloViolencia = this.modal.create('CicloViolenciaPage');
  
  CicloViolencia.present();
+  }
+
+  ConsejosSeguridad(){
+    const ConsejosSeguridad = this.modal.create('ConsejosSeguridadPage');
+    ConsejosSeguridad.present();
   }
 
 }
