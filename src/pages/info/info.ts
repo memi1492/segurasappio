@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams, ModalController } from 'ionic-angular';
+import { IonicPage, NavController, NavParams, ModalController, IonicPage } from 'ionic-angular';
 
 /**
  * Generated class for the InfoPage page.
@@ -15,11 +15,17 @@ import { IonicPage, NavController, NavParams, ModalController } from 'ionic-angu
 })
 export class InfoPage {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  constructor(public navCtrl: NavController, public navParams: NavParams, private modal:ModalController) {
   }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad InfoPage');
+  }
+  
+  CicloViolencia() {
+ const CicloViolencia = this.modal.create('CicloViolenciaPage');
+ 
+ CicloViolencia.present();
   }
 
 }

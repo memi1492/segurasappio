@@ -1,0 +1,58 @@
+<!--
+  Generated template for the CicloViolenciaPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar color="primary">
+    <ion-title>Violencia Doméstica</ion-title>
+    <ion-buttons end>
+      <button ion-button (click)="closemodal()">Cerrar</button>
+    </ion-buttons>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+    <ion-slides pager="true" (ionslideDidChange)="slideChanged()"><!--3 little buttons at the bottom of each slide-->
+        <ion-slide style="background-color: white; color:  #23B4B7">
+         <h2 style="padding-top: 10px; background-color: white; color:#FF6663"> Fases del Ciclo de Violencia</h2>
+          <p style="text-align: center;">
+              Siempre hay salida de las situaciones de violencia doméstica. </p>
+              <p> ¡Reconoce las 3 fases del ciclo de la violencia y decide a romper este ciclo!
+            </p>
+          <div>&nbsp;</div>
+          <img src="assets/imgs/1ViolenciaDomestica/1CicloViolencia/ezgif.com-crop-2.gif" style="width : 90% ; height : 190%">
+          <div>&nbsp;</div>
+          <p style="text-align: center; color:#FF6663;"><strong>Desliza la imagen para la derecha 
+          </strong></p>
+          <p> <ion-icon name="arrow-round-forward" style="align-content: center;"></ion-icon></p>
+        </ion-slide>
+        <ion-slide>
+            <h2 style="padding-top: 10px; background-color: white; color:#23B4B7">Fase de Acumulación de Tensión </h2>
+           <div>&nbsp;</div>
+            <img src="assets/imgs/1ViolenciaDomestica/1CicloViolencia/1Tension.jpeg" style="width : 100% ; height : 100%">
+            <p style="text-align: center; color:#FF6663; font-size: 15px">*Esta etapa puede tener una duración indeterminada, desde días, semanas, meses o años.
+              </p>
+          </ion-slide>
+        <ion-slide>
+            <h2 style="padding-top: 10px; background-color: white; color:#23B4B7">Fase de Explosión </h2>
+            <div>&nbsp;</div>
+             <img src="assets/imgs/1ViolenciaDomestica/1CicloViolencia/2Explosion.jpeg" style="width : 100% ; height : 100%">
+             <p style="text-align: center; color:#FF6663; font-size: 15px">* Es la etapa más breve del episodio de la violencia. Ya en esta fase se producen estados de ansiedad y temor en la mujer.
+               </p>
+        </ion-slide>
+        <ion-slide>
+            <h2 style="padding-top: 10px; background-color: white; color:#23B4B7">Fase de Reconciliación </h2>
+            <div>&nbsp;</div>
+            <p style="text-align: center; color:#FF6663; font-size: 15px">Esta es solo una fase más del ciclo, volviéndose a iniciar después de ésta la fase de acumulación de tensión.
+              </p>
+             <img src="assets/imgs/1ViolenciaDomestica/1CicloViolencia/3Reconciliacion.jpeg" style="width : 100% ; height : 100%">
+             <p style="text-align: center; color:#23B4B7; font-size: 15px">*El agresor puede llegar a hacer creer a la víctima que la violencia se ha producido como consecuencia de una actitud de ella, que ella la ha provocado, haciendo incluso que ésta llegue a creerlo. 
+               </p>
+        </ion-slide>
+      </ion-slides>
+</ion-content>
