@@ -13,6 +13,7 @@ import { ContactPage } from '../pages/contact/contact';
 import { TabsPage } from '../pages/tabs/tabs';
 import { InfoPage } from '../pages/info/info';
 import { Info2Page } from '../pages/info2/info2';
+import { ConsejosPage } from '../pages/consejos/consejos';
 
 
 @NgModule({
@@ -24,7 +25,8 @@ import { Info2Page } from '../pages/info2/info2';
     ContactPage,
     TabsPage,
     InfoPage,
-    Info2Page
+    Info2Page,
+    ConsejosPage,
   ],
   imports: [
     BrowserModule,
@@ -39,7 +41,8 @@ import { Info2Page } from '../pages/info2/info2';
     ContactPage,
     TabsPage,
     InfoPage,
-    Info2Page
+    Info2Page,
+    ConsejosPage
   ],
   providers: [
     StatusBar,

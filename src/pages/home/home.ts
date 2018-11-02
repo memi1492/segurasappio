@@ -1,6 +1,8 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import { NewPlacePage } from '../new-place/new-place';
+import { ConsejosPage } from '../consejos/consejos';
+
 
 
 @Component({
@@ -16,4 +18,8 @@ export class HomePage {
     onLoadNewPlace(){
         this.navCtrl.push(NewPlacePage);
     }
+
+    Consejos(){
+      this.navCtrl.push(ConsejosPage);
+  }
 }
