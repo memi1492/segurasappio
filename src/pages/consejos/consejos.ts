@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { IonicPage, NavController, NavParams, ModalController } from 'ionic-angular';
 
 /**
  * Generated class for the ConsejosPage page.
@@ -16,11 +16,16 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class ConsejosPage {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  constructor(public navCtrl: NavController, public navParams: NavParams, private modal:ModalController) {
   }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad ConsejosPage');
+  }
+
+  medidas(){
+    const Medidas = this.modal.create('MedidasPage');
+    Medidas.present();
   }
 
 }
