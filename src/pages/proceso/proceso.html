@@ -6,13 +6,55 @@
 -->
 <ion-header>
 
-  <ion-navbar>
-    <ion-title>Proceso</ion-title>
-  </ion-navbar>
+    <ion-navbar color="primary">
+      <ion-title>Proceso de Denuncias</ion-title>
+      <ion-buttons end>
+        <button ion-button (click)="closemodal()">Cerrar</button>
+      </ion-buttons>
+    </ion-navbar>
+  
+  </ion-header>
+  
+  
+  <ion-content padding>
+      <ion-slides pager="true" (ionslideDidChange)="slideChanged()"><!--3 little buttons at the bottom of each slide-->
+        
+        <ion-slide style="background-color: white; color:  #23B4B7">
+            <div>&nbsp;</div>
+            <img src="assets/imgs/4Denuncia/1DenunciaPaso1.jpeg" style="width : 90% ; height : 190%">
+            <div>&nbsp;</div>
+            <p style="text-align: center; color:#FF6663;"><strong>Desliza la imagen para la derecha 
+            </strong></p>
+            <p> <ion-icon name="arrow-round-forward" style="align-content: center;"></ion-icon></p>
+          </ion-slide>
 
-</ion-header>
+          <ion-slide>
+             <div>&nbsp;</div>
+              <img src="assets/imgs/4Denuncia/2DenunciaPaso2.jpeg" style="width : 100% ; height : 100%">
+             
+            </ion-slide>
+          <ion-slide>
+              <div>&nbsp;</div>
+               <img src="assets/imgs/4Denuncia/3DenunciaPaso3.jpeg" style="width : 100% ; height : 100%">
+               
+          </ion-slide>
+          <ion-slide>
+              <div>&nbsp;</div>
+               <img src="assets/imgs/4Denuncia/4DenunciaPaso4.jpeg" style="width : 100% ; height : 100%">
+              
+          </ion-slide>
 
+          <ion-slide>
+              <div>&nbsp;</div>
+               <img src="assets/imgs/4Denuncia/5DenunciaPaso5.jpeg" style="width : 100% ; height : 100%">
+              
+          </ion-slide>
 
-<ion-content padding>
-
-</ion-content>
+          <ion-slide>
+              <div>&nbsp;</div>
+               <img src="assets/imgs/4Denuncia/6DenunciaPaso6.jpeg" style="width : 100% ; height : 100%">
+              
+          </ion-slide>
+        </ion-slides>
+  </ion-content>
+  

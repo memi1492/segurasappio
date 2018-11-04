@@ -1,5 +1,5 @@
-import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { Component, ViewChild } from '@angular/core';
+import { IonicPage, NavController, NavParams, ModalController, ViewController, Slides } from 'ionic-angular';
 
 /**
  * Generated class for the ProcesoPage page.
@@ -15,11 +15,14 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class ProcesoPage {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  constructor( private navParams: NavParams, private view: ViewController) {
   }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad ProcesoPage');
   }
-
+  
+  closemodal(){
+    this.view.dismiss();
+  }
 }

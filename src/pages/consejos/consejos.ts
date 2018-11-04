@@ -28,4 +28,9 @@ export class ConsejosPage {
     Medidas.present();
   }
 
+  proceso(){
+    const Proceso = this.modal.create('ProcesoPage');
+    Proceso.present();
+  }
+
 }

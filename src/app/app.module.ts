@@ -42,7 +42,7 @@ import { ConsejosPage } from '../pages/consejos/consejos';
     TabsPage,
     InfoPage,
     Info2Page,
-    ConsejosPage
+    ConsejosPage,
   ],
   providers: [
     StatusBar,
