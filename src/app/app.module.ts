@@ -6,6 +6,7 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { NewPlacePage } from '../pages/new-place/new-place';
 
 
+
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { AboutPage } from '../pages/about/about';
@@ -14,7 +15,9 @@ import { TabsPage } from '../pages/tabs/tabs';
 import { InfoPage } from '../pages/info/info';
 import { Info2Page } from '../pages/info2/info2';
 import { ConsejosPage } from '../pages/consejos/consejos';
+import { DenunciaPage } from '../pages/denuncia/denuncia';
 
+import { AccordionComponent} from '../components/accordion/accordion';
 
 @NgModule({
   declarations: [
@@ -27,6 +30,8 @@ import { ConsejosPage } from '../pages/consejos/consejos';
     InfoPage,
     Info2Page,
     ConsejosPage,
+    DenunciaPage,
+    AccordionComponent
   ],
   imports: [
     BrowserModule,
@@ -43,6 +48,7 @@ import { ConsejosPage } from '../pages/consejos/consejos';
     InfoPage,
     Info2Page,
     ConsejosPage,
+    DenunciaPage
   ],
   providers: [
     StatusBar,

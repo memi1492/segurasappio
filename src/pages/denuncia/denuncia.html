@@ -4,15 +4,45 @@
   See http://ionicframework.com/docs/components/#navigation for more info on
   Ionic pages and navigation.
 -->
+
 <ion-header>
 
-  <ion-navbar>
-    <ion-title>denuncia</ion-title>
-  </ion-navbar>
-
-</ion-header>
-
-
-<ion-content padding>
-
-</ion-content>
+    <ion-navbar color="primary">
+      <ion-title>Denuncia</ion-title>
+    </ion-navbar>
+  
+  </ion-header>
+  
+  
+  <ion-content padding >
+      <h3 text-center style="padding-top: 10px; color:#0B3954"><strong>Conoce los pasos que debes seguir para denunciar una agresión</strong> </h3>
+      <p style="text-align: center; color: #FF6663; font-size: 16px;">
+         <strong> ­«­Luego que has reconocido que te has visto sometida a algún tipo de violencia:<br> ¡Es tiempo de actuar! »</strong>
+        </p>    
+      
+      <div (click)="DenunciasDef()" class="estilodeboton"><p style="font-size: 20px;"><strong>¿Quieres denunciar esta violencia para acceder a la justicia? </strong></p>
+        <img   src="assets/imgs/law.gif" style="width: 25%; height: 25%;">
+        <p>Veamos algunas cosas importantes que debes saber</p>
+   </div>
+      
+  
+  
+  <div>&nbsp;</div>
+   
+     <div (click)="RutasAtencion()" class="estilodeboton"><p style="font-size: 20px;"><strong>Rutas de atención de las denuncias</strong></p>
+       <img   src="assets/imgs/guia.gif" style="width: 25%; height: 25%;">
+       <p>¿Dónde puedes acudir?</p>
+  </div>
+  
+       
+      <div>&nbsp;</div>
+     
+     <div (click)="PasosDenuncia()" class="estilodeboton" ><p style="font-size: 20px;"><strong>¿Qué sigue cuando interpones la denuncia por violencia doméstica?  </strong></p>
+         <img  src="assets/imgs/shield.gif" style="width: 25%; height: 25%;">
+         <p>Conoce más del sistema</p>
+   </div>
+     
+      
+      
+      
+  </ion-content>

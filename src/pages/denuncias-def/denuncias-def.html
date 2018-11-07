@@ -1,0 +1,52 @@
+<!--
+  Generated template for the DenunciasDefPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+    <ion-navbar color="primary">
+      <ion-title>Preguntas Frecuentes</ion-title>
+      <ion-buttons end>
+          <button ion-button (click)="closemodal()">Atrás</button>
+        </ion-buttons>
+    </ion-navbar>
+  
+  </ion-header>
+  
+  
+  <ion-content padding >
+      <h3 text-center style="padding-top: 10px; color:#0B3954"><strong>Conoce lo que debes de saber para reaizar una denuncia</strong> </h3>
+      <p style="text-align: center; color: #FF6663; font-size: 16px;">
+         <strong> Selecciona cualquiera de las siguientes opciones para saber la respuesta:</strong>
+        </p>    
+      
+    <accordion></accordion>
+        <div (click)="DenunciasDef()" class="estilodeboton"><p style="font-size: 20px;"><strong>¿Qué es una denuncia?</strong></p>
+        <img   src="assets/imgs/law.gif" style="width: 25%; height: 25%;">
+      
+   </div>
+      
+  
+  
+  <div>&nbsp;</div>
+   
+     <div (click)="RutasAtencion()" class="estilodeboton"><p style="font-size: 20px;"><strong>¿Qué elementos debe recoger la denuncia?</strong></p>
+       <img   src="assets/imgs/guia.gif" style="width: 25%; height: 25%;">
+     
+  </div>
+  
+       
+      <div>&nbsp;</div>
+     
+     <div (click)="PasosDenuncia()" class="estilodeboton" ><p style="font-size: 20px;"><strong>¿Qué debes de exigir al momento de presentar una denuncia?  </strong></p>
+         <img  src="assets/imgs/shield.gif" style="width: 25%; height: 25%;">
+   
+   </div>
+     
+      
+      
+      
+  </ion-content>
+
