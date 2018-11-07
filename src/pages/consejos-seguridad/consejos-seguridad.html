@@ -9,7 +9,7 @@
     <ion-navbar color="primary">
       <ion-title>Violencia Doméstica</ion-title>
       <ion-buttons end>
-        <button ion-button (click)="closemodal()">Cerrar</button>
+        <button ion-button (click)="closemodal()">Atrás</button>
       </ion-buttons>
     </ion-navbar>
   
@@ -17,37 +17,76 @@
   
   
   <ion-content padding>
-      <h2 text-center style="padding-top: 10px; background-color: white; color:#FF6663"> Consejos de Seguridad</h2>
-      <p style="text-align: center;">
-          Recuerda que no estás sola y que no debes aceptar la violencia
+      <h2 text-center style="padding-top: 10px; color:#0B3954"><strong>¿Qué hacer ante una amenaza de violencia?</strong> </h2>
+      <p style="text-align: center; color: #FF6663; font-size: 16px;">
+         <strong> ­«­¡­­Recuerda que no estás sola y que no debes aceptar la violencia! »</strong>
         </p>    
         <ion-grid>
+            <br> <ion-row padding-top  style="color: black; background-color: white; text-align: center; padding-top: 5px ; border: 10px solid #0B3954;" >
+         <ion-col >
+               <img style="align-content: center; width: 80%; height:80%" src="assets/imgs/1ViolenciaDomestica/2ConsejosSeguridad/card.gif" >
+             </ion-col>
+             <ion-col >
+               <p style="text-align:center">Guarda dinero, copias de tus llaves y documentos importantes en un lugar accesible o con alguien de confianza.</p>
+             </ion-col>
+             </ion-row>
+         
+             <br> <ion-row padding-top  style="color: black; background-color: white; text-align: center; padding-top: 5px ; border: 10px solid #23B4B7;" >
+                 <ion-col >
+                     <p style="text-align:center">Si una discusión se hace inevitable asegúrate de estar en un lugar que tenga una salida o tener acceso a un teléfono.</p> 
+                     </ion-col>
+                     <ion-col >
+                         <img style="align-content: center; width: 80%; height:80%" src="assets/imgs/1ViolenciaDomestica/2ConsejosSeguridad/hand.gif">
+                     </ion-col>
+                     </ion-row>
+ 
+                     <br> <ion-row padding-top  style="color: black; background-color: white; text-align: center; padding-top: 5px ; border: 10px solid #0B3954;" >
+                         <ion-col >
+                               <img style="align-content: center;  width: 80%; height:80%" src="assets/imgs/1ViolenciaDomestica/2ConsejosSeguridad/house.gif">
+                             </ion-col>
+                             <ion-col >
+                               <p style="text-align:center">Siempre ten una segunda opción a donde ir (Incluyendo un refugio temporal).</p>
+                             </ion-col>
+                             </ion-row>
+ 
+                             <br> <ion-row padding-top  style="color: black; background-color: white; text-align: center; padding-top: 5px ; border: 10px solid #23B4B7;" >
+                                 <ion-col >
+                                     <p style="text-align:center">Identifica a una vecina/o a quién puedas confiarle lo que está sucediendo y pídele que llame a la policía en caso de emergencia.</p> 
+                                     </ion-col>
+                                     <ion-col >
+                                         <img style="align-content: center; width: 80%; height:80%" src="assets/imgs/1ViolenciaDomestica/2ConsejosSeguridad/help.gif">
+                                     </ion-col>
+                                     </ion-row>
+ 
+               
+                   </ion-grid>
+      <!--  <ion-grid>
             <ion-row padding-top>
                 
-              <div  style="background-color: white; text-align: center; padding-top: 5px ; border: 10px solid #23B4B7;" ><p style="padding:5px;">Guarda dinero, copias de tus llaves y documentos importantes en un lugar accesible o con alguien de confianza.</p>
-                  <img   src="assets/imgs/1ViolenciaDomestica/2ConsejosSeguridad/card.gif" style=" width: 50%; height: 50%" >
+              <div  style="background-color: white; text-align: center; padding-top: 5px ; border: 15px solid #23B4B7;" ><p style="padding:5px;">Guarda dinero, copias de tus llaves y documentos importantes en un lugar accesible o con alguien de confianza.</p>
+                  <img   src="assets/imgs/1ViolenciaDomestica/2ConsejosSeguridad/card.gif" style=" width: 20%; height: 30%" >
              </div>
             </ion-row>
         
           <ion-row padding-top>
-              <div  style="background-color: white; text-align: center; padding-top: 5px ; border: 10px solid #0B3954;" ><p style="padding:5px;">Si una discusión se hace inevitable asegúrate de estar en un lugar que tenga una salida o tener acceso a un teléfono para usar esta aplicación.</p>
-                  <img   src="assets/imgs/1ViolenciaDomestica/2ConsejosSeguridad/hand.gif" style=" width: 50%; height: 50%" >
+              <div  style="background-color: white; text-align: center; padding-top: 5px ; border: 15px solid #0B3954;" ><p style="padding:5px;">Si una discusión se hace inevitable asegúrate de estar en un lugar que tenga una salida o tener acceso a un teléfono para usar esta aplicación.</p>
+                  <img   src="assets/imgs/1ViolenciaDomestica/2ConsejosSeguridad/hand.gif" style=" width: 20%; height: 30%" >
              </div>
               </ion-row>
 
             <ion-row padding-top>
-                <div  style="background-color: white; text-align: center; padding-top: 5px ; border: 10px solid #23B4B7;" ><p style="padding:5px;">Siempre ten una segunda opción a donde ir (Incluyendo un refugio temporal)</p>
-                  <img   src="assets/imgs/1ViolenciaDomestica/2ConsejosSeguridad/house.gif" style=" width: 50%; height: 50%" >
+                <div  style="background-color: white; text-align: center; padding-top: 5px ; border: 15px solid #23B4B7;" ><p style="padding:5px;">Siempre ten una segunda opción a donde ir (Incluyendo un refugio temporal)</p>
+                  <img   src="assets/imgs/1ViolenciaDomestica/2ConsejosSeguridad/house.gif" style=" width: 20%; height: 30%" >
              </div>
                 </ion-row>
 
               <ion-row padding-top>
-                  <div  style="background-color: white; text-align: center; padding-top: 5px ; border: 10px solid #0B3954;" ><p style="padding:5px;">Identifica a una vecina/o a quién puedas confiarle lo que está sucediendo y pídele que llame a la policía en caso de emergencia.</p>
-                    <img   src="assets/imgs/1ViolenciaDomestica/2ConsejosSeguridad/help.gif" style=" width: 50%; height: 50%" >
+                  <div  style="background-color: white; text-align: center; padding-top: 5px ; border: 15px solid #0B3954;" ><p style="padding:5px;">Identifica a una vecina/o a quién puedas confiarle lo que está sucediendo y pídele que llame a la policía en caso de emergencia.</p>
+                    <img   src="assets/imgs/1ViolenciaDomestica/2ConsejosSeguridad/help.gif" style=" width: 20%; height: 30%" >
                </div>
                   </ion-row>
                   </ion-grid>
-
+                -->
 
 
 

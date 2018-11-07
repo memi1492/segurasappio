@@ -1,17 +1,54 @@
-<ion-header>
-  <ion-navbar>
-    <ion-title>
-      Contact
-    </ion-title>
-  </ion-navbar>
-</ion-header>
 
-<ion-content>
-  <ion-list>
-    <ion-list-header>Follow us on Twitter</ion-list-header>
-    <ion-item>
-      <ion-icon name="ionic" item-start></ion-icon>
-      @ionicframework
-    </ion-item>
-  </ion-list>
-</ion-content>
+<ion-header>
+
+    <ion-navbar color="primary">
+      <ion-title>Configuración</ion-title>
+      <ion-buttons end>
+        <button ion-button (click)="closemodal()">Atrás</button>
+      </ion-buttons>
+    </ion-navbar>
+  
+  </ion-header>
+ 
+  
+  <ion-content padding>
+      <h2 text-center style="padding-top: 10px; color:#0B3954 "><strong>CONFIGURA TUS NÚMEROS DE EMERGENCIA</strong> </h2>
+<div style="text-align: center;" ><img   src="assets/imgs/Contacts/agenda1.gif" style="padding-bottom: 5px; width: 50%; height: 50%" >
+<br>
+<p>Para editar un número telefónico simplemente selecciona una casilla y escribe el número nuevo:</p></div>
+     
+      <ion-grid>
+          <ion-row padding style="background-color: white; text-align: center; padding-top: 5px ; ">
+              
+         <p style="padding:5px;">Numero1</p>
+            
+         
+          </ion-row>
+          <br>
+
+          <ion-row padding style="background-color: white; text-align: center; padding-top: 5px ; ">
+              
+              <p style="padding:5px;">Numero2</p>
+                 
+              
+               </ion-row>
+<br>
+               <ion-row padding style="background-color: white; text-align: center; padding-top: 5px ; ">
+              
+                  <p style="padding:5px;">Numero3</p>
+                     
+                  
+                   </ion-row>
+<br>
+                   <ion-row padding-top style=" text-align: center; padding-top: 5px ;">
+          
+                      <ion-col><ion-buttons> <button ion-button color="danger">mensaje de prueba </button></ion-buttons></ion-col>
+                  <ion-col> <ion-buttons> <button ion-button color="secondary">Aceptar </button> </ion-buttons>      </ion-col>
+                    </ion-row>
+
+                </ion-grid>
+
+
+               
+
+      </ion-content>

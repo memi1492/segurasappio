@@ -1,0 +1,114 @@
+<!--
+  Generated template for the DefinicionPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+
+<ion-header>
+
+    <ion-navbar color="primary">
+      <ion-title>Tipos de Violencia Doméstica</ion-title>
+      <ion-buttons end>
+        <button ion-button (click)="closemodal()"> Atrás</button>
+      </ion-buttons>
+    </ion-navbar>
+  
+  </ion-header>
+  
+  
+  <ion-content padding>
+      <h2 text-center style="padding-top: 10px; color:#0B3954"><strong> ¿Cómo saber si sufres violencia doméstica?</strong> </h2>
+      <p style="text-align: center; color: #FF6663; font-size: 16px;">
+         <strong> Cuando los actos de tu pareja o ex-pareja te producen cualquiera de estos tipos de violencia, estas siendo víctima de violencia doméstica </strong>
+        </p>
+ 
+          <div padding class="estilo">
+              <div>  <img   src="assets/imgs/1ViolenciaDomestica/handymod.gif" style=" align-content: center; padding-bottom: 5px; width: 20%; height: 20%" ></div> 
+
+         <!--  <ion-col><p style="padding:5px;">Existen golpes. empujadas y cachetadas</p></ion-col> -->
+              <div><ion-buttons><button ion-button center (click)="vfisica()"> Violencia Física  </button></ion-buttons> </div>
+          </div>
+          <br>
+
+          <div padding class="estilo">
+              <div>  <img   src="assets/imgs/1ViolenciaDomestica/sex.gif" style=" align-content: center; padding-bottom: 5px; width: 30%; height: 30%" ></div> 
+
+         <!--  <ion-col><p style="padding:5px;">Existen golpes. empujadas y cachetadas</p></ion-col> -->
+              <div><ion-buttons><button ion-button center (click)="vsexual()"> Violencia Sexual  </button></ion-buttons> </div>
+          </div>
+          <br>
+
+          <div padding class="estilo">
+              <div> <img   src="assets/imgs/1ViolenciaDomestica/1CicloViolencia/swear.gif" style="padding-bottom: 5px; width: 25%; height: 25%" >
+              </div> 
+
+         <!--  <ion-col><p style="padding:5px;">Existen golpes. empujadas y cachetadas</p></ion-col> -->
+              <div><ion-buttons><button ion-button center (click)="vpsicologica()"> Violencia Psicológica  </button></ion-buttons> </div>
+          </div>
+          <br>
+
+
+          <div padding class="estilo">
+              <div>  <img   src="assets/imgs/1ViolenciaDomestica/man.gif" style=" align-content: center; padding-bottom: 5px; width: 30%; height: 30%" ></div> 
+
+         <!--  <ion-col><p style="padding:5px;">Existen golpes. empujadas y cachetadas</p></ion-col> -->
+              <div><ion-buttons><button ion-button center (click)="vpatrimonial()"> Violencia Patrimonial  </button></ion-buttons> </div>
+          </div>
+
+<div>&nbsp;</div>
+<div>&nbsp;</div>
+      
+       
+
+
+
+
+
+<!--
+
+      <ion-slides pager="true" (ionslideDidChange)="slideChanged()">
+          <ion-slide style="background-color: white; color:  #0B3954">
+           <h2 style="padding-top: 10px; color:#FF6663;" ><strong> ¿Cómo saber si sufres violencia doméstica?</strong></h2>
+           <br> <p style="text-align: center;font-size: 15px; padding: 10px;">
+                Cuando los actos de tu pareja o ex-pareja te producen cualquiera de estos tipos de violencia, estas siendo víctima de violencia doméstica </p>
+            <div>&nbsp;</div>
+            <div>&nbsp;</div>
+            <p style="padding: 5px; text-align: center; color:#23B4B7; "><strong>Desliza la imagen para la derecha para ver los tipos de violencia
+            </strong></p>
+            <img src="assets/imgs/right.gif" style="width :50% ; height : 50%">
+
+           
+          </ion-slide>
+          <ion-slide style="background-color: #BFD7EA;">
+          
+              <div style="background-color: white;"><h4 style="padding-top: 10px; background-color: white; color:#FF6663;"> <strong>« Violencia Física »</strong> </h4>
+                <img src="assets/imgs/1ViolenciaDomestica/handy.gif" style="width : 30% ; height : 30%; background-color: white; border: 5px solid #23B4B7;">
+                <p style="padding: 5px; background-color: white; text-align: center; color:#0B3954; font-size: 15px; padding-bottom: 15px; ">Existen golpes. empujadas y cachetadas
+                  </p></div>
+               
+                  <br>
+
+                <div style="background-color: white; border-radius: 5px"> <h4 style="padding-top: 10px; background-color: white; color:#FF6663; "><strong>« Violencia Sexual »</strong> </h4>
+                <img src="assets/imgs/1ViolenciaDomestica/sex.gif" style="width : 30% ; height : 30%; background-color: white; border: 5px solid #FF6663;">
+                <p style="padding: 5px; background-color: white; text-align: center; color:#0B3954; font-size: 15px">Te obliga a tener relaciones sexuales o en posiciones que no deseas, También te puede impedir que realices una planificación familiar.
+                  </p> </div>
+                  <p style="text-align: center; color:#FF6663;"><strong>Desliza a la derecha  
+                    </strong> <ion-icon name="arrow-round-forward" style="align-content: center;  color:#23B4B7"></ion-icon></p>
+            </ion-slide>
+          <ion-slide  style="background-color: #BFD7EA;">
+              <div style="background-color: white; border-radius: 5px"> <h4 style="padding-top: 10px; background-color: white; color:#FF6663"><strong>« Violencia Psicológica »</strong></h4>
+               <img src="assets/imgs/1ViolenciaDomestica/1CicloViolencia/swear.gif" style="width : 30% ; height : 30%; border: 5px solid #FF6663; padding:10px;">
+               <p style="padding: 10px; text-align: center;font-size: 15px; color:#0B3954; background-color: white"> Te degrada, controla tus acciones, comportamientos, creencias y decisiones por medio de la intimidación, manipulación, amenaza directa e indirecta
+                 </p>
+                </div>
+                <br>
+                <div style="background-color: white; border-radius: 5px"> <h4 style="padding-top: 10px; background-color: white; color: #FF6663"><strong>« Violencia Patrimonial »</strong></h4>
+                  <img src="assets/imgs/1ViolenciaDomestica/1CicloViolencia/maan.gif" style="width : 20% ; height : 20%; border: 5px solid #23B4B7;">
+                  <p style="padding: 10px; text-align: center;font-size: 15px; color:#0B3954; background-color: white">Te niega tus bienes, rompe tus cosas, teniendo dinero te niega para cubrir los gastos y el de tus hijos e hijas, dispone del dinero o de tus bienes sin avisarte.</p>
+                </div>
+          </ion-slide>
+          
+        </ion-slides>
+      -->
+  </ion-content>

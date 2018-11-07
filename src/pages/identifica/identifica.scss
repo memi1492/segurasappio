@@ -2,4 +2,27 @@ page-identifica {
     ion-content {
         background: #BFD7EA !important;
     }
+    .estilo{
+        color: black;
+         background-color: white; 
+         text-align: center;
+          padding-top: 5px ;
+           border: 10px solid #0B3954; 
+           
+           -webkit-box-shadow: 0 10px 6px -6px #777;
+          -moz-box-shadow: 0 10px 6px -6px #777;
+               box-shadow: 0 10px 6px -6px #777; 
+    }
+
+    .estilo2{
+        color: black; 
+        background-color: white; 
+        text-align: center; 
+        padding-top: 5px ;
+         border: 10px solid #23B4B7;
+
+         -webkit-box-shadow: 0 10px 6px -6px #777;
+          -moz-box-shadow: 0 10px 6px -6px #777;
+               box-shadow: 0 10px 6px -6px #777; 
+    }
 }

@@ -1,0 +1,27 @@
+page-definicion {
+    ion-content {
+        background: #BFD7EA !important;
+    }
+    
+    .swiper-pagination-bullet-active{
+        background:#FF6663;
+    }
+    ion-slide.swiper-slide {
+        align-items: flex-start;
+    }
+
+    .estilo {
+        border-radius: 5px; 
+        background-color: white; 
+        text-align: center; padding-top: 10px ;
+         border: 5px solid #0B3954;
+          margin: 20px; 
+           
+
+    
+        -webkit-box-shadow: 0 10px 6px -6px #777;
+        -moz-box-shadow: 0 10px 6px -6px #777;
+             box-shadow: 0 10px 6px -6px #777;
+
+    }
+}

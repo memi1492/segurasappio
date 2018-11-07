@@ -1,10 +1,16 @@
 page-ciclo-violencia {
+
+    ion-content {
+        background: #BFD7EA !important;
+    }
+    
     .swiper-pagination-bullet-active{
         background:#FF6663;
     }
     ion-slide.swiper-slide {
         align-items: flex-start;
     }
+    
     
     
 }

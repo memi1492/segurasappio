@@ -33,4 +33,9 @@ export class InfoPage {
     ConsejosSeguridad.present();
   }
 
+  definicion(){
+    const Definicion = this.modal.create('DefinicionPage');
+    Definicion.present();
+  }
+
 }
