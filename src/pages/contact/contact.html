@@ -2,10 +2,8 @@
 <ion-header>
 
     <ion-navbar color="primary">
-      <ion-title>Configuración</ion-title>
-      <ion-buttons end>
-        <button ion-button (click)="closemodal()">Atrás</button>
-      </ion-buttons>
+      <ion-title>Mis Contactos</ion-title>
+      
     </ion-navbar>
   
   </ion-header>
@@ -13,14 +11,17 @@
   
   <ion-content padding>
       <h2 text-center style="padding-top: 10px; color:#0B3954 "><strong>CONFIGURA TUS NÚMEROS DE EMERGENCIA</strong> </h2>
-<div style="text-align: center;" ><img   src="assets/imgs/Contacts/agenda1.gif" style="padding-bottom: 5px; width: 50%; height: 50%" >
+<div style="text-align: center;" ><img   src="assets/imgs/Contacts/agenda1.gif" style="padding-bottom: 5px; width: 40%; height: 40%" >
 <br>
 <p>Para editar un número telefónico simplemente selecciona una casilla y escribe el número nuevo:</p></div>
      
       <ion-grid>
           <ion-row padding style="background-color: white; text-align: center; padding-top: 5px ; ">
               
-         <p style="padding:5px;">Numero1</p>
+              <ion-item>
+                  <ion-label color="primary">1.</ion-label>
+                  <ion-input placeholder="3333-3333"></ion-input>
+                </ion-item>
             
          
           </ion-row>
@@ -28,21 +29,27 @@
 
           <ion-row padding style="background-color: white; text-align: center; padding-top: 5px ; ">
               
-              <p style="padding:5px;">Numero2</p>
+              <ion-item>
+                  <ion-label color="primary">2.</ion-label>
+                  <ion-input placeholder="3333-3333"></ion-input>
+                </ion-item>
                  
               
                </ion-row>
 <br>
                <ion-row padding style="background-color: white; text-align: center; padding-top: 5px ; ">
               
-                  <p style="padding:5px;">Numero3</p>
+                  <ion-item>
+                      <ion-label color="primary">3.</ion-label>
+                      <ion-input placeholder="3333-3333"></ion-input>
+                    </ion-item>
                      
                   
                    </ion-row>
 <br>
                    <ion-row padding-top style=" text-align: center; padding-top: 5px ;">
           
-                      <ion-col><ion-buttons> <button ion-button color="danger">mensaje de prueba </button></ion-buttons></ion-col>
+                      <ion-col><ion-buttons> <button ion-button color="primary">Mensaje de Prueba </button></ion-buttons></ion-col>
                   <ion-col> <ion-buttons> <button ion-button color="secondary">Aceptar </button> </ion-buttons>      </ion-col>
                     </ion-row>
 
