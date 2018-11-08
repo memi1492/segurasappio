@@ -3,6 +3,8 @@ import { NavController } from 'ionic-angular';
 import { NewPlacePage } from '../new-place/new-place';
 import { ConsejosPage } from '../consejos/consejos';
 import { DenunciaPage } from '../denuncia/denuncia';
+import { TestPage } from '../test/test';
+
 
 
 
@@ -27,6 +29,10 @@ export class HomePage {
 
   denunciapage(){
     this.navCtrl.push(DenunciaPage);
+}
+
+test(){
+  this.navCtrl.push(TestPage);
 }
 
 }

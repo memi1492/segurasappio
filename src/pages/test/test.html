@@ -1,0 +1,240 @@
+<!--
+  Generated template for the TestPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+    <ion-navbar color="primary">
+      <ion-title>Test de Violencia</ion-title>
+      <ion-buttons end>
+        <button ion-button (click)="closemodal()">Atrás</button>
+      </ion-buttons>
+    </ion-navbar>
+  
+  </ion-header>
+  
+  
+  <ion-content padding style="background-color: #23B4B7">
+
+      <ion-slides pager="true" (ionslideDidChange)="slideChanged()"><!--3 little buttons at the bottom of each slide-->
+        
+        <ion-slide style="background-color: white; color:  #23B4B7">
+            <h2 text-center style="padding-top: 10px; color:#0B3954"><strong>¿Crees que estas sufriendo de violencia? </strong> </h2>  
+            <div>&nbsp;</div>
+            <p style="text-align: center; color:#FF6663;"><strong>Responde las siguientes preguntas y averigua 
+            </strong><ion-icon name="arrow-round-forward" style="align-content: center;"></ion-icon></p>
+          
+          </ion-slide>
+
+          <ion-slide>
+          
+              <p>1.	¿Te acusa de infidelidad o de que actúas en forma sospechosa? </p>
+       
+                <button ion-button>Si</button>
+                <button ion-button>A Veces</button><br>
+                <button ion-button>Rara Vez</button>
+                <button ion-button>No</button>
+
+         
+             
+            </ion-slide>
+
+            <ion-slide>
+          
+                <p>2.	Has perdido contacto con amigos, familiares, compañeras/os de tu escuela o trabajo para evitar que tu pareja se moleste? </p>
+         
+                  <button ion-button>Si</button>
+                  <button ion-button>A Veces</button><br>
+                  <button ion-button>Rara Vez</button>
+                  <button ion-button>No</button>
+  
+           
+               
+              </ion-slide>
+
+              <ion-slide>
+          
+                  <p>3.	¿Te critica y humilla en público o en privado, opina negativamente sobre tu apariencia, tu forma de ser o el modo en que te vistes? </p>
+                    <button ion-button>Si</button>
+                    <button ion-button>A Veces</button><br>
+                    <button ion-button>Rara Vez</button>
+                    <button ion-button>No</button>
+    
+             
+                 
+                  </ion-slide>
+
+                <ion-slide>
+          
+                    <p>4.	¿Te ha golpeado con sus manos, te ha jaloneado o te ha lanzado cosas cuando se enoja o cuando discuten? </p>
+             
+                      <button ion-button>Si</button>
+                      <button ion-button>A Veces</button><br>
+                      <button ion-button>Rara Vez</button>
+                      <button ion-button>No</button>
+      
+               
+                   
+                  </ion-slide>
+
+                  <ion-slide>
+          
+                      <p>5.	¿Te ha amenazado alguna vez con un objeto o armas, o con matarse él, a ti o a algún miembro de la familia si no le obedeces? </p>
+               
+                        <button ion-button>Si</button>
+                        <button ion-button>A Veces</button><br>
+                        <button ion-button>Rara Vez</button>
+                        <button ion-button>No</button>
+        
+                 
+                     
+                    </ion-slide>
+
+                    <ion-slide>
+          
+                        <p> 6.	¿Sientes que cedes a sus peticiones sexuales por temor, o te ha forzado a tener relaciones, amenazándote que, si no tiene relaciones contigo, entonces se va con otra?
+                           </p>
+                 
+                          <button ion-button>Si</button>
+                          <button ion-button>A Veces</button><br>
+                          <button ion-button>Rara Vez</button>
+                          <button ion-button>No</button>
+          
+                   
+                       
+                      </ion-slide>
+
+                      <ion-slide>
+          
+                          <p>7.	Después de un episodio violento, ¿se muestra cariñoso y atento, te regala cosas y te promete que nunca más volverá a pegarte o insultarte y te dice que “todo cambiará”?
+                              </p>
+                   
+                            <button ion-button>Si</button>
+                            <button ion-button>A Veces</button><br>
+                            <button ion-button>Rara Vez</button>
+                            <button ion-button>No</button>
+            
+                     
+                         
+                        </ion-slide>
+
+                        <ion-slide>
+          
+                            <p>8.	¿Es violento con otras personas o se pelea a golpes con otros hombres?
+                                </p>
+                     
+                              <button ion-button>Si</button>
+                              <button ion-button>A Veces</button><br>
+                              <button ion-button>Rara Vez</button>
+                              <button ion-button>No</button>
+              
+                       
+                           
+                          </ion-slide>
+
+                          <ion-slide>
+          
+                              <p>9.	¿Has buscado o has recibido ayuda por lesiones que él te ha causado? (primeros auxilios, atención médica o legal) 
+                                  </p>
+                       
+                                <button ion-button>Si</button>
+                                <button ion-button>A Veces</button><br>
+                                <button ion-button>Rara Vez</button>
+                                <button ion-button>No</button>
+                
+                         
+                             
+                            </ion-slide>
+
+                            <ion-slide>
+          
+                                <p> 10.	¿Todo el tiempo quiere saber qué haces y con quién estas? 
+                                   </p>
+                         
+                                  <button ion-button>Si</button>
+                                  <button ion-button>A Veces</button><br>
+                                  <button ion-button>Rara Vez</button>
+                                  <button ion-button>No</button>
+                  
+                           
+                               
+                              </ion-slide>
+
+                              <ion-slide>
+          
+                                  <p> 11.	¿Te ha obligado a ver pornografía y/o a tener prácticas sexuales que te desagraden?
+                                      </p>
+                           
+                                    <button ion-button>Si</button>
+                                    <button ion-button>A Veces</button><br>
+                                    <button ion-button>Rara Vez</button>
+                                    <button ion-button>No</button>
+                    
+                             
+                                 
+                                </ion-slide>
+
+                                <ion-slide>
+          
+                                    <p>12.	Cuando tienen relaciones sexuales ¿Te impide o condiciona el uso de métodos anticonceptivos?  
+                                       </p>
+                             
+                                      <button ion-button>Si</button>
+                                      <button ion-button>A Veces</button><br>
+                                      <button ion-button>Rara Vez</button>
+                                      <button ion-button>No</button>
+                      
+                               
+                                   
+                                  </ion-slide>
+
+                                  <ion-slide>
+          
+                                      <p>13.	Cuando se enojan o discuten ¿has sentido que tu vida está en peligro? 
+                                          </p>
+                               
+                                        <button ion-button>Si</button>
+                                        <button ion-button>A Veces</button><br>
+                                        <button ion-button>Rara Vez</button>
+                                        <button ion-button>No</button>
+                        
+                                 
+                                     
+                                    </ion-slide>
+
+                                    <ion-slide>
+          
+                                        <p>14. ¿Te ha amenazado con matarse cuando le dices que quieres terminar con él, o cuando tienen algún problema?
+                                             </p>
+                                 
+                                          <button ion-button>Si</button>
+                                          <button ion-button>A Veces</button><br>
+                                          <button ion-button>Rara Vez</button>
+                                          <button ion-button>No</button>
+                          
+                                   
+                                       
+                                      </ion-slide>
+
+                                      <ion-slide>
+          
+                                          <p>15.	¿Alguna vez te ha causado lesiones que ameriten recibir atención médica, psicológica, jurídica y/o auxilio policial? 
+                                             </p>
+                                   
+                                            <button ion-button>Si</button>
+                                            <button ion-button>A Veces</button><br>
+                                            <button ion-button>Rara Vez</button>
+                                            <button ion-button>No</button>
+                            
+                                     
+                                         
+                                        </ion-slide>
+
+                                    
+           
+         
+        </ion-slides>
+  </ion-content>
+  

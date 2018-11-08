@@ -37,4 +37,9 @@ export class DenunciaPage {
     PasosDenuncia.present();
   }
 
+  directorio(){
+    const directorio = this.modal.create('DirectorioPage');
+    directorio.present();
+  }
+
 }

@@ -2,7 +2,7 @@ import { Component, ViewChild } from '@angular/core';
 import { IonicPage, NavController, NavParams, ModalController, ViewController, Slides } from 'ionic-angular';
 
 /**
- * Generated class for the PasosDenunciaPage page.
+ * Generated class for the TestPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
@@ -10,18 +10,17 @@ import { IonicPage, NavController, NavParams, ModalController, ViewController, S
 
 @IonicPage()
 @Component({
-  selector: 'page-pasos-denuncia',
-  templateUrl: 'pasos-denuncia.html',
+  selector: 'page-test',
+  templateUrl: 'test.html',
 })
-export class PasosDenunciaPage {
+export class TestPage {
 
   constructor( private navParams: NavParams, private view: ViewController) {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad PasosDenunciaPage');
+    console.log('ionViewDidLoad TestPage');
   }
-
   closemodal(){
     this.view.dismiss();
   }

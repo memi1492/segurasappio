@@ -1,3 +1,22 @@
 page-denuncias-def {
+    ion-content {
+        background: #BFD7EA !important;
+    }
+    
+    .swiper-pagination-bullet-active{
+        background:#FF6663;
+    }
+    ion-slide.swiper-slide {
+        align-items: flex-start;
+    }
 
+    .estilo {
+        border-radius: 5px; 
+        text-align: center; padding-top: 10px ;
+          margin: 10px; 
+           
+
+    
+
+    }
 }

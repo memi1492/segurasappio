@@ -15,35 +15,97 @@
   
   </ion-header>
   
-  
   <ion-content padding >
-      <h3 text-center style="padding-top: 10px; color:#0B3954"><strong>Conoce lo que debes de saber para reaizar una denuncia</strong> </h3>
-      <p style="text-align: center; color: #FF6663; font-size: 16px;">
-         <strong> Selecciona cualquiera de las siguientes opciones para saber la respuesta:</strong>
-        </p>    
+      <h3 text-center style="padding-top: 10px; color:#0B3954"><strong>Conoce lo que debes de saber para realizar una denuncia</strong> </h3>
       
-    <accordion></accordion>
-        <div (click)="DenunciasDef()" class="estilodeboton"><p style="font-size: 20px;"><strong>¿Qué es una denuncia?</strong></p>
-        <img   src="assets/imgs/law.gif" style="width: 25%; height: 25%;">
-      
-   </div>
-      
-  
-  
-  <div>&nbsp;</div>
-   
-     <div (click)="RutasAtencion()" class="estilodeboton"><p style="font-size: 20px;"><strong>¿Qué elementos debe recoger la denuncia?</strong></p>
-       <img   src="assets/imgs/guia.gif" style="width: 25%; height: 25%;">
-     
-  </div>
-  
-       
-      <div>&nbsp;</div>
-     
-     <div (click)="PasosDenuncia()" class="estilodeboton" ><p style="font-size: 20px;"><strong>¿Qué debes de exigir al momento de presentar una denuncia?  </strong></p>
-         <img  src="assets/imgs/shield.gif" style="width: 25%; height: 25%;">
-   
-   </div>
+      <div padding class="estilo">
+          <div>  <img   src="assets/imgs/question.png" style=" align-content: center; padding-bottom: 5px; width: 50%; height: 50%" ></div> 
+
+          <div><ion-buttons><button ion-button center (click)="que()">  ¿Qué es una denuncia? </button></ion-buttons> </div>
+      </div>
+
+      <div padding class="estilo">
+          <div>  <img   src="assets/imgs/newspaper.png" style=" align-content: center; padding-bottom: 5px; width: 50%; height: 50%" ></div> 
+
+          <div><ion-buttons><button ion-button center (click)="elementos()">  ¿Qué elementos debe recoger <br> la denuncia?
+            </button></ion-buttons> </div>
+      </div>
+
+      <div padding class="estilo">
+          <div>  <img   src="assets/imgs/advocate.png" style=" align-content: center; padding-bottom: 5px; width: 50%; height: 50%" ></div> 
+
+          <div><ion-buttons><button ion-button center (click)="exigir()"> ¿Qué debes de exigir al momento<br> de presentar  una denuncia?
+            </button></ion-buttons> </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <!--
+        <ion-card>
+            <ion-card-content>
+              <ion-card-title>
+               ¿Qué es una denuncia?
+                </ion-card-title>
+              <p>
+                Es un mecanismo que cada persona tiene para dar a conocer, la violencia sufrida, ante la autoridad competente.
+              </p>
+            </ion-card-content>
+          </ion-card>
+
+          <ion-card>
+            <ion-card-content>
+              <ion-card-title>
+                ¿Qué elementos debe recoger la denuncia?
+                </ion-card-title>
+              <p>
+                   
+a.	Nombre completo de la víctima.
+b.	Lugar y fecha en donde ocurrieron los hechos.
+c.	La hora en la que sucedieron los hechos. En caso de un delito, esto no debe faltar.
+d.	Descripción detallada de los hechos. Mencionar todos los detalles, aunque parezcan insignificantes.
+e.	En caso de haber testigos, sus nombres y cómo ubicarlos
+
+
+              </p>
+            </ion-card-content>
+          </ion-card>
+
+          <ion-card>
+            <ion-card-content>
+              <ion-card-title>
+                ¿Qué debes de exigir al momento de presentar una denuncia?
+                </ion-card-title>
+              <p>
+                    1.	Que reciban tu denuncia en un espacio donde haya privacidad.
+                    2.	Que te respeten durante el relato de los hechos. es decir, que no hagan preguntas incomodas o comentarios que te culpabilicen por la agresión recibida.
+                    3.	Que registren la denuncia en un libro o base de datos.
+                    4.	Que te permitan leer la denuncia antes de firmarla. Fíjate bien en las horas y fechas registradas en el documento. No firmes si no estás de acuerdo con lo escrito en la denuncia, si esta no refleja los hechos que has denunciado.
+                    5.	Y no olvides pedir el nombre de la persona que recibe la denuncia.
+                    6.	Que te entreguen una copia de la denuncia, la cual debe estar sellada y firmada.
+                    Además, tienes derecho a que protejan tu vida y la de tu familia.
+                    
+              </p>
+            </ion-card-content>
+          </ion-card>
+-->
+
      
       
       

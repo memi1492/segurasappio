@@ -6,13 +6,58 @@
 -->
 <ion-header>
 
-  <ion-navbar>
-    <ion-title>PasosDenuncia</ion-title>
-  </ion-navbar>
+    <ion-navbar color="primary">
+      <ion-title>Proceso de Denuncia</ion-title>
+      <ion-buttons end>
+        <button ion-button (click)="closemodal()">Atrás</button>
+      </ion-buttons>
+    </ion-navbar>
+  
+  </ion-header>
+  
+  
+  <ion-content padding style="background-color: #23B4B7">
 
-</ion-header>
+      <ion-slides pager="true" (ionslideDidChange)="slideChanged()"><!--3 little buttons at the bottom of each slide-->
+        
+        <ion-slide style="background-color: white; color:  #23B4B7">
+            <h2 text-center style="padding-top: 10px; color:#0B3954"><strong>¿Qué sigue cuando interpones la denuncia por violencia doméstica? </strong> </h2>  
+            <div>&nbsp;</div>
+            <p style="text-align: center; color:#FF6663;"><strong>Aprende el proceso deslizando la imagen para la derecha 
+            </strong><ion-icon name="arrow-round-forward" style="align-content: center;"></ion-icon></p>
+          
+          </ion-slide>
 
+          <ion-slide>
+          
+              <p>Que el Juzgado, Posta Policial o Ministerio Público impongan de inmediato medidas de seguridad para protección, 
+                tales como retirar al agresor del hogar, prohibirle que pase por lugares donde transitas con frecuencia, entre otras medidas.</p>
+             
+            </ion-slide>
+          <ion-slide>
+           
+               <p>Te asignarán un o una fiscal que llevará tu caso y que debe informarte en todo momento del proceso que seguirá tu denuncia. 
+                 También puedes tener un apoyo legal privado.</p>
+          </ion-slide>
 
-<ion-content padding>
+          <ion-slide>
+             
+               <p><strong>A.	El Juzgado puede imponer medidas para ayudar al agresor a que cambie de comportamiento, es decir puede imponer medidas precautorias,
+                  enviando al agresor a la Consejería de Familia y se le impone trabajo comunitario.</strong></p>
 
-</ion-content>
+          </ion-slide>
+
+          <ion-slide>
+             
+             <p>B.	El juzgado también puede imponer las medidas cautelares, que tienen como fin garantizar el bienestar tuyo y de tus hijas e hijos en caso que los tuvieras.
+                Entre ellas están la pensión de alimentos; prohibición de retiro del menaje, es decir de todos los enseres domésticos a que te corresponden, 
+                aunque estén a nombre del agresor; régimen de comunicación al agresor con sus hijas e hijos, es decir los días que puede verlos;
+                 prohibición al agresor de disponer de la casa de habitación, sin importar que la propiedad esté a nombre de él.</p>
+              <h4><strong>¡Recuerda que tienes derecho a denunciar y ser protegida, también puedes denunciar casos que conozcas de manera anónima, paremos esta violencia!</strong></h4>
+
+         </ion-slide>
+
+         
+        </ion-slides>
+  </ion-content>
+  

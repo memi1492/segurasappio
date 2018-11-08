@@ -16,8 +16,9 @@ import { InfoPage } from '../pages/info/info';
 import { Info2Page } from '../pages/info2/info2';
 import { ConsejosPage } from '../pages/consejos/consejos';
 import { DenunciaPage } from '../pages/denuncia/denuncia';
+import { TestPage } from '../pages/test/test';
 
-import { AccordionComponent} from '../components/accordion/accordion';
+
 
 @NgModule({
   declarations: [
@@ -31,7 +32,7 @@ import { AccordionComponent} from '../components/accordion/accordion';
     Info2Page,
     ConsejosPage,
     DenunciaPage,
-    AccordionComponent
+    TestPage
   ],
   imports: [
     BrowserModule,
@@ -48,7 +49,8 @@ import { AccordionComponent} from '../components/accordion/accordion';
     InfoPage,
     Info2Page,
     ConsejosPage,
-    DenunciaPage
+    DenunciaPage,
+    TestPage
   ],
   providers: [
     StatusBar,
