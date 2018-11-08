@@ -1,5 +1,6 @@
-import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { Component, ViewChild  } from '@angular/core';
+import { IonicPage, NavController, NavParams, List } from 'ionic-angular';
+
 
 /**
  * Generated class for the DirectorioPage page.
@@ -14,6 +15,7 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   templateUrl: 'directorio.html',
 })
 export class DirectorioPage {
+  @ViewChild(List) list: List;
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
