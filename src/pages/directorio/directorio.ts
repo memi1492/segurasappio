@@ -1,5 +1,5 @@
 import { Component, ViewChild  } from '@angular/core';
-import { IonicPage, NavController, NavParams, List } from 'ionic-angular';
+import { IonicPage, NavController, NavParams, List, ModalController } from 'ionic-angular';
 
 
 /**
@@ -17,11 +17,35 @@ import { IonicPage, NavController, NavParams, List } from 'ionic-angular';
 export class DirectorioPage {
   @ViewChild(List) list: List;
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  constructor(public navCtrl: NavController, public navParams: NavParams, public modal: ModalController) {
   }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad DirectorioPage');
   }
+
+  FM(){
+    const FM = this.modal.create('FranciscoMPage');
+    FM.present();
+  }
+
+  LaCeiba(){
+    const ceiba = this.modal.create('LaCeibaPage');
+    ceiba.present();
+  }
+
+  islas(){
+    const islas = this.modal.create('IslasPage');
+    islas.present();
+  }
+
+  comayagua(){
+    const comayagua = this.modal.create('ComayaguaPage');
+    comayagua.present();
+  }
+  
+  
+  
+  
 
 }
