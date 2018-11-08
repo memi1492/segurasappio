@@ -1,6 +1,6 @@
 webpackJsonp([6],{
 
-/***/ 286:
+/***/ 287:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -63,20 +63,26 @@ var __metadata = (this && this.__metadata) || function (k, v) {
  * Ionic pages and navigation.
  */
 var IslasPage = /** @class */ (function () {
-    function IslasPage(navCtrl, navParams) {
+    function IslasPage(navCtrl, navParams, modal, view) {
         this.navCtrl = navCtrl;
         this.navParams = navParams;
+        this.modal = modal;
+        this.view = view;
     }
     IslasPage.prototype.ionViewDidLoad = function () {
         console.log('ionViewDidLoad IslasPage');
     };
+    IslasPage.prototype.closemodal = function () {
+        this.view.dismiss();
+    };
     IslasPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-islas',template:/*ion-inline-start:"C:\Users\Amy\Desktop\segurasappio\src\pages\islas\islas.html"*/'<!--\n  Generated template for the IslasPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>Islas</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"C:\Users\Amy\Desktop\segurasappio\src\pages\islas\islas.html"*/,
+            selector: 'page-islas',template:/*ion-inline-start:"C:\Users\Amy\Desktop\segurasappio\src\pages\islas\islas.html"*/'<!--\n  Generated template for the LaCeibaPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n    <ion-navbar>\n      <ion-title>Islas de la Bahía</ion-title>\n      <ion-buttons end>\n          <button ion-button (click)="closemodal()">Atrás</button>\n        </ion-buttons>\n    </ion-navbar>\n  \n  </ion-header>\n  \n  \n  <ion-content padding>\n  \n    \n        <ion-item>\n            <strong>Ministerio Público\n           </strong><br>\n           Coxen Hole, edificio Cooper, \n           <br>\n            Frente a Ferretería Serrano, 2 y 3 plantas <br>\n            Roatán <br>\n          Teléfono: 2445-1299\n  \n          </ion-item>\n\n          <ion-item>\n            <strong>Fiscalía de la Mujer\n            </strong><br>\n            Coxen Hole, edificio Cooper,\n            <br>\n            Frente a Ferretería Serrano, 2 y 3 plantas <br>\n            Roatán <br>\n          Teléfono: 2445-1299\n  \n            </ion-item>\n  \n            <ion-item><strong>Fiscalía de la Niñez\n                Coxen Hole, edificio Cooper, \n</strong>\n                <br>\n                Frente a Ferretería Serrano, 2 y 3 plantas <br>\n                Roatán <br>\n              Teléfono: 2445-1299\n\n  \n              </ion-item>\n  \n              <ion-item><strong>Juzgados de Paz Civil y Criminal\n\n                </strong><br>\n                 Coxen Hole, calle 8, después de la Municipalidad a mano izquierda\n\n<br>\n\n    \n                </ion-item>\n  \n                <ion-item><strong> Hospital de Roatán\n\n                  </strong><br>\n                  Coxen Hole, Barrio El Ticket, \n\n<br>\ncalle principal <br>\n                  Teléfono:  2445-1227\n\n      \n                  </ion-item>\n\n                  \n\n\n  \n  </ion-content>\n'/*ion-inline-end:"C:\Users\Amy\Desktop\segurasappio\src\pages\islas\islas.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]])
+        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* ModalController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* ModalController */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* ViewController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* ViewController */]) === "function" && _d || Object])
     ], IslasPage);
     return IslasPage;
+    var _a, _b, _c, _d;
 }());
 
 //# sourceMappingURL=islas.js.map

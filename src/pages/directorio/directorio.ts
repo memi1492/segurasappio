@@ -1,5 +1,5 @@
 import { Component, ViewChild  } from '@angular/core';
-import { IonicPage, NavController, NavParams, List, ModalController } from 'ionic-angular';
+import { IonicPage, NavController, NavParams, List, ModalController, ViewController } from 'ionic-angular';
 
 
 /**
@@ -17,11 +17,15 @@ import { IonicPage, NavController, NavParams, List, ModalController } from 'ioni
 export class DirectorioPage {
   @ViewChild(List) list: List;
 
-  constructor(public navCtrl: NavController, public navParams: NavParams, public modal: ModalController) {
+  constructor(public navCtrl: NavController, public navParams: NavParams, public modal: ModalController, private view: ViewController) {
   }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad DirectorioPage');
+  }
+
+  closemodal(){
+    this.view.dismiss();
   }
 
   FM(){
