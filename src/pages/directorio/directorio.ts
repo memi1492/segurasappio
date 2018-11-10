@@ -92,6 +92,11 @@ GraciasADios(){
     LaPaz.present();
   }
 
+  Lempira(){
+    const Lempira = this.modal.create('LempiraPage');
+    Lempira.present();
+  }
+
   Ocotepeque(){
     const Ocotepeque = this.modal.create('OcotepequePage');
     Ocotepeque.present();
