@@ -1,14 +1,14 @@
 webpackJsonp([2],{
 
-/***/ 293:
+/***/ 308:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PasosDenunciaPageModule", function() { return PasosDenunciaPageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SantaBarbaraPageModule", function() { return SantaBarbaraPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__pasos_denuncia__ = __webpack_require__(309);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__santa_barbara__ = __webpack_require__(339);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,31 +18,31 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var PasosDenunciaPageModule = /** @class */ (function () {
-    function PasosDenunciaPageModule() {
+var SantaBarbaraPageModule = /** @class */ (function () {
+    function SantaBarbaraPageModule() {
     }
-    PasosDenunciaPageModule = __decorate([
+    SantaBarbaraPageModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_2__pasos_denuncia__["a" /* PasosDenunciaPage */],
+                __WEBPACK_IMPORTED_MODULE_2__santa_barbara__["a" /* SantaBarbaraPage */],
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__pasos_denuncia__["a" /* PasosDenunciaPage */]),
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__santa_barbara__["a" /* SantaBarbaraPage */]),
             ],
         })
-    ], PasosDenunciaPageModule);
-    return PasosDenunciaPageModule;
+    ], SantaBarbaraPageModule);
+    return SantaBarbaraPageModule;
 }());
 
-//# sourceMappingURL=pasos-denuncia.module.js.map
+//# sourceMappingURL=santa-barbara.module.js.map
 
 /***/ }),
 
-/***/ 309:
+/***/ 339:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PasosDenunciaPage; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SantaBarbaraPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(13);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -57,32 +57,34 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 /**
- * Generated class for the PasosDenunciaPage page.
+ * Generated class for the SantaBarbaraPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
  */
-var PasosDenunciaPage = /** @class */ (function () {
-    function PasosDenunciaPage(navParams, view) {
+var SantaBarbaraPage = /** @class */ (function () {
+    function SantaBarbaraPage(navCtrl, navParams, modal, view) {
+        this.navCtrl = navCtrl;
         this.navParams = navParams;
+        this.modal = modal;
         this.view = view;
     }
-    PasosDenunciaPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad PasosDenunciaPage');
+    SantaBarbaraPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad SantaBarbaraPage');
     };
-    PasosDenunciaPage.prototype.closemodal = function () {
+    SantaBarbaraPage.prototype.closemodal = function () {
         this.view.dismiss();
     };
-    PasosDenunciaPage = __decorate([
+    SantaBarbaraPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-pasos-denuncia',template:/*ion-inline-start:"C:\Users\Amy\Desktop\segurasappio\src\pages\pasos-denuncia\pasos-denuncia.html"*/'<!--\n  Generated template for the PasosDenunciaPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n    <ion-navbar color="primary">\n      <ion-title>Proceso de Denuncia</ion-title>\n      <ion-buttons end>\n        <button ion-button (click)="closemodal()">Atrás</button>\n      </ion-buttons>\n    </ion-navbar>\n  \n  </ion-header>\n  \n  \n  <ion-content padding style="background-color: #23B4B7">\n\n      <ion-slides pager="true" (ionslideDidChange)="slideChanged()"><!--3 little buttons at the bottom of each slide-->\n        \n        <ion-slide style="background-color: white; color:  #23B4B7">\n            <h2 text-center style="padding-top: 10px; color:#0B3954"><strong>¿Qué sigue cuando interpones la denuncia por violencia doméstica? </strong> </h2>  \n            <div><img   src="assets/imgs/girlsafe.gif" style="padding-bottom: 5px; width: 60%; height: 60%" ></div>\n            <p style="text-align: center; color:#FF6663;"><strong>Aprende el proceso deslizando la imagen para la derecha \n            </strong><ion-icon name="arrow-round-forward" style="align-content: center;"></ion-icon></p>\n          \n          </ion-slide>\n\n          <ion-slide>\n              <div style="text-align: center; background-color: white; border: 3px solid #FF6663; border-radius: 5px;"><img   src="assets/imgs/home-security.png" style="padding-bottom: 5px; width: 60%; height: 60%" ></div>\n\n              <p>Que el Juzgado, Posta Policial o Ministerio Público impongan de inmediato medidas de seguridad para detener la violencia y evitar males mayores,\n                 tales como retirar al agresor del hogar, prohibirle que pase por lugares donde transitas con frecuencia, entre otras medidas.</p>\n             \n            </ion-slide>\n          <ion-slide>\n              <div style="text-align: center; background-color: white; border: 3px solid #FF6663; border-radius: 5px; padding-top:8px;" ><img   src="assets/imgs/flow.png" style="padding-bottom: 5px; width: 60%; height: 60%" ></div>\n\n               <p>Te asignarán un o una fiscal que llevará tu caso y que debe informarte en todo momento del proceso que seguirá tu denuncia.\n                  También puedes tener un apoyo legal privado.</p>\n          </ion-slide>\n\n          <ion-slide>\n              <div style="text-align: center; background-color: white; border: 3px solid #FF6663; border-radius: 5px;" ><img   src="assets/imgs/care.png" style="padding-bottom: 5px; width: 60%; height: 60%" ></div>\n\n               <p>A.El Juzgado puede imponer medidas para ayudar al agresor a que cambie de comportamiento, es decir puede imponer medidas precautorias, \n                 enviando al agresor a la Consejería de Familia y se le impone trabajo comunitario. \n                 También se te apoyará para que recibas atención que te ayude a elevar tu autoestima</p>\n\n          </ion-slide>\n\n          <ion-slide>\n              <div style="text-align: center; background-color: white;  border: 3px solid #FF6663; border-radius: 5px;"><img   src="assets/imgs/dish.png" style="padding-bottom: 5px; width: 60%; height: 60%" ></div>\n\n             <p>B.El juzgado también puede imponer las medidas cautelares, que buscan garantizar el cumplimiento de responsabilidades familiares por parte del agresor, \n               por ejemplo, la pensión de alimento;establecer los días que podrá ver a sus hijos e hijas y prohibirle al agresor disponer de la casa de habitación, \n               sin importar que la propiedad está a nombre de él.</p>\n            \n\n         </ion-slide>\n\n         <ion-slide>\n            <h2>Debes saber que la denuncia no solamente puede hacerla la persona que sufre la violencia, sino que también:<br></h2>\n\n           <p> * Cualquier integrante de la familia.<br>\n            \n            * Cualquier persona que trabaja en el sector público, que por su trabajo tenga contacto con la persona que está siendo agredida.<br>\n            \n            * Instituciones no gubernamentales que asuman la defensa de los derechos de la mujer.<br>\n            \n            * Cualquier persona que conozca del caso.<br>\n         </p>\n         </ion-slide>\n<ion-slide>\n    <h4><strong>¡Recuerda que tienes derecho a denunciar y ser protegida, también puedes denunciar casos que conozcas de manera anónima, paremos esta violencia!</strong></h4>\n\n</ion-slide>\n        </ion-slides>\n  </ion-content>\n  \n'/*ion-inline-end:"C:\Users\Amy\Desktop\segurasappio\src\pages\pasos-denuncia\pasos-denuncia.html"*/,
+            selector: 'page-santa-barbara',template:/*ion-inline-start:"C:\Users\Amy\Desktop\segurasappio\src\pages\santa-barbara\santa-barbara.html"*/'<!--\n  Generated template for the SantaBarbaraPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n    <ion-navbar color="primary">\n      <ion-title>Santa Bárbara</ion-title>\n      <ion-buttons end>\n          <button ion-button (click)="closemodal()">Atrás</button>\n        </ion-buttons>\n    </ion-navbar>\n  \n  </ion-header>\n  \n  <ion-content padding>\n    \n    <ion-card>\n      <ion-card-header style="color: #0B3954">\n            <strong>Ministerio Público</strong></ion-card-header>\n            <ion-card-content>\n                Calle La Justicia, frente al Jardín de Niños Gabriela Mistral,  Santa Bárbara<br>\n             <strong> Teléfono:</strong>2643-2350\n            </ion-card-content>\n          </ion-card>\n\n          <ion-card>\n              <ion-card-header style="color: #0B3954">\n                    <strong>Fiscalía de la Mujer</strong></ion-card-header>\n                    <ion-card-content>\n                        Calle La Justicia, frente al Jardín de Niños Gabriela Mistral,  Santa Bárbara<br>\n                     <strong> Teléfono:</strong>2643-2350\n                    </ion-card-content>\n                  </ion-card>\n\n                  <ion-card>\n                      <ion-card-header style="color: #0B3954">\n                            <strong>Fiscalía de la Niñez</strong></ion-card-header>\n                            <ion-card-content>\n                                Calle La Justicia, frente al Jardín de Niños Gabriela Mistral,  Santa Bárbara<br>\n                             <strong> Teléfono:</strong>2643-2350\n                            </ion-card-content>\n                          </ion-card>\n\n                          <ion-card>\n                              <ion-card-header style="color: #0B3954">\n                                    <strong>Juzgados de Paz y <br> de lo Criminal</strong></ion-card-header>\n                                    <ion-card-content>\n                                        Barrio Galeras,  Santa Bárbara<br>\n                                     <strong> Teléfonos:</strong>2643-3709 y 2643-2031\n                                    </ion-card-content>\n                                  </ion-card>\n\n                                  \n                          <ion-card>\n                              <ion-card-header style="color: #0B3954">\n                                    <strong>Alcaldía Municipal</strong></ion-card-header>\n                                    <ion-card-content>\n                                        Barrio El Centro,  Santa Bárbara<br>\n                                     <strong> Teléfono:</strong> 2643-2910 \n                                    </ion-card-content>\n                                  </ion-card>\n\n                                  <ion-card>\n                                      <ion-card-header style="color: #0B3954">\n                                            <strong>Hospital Santa Bárbara <br>Integrado</strong></ion-card-header>\n                                            <ion-card-content>\n                                                Calle principal, entrada a la Ciudad,  Santa Bárbara<br>\n                                             <strong> Teléfonos:</strong> 2643-2910 y 2643-2721\n                                            </ion-card-content>\n                                          </ion-card>\n        \n\n</ion-content>\n'/*ion-inline-end:"C:\Users\Amy\Desktop\segurasappio\src\pages\santa-barbara\santa-barbara.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* ViewController */]])
-    ], PasosDenunciaPage);
-    return PasosDenunciaPage;
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* ModalController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* ViewController */]])
+    ], SantaBarbaraPage);
+    return SantaBarbaraPage;
 }());
 
-//# sourceMappingURL=pasos-denuncia.js.map
+//# sourceMappingURL=santa-barbara.js.map
 
 /***/ })
 

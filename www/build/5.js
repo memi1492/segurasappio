@@ -1,14 +1,14 @@
 webpackJsonp([5],{
 
-/***/ 290:
+/***/ 306:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LaCeibaPageModule", function() { return LaCeibaPageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PasosDenunciaPageModule", function() { return PasosDenunciaPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__la_ceiba__ = __webpack_require__(307);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__pasos_denuncia__ = __webpack_require__(337);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,31 +18,31 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var LaCeibaPageModule = /** @class */ (function () {
-    function LaCeibaPageModule() {
+var PasosDenunciaPageModule = /** @class */ (function () {
+    function PasosDenunciaPageModule() {
     }
-    LaCeibaPageModule = __decorate([
+    PasosDenunciaPageModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_2__la_ceiba__["a" /* LaCeibaPage */],
+                __WEBPACK_IMPORTED_MODULE_2__pasos_denuncia__["a" /* PasosDenunciaPage */],
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__la_ceiba__["a" /* LaCeibaPage */]),
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__pasos_denuncia__["a" /* PasosDenunciaPage */]),
             ],
         })
-    ], LaCeibaPageModule);
-    return LaCeibaPageModule;
+    ], PasosDenunciaPageModule);
+    return PasosDenunciaPageModule;
 }());
 
-//# sourceMappingURL=la-ceiba.module.js.map
+//# sourceMappingURL=pasos-denuncia.module.js.map
 
 /***/ }),
 
-/***/ 307:
+/***/ 337:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LaCeibaPage; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PasosDenunciaPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(13);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -57,34 +57,32 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 /**
- * Generated class for the LaCeibaPage page.
+ * Generated class for the PasosDenunciaPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
  */
-var LaCeibaPage = /** @class */ (function () {
-    function LaCeibaPage(navCtrl, navParams, modal, view) {
-        this.navCtrl = navCtrl;
+var PasosDenunciaPage = /** @class */ (function () {
+    function PasosDenunciaPage(navParams, view) {
         this.navParams = navParams;
-        this.modal = modal;
         this.view = view;
     }
-    LaCeibaPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad LaCeibaPage');
+    PasosDenunciaPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad PasosDenunciaPage');
     };
-    LaCeibaPage.prototype.closemodal = function () {
+    PasosDenunciaPage.prototype.closemodal = function () {
         this.view.dismiss();
     };
-    LaCeibaPage = __decorate([
+    PasosDenunciaPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-la-ceiba',template:/*ion-inline-start:"C:\Users\Amy\Desktop\segurasappio\src\pages\la-ceiba\la-ceiba.html"*/'<!--\n  Generated template for the LaCeibaPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n    <ion-navbar>\n      <ion-title>La Ceiba</ion-title>\n      <ion-buttons end>\n          <button ion-button (click)="closemodal()">Atrás</button>\n        </ion-buttons>\n    </ion-navbar>\n  \n  </ion-header>\n  \n  \n  <ion-content padding>\n  \n    <ion-grid>\n        <ion-item>\n            <strong>Fiscalía  de la Mujer</strong><br>\n            Esquina opuesta al edificio Lovable, \n            <br>\n            Barrio Solares Nuevos, boulevar 15 de septiembre <br>\n          Teléfono: 2440-3557\n  \n          </ion-item>\n          <ion-item><strong>Fiscalia de turno, Centro Integrado CEIN, Ministerio Público\n\n            </strong><br>\n            Barrio el Dorado,\n\n             <br>\n             a la par de la Policia Preventiva Nacional<br>\n            Teléfono: 2441-2104\n  \n            </ion-item>\n  \n            <ion-item><strong>Fiscalía de Protección de la Niñez     </strong><br>\n              Esquina opuesta al edificion Lovable, \n<br>\nBarrio Solares Nuevos, Boulevar 15 de septiembre<br>\n              Teléfono: 2443-2627\n\n\n\n  \n              </ion-item>\n  \n              <ion-item><strong>Comisionado Nacional de los Derechos Humanos (CONADEH)\n                </strong><br>\n                Colonia El Toronjal 2, entrada por Pollito La Cumbre del Gimnasio Azcona,\n<br>\ndos cuadras derecho luego girar a la  derecha segunda casa mano izquierda,\n Casa color Amarillo <br>\n                Teléfono: 2441-6001 y 2441-6156\n\n    \n                </ion-item>\n  \n                <ion-item><strong> Dirección de Niñez, Familia y Adolescencia DINAF, Región Atlantida, La Ceiba, Jurisdicción: Atlántida, Colón, Gracias a Dios e Islas de la Bahía\n                  </strong><br>\n                  Barrio Alvarado, Ave 14 de Julio, .\n<br>\nAntiguas instalaciones del Centro Comunal, La Ceiba <br>\n                  Teléfono:  2442-0681\n                  Correo Electrónico: regionalatlantica@dinaf.gob.hn\n\n      \n                  </ion-item>\n\n                  <ion-item><strong> Consejería de Familia de la Dirección Departamental de Salud\n                    </strong><br>\n                    Barrio Potreritos, Calle al Estadio Frente a Panadería Cuquis\n .\n  <br>\n <br>\n                    Teléfono:  3369-3828\n\n                    </ion-item>\n\n                    <ion-item><strong> Departamento de Género de la Alcadía Municipal\n                      </strong><br>\n                      Barrio El Centro, Avenida San Isidro,\n    <br>\n    Frente a Iglesia San Isidro, Alcaldía Municipal de La Ceiba<br>\n                      Teléfono:  3380-5400\n                      Correo Electrónico: municipalidadlaceiba@yahoo.es\n\n\n\n  \n                      </ion-item>\n\n                      <ion-item><strong> Secretaría de Juzgados\n                        </strong><br>\n                        Edificio Palacio de Justicia, Colonia La Quinta, Los Laureles,\n\n      <br>\n      2 kilómetros, Carretera a Tocoa, frente a Reataurante Las Hamacas, La Ceiba<br>\n                        Teléfono:  2408-4306\n  \n  \n  \n    \n                        </ion-item>\n\n                        <ion-item><strong> Organización de Desarrollo Étnico Comintario (ODECO)\n\n                          </strong><br>\n                          Barrio La Isla, segunda calle, apartado postal 538\n\n  \n        <br>\n                          Teléfono:  Tel:2443-3651 y Fax 2443-4642\n                          Correo Electrónico: odeco.hn@gmail.com\n\n\n    \n    \n    \n      \n                          </ion-item>\n\n\n\n    </ion-grid>\n  \n  </ion-content>\n'/*ion-inline-end:"C:\Users\Amy\Desktop\segurasappio\src\pages\la-ceiba\la-ceiba.html"*/,
+            selector: 'page-pasos-denuncia',template:/*ion-inline-start:"C:\Users\Amy\Desktop\segurasappio\src\pages\pasos-denuncia\pasos-denuncia.html"*/'<!--\n  Generated template for the PasosDenunciaPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n    <ion-navbar color="primary">\n      <ion-title>Proceso de Denuncia</ion-title>\n      <ion-buttons end>\n        <button ion-button (click)="closemodal()">Atrás</button>\n      </ion-buttons>\n    </ion-navbar>\n  \n  </ion-header>\n  \n  \n  <ion-content padding style="background-color: #23B4B7">\n\n      <ion-slides pager="true" (ionslideDidChange)="slideChanged()"><!--3 little buttons at the bottom of each slide-->\n        \n        <ion-slide style="background-color: white; color:  #23B4B7">\n            <h2 text-center style="padding-top: 10px; color:#0B3954"><strong>¿Qué sigue cuando interpones la denuncia por violencia doméstica? </strong> </h2>  \n            <div><img   src="assets/imgs/girlsafe.gif" style="padding-bottom: 5px; width: 60%; height: 60%" ></div>\n            <p style="text-align: center; color:#FF6663;"><strong>Aprende el proceso deslizando la imagen para la derecha \n            </strong><ion-icon name="arrow-round-forward" style="align-content: center;"></ion-icon></p>\n          \n          </ion-slide>\n\n          <ion-slide>\n              <div style="text-align: center; background-color: white; border: 3px solid #FF6663; border-radius: 5px;"><img   src="assets/imgs/home-security.png" style="padding-bottom: 5px; width: 60%; height: 60%" ></div>\n\n              <p>Que el Juzgado, Posta Policial o Ministerio Público impongan de inmediato medidas de seguridad para detener la violencia y evitar males mayores,\n                 tales como retirar al agresor del hogar, prohibirle que pase por lugares donde transitas con frecuencia, entre otras medidas.</p>\n             \n            </ion-slide>\n          <ion-slide>\n              <div style="text-align: center; background-color: white; border: 3px solid #FF6663; border-radius: 5px; padding-top:8px;" ><img   src="assets/imgs/flow.png" style="padding-bottom: 5px; width: 60%; height: 60%" ></div>\n\n               <p>Te asignarán un o una fiscal que llevará tu caso y que debe informarte en todo momento del proceso que seguirá tu denuncia.\n                  También puedes tener un apoyo legal privado.</p>\n          </ion-slide>\n\n          <ion-slide>\n              <div style="text-align: center; background-color: white; border: 3px solid #FF6663; border-radius: 5px;" ><img   src="assets/imgs/care.png" style="padding-bottom: 5px; width: 60%; height: 60%" ></div>\n\n               <p>A.El Juzgado puede imponer medidas para ayudar al agresor a que cambie de comportamiento, es decir puede imponer medidas precautorias, \n                 enviando al agresor a la Consejería de Familia y se le impone trabajo comunitario. \n                 También se te apoyará para que recibas atención que te ayude a elevar tu autoestima</p>\n\n          </ion-slide>\n\n          <ion-slide>\n              <div style="text-align: center; background-color: white;  border: 3px solid #FF6663; border-radius: 5px;"><img   src="assets/imgs/dish.png" style="padding-bottom: 5px; width: 60%; height: 60%" ></div>\n\n             <p>B.El juzgado también puede imponer las medidas cautelares, que buscan garantizar el cumplimiento de responsabilidades familiares por parte del agresor, \n               por ejemplo, la pensión de alimento;establecer los días que podrá ver a sus hijos e hijas y prohibirle al agresor disponer de la casa de habitación, \n               sin importar que la propiedad está a nombre de él.</p>\n            \n\n         </ion-slide>\n\n         <ion-slide>\n            <h2>Debes saber que la denuncia no solamente puede hacerla la persona que sufre la violencia, sino que también:<br></h2>\n\n           <p> * Cualquier integrante de la familia.<br>\n            \n            * Cualquier persona que trabaja en el sector público, que por su trabajo tenga contacto con la persona que está siendo agredida.<br>\n            \n            * Instituciones no gubernamentales que asuman la defensa de los derechos de la mujer.<br>\n            \n            * Cualquier persona que conozca del caso.<br>\n         </p>\n         </ion-slide>\n<ion-slide>\n    <h4><strong>¡Recuerda que tienes derecho a denunciar y ser protegida, también puedes denunciar casos que conozcas de manera anónima, paremos esta violencia!</strong></h4>\n\n</ion-slide>\n        </ion-slides>\n  </ion-content>\n  \n'/*ion-inline-end:"C:\Users\Amy\Desktop\segurasappio\src\pages\pasos-denuncia\pasos-denuncia.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* ModalController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* ViewController */]])
-    ], LaCeibaPage);
-    return LaCeibaPage;
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* ViewController */]])
+    ], PasosDenunciaPage);
+    return PasosDenunciaPage;
 }());
 
-//# sourceMappingURL=la-ceiba.js.map
+//# sourceMappingURL=pasos-denuncia.js.map
 
 /***/ })
 

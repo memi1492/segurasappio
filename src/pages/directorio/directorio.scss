@@ -9,4 +9,12 @@ page-directorio {
              color: white;
         }
         
+        .custom-icon {
+            color : white;
+            justify-content: flex-end;
+        }
+
+        ion-img {
+            float: right;
+            background: transparent !important;            }
 }

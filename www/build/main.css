@@ -25657,6 +25657,14 @@ page-about ion-content {
   background: #BFD7EA !important;
 }
 
+page-atlantida ion-content {
+  background: #BFD7EA !important;
+}
+
+page-choluteca ion-content {
+  background: #BFD7EA !important;
+}
+
 page-ciclo-violencia ion-content {
   background: #BFD7EA !important;
 }
@@ -25670,6 +25678,10 @@ page-ciclo-violencia ion-slide.swiper-slide {
   -webkit-align-items: flex-start;
   -ms-flex-align: start;
   align-items: flex-start;
+}
+
+page-colon ion-content {
+  background: #BFD7EA !important;
 }
 
 page-comayagua ion-content {
@@ -25712,6 +25724,14 @@ page-consejos-seguridad ion-slide.swiper-slide {
 }
 
 page-contact ion-content {
+  background: #BFD7EA !important;
+}
+
+page-copan ion-content {
+  background: #BFD7EA !important;
+}
+
+page-cortes ion-content {
   background: #BFD7EA !important;
 }
 
@@ -25788,7 +25808,28 @@ page-directorio .fondo {
   color: white;
 }
 
+page-directorio .custom-icon {
+  color: white;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+page-directorio ion-img {
+  float: right;
+  background: transparent !important;
+}
+
+page-el-paraiso ion-content {
+  background: #BFD7EA !important;
+}
+
 page-francisco-m ion-content {
+  background: #BFD7EA !important;
+}
+
+page-gracias-a-dios ion-content {
   background: #BFD7EA !important;
 }
 
@@ -25850,11 +25891,23 @@ page-info2 .estilodeboton {
   box-shadow: 0 10px 6px -6px #777;
 }
 
+page-intibuca ion-content {
+  background: #BFD7EA !important;
+}
+
 page-islas ion-content {
   background: #BFD7EA !important;
 }
 
 page-la-ceiba ion-content {
+  background: #BFD7EA !important;
+}
+
+page-la-paz ion-content {
+  background: #BFD7EA !important;
+}
+
+page-lempira ion-content {
   background: #BFD7EA !important;
 }
 
@@ -25887,6 +25940,14 @@ page-ninos ion-content {
   background: #BFD7EA !important;
 }
 
+page-ocotepeque ion-content {
+  background: #BFD7EA !important;
+}
+
+page-olancho ion-content {
+  background: #BFD7EA !important;
+}
+
 page-pasos-denuncia ion-content {
   background: #BFD7EA !important;
 }
@@ -25899,6 +25960,18 @@ page-rutas-atencion ion-content {
   background: #BFD7EA !important;
 }
 
+page-santa-barbara ion-content {
+  background: #BFD7EA !important;
+}
+
 page-test ion-content {
+  background: #BFD7EA !important;
+}
+
+page-valle ion-content {
+  background: #BFD7EA !important;
+}
+
+page-yoro ion-content {
   background: #BFD7EA !important;
 }

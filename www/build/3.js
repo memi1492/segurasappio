@@ -1,14 +1,14 @@
 webpackJsonp([3],{
 
-/***/ 292:
+/***/ 309:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NinosPageModule", function() { return NinosPageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RutasAtencionPageModule", function() { return RutasAtencionPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ninos__ = __webpack_require__(308);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__rutas_atencion__ = __webpack_require__(340);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,31 +18,31 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var NinosPageModule = /** @class */ (function () {
-    function NinosPageModule() {
+var RutasAtencionPageModule = /** @class */ (function () {
+    function RutasAtencionPageModule() {
     }
-    NinosPageModule = __decorate([
+    RutasAtencionPageModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_2__ninos__["a" /* NinosPage */],
+                __WEBPACK_IMPORTED_MODULE_2__rutas_atencion__["a" /* RutasAtencionPage */],
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__ninos__["a" /* NinosPage */]),
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__rutas_atencion__["a" /* RutasAtencionPage */]),
             ],
         })
-    ], NinosPageModule);
-    return NinosPageModule;
+    ], RutasAtencionPageModule);
+    return RutasAtencionPageModule;
 }());
 
-//# sourceMappingURL=ninos.module.js.map
+//# sourceMappingURL=rutas-atencion.module.js.map
 
 /***/ }),
 
-/***/ 308:
+/***/ 340:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return NinosPage; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return RutasAtencionPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(13);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -57,33 +57,34 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 /**
- * Generated class for the NinosPage page.
+ * Generated class for the RutasAtencionPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
  */
-var NinosPage = /** @class */ (function () {
-    function NinosPage(navCtrl, view, navParams) {
+var RutasAtencionPage = /** @class */ (function () {
+    function RutasAtencionPage(navCtrl, navParams, modal, view) {
         this.navCtrl = navCtrl;
-        this.view = view;
         this.navParams = navParams;
+        this.modal = modal;
+        this.view = view;
     }
-    NinosPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad NinosPage');
+    RutasAtencionPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad RutasAtencionPage');
     };
-    NinosPage.prototype.closemodal = function () {
+    RutasAtencionPage.prototype.closemodal = function () {
         this.view.dismiss();
     };
-    NinosPage = __decorate([
+    RutasAtencionPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-ninos',template:/*ion-inline-start:"C:\Users\Amy\Desktop\segurasappio\src\pages\ninos\ninos.html"*/'\n<ion-header>\n\n    <ion-navbar color="primary">\n      <ion-title>Violencia Sexual</ion-title>\n      <ion-buttons end>\n        <button ion-button (click)="closemodal()">Atrás</button>\n      </ion-buttons>\n    </ion-navbar>\n  \n  </ion-header>\n  \n  \n  <ion-content padding>\n      <h2 text-center style="padding-top: 10px; color:#0B3954"><strong>¿Y qué hacer con los niños y niñas y adolescentes </strong> </h2>\n      <p style="text-align: center; color: #23B4B7; font-size: 16px;">\n         <strong> para evitar la violencia sexual?</strong>\n        </p>    \n      \n        <ion-grid>\n           <br> <ion-row padding-top  style="color: black; background-color: white; text-align: center; padding-top: 5px ; border: 10px solid #0B3954;" >\n        <ion-col >\n              <img style="align-content: center;" src="assets/imgs/2ViolenciaSexual/2NiñosYAdolescentes/family.gif">\n            </ion-col>\n            <ion-col >\n              <p style="text-align:center">Se debe crear un ambiente de confianza con los hijos e hijas, donde sientan que son escuchados y escuchadas.</p>\n            </ion-col>\n            </ion-row>\n        \n            <br> <ion-row padding-top  style="color: black; background-color: white; text-align: center; padding-top: 5px ; border: 10px solid #23B4B7;" >\n                <ion-col >\n                    <p style="text-align:center">Enseñarles que nadie tiene derecho a tocar su cuerpo sin su consentimiento.</p> \n                    </ion-col>\n                    <ion-col >\n                        <img style="align-content: center;" src="assets/imgs/2ViolenciaSexual/2NiñosYAdolescentes/no.gif">\n                    </ion-col>\n                    </ion-row>\n\n                    <br> <ion-row padding-top  style="color: black; background-color: white; text-align: center; padding-top: 5px ; border: 10px solid #0B3954;" >\n                        <ion-col >\n                              <img style="align-content: center;" src="assets/imgs/2ViolenciaSexual/2NiñosYAdolescentes/stop.gif">\n                            </ion-col>\n                            <ion-col >\n                              <p style="text-align:center">Decirles que deben decir "no" ante cualquier propuesta que les incomode, de cualquier persona extraña o conocida.</p>\n                            </ion-col>\n                            </ion-row>\n\n                            <br> <ion-row padding-top  style="color: black; background-color: white; text-align: center; padding-top: 5px ; border: 10px solid #23B4B7;" >\n                                <ion-col >\n                                    <p style="text-align:center">Explicarles que no se deben abrir puertas a extraños, ni ir a sus casas, ni a pasear con ellos sin el permiso de sus padres y madres.</p> \n                                    </ion-col>\n                                    <ion-col >\n                                        <img style="align-content: center;" src="assets/imgs/2ViolenciaSexual/2NiñosYAdolescentes/lock.gif">\n                                    </ion-col>\n                                    </ion-row>\n\n              \n                  </ion-grid>\n\n\n\n\n\n      </ion-content>'/*ion-inline-end:"C:\Users\Amy\Desktop\segurasappio\src\pages\ninos\ninos.html"*/,
+            selector: 'page-rutas-atencion',template:/*ion-inline-start:"C:\Users\Amy\Desktop\segurasappio\src\pages\rutas-atencion\rutas-atencion.html"*/'<!--\n  Generated template for the RutasAtencionPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n    <ion-navbar color="primary">\n      <ion-title>¿ Donde puedes acudir?</ion-title>\n      <ion-buttons end>\n        <button ion-button (click)="closemodal()">Atrás</button>\n      </ion-buttons>\n    </ion-navbar>\n  \n  </ion-header>\n  \n  \n  <ion-content padding>\n      <h4 text-center style=" color:#0B3954"><strong>La denuncia por Violencia Doméstica se interpone en cualquiera de los siguientes lugares:</strong> </h4>\n       \n        <ion-grid>\n            <br> <ion-row padding-top  style="color: black; background-color: white; text-align: center; padding-top: 5px ; border: 10px solid #0B3954;" >\n         <ion-col >\n               <img style="align-content: center; width: 100%; height:100%" src="assets/imgs/juzgado.gif" >\n             </ion-col>\n             <ion-col  >\n               <h2 style="text-align:center;  padding: 7px;">Juzgado de Paz de tu ciudad</h2>\n             </ion-col>\n             </ion-row>\n         \n             <br> <ion-row padding-top  style="color: black; background-color: white; text-align: center; padding-top: 5px ; border: 10px solid #23B4B7;" >\n                 <ion-col >\n                     <h2 style="text-align:center; padding: 5px;">En la Posta Policial más cercana</h2> \n                     </ion-col>\n                     <ion-col >\n                         <img style="align-content: center; width: 100%; height:100%" src="assets/imgs/posta.gif">\n                     </ion-col>\n                     </ion-row>\n \n                     <br> <ion-row padding-top  style="color: black; background-color: white; text-align: center; padding-top: 5px ; border: 10px solid #0B3954;" >\n                         <ion-col >\n                               <img style="align-content: center;  width: 100%; height:100%" src="assets/imgs/ministerio.gif">\n                             </ion-col>\n                             <ion-col >\n                               <h2 style="text-align:center; padding: 5px;">Ministerio Público.<br> Módulos de Atención Integral especializado (MAIE)</h2>\n                             </ion-col>\n                             </ion-row>\n \n                             <br> <ion-row padding-top  style="color: black; background-color: white; text-align: center; padding-top: 5px ; border: 10px solid #23B4B7;" >\n                                 <ion-col >\n                                     <h2 style="text-align:center;  padding-top: 20px; padding-right: 5px;">Defensa Pública</h2> \n                                     </ion-col>\n                                     <ion-col >\n                                         <img style="align-content: center; width: 100%; height:100%" src="assets/imgs/defense.gif">\n                                     </ion-col>\n                                     </ion-row>\n \n               \n                   </ion-grid>\n<p style="text-align: justify; padding: 5px; color: #FF6663"> \n  <strong>  La denuncia por otras violencias, como violencia sexual, violencia intrafamiliar o femicidio, que son delitos según el Código Penal hondureño se interponen en:\n    </strong> <br></p>\n   <p style="text-align: justify; padding: 5px; color: #0B3954">  Los mismos lugares, eliminando a los Juzgados y agregando a la Dirección Policial de Investigación (DPI).\n  </p>\n</ion-content>\n'/*ion-inline-end:"C:\Users\Amy\Desktop\segurasappio\src\pages\rutas-atencion\rutas-atencion.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* ViewController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]])
-    ], NinosPage);
-    return NinosPage;
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* ModalController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* ViewController */]])
+    ], RutasAtencionPage);
+    return RutasAtencionPage;
 }());
 
-//# sourceMappingURL=ninos.js.map
+//# sourceMappingURL=rutas-atencion.js.map
 
 /***/ })
 

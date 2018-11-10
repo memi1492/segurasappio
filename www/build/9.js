@@ -1,14 +1,14 @@
 webpackJsonp([9],{
 
-/***/ 284:
+/***/ 301:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DirectorioPageModule", function() { return DirectorioPageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MedidasPageModule", function() { return MedidasPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__directorio__ = __webpack_require__(303);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__medidas__ = __webpack_require__(333);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,31 +18,31 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var DirectorioPageModule = /** @class */ (function () {
-    function DirectorioPageModule() {
+var MedidasPageModule = /** @class */ (function () {
+    function MedidasPageModule() {
     }
-    DirectorioPageModule = __decorate([
+    MedidasPageModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_2__directorio__["a" /* DirectorioPage */],
+                __WEBPACK_IMPORTED_MODULE_2__medidas__["a" /* MedidasPage */],
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__directorio__["a" /* DirectorioPage */]),
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__medidas__["a" /* MedidasPage */]),
             ],
         })
-    ], DirectorioPageModule);
-    return DirectorioPageModule;
+    ], MedidasPageModule);
+    return MedidasPageModule;
 }());
 
-//# sourceMappingURL=directorio.module.js.map
+//# sourceMappingURL=medidas.module.js.map
 
 /***/ }),
 
-/***/ 303:
+/***/ 333:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return DirectorioPage; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MedidasPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(13);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -57,54 +57,33 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 /**
- * Generated class for the DirectorioPage page.
+ * Generated class for the MedidasPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
  */
-var DirectorioPage = /** @class */ (function () {
-    function DirectorioPage(navCtrl, navParams, modal, view) {
+var MedidasPage = /** @class */ (function () {
+    function MedidasPage(navCtrl, navParams, view) {
         this.navCtrl = navCtrl;
         this.navParams = navParams;
-        this.modal = modal;
         this.view = view;
     }
-    DirectorioPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad DirectorioPage');
+    MedidasPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad MedidasPage');
     };
-    DirectorioPage.prototype.closemodal = function () {
+    MedidasPage.prototype.closemodal = function () {
         this.view.dismiss();
     };
-    DirectorioPage.prototype.FM = function () {
-        var FM = this.modal.create('FranciscoMPage');
-        FM.present();
-    };
-    DirectorioPage.prototype.LaCeiba = function () {
-        var ceiba = this.modal.create('LaCeibaPage');
-        ceiba.present();
-    };
-    DirectorioPage.prototype.islas = function () {
-        var islas = this.modal.create('IslasPage');
-        islas.present();
-    };
-    DirectorioPage.prototype.comayagua = function () {
-        var comayagua = this.modal.create('ComayaguaPage');
-        comayagua.present();
-    };
-    __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_8" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* List */]),
-        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* List */])
-    ], DirectorioPage.prototype, "list", void 0);
-    DirectorioPage = __decorate([
+    MedidasPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-directorio',template:/*ion-inline-start:"C:\Users\Amy\Desktop\segurasappio\src\pages\directorio\directorio.html"*/'<!--\n\n  Generated template for the DirectorioPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <ion-title>Directorio</ion-title>\n\n    <ion-buttons end>\n\n        <button ion-button (click)="closemodal()">Atrás</button>\n\n      </ion-buttons>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding >\n\n\n\n  \n\n        <ion-item-group >\n\n          <ion-item > <div class="fondo">\n\n            <button ion-item (click)="FM()">\n\n                FRANCISCO MORAZÁN \n\n              </button></div>\n\n            </ion-item>\n\n\n\n            <ion-item > <div style="background-color: #BFD7EA; color: white;">\n\n                <button ion-item (click)="LaCeiba()">\n\n                LA CEIBA \n\n              </button></div>\n\n            </ion-item>\n\n\n\n              <ion-item > \n\n                  <button ion-item (click)="islas()">\n\n                   ISLAS DE LA BAHÍA\n\n                    </button>\n\n                  </ion-item>\n\n\n\n                    <ion-item > \n\n                        <button ion-item (click)="comayagua()">\n\n                          COMAYAGUA\n\n                         </button>\n\n                        </ion-item>\n\n\n\n                        <!--aqui me quede generando paginas\n\n                          <ion-item > \n\n                              <button ion-item (click)="copan()">\n\n                                  COPÁN\n\n                                </button>\n\n                              </ion-item>\n\n                            \n\n\n\n                                <ion-item > \n\n                                    <button ion-item (click)="openPage(homePage)">\n\n                                        CORTES\n\n                                      </button>\n\n                                    </ion-item>\n\n                          \n\n\n\n                                      <ion-item > \n\n                                          <button ion-item (click)="openPage(homePage)">\n\n                                              EL PARAÍSO\n\n                                            </button>\n\n                                          </ion-item>\n\n\n\n                                            <ion-item > \n\n                                                <button ion-item (click)="openPage(homePage)">\n\n                                                    GRACIAS A DIOS \n\n                                                  </button>\n\n                                                </ion-item>\n\n\n\n                                                  <ion-item > \n\n                                                      <button ion-item (click)="openPage(homePage)">\n\n                                                          INTIBUCA \n\n                                                        </button>\n\n                                                      </ion-item>\n\n\n\n                                                        <ion-item > \n\n                                                            <button ion-item (click)="openPage(homePage)">\n\n                                                                FRANCISCO MORAZÁN \n\n                                                              </button>\n\n                                                            </ion-item>\n\n\n\n                                                              <ion-item > \n\n                                                                  <button ion-item (click)="openPage(homePage)">\n\n                                                                      FRANCISCO MORAZÁN \n\n                                                                    </button>\n\n                                                                  </ion-item>\n\n\n\n                                                                    <ion-item > \n\n                                                                        <button ion-item (click)="openPage(homePage)">\n\n                                                                            FRANCISCO MORAZÁN \n\n                                                                          </button>\n\n                                                                        </ion-item>\n\n\n\n                                                                          <ion-item > \n\n                                                                              <button ion-item (click)="openPage(homePage)">\n\n                                                                                  FRANCISCO MORAZÁN \n\n                                                                                </button>\n\n                                                                              </ion-item>\n\n\n\n                                                                                <ion-item > \n\n                                                                                    <button ion-item (click)="openPage(homePage)">\n\n                                                                                        FRANCISCO MORAZÁN \n\n                                                                                      </button>\n\n                                                                                    </ion-item>\n\n\n\n                                                                                      <ion-item > \n\n                                                                                          <button ion-item (click)="openPage(homePage)">\n\n                                                                                              FRANCISCO MORAZÁN \n\n                                                                                            </button>\n\n                                                                                          </ion-item>\n\n\n\n                                                                                            <ion-item > \n\n                                                                                                <button ion-item (click)="openPage(homePage)">\n\n                                                                                                    FRANCISCO MORAZÁN \n\n                                                                                                  </button>\n\n                                                                                                </ion-item>\n\n\n\n                                                                                                  <ion-item > \n\n                                                                                                      <button ion-item (click)="openPage(homePage)">\n\n                                                                                                          FRANCISCO MORAZÁN \n\n                                                                                                        </button>\n\n                                                                                                      </ion-item> -->\n\n\n\n</ion-item-group>\n\n           \n\n    \n\n\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\Amy\Desktop\segurasappio\src\pages\directorio\directorio.html"*/,
+            selector: 'page-medidas',template:/*ion-inline-start:"C:\Users\Amy\Desktop\segurasappio\src\pages\medidas\medidas.html"*/'\n<ion-header>\n\n    <ion-navbar color="primary">\n      <ion-title>Medidas de Seguridad</ion-title>\n      <ion-buttons end>\n        <button ion-button (click)="closemodal()">Atrás</button>\n      </ion-buttons>\n    </ion-navbar>\n  \n  </ion-header>\n \n  \n  <ion-content padding>\n      <h2 text-center style="padding-top: 10px; color:#0B3954 "><strong>¿Qué medidas debes tomar para evitar ser victima de violación?</strong> </h2>\n      <p text-center style="padding-top: 10px;  color:#FF6663"> <strong>Es difícil evitar ser víctima de una violación, recuerda que en la mayoría de los casos los agresores son personas conocidas.</strong></p>  \n\n     \n      <ion-grid>\n          <ion-row padding style="background-color: white; text-align: center; padding-top: 5px ; border: 10px solid #23B4B7;">\n              \n           <ion-col><p style="padding:5px;">Trata de caminar por lugares iluminados cuando sea de noche.</p></ion-col> \n              <ion-col>  <img   src="assets/imgs/3Violaciones/1MedidasSeguridad/street-light.gif" style="padding-bottom: 5px; width: 90%; height: 90%" ></ion-col> \n         \n          </ion-row>\n\n<div>&nbsp;</div>\n<div>&nbsp;</div>\n      \n        <ion-row padding-top style="background-color: white; text-align: center; padding-top: 5px ; border: 10px solid #0B3954;">\n          \n              <ion-col>  <img   src="assets/imgs/3Violaciones/1MedidasSeguridad/smartphone.gif" style="padding-bottom: 5px; width: 90%; height: 90%" ></ion-col>\n          <ion-col>          <p style="padding:5px;">Ten siempre el celular cargado y a mano.</p>          </ion-col>\n            </ion-row>\n\n            <div>&nbsp;</div>\n            <div>&nbsp;</div>\n\n          <ion-row padding-top style="background-color: white; text-align: center; padding-top: 5px ; border: 10px solid #23B4B7;">\n              <ion-col><p style="padding:5px;">Decide bien en quien confiar, antes de aceptar que te lleven en un carro o aceptar la compañia de cualquier persona.</p></ion-col>\n              <ion-col> <img   src="assets/imgs/3Violaciones/1MedidasSeguridad/search-4.gif" style="padding-bottom: 5px; width: 90%; height: 90%" ></ion-col>\n          \n              </ion-row>\n\n              <div>&nbsp;</div>\n<div>&nbsp;</div>\n\n            <ion-row padding-top style="background-color: white; text-align: center; padding-top: 5px ; border: 10px solid #0B3954;">\n              <ion-col>  <img   src="assets/imgs/3Violaciones/1MedidasSeguridad/rich-people.gif" style="padding-bottom: 5px; width: 90%; height: 90%" >   </ion-col>\n              <ion-col><p style="padding:5px;">Si te sientes en peligro o amenazada, trata de dirigirte a un lugar que no sea solitario.</p></ion-col>\n                </ion-row>\n                </ion-grid>\n\n\n               \n\n      </ion-content>\n  '/*ion-inline-end:"C:\Users\Amy\Desktop\segurasappio\src\pages\medidas\medidas.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* ModalController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* ViewController */]])
-    ], DirectorioPage);
-    return DirectorioPage;
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* ViewController */]])
+    ], MedidasPage);
+    return MedidasPage;
 }());
 
-//# sourceMappingURL=directorio.js.map
+//# sourceMappingURL=medidas.js.map
 
 /***/ })
 

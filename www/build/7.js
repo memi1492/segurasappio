@@ -1,14 +1,14 @@
 webpackJsonp([7],{
 
-/***/ 286:
+/***/ 303:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IdentificaPageModule", function() { return IdentificaPageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "OcotepequePageModule", function() { return OcotepequePageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__identifica__ = __webpack_require__(305);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ocotepeque__ = __webpack_require__(334);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,31 +18,31 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var IdentificaPageModule = /** @class */ (function () {
-    function IdentificaPageModule() {
+var OcotepequePageModule = /** @class */ (function () {
+    function OcotepequePageModule() {
     }
-    IdentificaPageModule = __decorate([
+    OcotepequePageModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_2__identifica__["a" /* IdentificaPage */],
+                __WEBPACK_IMPORTED_MODULE_2__ocotepeque__["a" /* OcotepequePage */],
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__identifica__["a" /* IdentificaPage */]),
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__ocotepeque__["a" /* OcotepequePage */]),
             ],
         })
-    ], IdentificaPageModule);
-    return IdentificaPageModule;
+    ], OcotepequePageModule);
+    return OcotepequePageModule;
 }());
 
-//# sourceMappingURL=identifica.module.js.map
+//# sourceMappingURL=ocotepeque.module.js.map
 
 /***/ }),
 
-/***/ 305:
+/***/ 334:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return IdentificaPage; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return OcotepequePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(13);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -57,33 +57,34 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 /**
- * Generated class for the IdentificaPage page.
+ * Generated class for the OcotepequePage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
  */
-var IdentificaPage = /** @class */ (function () {
-    function IdentificaPage(navCtrl, view, navParams) {
+var OcotepequePage = /** @class */ (function () {
+    function OcotepequePage(navCtrl, navParams, modal, view) {
         this.navCtrl = navCtrl;
-        this.view = view;
         this.navParams = navParams;
+        this.modal = modal;
+        this.view = view;
     }
-    IdentificaPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad IdentificaPage');
+    OcotepequePage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad OcotepequePage');
     };
-    IdentificaPage.prototype.closemodal = function () {
+    OcotepequePage.prototype.closemodal = function () {
         this.view.dismiss();
     };
-    IdentificaPage = __decorate([
+    OcotepequePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-identifica',template:/*ion-inline-start:"C:\Users\Amy\Desktop\segurasappio\src\pages\identifica\identifica.html"*/'\n<ion-header>\n\n    <ion-navbar color="primary">\n      <ion-title>Violencia Sexual</ion-title>\n      <ion-buttons end>\n        <button ion-button (click)="closemodal()">Atrás</button>\n      </ion-buttons>\n    </ion-navbar>\n  \n  </ion-header>\n  \n  \n  <ion-content padding>\n      <h2 text-center style="padding-top: 10px; color:#0B3954"><strong>­Violencia Sexual </strong> <br>\n      <span style="text-align: center; color: #23B4B7; font-size: 16px;">\n         <strong> ¡Identificala!</strong></span>\n        </h2> \n\n      <ion-grid>\n          <br> <ion-row padding-top  class="estilo">\n       <ion-col >\n             <img style="align-content: center; width: 80%; height:80%" src="assets/imgs/2ViolenciaSexual/1ViolenciaSexualIdentificala/no.gif">\n           </ion-col>\n           <ion-col >\n             <p style="text-align:center">Estas sufriendo violencia sexual cuando eres victima de cualquier acto sexual que no desees.</p>\n           </ion-col>\n           </ion-row>\n       \n           <br> <ion-row padding-top  class="estilo2" >\n               <ion-col >\n                   <p style="text-align:center">La violencia sexual incluye el acoso sexual (manoseo, propuestas sexuales, miradas, piropos no deseados) y la violación sexual.</p> \n                   </ion-col>\n                   <ion-col >\n                       <img style="align-content: center; width: 80%; height:80%" src="assets/imgs/2ViolenciaSexual/1ViolenciaSexualIdentificala/chat.gif">\n                   </ion-col>\n                   </ion-row>\n\n                   <br> <ion-row padding-top  class="estilo" >\n                       <ion-col >\n                             <img style="align-content: center; width: 80%; height:80%" src="assets/imgs/2ViolenciaSexual/1ViolenciaSexualIdentificala/target.gif">\n                           </ion-col>\n                           <ion-col >\n                             <p style="text-align:center">Puede darse a través de violencia, de una amenaza grave, aprovechándose de tu situación o de tu incapacidad de resistir.</p>\n                           </ion-col>\n                           </ion-row>\n\n             \n                 </ion-grid>\n    \n    \n    \n    \n    \n    \n    \n    \n    \n\n\n\n      </ion-content>\n  '/*ion-inline-end:"C:\Users\Amy\Desktop\segurasappio\src\pages\identifica\identifica.html"*/,
+            selector: 'page-ocotepeque',template:/*ion-inline-start:"C:\Users\Amy\Desktop\segurasappio\src\pages\ocotepeque\ocotepeque.html"*/'<!--\n  Generated template for the OcotepequePage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n    <ion-navbar color="primary">\n      <ion-title>Ocotepeque</ion-title>\n      <ion-buttons end>\n          <button ion-button (click)="closemodal()">Atrás</button>\n        </ion-buttons>\n    </ion-navbar>\n  \n  </ion-header>\n  \n  <ion-content padding>\n    \n    <ion-card>\n      <ion-card-header style="color: #0B3954">\n            <strong>Ministerio Público</strong></ion-card-header>\n            <ion-card-content>\n                Esquina opuesta a Ferretería Vásquez, Barrio La Concepción, Ocotepeque<br>\n             <strong> Teléfono:</strong> 2653-3963\n            </ion-card-content>\n          </ion-card>\n\n          <ion-card>\n              <ion-card-header style="color: #0B3954">\n                    <strong>Modelo de Atención Integral <br> Especializado MAIE</strong></ion-card-header>\n                    <ion-card-content>\n                        Esquina opuesta a Ferretería Vásquez, Barrio La Concepción, Ocotepeque<br>\n                     <strong> Teléfono:</strong> 2653-3963\n                    </ion-card-content>\n                  </ion-card>\n\n                  \n          <ion-card>\n              <ion-card-header style="color: #0B3954">\n                    <strong>Juzgado de Paz</strong></ion-card-header>\n                    <ion-card-content>\n                        Frente a Supermercado El Sol, en el Parque Viejo, Ocotepeque<br>\n                     <strong> Teléfono:</strong> 2653-3963 \n                    </ion-card-content>\n                  </ion-card>\n\n                  <ion-card>\n                      <ion-card-header style="color: #0B3954">\n                            <strong>Clínica Periférica <br> de Emergencia</strong></ion-card-header>\n                            <ion-card-content>\n                                Barrio Sinuapa, Ocotepeque<br>\n                             <strong> Teléfono:</strong> 2653-1298  \n                            </ion-card-content>\n                          </ion-card>\n\n                          <ion-card>\n                              <ion-card-header style="color: #0B3954">\n                                    <strong>Policia Nacional Preventiva </strong></ion-card-header>\n                                    <ion-card-content>\n                                        Barrio las Flores, cinco cuadras debajo de la calle internacional, Ocotepeque<br>\n                                     <strong> Teléfono:</strong> 2653-3199 \n                                    </ion-card-content>\n                                  </ion-card>\n\n\n</ion-content>\n'/*ion-inline-end:"C:\Users\Amy\Desktop\segurasappio\src\pages\ocotepeque\ocotepeque.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* ViewController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]])
-    ], IdentificaPage);
-    return IdentificaPage;
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* ModalController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* ViewController */]])
+    ], OcotepequePage);
+    return OcotepequePage;
 }());
 
-//# sourceMappingURL=identifica.js.map
+//# sourceMappingURL=ocotepeque.js.map
 
 /***/ })
 

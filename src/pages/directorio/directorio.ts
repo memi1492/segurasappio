@@ -28,14 +28,58 @@ export class DirectorioPage {
     this.view.dismiss();
   }
 
+  Atlantida(){
+    const Atlantida = this.modal.create('AtlantidaPage');
+    Atlantida.present();
+  }
+
+  Colon(){
+    const Colon = this.modal.create('ColonPage');
+    Colon.present();
+  }
+
+  Comayagua(){
+    const comayagua = this.modal.create('ComayaguaPage');
+    comayagua.present();
+  }
+
+  Copan(){
+    const Copan = this.modal.create('CopanPage');
+    Copan.present();
+  }
+
+  Cortes(){
+    const Cortes = this.modal.create('CortesPage');
+    Cortes.present();
+  }
+
+  Choluteca(){
+    const Choluteca = this.modal.create('CholutecaPage');
+    Choluteca.present();
+  }
+
+  ElParaiso(){
+    const ElParaiso = this.modal.create('ElParaisoPage');
+    ElParaiso.present();
+  }
+
   FM(){
     const FM = this.modal.create('FranciscoMPage');
     FM.present();
   }
+GraciasADios(){
+  const GraciasADios = this.modal.create('GraciasADiosPage');
+  GraciasADios.present();
+}
 
   LaCeiba(){
     const ceiba = this.modal.create('LaCeibaPage');
     ceiba.present();
+  }
+
+  Intibuca(){
+    const Intibuca = this.modal.create('IntibucaPage');
+    Intibuca.present();
   }
 
   islas(){
@@ -43,10 +87,38 @@ export class DirectorioPage {
     islas.present();
   }
 
-  comayagua(){
-    const comayagua = this.modal.create('ComayaguaPage');
-    comayagua.present();
+  LaPaz(){
+    const LaPaz = this.modal.create('LaPazPage');
+    LaPaz.present();
   }
+
+  Ocotepeque(){
+    const Ocotepeque = this.modal.create('OcotepequePage');
+    Ocotepeque.present();
+  }
+
+  Olancho(){
+    const Olancho = this.modal.create('OlanchoPage');
+    Olancho.present();
+  }
+
+  SantaBarbara(){
+    const SantaBarbara = this.modal.create('SantaBarbaraPage');
+    SantaBarbara.present();
+  }
+
+  Valle(){
+    const Valle = this.modal.create('VallePage');
+    Valle.present();
+  }
+
+  Yoro(){
+    const Yoro = this.modal.create('YoroPage');
+    Yoro.present();
+  }
+
+
+  
   
   
   

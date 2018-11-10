@@ -1,4 +1,4 @@
-webpackJsonp([21],{
+webpackJsonp([36],{
 
 /***/ 100:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -300,89 +300,149 @@ webpackEmptyAsyncContext.id = 114;
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"../pages/ciclo-violencia/ciclo-violencia.module": [
+	"../pages/atlantida/atlantida.module": [
 		277,
-		14
+		29
+	],
+	"../pages/choluteca/choluteca.module": [
+		278,
+		28
+	],
+	"../pages/ciclo-violencia/ciclo-violencia.module": [
+		280,
+		27
+	],
+	"../pages/colon/colon.module": [
+		279,
+		26
 	],
 	"../pages/comayagua/comayagua.module": [
-		278,
-		13
+		281,
+		25
 	],
 	"../pages/consejos-seguridad/consejos-seguridad.module": [
-		279,
-		12
+		282,
+		24
 	],
 	"../pages/consejos/consejos.module": [
-		280,
-		20
+		283,
+		35
+	],
+	"../pages/copan/copan.module": [
+		284,
+		23
+	],
+	"../pages/cortes/cortes.module": [
+		285,
+		22
 	],
 	"../pages/definicion/definicion.module": [
-		281,
-		11
+		286,
+		21
 	],
 	"../pages/denuncia/denuncia.module": [
-		282,
-		19
+		287,
+		34
 	],
 	"../pages/denuncias-def/denuncias-def.module": [
-		283,
-		10
+		288,
+		20
 	],
 	"../pages/directorio/directorio.module": [
-		284,
-		9
+		289,
+		19
 	],
-	"../pages/francisco-m/francisco-m.module": [
-		285,
-		8
-	],
-	"../pages/identifica/identifica.module": [
-		286,
-		7
-	],
-	"../pages/info/info.module": [
-		287,
-		17
-	],
-	"../pages/info2/info2.module": [
-		288,
+	"../pages/el-paraiso/el-paraiso.module": [
+		290,
 		18
 	],
-	"../pages/islas/islas.module": [
-		289,
-		6
-	],
-	"../pages/la-ceiba/la-ceiba.module": [
-		290,
-		5
-	],
-	"../pages/medidas/medidas.module": [
-		294,
-		4
-	],
-	"../pages/new-place/new-place.module": [
+	"../pages/francisco-m/francisco-m.module": [
 		291,
+		17
+	],
+	"../pages/gracias-a-dios/gracias-a-dios.module": [
+		292,
 		16
 	],
+	"../pages/identifica/identifica.module": [
+		293,
+		15
+	],
+	"../pages/info/info.module": [
+		294,
+		32
+	],
+	"../pages/info2/info2.module": [
+		295,
+		33
+	],
+	"../pages/intibuca/intibuca.module": [
+		296,
+		14
+	],
+	"../pages/islas/islas.module": [
+		297,
+		13
+	],
+	"../pages/la-ceiba/la-ceiba.module": [
+		298,
+		12
+	],
+	"../pages/la-paz/la-paz.module": [
+		299,
+		11
+	],
+	"../pages/lempira/lempira.module": [
+		300,
+		10
+	],
+	"../pages/medidas/medidas.module": [
+		301,
+		9
+	],
+	"../pages/new-place/new-place.module": [
+		302,
+		31
+	],
 	"../pages/ninos/ninos.module": [
-		292,
-		3
+		304,
+		8
+	],
+	"../pages/ocotepeque/ocotepeque.module": [
+		303,
+		7
+	],
+	"../pages/olancho/olancho.module": [
+		305,
+		6
 	],
 	"../pages/pasos-denuncia/pasos-denuncia.module": [
-		293,
-		2
+		306,
+		5
 	],
 	"../pages/proceso/proceso.module": [
-		295,
-		1
+		307,
+		4
 	],
 	"../pages/rutas-atencion/rutas-atencion.module": [
-		297,
-		0
+		309,
+		3
+	],
+	"../pages/santa-barbara/santa-barbara.module": [
+		308,
+		2
 	],
 	"../pages/test/test.module": [
-		296,
-		15
+		310,
+		30
+	],
+	"../pages/valle/valle.module": [
+		311,
+		1
+	],
+	"../pages/yoro/yoro.module": [
+		312,
+		0
 	]
 };
 function webpackAsyncContext(req) {
@@ -465,7 +525,7 @@ var AboutPage = /** @class */ (function () {
     }
     AboutPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-about',template:/*ion-inline-start:"C:\Users\Amy\Desktop\segurasappio\src\pages\about\about.html"*/'<ion-header>\n  <ion-navbar color="primary">\n      <ion-title style="text-align: center; ">\n      AYUDA\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n    <div>&nbsp;</div>\n    <ion-grid>\n        <ion-row padding style="background-color: #FC4E50; text-align: center; padding-top: 5px ; border: 10px solid white;">\n            \n         <ion-col><p style="padding:5px; font-size: 20px; color:white">ENVIAR MENSAJES DE EMERGENCIA</p></ion-col> \n            <ion-col>  <img   src="assets/imgs/5Emergencia/alarm.gif" style="padding-bottom: 5px; width: 90%; height: 80%" ></ion-col> \n       \n        </ion-row>\n\n<br>\n<br>\n        <ion-row padding style="background-color: #0B3954; text-align: center; padding-top: 5px ; border: 10px solid white; height:200px;">\n            \n         \n               <ion-col>  <img   src="assets/imgs/5Emergencia/alert.gif" style="padding-bottom: 5px; width: 90%; height: 90%" ></ion-col> \n               <ion-col><p style="padding:5px; font-size: 20px; color:white">LLAMADA DE EMERGENCIA<br> 911</p></ion-col> \n           </ion-row>\n\n\n</ion-grid>\n\n    \n\n</ion-content>\n'/*ion-inline-end:"C:\Users\Amy\Desktop\segurasappio\src\pages\about\about.html"*/
+            selector: 'page-about',template:/*ion-inline-start:"C:\Users\Amy\Desktop\segurasappio\src\pages\about\about.html"*/'<ion-header>\n  <ion-navbar color="primary">\n      <ion-title style="text-align: center; ">\n      AYUDA\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n    <div>&nbsp;</div>\n    <ion-grid>\n        <ion-row padding style="background-color: #FC4E50; text-align: center; padding-top: 5px ; border: 10px solid white;">\n            \n         <ion-col><p style="padding:5px; font-size: 20px; color:white">ENVIAR MENSAJES DE EMERGENCIA</p></ion-col> \n            <ion-col>  <img   src="assets/imgs/5Emergencia/alarm.gif" style="padding-bottom: 5px; width: 70%; height: 70%" ></ion-col> \n       \n        </ion-row>\n\n<br>\n<br>\n        <ion-row padding style="background-color: #0B3954; text-align: center; padding-top: 5px ; border: 10px solid white; height:200px;">\n            \n         \n               <ion-col>  <img   src="assets/imgs/5Emergencia/alert.gif" style="padding-bottom: 5px; width: 70%; height: 70%" ></ion-col> \n               <ion-col><p style="padding:5px; font-size: 20px; color:white">LLAMADA DE EMERGENCIA<br> 911</p></ion-col> \n           </ion-row>\n\n\n</ion-grid>\n\n    \n\n</ion-content>\n'/*ion-inline-end:"C:\Users\Amy\Desktop\segurasappio\src\pages\about\about.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */]])
     ], AboutPage);
@@ -645,27 +705,42 @@ var AppModule = /** @class */ (function () {
                 __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
                 __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["d" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_6__app_component__["a" /* MyApp */], {}, {
                     links: [
+                        { loadChildren: '../pages/atlantida/atlantida.module#AtlantidaPageModule', name: 'AtlantidaPage', segment: 'atlantida', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/choluteca/choluteca.module#CholutecaPageModule', name: 'CholutecaPage', segment: 'choluteca', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/colon/colon.module#ColonPageModule', name: 'ColonPage', segment: 'colon', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/ciclo-violencia/ciclo-violencia.module#CicloViolenciaPageModule', name: 'CicloViolenciaPage', segment: 'ciclo-violencia', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/comayagua/comayagua.module#ComayaguaPageModule', name: 'ComayaguaPage', segment: 'comayagua', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/consejos-seguridad/consejos-seguridad.module#ConsejosSeguridadPageModule', name: 'ConsejosSeguridadPage', segment: 'consejos-seguridad', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/consejos/consejos.module#ConsejosPageModule', name: 'ConsejosPage', segment: 'consejos', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/copan/copan.module#CopanPageModule', name: 'CopanPage', segment: 'copan', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/cortes/cortes.module#CortesPageModule', name: 'CortesPage', segment: 'cortes', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/definicion/definicion.module#DefinicionPageModule', name: 'DefinicionPage', segment: 'definicion', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/denuncia/denuncia.module#DenunciaPageModule', name: 'DenunciaPage', segment: 'denuncia', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/denuncias-def/denuncias-def.module#DenunciasDefPageModule', name: 'DenunciasDefPage', segment: 'denuncias-def', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/directorio/directorio.module#DirectorioPageModule', name: 'DirectorioPage', segment: 'directorio', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/el-paraiso/el-paraiso.module#ElParaisoPageModule', name: 'ElParaisoPage', segment: 'el-paraiso', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/francisco-m/francisco-m.module#FranciscoMPageModule', name: 'FranciscoMPage', segment: 'francisco-m', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/gracias-a-dios/gracias-a-dios.module#GraciasADiosPageModule', name: 'GraciasADiosPage', segment: 'gracias-a-dios', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/identifica/identifica.module#IdentificaPageModule', name: 'IdentificaPage', segment: 'identifica', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/info/info.module#InfoPageModule', name: 'InfoPage', segment: 'info', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/info2/info2.module#Info2PageModule', name: 'Info2Page', segment: 'info2', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/intibuca/intibuca.module#IntibucaPageModule', name: 'IntibucaPage', segment: 'intibuca', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/islas/islas.module#IslasPageModule', name: 'IslasPage', segment: 'islas', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/la-ceiba/la-ceiba.module#LaCeibaPageModule', name: 'LaCeibaPage', segment: 'la-ceiba', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/new-place/new-place.module#NewPlacePageModule', name: 'NewPlacePage', segment: 'new-place', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/ninos/ninos.module#NinosPageModule', name: 'NinosPage', segment: 'ninos', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/pasos-denuncia/pasos-denuncia.module#PasosDenunciaPageModule', name: 'PasosDenunciaPage', segment: 'pasos-denuncia', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/la-paz/la-paz.module#LaPazPageModule', name: 'LaPazPage', segment: 'la-paz', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/lempira/lempira.module#LempiraPageModule', name: 'LempiraPage', segment: 'lempira', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/medidas/medidas.module#MedidasPageModule', name: 'MedidasPage', segment: 'medidas', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/new-place/new-place.module#NewPlacePageModule', name: 'NewPlacePage', segment: 'new-place', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/ocotepeque/ocotepeque.module#OcotepequePageModule', name: 'OcotepequePage', segment: 'ocotepeque', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/ninos/ninos.module#NinosPageModule', name: 'NinosPage', segment: 'ninos', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/olancho/olancho.module#OlanchoPageModule', name: 'OlanchoPage', segment: 'olancho', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/pasos-denuncia/pasos-denuncia.module#PasosDenunciaPageModule', name: 'PasosDenunciaPage', segment: 'pasos-denuncia', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/proceso/proceso.module#ProcesoPageModule', name: 'ProcesoPage', segment: 'proceso', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/santa-barbara/santa-barbara.module#SantaBarbaraPageModule', name: 'SantaBarbaraPage', segment: 'santa-barbara', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/rutas-atencion/rutas-atencion.module#RutasAtencionPageModule', name: 'RutasAtencionPage', segment: 'rutas-atencion', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/test/test.module#TestPageModule', name: 'TestPage', segment: 'test', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/rutas-atencion/rutas-atencion.module#RutasAtencionPageModule', name: 'RutasAtencionPage', segment: 'rutas-atencion', priority: 'low', defaultHistory: [] }
+                        { loadChildren: '../pages/valle/valle.module#VallePageModule', name: 'VallePage', segment: 'valle', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/yoro/yoro.module#YoroPageModule', name: 'YoroPage', segment: 'yoro', priority: 'low', defaultHistory: [] }
                     ]
                 })
             ],

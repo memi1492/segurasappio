@@ -1,14 +1,14 @@
 webpackJsonp([12],{
 
-/***/ 279:
+/***/ 298:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ConsejosSeguridadPageModule", function() { return ConsejosSeguridadPageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LaCeibaPageModule", function() { return LaCeibaPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__consejos_seguridad__ = __webpack_require__(300);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__la_ceiba__ = __webpack_require__(330);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,31 +18,31 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var ConsejosSeguridadPageModule = /** @class */ (function () {
-    function ConsejosSeguridadPageModule() {
+var LaCeibaPageModule = /** @class */ (function () {
+    function LaCeibaPageModule() {
     }
-    ConsejosSeguridadPageModule = __decorate([
+    LaCeibaPageModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_2__consejos_seguridad__["a" /* ConsejosSeguridadPage */],
+                __WEBPACK_IMPORTED_MODULE_2__la_ceiba__["a" /* LaCeibaPage */],
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__consejos_seguridad__["a" /* ConsejosSeguridadPage */]),
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__la_ceiba__["a" /* LaCeibaPage */]),
             ],
         })
-    ], ConsejosSeguridadPageModule);
-    return ConsejosSeguridadPageModule;
+    ], LaCeibaPageModule);
+    return LaCeibaPageModule;
 }());
 
-//# sourceMappingURL=consejos-seguridad.module.js.map
+//# sourceMappingURL=la-ceiba.module.js.map
 
 /***/ }),
 
-/***/ 300:
+/***/ 330:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ConsejosSeguridadPage; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LaCeibaPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(13);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -57,37 +57,34 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 /**
- * Generated class for the ConsejosSeguridadPage page.
+ * Generated class for the LaCeibaPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
  */
-var ConsejosSeguridadPage = /** @class */ (function () {
-    function ConsejosSeguridadPage(navParams, view, navCtrl) {
-        this.navParams = navParams;
-        this.view = view;
+var LaCeibaPage = /** @class */ (function () {
+    function LaCeibaPage(navCtrl, navParams, modal, view) {
         this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.modal = modal;
+        this.view = view;
     }
-    ConsejosSeguridadPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad ConsejosSeguridadPage');
+    LaCeibaPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad LaCeibaPage');
     };
-    ConsejosSeguridadPage.prototype.closemodal = function () {
+    LaCeibaPage.prototype.closemodal = function () {
         this.view.dismiss();
     };
-    __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_8" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* Slides */]),
-        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* Slides */])
-    ], ConsejosSeguridadPage.prototype, "slides", void 0);
-    ConsejosSeguridadPage = __decorate([
+    LaCeibaPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-consejos-seguridad',template:/*ion-inline-start:"C:\Users\Amy\Desktop\segurasappio\src\pages\consejos-seguridad\consejos-seguridad.html"*/'<!--\n  Generated template for the CicloViolenciaPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n    <ion-navbar color="primary">\n      <ion-title>Violencia Doméstica</ion-title>\n      <ion-buttons end>\n        <button ion-button (click)="closemodal()">Atrás</button>\n      </ion-buttons>\n    </ion-navbar>\n  \n  </ion-header>\n  \n  \n  <ion-content padding>\n      <h2 text-center style="padding-top: 10px; color:#0B3954"><strong>¿Qué hacer ante una amenaza de violencia?</strong> </h2>\n      <p style="text-align: center; color: #FF6663; font-size: 16px;">\n         <strong> ­«­¡­­Recuerda que no estás sola y que no debes aceptar la violencia! »</strong>\n        </p>    \n        <ion-grid>\n            <br> <ion-row padding-top  style="color: black; background-color: white; text-align: center; padding-top: 5px ; border: 10px solid #0B3954;" >\n         <ion-col >\n               <img style="align-content: center; width: 80%; height:80%" src="assets/imgs/1ViolenciaDomestica/2ConsejosSeguridad/card.gif" >\n             </ion-col>\n             <ion-col >\n               <p style="text-align:center">Guarda dinero, copias de tus llaves y documentos importantes en un lugar accesible o con alguien de confianza.</p>\n             </ion-col>\n             </ion-row>\n         \n             <br> <ion-row padding-top  style="color: black; background-color: white; text-align: center; padding-top: 5px ; border: 10px solid #23B4B7;" >\n                 <ion-col >\n                     <p style="text-align:center">Si una discusión se hace inevitable asegúrate de estar en un lugar que tenga una salida o tener acceso a un teléfono.</p> \n                     </ion-col>\n                     <ion-col >\n                         <img style="align-content: center; width: 80%; height:80%" src="assets/imgs/1ViolenciaDomestica/2ConsejosSeguridad/hand.gif">\n                     </ion-col>\n                     </ion-row>\n \n                     <br> <ion-row padding-top  style="color: black; background-color: white; text-align: center; padding-top: 5px ; border: 10px solid #0B3954;" >\n                         <ion-col >\n                               <img style="align-content: center;  width: 80%; height:80%" src="assets/imgs/1ViolenciaDomestica/2ConsejosSeguridad/house.gif">\n                             </ion-col>\n                             <ion-col >\n                               <p style="text-align:center">Siempre ten una segunda opción a donde ir (Incluyendo un refugio temporal).</p>\n                             </ion-col>\n                             </ion-row>\n \n                             <br> <ion-row padding-top  style="color: black; background-color: white; text-align: center; padding-top: 5px ; border: 10px solid #23B4B7;" >\n                                 <ion-col >\n                                     <p style="text-align:center">Identifica a una vecina/o a quién puedas confiarle lo que está sucediendo y pídele que llame a la policía en caso de emergencia.</p> \n                                     </ion-col>\n                                     <ion-col >\n                                         <img style="align-content: center; width: 80%; height:80%" src="assets/imgs/1ViolenciaDomestica/2ConsejosSeguridad/help.gif">\n                                     </ion-col>\n                                     </ion-row>\n \n               \n                   </ion-grid>\n      <!--  <ion-grid>\n            <ion-row padding-top>\n                \n              <div  style="background-color: white; text-align: center; padding-top: 5px ; border: 15px solid #23B4B7;" ><p style="padding:5px;">Guarda dinero, copias de tus llaves y documentos importantes en un lugar accesible o con alguien de confianza.</p>\n                  <img   src="assets/imgs/1ViolenciaDomestica/2ConsejosSeguridad/card.gif" style=" width: 20%; height: 30%" >\n             </div>\n            </ion-row>\n        \n          <ion-row padding-top>\n              <div  style="background-color: white; text-align: center; padding-top: 5px ; border: 15px solid #0B3954;" ><p style="padding:5px;">Si una discusión se hace inevitable asegúrate de estar en un lugar que tenga una salida o tener acceso a un teléfono para usar esta aplicación.</p>\n                  <img   src="assets/imgs/1ViolenciaDomestica/2ConsejosSeguridad/hand.gif" style=" width: 20%; height: 30%" >\n             </div>\n              </ion-row>\n\n            <ion-row padding-top>\n                <div  style="background-color: white; text-align: center; padding-top: 5px ; border: 15px solid #23B4B7;" ><p style="padding:5px;">Siempre ten una segunda opción a donde ir (Incluyendo un refugio temporal)</p>\n                  <img   src="assets/imgs/1ViolenciaDomestica/2ConsejosSeguridad/house.gif" style=" width: 20%; height: 30%" >\n             </div>\n                </ion-row>\n\n              <ion-row padding-top>\n                  <div  style="background-color: white; text-align: center; padding-top: 5px ; border: 15px solid #0B3954;" ><p style="padding:5px;">Identifica a una vecina/o a quién puedas confiarle lo que está sucediendo y pídele que llame a la policía en caso de emergencia.</p>\n                    <img   src="assets/imgs/1ViolenciaDomestica/2ConsejosSeguridad/help.gif" style=" width: 20%; height: 30%" >\n               </div>\n                  </ion-row>\n                  </ion-grid>\n                -->\n\n\n\n\n      </ion-content>\n  '/*ion-inline-end:"C:\Users\Amy\Desktop\segurasappio\src\pages\consejos-seguridad\consejos-seguridad.html"*/,
+            selector: 'page-la-ceiba',template:/*ion-inline-start:"C:\Users\Amy\Desktop\segurasappio\src\pages\la-ceiba\la-ceiba.html"*/'<!--\n  Generated template for the LaCeibaPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n    <ion-navbar>\n      <ion-title>La Ceiba</ion-title>\n      <ion-buttons end>\n          <button ion-button (click)="closemodal()">Atrás</button>\n        </ion-buttons>\n    </ion-navbar>\n  \n  </ion-header>\n  \n  \n  <ion-content padding>\n  \n    <ion-grid>\n        <ion-item>\n            <strong>Fiscalía  de la Mujer</strong><br>\n            Esquina opuesta al edificio Lovable, \n            <br>\n            Barrio Solares Nuevos, boulevar 15 de septiembre <br>\n          Teléfono: 2440-3557\n  \n          </ion-item>\n          <ion-item><strong>Fiscalia de turno, Centro Integrado CEIN, Ministerio Público\n\n            </strong><br>\n            Barrio el Dorado,\n\n             <br>\n             a la par de la Policia Preventiva Nacional<br>\n            Teléfono: 2441-2104\n  \n            </ion-item>\n  \n            <ion-item><strong>Fiscalía de Protección de la Niñez     </strong><br>\n              Esquina opuesta al edificion Lovable, \n<br>\nBarrio Solares Nuevos, Boulevar 15 de septiembre<br>\n              Teléfono: 2443-2627\n\n\n\n  \n              </ion-item>\n  \n              <ion-item><strong>Comisionado Nacional de los Derechos Humanos (CONADEH)\n                </strong><br>\n                Colonia El Toronjal 2, entrada por Pollito La Cumbre del Gimnasio Azcona,\n<br>\ndos cuadras derecho luego girar a la  derecha segunda casa mano izquierda,\n Casa color Amarillo <br>\n                Teléfono: 2441-6001 y 2441-6156\n\n    \n                </ion-item>\n  \n                <ion-item><strong> Dirección de Niñez, Familia y Adolescencia DINAF, Región Atlantida, La Ceiba, Jurisdicción: Atlántida, Colón, Gracias a Dios e Islas de la Bahía\n                  </strong><br>\n                  Barrio Alvarado, Ave 14 de Julio, .\n<br>\nAntiguas instalaciones del Centro Comunal, La Ceiba <br>\n                  Teléfono:  2442-0681\n                  Correo Electrónico: regionalatlantica@dinaf.gob.hn\n\n      \n                  </ion-item>\n\n                  <ion-item><strong> Consejería de Familia de la Dirección Departamental de Salud\n                    </strong><br>\n                    Barrio Potreritos, Calle al Estadio Frente a Panadería Cuquis\n .\n  <br>\n <br>\n                    Teléfono:  3369-3828\n\n                    </ion-item>\n\n                    <ion-item><strong> Departamento de Género de la Alcadía Municipal\n                      </strong><br>\n                      Barrio El Centro, Avenida San Isidro,\n    <br>\n    Frente a Iglesia San Isidro, Alcaldía Municipal de La Ceiba<br>\n                      Teléfono:  3380-5400\n                      Correo Electrónico: municipalidadlaceiba@yahoo.es\n\n\n\n  \n                      </ion-item>\n\n                      <ion-item><strong> Secretaría de Juzgados\n                        </strong><br>\n                        Edificio Palacio de Justicia, Colonia La Quinta, Los Laureles,\n\n      <br>\n      2 kilómetros, Carretera a Tocoa, frente a Reataurante Las Hamacas, La Ceiba<br>\n                        Teléfono:  2408-4306\n  \n  \n  \n    \n                        </ion-item>\n\n                        <ion-item><strong> Organización de Desarrollo Étnico Comintario (ODECO)\n\n                          </strong><br>\n                          Barrio La Isla, segunda calle, apartado postal 538\n\n  \n        <br>\n                          Teléfono:  Tel:2443-3651 y Fax 2443-4642\n                          Correo Electrónico: odeco.hn@gmail.com\n\n\n    \n    \n    \n      \n                          </ion-item>\n\n\n\n    </ion-grid>\n  \n  </ion-content>\n'/*ion-inline-end:"C:\Users\Amy\Desktop\segurasappio\src\pages\la-ceiba\la-ceiba.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* ViewController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */]])
-    ], ConsejosSeguridadPage);
-    return ConsejosSeguridadPage;
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* ModalController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* ViewController */]])
+    ], LaCeibaPage);
+    return LaCeibaPage;
 }());
 
-//# sourceMappingURL=consejos-seguridad.js.map
+//# sourceMappingURL=la-ceiba.js.map
 
 /***/ })
 
