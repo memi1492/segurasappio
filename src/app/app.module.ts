@@ -4,6 +4,8 @@ import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { StatusBar } from '@ionic-native/status-bar';
 import { NewPlacePage } from '../pages/new-place/new-place';
+import { SMS } from "@ionic-native/sms";
+import { CallNumber } from "@ionic-native/call-number";
 
 
 
@@ -55,7 +57,9 @@ import { TestPage } from '../pages/test/test';
   providers: [
     StatusBar,
     SplashScreen,
-    {provide: ErrorHandler, useClass: IonicErrorHandler}
+    {provide: ErrorHandler, useClass: IonicErrorHandler},
+    SMS,
+    CallNumber
   ]
 })
 export class AppModule {}
