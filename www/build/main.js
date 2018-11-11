@@ -355,39 +355,39 @@ webpackEmptyAsyncContext.id = 115;
 
 var map = {
 	"../pages/atlantida/atlantida.module": [
-		279,
+		280,
 		29
 	],
 	"../pages/choluteca/choluteca.module": [
-		280,
+		281,
 		28
 	],
 	"../pages/ciclo-violencia/ciclo-violencia.module": [
-		281,
+		282,
 		27
 	],
 	"../pages/colon/colon.module": [
-		282,
+		283,
 		26
 	],
 	"../pages/comayagua/comayagua.module": [
-		283,
+		284,
 		25
 	],
 	"../pages/consejos-seguridad/consejos-seguridad.module": [
-		284,
+		285,
 		24
 	],
 	"../pages/consejos/consejos.module": [
-		285,
+		286,
 		35
 	],
 	"../pages/copan/copan.module": [
-		286,
+		287,
 		23
 	],
 	"../pages/cortes/cortes.module": [
-		287,
+		289,
 		22
 	],
 	"../pages/definicion/definicion.module": [
@@ -395,67 +395,67 @@ var map = {
 		21
 	],
 	"../pages/denuncia/denuncia.module": [
-		289,
+		290,
 		34
 	],
 	"../pages/denuncias-def/denuncias-def.module": [
-		290,
+		291,
 		20
 	],
 	"../pages/directorio/directorio.module": [
-		291,
+		292,
 		19
 	],
 	"../pages/el-paraiso/el-paraiso.module": [
-		292,
+		293,
 		18
 	],
 	"../pages/francisco-m/francisco-m.module": [
-		293,
+		294,
 		17
 	],
 	"../pages/gracias-a-dios/gracias-a-dios.module": [
-		294,
+		295,
 		16
 	],
 	"../pages/identifica/identifica.module": [
-		295,
+		296,
 		15
 	],
 	"../pages/info/info.module": [
-		296,
+		297,
 		32
 	],
 	"../pages/info2/info2.module": [
-		297,
+		298,
 		33
 	],
 	"../pages/intibuca/intibuca.module": [
-		298,
+		299,
 		14
 	],
 	"../pages/islas/islas.module": [
-		299,
+		300,
 		13
 	],
 	"../pages/la-ceiba/la-ceiba.module": [
-		300,
+		301,
 		12
 	],
 	"../pages/la-paz/la-paz.module": [
-		301,
+		302,
 		11
 	],
 	"../pages/lempira/lempira.module": [
-		302,
+		303,
 		10
 	],
 	"../pages/medidas/medidas.module": [
-		303,
+		304,
 		9
 	],
 	"../pages/new-place/new-place.module": [
-		304,
+		306,
 		31
 	],
 	"../pages/ninos/ninos.module": [
@@ -463,11 +463,11 @@ var map = {
 		8
 	],
 	"../pages/ocotepeque/ocotepeque.module": [
-		306,
+		307,
 		7
 	],
 	"../pages/olancho/olancho.module": [
-		307,
+		308,
 		6
 	],
 	"../pages/pasos-denuncia/pasos-denuncia.module": [
@@ -475,7 +475,7 @@ var map = {
 		5
 	],
 	"../pages/proceso/proceso.module": [
-		308,
+		311,
 		4
 	],
 	"../pages/rutas-atencion/rutas-atencion.module": [
@@ -483,11 +483,11 @@ var map = {
 		3
 	],
 	"../pages/santa-barbara/santa-barbara.module": [
-		311,
+		312,
 		2
 	],
 	"../pages/test/test.module": [
-		312,
+		314,
 		30
 	],
 	"../pages/valle/valle.module": [
@@ -495,7 +495,7 @@ var map = {
 		1
 	],
 	"../pages/yoro/yoro.module": [
-		314,
+		315,
 		0
 	]
 };
@@ -515,15 +515,15 @@ module.exports = webpackAsyncContext;
 
 /***/ }),
 
-/***/ 201:
+/***/ 202:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TabsPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__about_about__ = __webpack_require__(202);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__contact_contact__ = __webpack_require__(203);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__home_home__ = __webpack_require__(204);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__about_about__ = __webpack_require__(203);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__contact_contact__ = __webpack_require__(204);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__home_home__ = __webpack_require__(205);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -555,7 +555,7 @@ var TabsPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 202:
+/***/ 203:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -563,6 +563,7 @@ var TabsPage = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ionic_native_sms__ = __webpack_require__(199);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_call_number__ = __webpack_require__(200);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_geolocation__ = __webpack_require__(201);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -575,21 +576,32 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
+
 var AboutPage = /** @class */ (function () {
-    function AboutPage(sms, callSvc) {
+    function AboutPage(sms, callSvc, geo) {
         this.sms = sms;
         this.callSvc = callSvc;
+        this.geo = geo;
     }
+    AboutPage.prototype.ionViewDidLoad = function () {
+        var _this = this;
+        this.geo.getCurrentPosition().then(function (pos) {
+            _this.lat = pos.coords.latitude;
+            _this.lng = pos.coords.longitude;
+        }).catch(function (err) { return console.log(err); });
+    };
     AboutPage.prototype.call = function () {
-        this.callSvc.callNumber('50431663396', true).then(function () {
+        this.callSvc.callNumber('31663396', true).then(function () {
             console.log('worked');
         }).catch(function (err) {
             alert(JSON.stringify(err));
         });
     };
     AboutPage.prototype.senSMS = function () {
+        var urlinicial = "AIUUUUDAAA TOY ACA https://www.google.com/maps/search/?api=1&query=";
+        var urlfinal = urlinicial.concat(this.lat, ",", this.lng);
         var options;
-        this.sms.send('31663396', "AIUUUUDAAA TOY ACA https://www.google.com/maps/search/?api=1&query=36.26577,-92.54324", options).then(function () { console.log('sms worked'); }).catch(function (err) {
+        this.sms.send('31663396', urlfinal, options).then(function () { console.log('sms worked'); }).catch(function (err) {
             alert(JSON.stringify(err));
         });
     };
@@ -597,7 +609,7 @@ var AboutPage = /** @class */ (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-about',template:/*ion-inline-start:"C:\Users\CloudServ\Documents\GitHub\segurasappio\src\pages\about\about.html"*/'<ion-header>\n\n  <ion-navbar color="primary">\n\n      <ion-title style="text-align: center; ">\n\n      AYUDA\n\n    </ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content padding>\n\n    <div>&nbsp;</div>\n\n    <ion-grid>\n\n        <ion-row (click)= "senSMS()" padding style="background-color: #FC4E50; text-align: center; padding-top: 5px ; border: 10px solid white;">\n\n            \n\n         <ion-col><p style="padding:5px; font-size: 20px; color:white">ENVIAR MENSAJES DE EMERGENCIA</p></ion-col> \n\n            <ion-col>  <img   src="assets/imgs/5Emergencia/alarm.gif" style="padding-bottom: 5px; width: 70%; height: 70%" ></ion-col> \n\n       \n\n        </ion-row>\n\n\n\n<br>\n\n<br>\n\n        <ion-row (click)= "call()" padding style="background-color: #0B3954; text-align: center; padding-top: 5px ; border: 10px solid white; height:200px;">\n\n            \n\n         \n\n               <ion-col>  <img src="assets/imgs/5Emergencia/alert.gif" style="padding-bottom: 5px; width: 70%; height: 70%" ></ion-col> \n\n               <ion-col><p style="padding:5px; font-size: 20px; color:white">LLAMADA DE EMERGENCIA<br> 911</p></ion-col> \n\n           </ion-row>\n\n\n\n\n\n</ion-grid>\n\n\n\n    \n\n\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\CloudServ\Documents\GitHub\segurasappio\src\pages\about\about.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__ionic_native_sms__["a" /* SMS */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_call_number__["a" /* CallNumber */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__ionic_native_sms__["a" /* SMS */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_call_number__["a" /* CallNumber */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_geolocation__["a" /* Geolocation */]])
     ], AboutPage);
     return AboutPage;
 }());
@@ -606,7 +618,7 @@ var AboutPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 203:
+/***/ 204:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -641,7 +653,7 @@ var ContactPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 204:
+/***/ 205:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -696,13 +708,13 @@ var HomePage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 205:
+/***/ 206:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(206);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(228);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(207);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(229);
 
 
 Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_1__app_module__["a" /* AppModule */]);
@@ -710,7 +722,7 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 
 /***/ }),
 
-/***/ 228:
+/***/ 229:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -723,16 +735,17 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_new_place_new_place__ = __webpack_require__(104);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ionic_native_sms__ = __webpack_require__(199);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ionic_native_call_number__ = __webpack_require__(200);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__app_component__ = __webpack_require__(278);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_home_home__ = __webpack_require__(204);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_about_about__ = __webpack_require__(202);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_contact_contact__ = __webpack_require__(203);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_tabs_tabs__ = __webpack_require__(201);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_info_info__ = __webpack_require__(102);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_info2_info2__ = __webpack_require__(103);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_consejos_consejos__ = __webpack_require__(100);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_denuncia_denuncia__ = __webpack_require__(101);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__pages_test_test__ = __webpack_require__(105);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__ionic_native_geolocation__ = __webpack_require__(201);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__app_component__ = __webpack_require__(279);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_home_home__ = __webpack_require__(205);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_about_about__ = __webpack_require__(203);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_contact_contact__ = __webpack_require__(204);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_tabs_tabs__ = __webpack_require__(202);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_info_info__ = __webpack_require__(102);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_info2_info2__ = __webpack_require__(103);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_consejos_consejos__ = __webpack_require__(100);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__pages_denuncia_denuncia__ = __webpack_require__(101);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__pages_test_test__ = __webpack_require__(105);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -757,27 +770,28 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
+
 var AppModule = /** @class */ (function () {
     function AppModule() {
     }
     AppModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["I" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_8__app_component__["a" /* MyApp */],
-                __WEBPACK_IMPORTED_MODULE_9__pages_home_home__["a" /* HomePage */],
+                __WEBPACK_IMPORTED_MODULE_9__app_component__["a" /* MyApp */],
+                __WEBPACK_IMPORTED_MODULE_10__pages_home_home__["a" /* HomePage */],
                 __WEBPACK_IMPORTED_MODULE_5__pages_new_place_new_place__["a" /* NewPlacePage */],
-                __WEBPACK_IMPORTED_MODULE_10__pages_about_about__["a" /* AboutPage */],
-                __WEBPACK_IMPORTED_MODULE_11__pages_contact_contact__["a" /* ContactPage */],
-                __WEBPACK_IMPORTED_MODULE_12__pages_tabs_tabs__["a" /* TabsPage */],
-                __WEBPACK_IMPORTED_MODULE_13__pages_info_info__["a" /* InfoPage */],
-                __WEBPACK_IMPORTED_MODULE_14__pages_info2_info2__["a" /* Info2Page */],
-                __WEBPACK_IMPORTED_MODULE_15__pages_consejos_consejos__["a" /* ConsejosPage */],
-                __WEBPACK_IMPORTED_MODULE_16__pages_denuncia_denuncia__["a" /* DenunciaPage */],
-                __WEBPACK_IMPORTED_MODULE_17__pages_test_test__["a" /* TestPage */]
+                __WEBPACK_IMPORTED_MODULE_11__pages_about_about__["a" /* AboutPage */],
+                __WEBPACK_IMPORTED_MODULE_12__pages_contact_contact__["a" /* ContactPage */],
+                __WEBPACK_IMPORTED_MODULE_13__pages_tabs_tabs__["a" /* TabsPage */],
+                __WEBPACK_IMPORTED_MODULE_14__pages_info_info__["a" /* InfoPage */],
+                __WEBPACK_IMPORTED_MODULE_15__pages_info2_info2__["a" /* Info2Page */],
+                __WEBPACK_IMPORTED_MODULE_16__pages_consejos_consejos__["a" /* ConsejosPage */],
+                __WEBPACK_IMPORTED_MODULE_17__pages_denuncia_denuncia__["a" /* DenunciaPage */],
+                __WEBPACK_IMPORTED_MODULE_18__pages_test_test__["a" /* TestPage */]
             ],
             imports: [
                 __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
-                __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["d" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_8__app_component__["a" /* MyApp */], {}, {
+                __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["d" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_9__app_component__["a" /* MyApp */], {}, {
                     links: [
                         { loadChildren: '../pages/atlantida/atlantida.module#AtlantidaPageModule', name: 'AtlantidaPage', segment: 'atlantida', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/choluteca/choluteca.module#CholutecaPageModule', name: 'CholutecaPage', segment: 'choluteca', priority: 'low', defaultHistory: [] },
@@ -787,8 +801,8 @@ var AppModule = /** @class */ (function () {
                         { loadChildren: '../pages/consejos-seguridad/consejos-seguridad.module#ConsejosSeguridadPageModule', name: 'ConsejosSeguridadPage', segment: 'consejos-seguridad', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/consejos/consejos.module#ConsejosPageModule', name: 'ConsejosPage', segment: 'consejos', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/copan/copan.module#CopanPageModule', name: 'CopanPage', segment: 'copan', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/cortes/cortes.module#CortesPageModule', name: 'CortesPage', segment: 'cortes', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/definicion/definicion.module#DefinicionPageModule', name: 'DefinicionPage', segment: 'definicion', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/cortes/cortes.module#CortesPageModule', name: 'CortesPage', segment: 'cortes', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/denuncia/denuncia.module#DenunciaPageModule', name: 'DenunciaPage', segment: 'denuncia', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/denuncias-def/denuncias-def.module#DenunciasDefPageModule', name: 'DenunciasDefPage', segment: 'denuncias-def', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/directorio/directorio.module#DirectorioPageModule', name: 'DirectorioPage', segment: 'directorio', priority: 'low', defaultHistory: [] },
@@ -804,40 +818,41 @@ var AppModule = /** @class */ (function () {
                         { loadChildren: '../pages/la-paz/la-paz.module#LaPazPageModule', name: 'LaPazPage', segment: 'la-paz', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/lempira/lempira.module#LempiraPageModule', name: 'LempiraPage', segment: 'lempira', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/medidas/medidas.module#MedidasPageModule', name: 'MedidasPage', segment: 'medidas', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/new-place/new-place.module#NewPlacePageModule', name: 'NewPlacePage', segment: 'new-place', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/ninos/ninos.module#NinosPageModule', name: 'NinosPage', segment: 'ninos', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/new-place/new-place.module#NewPlacePageModule', name: 'NewPlacePage', segment: 'new-place', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/ocotepeque/ocotepeque.module#OcotepequePageModule', name: 'OcotepequePage', segment: 'ocotepeque', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/olancho/olancho.module#OlanchoPageModule', name: 'OlanchoPage', segment: 'olancho', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/proceso/proceso.module#ProcesoPageModule', name: 'ProcesoPage', segment: 'proceso', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/pasos-denuncia/pasos-denuncia.module#PasosDenunciaPageModule', name: 'PasosDenunciaPage', segment: 'pasos-denuncia', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/rutas-atencion/rutas-atencion.module#RutasAtencionPageModule', name: 'RutasAtencionPage', segment: 'rutas-atencion', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/proceso/proceso.module#ProcesoPageModule', name: 'ProcesoPage', segment: 'proceso', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/santa-barbara/santa-barbara.module#SantaBarbaraPageModule', name: 'SantaBarbaraPage', segment: 'santa-barbara', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/test/test.module#TestPageModule', name: 'TestPage', segment: 'test', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/valle/valle.module#VallePageModule', name: 'VallePage', segment: 'valle', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/test/test.module#TestPageModule', name: 'TestPage', segment: 'test', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/yoro/yoro.module#YoroPageModule', name: 'YoroPage', segment: 'yoro', priority: 'low', defaultHistory: [] }
                     ]
                 })
             ],
             bootstrap: [__WEBPACK_IMPORTED_MODULE_2_ionic_angular__["b" /* IonicApp */]],
             entryComponents: [
-                __WEBPACK_IMPORTED_MODULE_8__app_component__["a" /* MyApp */],
-                __WEBPACK_IMPORTED_MODULE_9__pages_home_home__["a" /* HomePage */],
+                __WEBPACK_IMPORTED_MODULE_9__app_component__["a" /* MyApp */],
+                __WEBPACK_IMPORTED_MODULE_10__pages_home_home__["a" /* HomePage */],
                 __WEBPACK_IMPORTED_MODULE_5__pages_new_place_new_place__["a" /* NewPlacePage */],
-                __WEBPACK_IMPORTED_MODULE_10__pages_about_about__["a" /* AboutPage */],
-                __WEBPACK_IMPORTED_MODULE_11__pages_contact_contact__["a" /* ContactPage */],
-                __WEBPACK_IMPORTED_MODULE_12__pages_tabs_tabs__["a" /* TabsPage */],
-                __WEBPACK_IMPORTED_MODULE_13__pages_info_info__["a" /* InfoPage */],
-                __WEBPACK_IMPORTED_MODULE_14__pages_info2_info2__["a" /* Info2Page */],
-                __WEBPACK_IMPORTED_MODULE_15__pages_consejos_consejos__["a" /* ConsejosPage */],
-                __WEBPACK_IMPORTED_MODULE_16__pages_denuncia_denuncia__["a" /* DenunciaPage */],
-                __WEBPACK_IMPORTED_MODULE_17__pages_test_test__["a" /* TestPage */]
+                __WEBPACK_IMPORTED_MODULE_11__pages_about_about__["a" /* AboutPage */],
+                __WEBPACK_IMPORTED_MODULE_12__pages_contact_contact__["a" /* ContactPage */],
+                __WEBPACK_IMPORTED_MODULE_13__pages_tabs_tabs__["a" /* TabsPage */],
+                __WEBPACK_IMPORTED_MODULE_14__pages_info_info__["a" /* InfoPage */],
+                __WEBPACK_IMPORTED_MODULE_15__pages_info2_info2__["a" /* Info2Page */],
+                __WEBPACK_IMPORTED_MODULE_16__pages_consejos_consejos__["a" /* ConsejosPage */],
+                __WEBPACK_IMPORTED_MODULE_17__pages_denuncia_denuncia__["a" /* DenunciaPage */],
+                __WEBPACK_IMPORTED_MODULE_18__pages_test_test__["a" /* TestPage */]
             ],
             providers: [
                 __WEBPACK_IMPORTED_MODULE_4__ionic_native_status_bar__["a" /* StatusBar */],
                 __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */],
                 { provide: __WEBPACK_IMPORTED_MODULE_1__angular_core__["u" /* ErrorHandler */], useClass: __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["c" /* IonicErrorHandler */] },
                 __WEBPACK_IMPORTED_MODULE_6__ionic_native_sms__["a" /* SMS */],
-                __WEBPACK_IMPORTED_MODULE_7__ionic_native_call_number__["a" /* CallNumber */]
+                __WEBPACK_IMPORTED_MODULE_7__ionic_native_call_number__["a" /* CallNumber */],
+                __WEBPACK_IMPORTED_MODULE_8__ionic_native_geolocation__["a" /* Geolocation */]
             ]
         })
     ], AppModule);
@@ -848,7 +863,7 @@ var AppModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 278:
+/***/ 279:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -857,7 +872,7 @@ var AppModule = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(15);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(198);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(196);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_tabs_tabs__ = __webpack_require__(201);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_tabs_tabs__ = __webpack_require__(202);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -894,5 +909,5 @@ var MyApp = /** @class */ (function () {
 
 /***/ })
 
-},[205]);
+},[206]);
 //# sourceMappingURL=main.js.map

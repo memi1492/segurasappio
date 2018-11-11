@@ -6,7 +6,7 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { NewPlacePage } from '../pages/new-place/new-place';
 import { SMS } from "@ionic-native/sms";
 import { CallNumber } from "@ionic-native/call-number";
-
+import { Geolocation } from "@ionic-native/geolocation";
 
 
 import { MyApp } from './app.component';
@@ -59,7 +59,8 @@ import { TestPage } from '../pages/test/test';
     SplashScreen,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
     SMS,
-    CallNumber
+    CallNumber,
+    Geolocation
   ]
 })
 export class AppModule {}
