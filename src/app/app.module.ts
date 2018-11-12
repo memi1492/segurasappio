@@ -8,6 +8,9 @@ import { SMS } from "@ionic-native/sms";
 import { CallNumber } from "@ionic-native/call-number";
 import { Geolocation } from "@ionic-native/geolocation";
 
+import { TestPage } from '../pages/test/test';
+import { IonicStorageModule } from '@ionic/storage';
+
 
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
@@ -18,7 +21,6 @@ import { InfoPage } from '../pages/info/info';
 import { Info2Page } from '../pages/info2/info2';
 import { ConsejosPage } from '../pages/consejos/consejos';
 import { DenunciaPage } from '../pages/denuncia/denuncia';
-import { TestPage } from '../pages/test/test';
 
 
 
@@ -38,7 +40,8 @@ import { TestPage } from '../pages/test/test';
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(MyApp)
+    IonicModule.forRoot(MyApp),
+    IonicStorageModule.forRoot()
   ],
   bootstrap: [IonicApp],
   entryComponents: [
@@ -60,7 +63,8 @@ import { TestPage } from '../pages/test/test';
     {provide: ErrorHandler, useClass: IonicErrorHandler},
     SMS,
     CallNumber,
-    Geolocation
+    Geolocation,
+    Storage
   ]
 })
 export class AppModule {}
