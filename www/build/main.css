@@ -25966,6 +25966,8 @@ page-santa-barbara ion-content {
 
 page-test ion-content {
   background: #BFD7EA !important;
+  color: #0B3954;
+  font-weight: bold;
 }
 
 page-valle ion-content {
