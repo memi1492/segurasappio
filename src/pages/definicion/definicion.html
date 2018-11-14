@@ -8,7 +8,7 @@
 <ion-header>
 
     <ion-navbar color="primary">
-      <ion-title>Tipos de Violencia Doméstica</ion-title>
+      <ion-title>Violencia Doméstica</ion-title>
       <ion-buttons end>
         <button ion-button (click)="closemodal()"> Atrás</button>
       </ion-buttons>
@@ -18,48 +18,43 @@
   
   
   <ion-content padding>
-      <h2 text-center style="padding-top: 10px; color:#0B3954"><strong> ¿Cómo saber si sufres violencia doméstica?</strong> </h2>
-      <p style="text-align: center; color: #FF6663; font-size: 16px;">
-         <strong> Cuando los actos de tu pareja o ex-pareja te producen cualquiera de estos tipos de violencia, estas siendo víctima de violencia doméstica </strong>
-        </p>
- 
-          <div padding class="estilo">
-              <div>  <img   src="assets/imgs/1ViolenciaDomestica/handymod.gif" style=" align-content: center; padding-bottom: 5px; width: 20%; height: 20%" ></div> 
+      <h3 text-center style="padding-top: 10px; color:#0B3954"><strong> Cuando los actos de tu pareja o ex-pareja te producen cualquiera de estos tipos de violencia, estas siendo víctima de violencia doméstica: </strong> </h3>
+    
+       <br>
+        
+            <!--   <ion-col>  <img   src="assets/imgs/1ViolenciaDomestica/handymod.gif" style=" align-content: center; padding-bottom: 5px; width: 50%; height: 50%" ></ion-col>-->
 
          <!--  <ion-col><p style="padding:5px;">Existen golpes. empujadas y cachetadas</p></ion-col> -->
-              <div><ion-buttons><button ion-button center (click)="vfisica()"> Violencia Física  </button></ion-buttons> </div>
-          </div>
-          <br>
+          <div style="text-align: center; padding-top: 10px;" >
+           <ion-buttons><button icon-end ion-button full large (click)="vfisica()" color="light"> Violencia Física <ion-icon name="arrow-forward"></ion-icon> </button></ion-buttons> 
+      </div>
+        
+           <!--   <div>  <img   src="assets/imgs/1ViolenciaDomestica/sex.gif" style=" align-content: center; padding-bottom: 5px; width: 30%; height: 30%" ></div> 
 
-          <div padding class="estilo">
-              <div>  <img   src="assets/imgs/1ViolenciaDomestica/sex.gif" style=" align-content: center; padding-bottom: 5px; width: 30%; height: 30%" ></div> 
-
-         <!--  <ion-col><p style="padding:5px;">Existen golpes. empujadas y cachetadas</p></ion-col> -->
-              <div><ion-buttons><button ion-button center (click)="vsexual()"> Violencia Sexual  </button></ion-buttons> </div>
-          </div>
-          <br>
-
-          <div padding class="estilo">
-              <div> <img   src="assets/imgs/1ViolenciaDomestica/1CicloViolencia/swear.gif" style="padding-bottom: 5px; width: 25%; height: 25%" >
+          <ion-col><p style="padding:5px;">Existen golpes. empujadas y cachetadas</p></ion-col> -->
+          <div style="text-align: center;  padding-top: 10px;" >   
+          <ion-buttons><button icon-end ion-button full large (click)="vsexual()"> Violencia  Sexual  <ion-icon name="arrow-forward"></ion-icon></button></ion-buttons> 
+         </div>
+             <!-- <div> <img   src="assets/imgs/1ViolenciaDomestica/1CicloViolencia/swear.gif" style="padding-bottom: 5px; width: 25%; height: 25%" >
               </div> 
 
-         <!--  <ion-col><p style="padding:5px;">Existen golpes. empujadas y cachetadas</p></ion-col> -->
-              <div><ion-buttons><button ion-button center (click)="vpsicologica()"> Violencia Psicológica  </button></ion-buttons> </div>
-          </div>
-          <br>
+          <ion-col><p style="padding:5px;">Existen golpes. empujadas y cachetadas</p></ion-col> -->
+          <div style="text-align: center;  padding-top: 10px;" >
+              <ion-buttons><button icon-end ion-button full large (click)="vpsicologica()"  color="light" > Violencia  Psicológica <ion-icon name="arrow-forward"></ion-icon> </button></ion-buttons> 
+          </div>   
+     
+              <!-- <img   src="assets/imgs/1ViolenciaDomestica/man.gif" style=" align-content: center; padding-bottom: 5px; width: 30%; height: 30%" ></div> 
+
+        <ion-col><p style="padding:5px;">Existen golpes. empujadas y cachetadas</p></ion-col> -->
+        <div style="text-align: center;  padding-top: 10px;" >
+
+           <ion-buttons><button icon-end  ion-button full large (click)="vpatrimonial()"> Violencia  Patrimonial <ion-icon name="arrow-forward"></ion-icon> </button></ion-buttons>
+           </div>
 
 
-          <div padding class="estilo">
-              <div>  <img   src="assets/imgs/1ViolenciaDomestica/man.gif" style=" align-content: center; padding-bottom: 5px; width: 30%; height: 30%" ></div> 
 
-         <!--  <ion-col><p style="padding:5px;">Existen golpes. empujadas y cachetadas</p></ion-col> -->
-              <div><ion-buttons><button ion-button center (click)="vpatrimonial()"> Violencia Patrimonial  </button></ion-buttons> </div>
-          </div>
-
-<div>&nbsp;</div>
-<div>&nbsp;</div>
       
-       
+</ion-content>
 
 
 
@@ -111,4 +106,4 @@
           
         </ion-slides>
       -->
-  </ion-content>
+ 

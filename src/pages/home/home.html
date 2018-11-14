@@ -8,33 +8,54 @@
 
 <ion-content  >
 
- <ion-grid >
+ <ion-grid padding>
      <ion-row> &nbsp;</ion-row>
-  <ion-row>
-    <ion-col>
-        <img (click)="onLoadNewPlace()" src="assets/imgs/info.jpeg" style="width : 100% ; height : 100%">
+  <ion-row height="100">
 
+    <ion-col width="100" padding
+         style=" align-content: center">
+         <div ion-col style="text-align: center; border-radius: 15%; border: 3px solid #23B4B7;  background-color: white; padding: 10px;"><img (click)="onLoadNewPlace()" src="assets/imgs/woman.png" style="width : 80% ; height : 80%; "> </div>
+      <br>
+      <button ion-button large block color="light" (click)="onLoadNewPlace()">  INFÓRMATE </button>
 
     </ion-col>
-    <ion-col>
-    <img (click)="Consejos()" src="assets/imgs/consejos.jpeg" style="width : 100% ; height : 100%">
+
+    <ion-col width="100" padding
+         style="align-content: center">
+         <div ion-col style="text-align: center; border-radius: 15%; border: 3px solid #FF6663;  background-color: white; padding: 10px;"> <img (click)="Consejos()" src="assets/imgs/idea.png" style="width : 80% ; height : 80%; "> </div>
+     <br>
+     <button ion-button large block color="primary" (click)="Consejos()">CONSEJOS </button>
 
     </ion-col>
+
+
   </ion-row>
-  <ion-row>
-    <ion-col>
-       <img (click)="test()"src="assets/imgs/test.jpeg" style="width : 100% ; height : 100%">
+  <ion-row > &nbsp;</ion-row>
+  <ion-row > &nbsp;</ion-row>
+  <ion-row height="100">
 
-    </ion-col>
-    <ion-col>
-     <img (click)="denunciapage()"src="assets/imgs/accion.jpeg" style="width : 100% ; height : 100%">
+      <ion-col width="100" padding
+      style=" align-content: center">
+      <div ion-col style="text-align: center; border-radius: 15%; border: 3px solid #FF6663;  background-color: white; padding: 10px;">  <img (click)="test()" src="assets/imgs/exam.png" style="width : 80% ; height : 80%; "> </div>
+    <br>
+       <button ion-button large block color="primary" (click)="test()"> AUTO<br>EVALÚATE</button>
 
-    </ion-col>
+ </ion-col>
+
+ <ion-col width="100" padding
+      style=" align-content: center">
+      <div ion-col style="text-align: center; border-radius: 15%; border: 3px solid #23B4B7;  background-color: white; padding: 10px;"> <img (click)="denunciapage()" src="assets/imgs/balance.png" style="width : 80% ; height : 80%; "> </div>
+    <br>
+    <button ion-button large block color="light" (click)="denunciapage()"> TOMA <br> ACCIÓN</button>
+
+ </ion-col>
+
+  
    
   </ion-row>
+
 </ion-grid>
    
-
 
 </ion-content>
 

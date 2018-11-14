@@ -1,14 +1,14 @@
 webpackJsonp([4],{
 
-/***/ 314:
+/***/ 323:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ProcesoPageModule", function() { return ProcesoPageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RutasAtencionPageModule", function() { return RutasAtencionPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__proceso__ = __webpack_require__(348);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__rutas_atencion__ = __webpack_require__(356);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,31 +18,31 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var ProcesoPageModule = /** @class */ (function () {
-    function ProcesoPageModule() {
+var RutasAtencionPageModule = /** @class */ (function () {
+    function RutasAtencionPageModule() {
     }
-    ProcesoPageModule = __decorate([
+    RutasAtencionPageModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_2__proceso__["a" /* ProcesoPage */],
+                __WEBPACK_IMPORTED_MODULE_2__rutas_atencion__["a" /* RutasAtencionPage */],
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__proceso__["a" /* ProcesoPage */]),
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__rutas_atencion__["a" /* RutasAtencionPage */]),
             ],
         })
-    ], ProcesoPageModule);
-    return ProcesoPageModule;
+    ], RutasAtencionPageModule);
+    return RutasAtencionPageModule;
 }());
 
-//# sourceMappingURL=proceso.module.js.map
+//# sourceMappingURL=rutas-atencion.module.js.map
 
 /***/ }),
 
-/***/ 348:
+/***/ 356:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ProcesoPage; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return RutasAtencionPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -57,32 +57,34 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 /**
- * Generated class for the ProcesoPage page.
+ * Generated class for the RutasAtencionPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
  */
-var ProcesoPage = /** @class */ (function () {
-    function ProcesoPage(navParams, view) {
+var RutasAtencionPage = /** @class */ (function () {
+    function RutasAtencionPage(navCtrl, navParams, modal, view) {
+        this.navCtrl = navCtrl;
         this.navParams = navParams;
+        this.modal = modal;
         this.view = view;
     }
-    ProcesoPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad ProcesoPage');
+    RutasAtencionPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad RutasAtencionPage');
     };
-    ProcesoPage.prototype.closemodal = function () {
+    RutasAtencionPage.prototype.closemodal = function () {
         this.view.dismiss();
     };
-    ProcesoPage = __decorate([
+    RutasAtencionPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-proceso',template:/*ion-inline-start:"C:\Users\Amy\Desktop\segurasappio\src\pages\proceso\proceso.html"*/'<!--\n  Generated template for the ProcesoPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n    <ion-navbar color="primary">\n      <ion-title>Victimas de Violencia Sexual</ion-title>\n      <ion-buttons end>\n        <button ion-button (click)="closemodal()">Atrás</button>\n      </ion-buttons>\n    </ion-navbar>\n  \n  </ion-header>\n  \n  \n  <ion-content padding style="background-color: #23B4B7">\n\n      <ion-slides pager="true" (ionslideDidChange)="slideChanged()"><!--3 little buttons at the bottom of each slide-->\n        \n        <ion-slide style="background-color: white; color:  #23B4B7">\n            <h2 text-center style="padding-top: 10px; color:#0B3954"><strong>¿Qué debes hacer en caso de ser víctima de una violación sexual?</strong> </h2>  \n<h4><strong>¡No hay que sentirse culpable o avergonzada, no te quedes callada, busca ayuda!</strong></h4>\n            <div>&nbsp;</div>\n            <p style="text-align: center; color:#FF6663;"><strong>Sigue estos pasos deslizando la imagen para la derecha \n            </strong><ion-icon name="arrow-round-forward" style="align-content: center;"></ion-icon></p>\n          \n          </ion-slide>\n\n          <ion-slide>\n          \n              <img src="assets/imgs/3Violaciones/2ProcesoViolacion/2Paso1.jpeg" style="width : 100% ; height : 100%">\n             \n            </ion-slide>\n          <ion-slide>\n           \n               <img src="assets/imgs/3Violaciones/2ProcesoViolacion/3Paso2.jpeg" style="width : 100% ; height : 100%">\n               \n          </ion-slide>\n          <ion-slide>\n             \n               <img src="assets/imgs/3Violaciones/2ProcesoViolacion/4Paso3.jpeg" style="width : 100% ; height : 100%">\n              \n          </ion-slide>\n\n         \n        </ion-slides>\n  </ion-content>\n  '/*ion-inline-end:"C:\Users\Amy\Desktop\segurasappio\src\pages\proceso\proceso.html"*/,
+            selector: 'page-rutas-atencion',template:/*ion-inline-start:"C:\Users\Amy\Desktop\segurasappio\src\pages\rutas-atencion\rutas-atencion.html"*/'<!--\n  Generated template for the RutasAtencionPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n    <ion-navbar color="primary">\n      <ion-title>¿ Donde puedes acudir?</ion-title>\n      <ion-buttons end>\n        <button ion-button (click)="closemodal()">Atrás</button>\n      </ion-buttons>\n    </ion-navbar>\n  \n  </ion-header>\n  \n  \n  <ion-content padding>\n      <h4 text-center style=" color:#0B3954"><strong>La denuncia por Violencia Doméstica se interpone en cualquiera de los siguientes lugares:</strong> </h4>\n       \n        <ion-grid>\n            <br> <ion-row padding-top  style="color: black; background-color: white; text-align: center; padding-top: 5px ; border: 10px solid #0B3954;" >\n         <ion-col >\n               <img style="align-content: center; width: 100%; height:100%" src="assets/imgs/juzgado.gif" >\n             </ion-col>\n             <ion-col  >\n               <h2 style="text-align:center;  padding: 7px;">Juzgado de Paz de tu ciudad</h2>\n             </ion-col>\n             </ion-row>\n         \n             <br> <ion-row padding-top  style="color: black; background-color: white; text-align: center; padding-top: 5px ; border: 10px solid #23B4B7;" >\n                 <ion-col >\n                     <h2 style="text-align:center; padding: 5px;">En la Posta Policial más cercana</h2> \n                     </ion-col>\n                     <ion-col >\n                         <img style="align-content: center; width: 100%; height:100%" src="assets/imgs/posta.gif">\n                     </ion-col>\n                     </ion-row>\n \n                     <br> <ion-row padding-top  style="color: black; background-color: white; text-align: center; padding-top: 5px ; border: 10px solid #0B3954;" >\n                         <ion-col >\n                               <img style="align-content: center;  width: 100%; height:100%" src="assets/imgs/ministerio.gif">\n                             </ion-col>\n                             <ion-col >\n                               <h2 style="text-align:center; padding: 5px;">Ministerio Público.<br> Módulos de Atención Integral especializado (MAIE)</h2>\n                             </ion-col>\n                             </ion-row>\n \n                             <br> <ion-row padding-top  style="color: black; background-color: white; text-align: center; padding-top: 5px ; border: 10px solid #23B4B7;" >\n                                 <ion-col >\n                                     <h2 style="text-align:center;  padding-top: 20px; padding-right: 5px;">Defensa Pública</h2> \n                                     </ion-col>\n                                     <ion-col >\n                                         <img style="align-content: center; width: 100%; height:100%" src="assets/imgs/defense.gif">\n                                     </ion-col>\n                                     </ion-row>\n \n               \n                   </ion-grid>\n<p style="text-align: justify; padding: 5px; color: #FF6663"> \n  <strong>  La denuncia por otras violencias, como violencia sexual, violencia intrafamiliar o femicidio, que son delitos según el Código Penal hondureño se interponen en:\n    </strong> <br></p>\n   <p style="text-align: justify; padding: 5px; color: #0B3954">  Los mismos lugares, eliminando a los Juzgados y agregando a la Dirección Policial de Investigación (DPI).\n  </p>\n</ion-content>\n'/*ion-inline-end:"C:\Users\Amy\Desktop\segurasappio\src\pages\rutas-atencion\rutas-atencion.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* ViewController */]])
-    ], ProcesoPage);
-    return ProcesoPage;
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* ModalController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* ViewController */]])
+    ], RutasAtencionPage);
+    return RutasAtencionPage;
 }());
 
-//# sourceMappingURL=proceso.js.map
+//# sourceMappingURL=rutas-atencion.js.map
 
 /***/ })
 

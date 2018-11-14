@@ -27,11 +27,7 @@ export class Info2Page {
     Identificala.present();
      }
 
-     Ninos() {
-      const Ninos = this.modal.create('NinosPage');
-      
-      Ninos.present();
-       }
+    
    
     
 

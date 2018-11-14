@@ -1,14 +1,14 @@
 webpackJsonp([14],{
 
-/***/ 303:
+/***/ 310:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IntibucaPageModule", function() { return IntibucaPageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IslasPageModule", function() { return IslasPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__intibuca__ = __webpack_require__(338);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__islas__ = __webpack_require__(346);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,31 +18,31 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var IntibucaPageModule = /** @class */ (function () {
-    function IntibucaPageModule() {
+var IslasPageModule = /** @class */ (function () {
+    function IslasPageModule() {
     }
-    IntibucaPageModule = __decorate([
+    IslasPageModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_2__intibuca__["a" /* IntibucaPage */],
+                __WEBPACK_IMPORTED_MODULE_2__islas__["a" /* IslasPage */],
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__intibuca__["a" /* IntibucaPage */]),
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__islas__["a" /* IslasPage */]),
             ],
         })
-    ], IntibucaPageModule);
-    return IntibucaPageModule;
+    ], IslasPageModule);
+    return IslasPageModule;
 }());
 
-//# sourceMappingURL=intibuca.module.js.map
+//# sourceMappingURL=islas.module.js.map
 
 /***/ }),
 
-/***/ 338:
+/***/ 346:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return IntibucaPage; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return IslasPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -57,34 +57,34 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 /**
- * Generated class for the IntibucaPage page.
+ * Generated class for the IslasPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
  */
-var IntibucaPage = /** @class */ (function () {
-    function IntibucaPage(navCtrl, navParams, modal, view) {
+var IslasPage = /** @class */ (function () {
+    function IslasPage(navCtrl, navParams, modal, view) {
         this.navCtrl = navCtrl;
         this.navParams = navParams;
         this.modal = modal;
         this.view = view;
     }
-    IntibucaPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad IntibucaPage');
+    IslasPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad IslasPage');
     };
-    IntibucaPage.prototype.closemodal = function () {
+    IslasPage.prototype.closemodal = function () {
         this.view.dismiss();
     };
-    IntibucaPage = __decorate([
+    IslasPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-intibuca',template:/*ion-inline-start:"C:\Users\Amy\Desktop\segurasappio\src\pages\intibuca\intibuca.html"*/'<!--\n  Generated template for the IntibucaPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n    <ion-navbar color="primary">\n      <ion-title>Intibucá</ion-title>\n        <ion-buttons end>\n            <button ion-button (click)="closemodal()">Atrás</button>\n          </ion-buttons>\n      </ion-navbar>\n    \n    </ion-header>\n    \n    \n    <ion-content padding>\n    \n      <ion-card>\n        <ion-card-header style="color: #0B3954">\n          <strong>Ministerio Público\n            </strong>\n        </ion-card-header>\n        <ion-card-content>\n            Barrio Eramaní, frente a Star Video, Intibucá.<br>\n         <strong> Teléfonos:</strong> 2783-0600\n        </ion-card-content>\n      </ion-card>\n\n      <ion-card>\n          <ion-card-header style="color: #0B3954">\n            <strong>Fiscalía de la Mujer\n              </strong>\n          </ion-card-header>\n          <ion-card-content>\n              Barrio Eramaní, frente a Star Video, Intibucá.<br>\n           <strong> Teléfonos:</strong> 2783-0600\n          </ion-card-content>\n        </ion-card>\n\n        \n      <ion-card>\n          <ion-card-header style="color: #0B3954">\n            <strong>Fiscalía de la Niñez\n              </strong>\n          </ion-card-header>\n          <ion-card-content>\n              Barrio Eramaní, frente a Star Video, Intibucá.<br>\n           <strong> Teléfonos:</strong> 2783-0600\n          </ion-card-content>\n        </ion-card>\n\n        <ion-card>\n            <ion-card-header style="color: #0B3954">\n              <strong>Juzgados 1ero y 2ndo <br>  de letras y Juzgado de Paz\n                </strong>\n            </ion-card-header>\n            <ion-card-content>\n                Plaza Cívica, frente a la Oficina de los Bomberos, Intibucá.<br>\n             <strong> Teléfonos:</strong> 2783-0358\n            </ion-card-content>\n          </ion-card>\n\n          <ion-card>\n              <ion-card-header style="color: #0B3954">\n                <strong>Comisionado Nacional  <br>de los Derechos Humanos\n                  </strong>\n              </ion-card-header>\n              <ion-card-content>\n                  Colonia Ciudad Cívica, frente a la oficina de Los Bomberos, atrás del Palacio Judicial, Intibucá.<br>\n               <strong> Teléfonos:</strong> 2783-0039 <br>\n               <strong> Correo Electrónico:</strong> intibuca@conadeh.hn\n\n              </ion-card-content>\n            </ion-card>\n\n            <ion-card>\n                <ion-card-header style="color: #0B3954">\n                  <strong>Hospital Enrique Aguilar Cerrato \n                    </strong>\n                </ion-card-header>\n                <ion-card-content>\n                    Barrio El Way, salida a Siguatepeque, Intibucá.<br>\n                 <strong> Teléfonos:</strong> 2783-0184 \n          \n  \n                </ion-card-content>\n              </ion-card>\n\n              <ion-card>\n                  <ion-card-header style="color: #0B3954">\n                    <strong>Policia Nacional Preventiva\n                      </strong>\n                  </ion-card-header>\n                  <ion-card-content>\n                      Barrio El Centro, frente al Parque, Intibucá.<br>\n                   <strong> Teléfonos:</strong> 2783-1002\n            \n    \n                  </ion-card-content>\n                </ion-card>\n\n</ion-content>\n'/*ion-inline-end:"C:\Users\Amy\Desktop\segurasappio\src\pages\intibuca\intibuca.html"*/,
+            selector: 'page-islas',template:/*ion-inline-start:"C:\Users\Amy\Desktop\segurasappio\src\pages\islas\islas.html"*/'<!--\n  Generated template for the LaCeibaPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n    <ion-navbar color="primary">\n        <ion-title>Islas de la Bahía</ion-title>\n      <ion-buttons end>\n          <button ion-button (click)="closemodal()">Atrás</button>\n        </ion-buttons>\n    </ion-navbar>\n  \n  </ion-header>\n  \n  \n  <ion-content padding>\n  \n      <ion-card>\n          <ion-card-header style="color: #0B3954">\n            <strong>Ministerio Público\n              </strong>\n          </ion-card-header>\n          <ion-card-content>\n              Coxen Hole, edificio Cooper, frente a Ferretería Serrano, 2 y 3 plantas, Roatán.<br>\n           <strong> Teléfonos:</strong> 2445-1299\n          </ion-card-content>\n        </ion-card>\n\n        <ion-card>\n            <ion-card-header style="color: #0B3954">\n              <strong>Fiscalía de la Mujer\n                </strong>\n            </ion-card-header>\n            <ion-card-content>\n                Coxen Hole, edificio Cooper, frente a Ferretería Serrano, 2 y 3 plantas, Roatán.<br>\n             <strong> Teléfonos:</strong> 2445-1299\n            </ion-card-content>\n          </ion-card>\n\n          <ion-card>\n              <ion-card-header style="color: #0B3954">\n                <strong>Fiscalía de la Niñez\n                  </strong>\n              </ion-card-header>\n              <ion-card-content>\n                  Coxen Hole, edificio Cooper, frente a Ferretería Serrano, 2 y 3 plantas, Roatán.<br>\n               <strong> Teléfonos:</strong> 2445-1299\n              </ion-card-content>\n            </ion-card>\n\n            <ion-card>\n                <ion-card-header style="color: #0B3954">\n                  <strong>Juzgados de Paz Civil y Criminal\n                    </strong>\n                </ion-card-header>\n                <ion-card-content>\n                    Coxen Hole, edificio Cooper, frente a Ferretería Serrano, 2 y 3 plantas, Roatán.<br>\n                 <strong> No tienen línea telefónica</strong> \n                </ion-card-content>\n              </ion-card>\n\n              <ion-card>\n                  <ion-card-header style="color: #0B3954">\n                    <strong>Hospital de Roatán\n                      </strong>\n                  </ion-card-header>\n                  <ion-card-content>\n                      Coxen Hole, Barrio El Ticket, calle principal, Roatán.<br>\n                   <strong> Teléfonos:</strong> 2445-1227\n                  </ion-card-content>\n                </ion-card>\n\n\n  \n  </ion-content>\n'/*ion-inline-end:"C:\Users\Amy\Desktop\segurasappio\src\pages\islas\islas.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* ModalController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* ViewController */]])
-    ], IntibucaPage);
-    return IntibucaPage;
+    ], IslasPage);
+    return IslasPage;
 }());
 
-//# sourceMappingURL=intibuca.js.map
+//# sourceMappingURL=islas.js.map
 
 /***/ })
 

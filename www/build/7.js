@@ -1,14 +1,14 @@
 webpackJsonp([7],{
 
-/***/ 317:
+/***/ 318:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "OcotepequePageModule", function() { return OcotepequePageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "OlanchoPageModule", function() { return OlanchoPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ocotepeque__ = __webpack_require__(349);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__olancho__ = __webpack_require__(352);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,31 +18,31 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var OcotepequePageModule = /** @class */ (function () {
-    function OcotepequePageModule() {
+var OlanchoPageModule = /** @class */ (function () {
+    function OlanchoPageModule() {
     }
-    OcotepequePageModule = __decorate([
+    OlanchoPageModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_2__ocotepeque__["a" /* OcotepequePage */],
+                __WEBPACK_IMPORTED_MODULE_2__olancho__["a" /* OlanchoPage */],
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__ocotepeque__["a" /* OcotepequePage */]),
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__olancho__["a" /* OlanchoPage */]),
             ],
         })
-    ], OcotepequePageModule);
-    return OcotepequePageModule;
+    ], OlanchoPageModule);
+    return OlanchoPageModule;
 }());
 
-//# sourceMappingURL=ocotepeque.module.js.map
+//# sourceMappingURL=olancho.module.js.map
 
 /***/ }),
 
-/***/ 349:
+/***/ 352:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return OcotepequePage; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return OlanchoPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -57,34 +57,34 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 /**
- * Generated class for the OcotepequePage page.
+ * Generated class for the OlanchoPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
  */
-var OcotepequePage = /** @class */ (function () {
-    function OcotepequePage(navCtrl, navParams, modal, view) {
+var OlanchoPage = /** @class */ (function () {
+    function OlanchoPage(navCtrl, navParams, modal, view) {
         this.navCtrl = navCtrl;
         this.navParams = navParams;
         this.modal = modal;
         this.view = view;
     }
-    OcotepequePage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad OcotepequePage');
+    OlanchoPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad OlanchoPage');
     };
-    OcotepequePage.prototype.closemodal = function () {
+    OlanchoPage.prototype.closemodal = function () {
         this.view.dismiss();
     };
-    OcotepequePage = __decorate([
+    OlanchoPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-ocotepeque',template:/*ion-inline-start:"C:\Users\Amy\Desktop\segurasappio\src\pages\ocotepeque\ocotepeque.html"*/'<!--\n  Generated template for the OcotepequePage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n    <ion-navbar color="primary">\n      <ion-title>Ocotepeque</ion-title>\n      <ion-buttons end>\n          <button ion-button (click)="closemodal()">Atrás</button>\n        </ion-buttons>\n    </ion-navbar>\n  \n  </ion-header>\n  \n  <ion-content padding>\n    \n    <ion-card>\n      <ion-card-header style="color: #0B3954">\n            <strong>Ministerio Público</strong></ion-card-header>\n            <ion-card-content>\n                Esquina opuesta a Ferretería Vásquez, Barrio La Concepción, Ocotepeque<br>\n             <strong> Teléfono:</strong> 2653-3963\n            </ion-card-content>\n          </ion-card>\n\n          <ion-card>\n              <ion-card-header style="color: #0B3954">\n                    <strong>Modelo de Atención Integral <br> Especializado MAIE</strong></ion-card-header>\n                    <ion-card-content>\n                        Esquina opuesta a Ferretería Vásquez, Barrio La Concepción, Ocotepeque<br>\n                     <strong> Teléfono:</strong> 2653-3963\n                    </ion-card-content>\n                  </ion-card>\n\n                  \n          <ion-card>\n              <ion-card-header style="color: #0B3954">\n                    <strong>Juzgado de Paz</strong></ion-card-header>\n                    <ion-card-content>\n                        Frente a Supermercado El Sol, en el Parque Viejo, Ocotepeque<br>\n                     <strong> Teléfono:</strong> 2653-3963 \n                    </ion-card-content>\n                  </ion-card>\n\n                  <ion-card>\n                      <ion-card-header style="color: #0B3954">\n                            <strong>Clínica Periférica <br> de Emergencia</strong></ion-card-header>\n                            <ion-card-content>\n                                Barrio Sinuapa, Ocotepeque<br>\n                             <strong> Teléfono:</strong> 2653-1298  \n                            </ion-card-content>\n                          </ion-card>\n\n                          <ion-card>\n                              <ion-card-header style="color: #0B3954">\n                                    <strong>Policia Nacional Preventiva </strong></ion-card-header>\n                                    <ion-card-content>\n                                        Barrio las Flores, cinco cuadras debajo de la calle internacional, Ocotepeque<br>\n                                     <strong> Teléfono:</strong> 2653-3199 \n                                    </ion-card-content>\n                                  </ion-card>\n\n\n</ion-content>\n'/*ion-inline-end:"C:\Users\Amy\Desktop\segurasappio\src\pages\ocotepeque\ocotepeque.html"*/,
+            selector: 'page-olancho',template:/*ion-inline-start:"C:\Users\Amy\Desktop\segurasappio\src\pages\olancho\olancho.html"*/'<!--\n  Generated template for the OlanchoPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n    <ion-navbar color="primary">\n      <ion-title>Olancho</ion-title>\n      <ion-buttons end>\n          <button ion-button (click)="closemodal()">Atrás</button>\n        </ion-buttons>\n    </ion-navbar>\n  \n  </ion-header>\n  \n  <ion-content padding>\n    \n    <ion-card>\n      <ion-card-header style="color: #0B3954">\n            <strong> Fiscalía de la Mujer</strong></ion-card-header>\n            <ion-card-content>\n                Barrio La Hoya, antiguo local del Hotel Colonial, Juticalpa<br>\n             <strong> Teléfono:</strong> 2785-2143 (Secretaría)\n            </ion-card-content>\n          </ion-card>\n\n          <ion-card>\n              <ion-card-header style="color: #0B3954">\n                    <strong>  Ministerio Publico</strong></ion-card-header>\n                    <ion-card-content>\n                        Barrio La Hoya, antiguo local del Hotel Colonial, Juticalpa<br>\n                     <strong> Teléfono:</strong> 2785-2143 (Secretaría)\n                    </ion-card-content>\n                  </ion-card>\n\n                  <ion-card>\n                      <ion-card-header style="color: #0B3954">\n                            <strong>  Juzgados</strong></ion-card-header>\n                            <ion-card-content>\n                                Barrio El Centro, una cuadra antes de llegar al Parque Central, Juticalpa<br>\n                             <strong> Teléfono Juzgado de Paz:</strong>  2785-1176 <br>\n                             <strong> Teléfono Juzgado de lo Civil:</strong>  2785-1377 <br>\n                             <strong> Teléfono Juzgado de lo Penal: </strong>  2785-2319\n                            </ion-card-content>\n                          </ion-card>\n\n                          \n                  <ion-card>\n                      <ion-card-header style="color: #0B3954">\n                            <strong> Policia Nacional Preventiva</strong></ion-card-header>\n                            <ion-card-content>\n                                Barrio Belén, Juticalpa<br>\n                             <strong> Teléfonos:</strong>  2785-2647 y 2785-2655 \n                         \n                            </ion-card-content>\n                          </ion-card>\n\n                          <ion-card>\n                              <ion-card-header style="color: #0B3954">\n                                    <strong> Hospital San Francisco</strong></ion-card-header>\n                                    <ion-card-content>\n                                        Barrio El Campo, Juticalpa<br>\n                                     <strong> Teléfonos:</strong>  2785-2647 y 2785-2655\n                                 \n                                    </ion-card-content>\n                                  </ion-card>\n\n\n</ion-content>\n'/*ion-inline-end:"C:\Users\Amy\Desktop\segurasappio\src\pages\olancho\olancho.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* ModalController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* ViewController */]])
-    ], OcotepequePage);
-    return OcotepequePage;
+    ], OlanchoPage);
+    return OlanchoPage;
 }());
 
-//# sourceMappingURL=ocotepeque.js.map
+//# sourceMappingURL=olancho.js.map
 
 /***/ })
 

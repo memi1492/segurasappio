@@ -1,14 +1,14 @@
 webpackJsonp([19],{
 
-/***/ 300:
+/***/ 302:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DirectorioPageModule", function() { return DirectorioPageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ElParaisoPageModule", function() { return ElParaisoPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__directorio__ = __webpack_require__(337);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__el_paraiso__ = __webpack_require__(341);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,31 +18,31 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var DirectorioPageModule = /** @class */ (function () {
-    function DirectorioPageModule() {
+var ElParaisoPageModule = /** @class */ (function () {
+    function ElParaisoPageModule() {
     }
-    DirectorioPageModule = __decorate([
+    ElParaisoPageModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_2__directorio__["a" /* DirectorioPage */],
+                __WEBPACK_IMPORTED_MODULE_2__el_paraiso__["a" /* ElParaisoPage */],
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__directorio__["a" /* DirectorioPage */]),
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__el_paraiso__["a" /* ElParaisoPage */]),
             ],
         })
-    ], DirectorioPageModule);
-    return DirectorioPageModule;
+    ], ElParaisoPageModule);
+    return ElParaisoPageModule;
 }());
 
-//# sourceMappingURL=directorio.module.js.map
+//# sourceMappingURL=el-paraiso.module.js.map
 
 /***/ }),
 
-/***/ 337:
+/***/ 341:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return DirectorioPage; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ElParaisoPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -57,114 +57,34 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 /**
- * Generated class for the DirectorioPage page.
+ * Generated class for the ElParaisoPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
  */
-var DirectorioPage = /** @class */ (function () {
-    function DirectorioPage(navCtrl, navParams, modal, view) {
+var ElParaisoPage = /** @class */ (function () {
+    function ElParaisoPage(navCtrl, navParams, modal, view) {
         this.navCtrl = navCtrl;
         this.navParams = navParams;
         this.modal = modal;
         this.view = view;
     }
-    DirectorioPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad DirectorioPage');
+    ElParaisoPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad ElParaisoPage');
     };
-    DirectorioPage.prototype.closemodal = function () {
+    ElParaisoPage.prototype.closemodal = function () {
         this.view.dismiss();
     };
-    DirectorioPage.prototype.Atlantida = function () {
-        var Atlantida = this.modal.create('AtlantidaPage');
-        Atlantida.present();
-    };
-    DirectorioPage.prototype.Colon = function () {
-        var Colon = this.modal.create('ColonPage');
-        Colon.present();
-    };
-    DirectorioPage.prototype.Comayagua = function () {
-        var comayagua = this.modal.create('ComayaguaPage');
-        comayagua.present();
-    };
-    DirectorioPage.prototype.Copan = function () {
-        var Copan = this.modal.create('CopanPage');
-        Copan.present();
-    };
-    DirectorioPage.prototype.Cortes = function () {
-        var Cortes = this.modal.create('CortesPage');
-        Cortes.present();
-    };
-    DirectorioPage.prototype.Choluteca = function () {
-        var Choluteca = this.modal.create('CholutecaPage');
-        Choluteca.present();
-    };
-    DirectorioPage.prototype.ElParaiso = function () {
-        var ElParaiso = this.modal.create('ElParaisoPage');
-        ElParaiso.present();
-    };
-    DirectorioPage.prototype.FM = function () {
-        var FM = this.modal.create('FranciscoMPage');
-        FM.present();
-    };
-    DirectorioPage.prototype.GraciasADios = function () {
-        var GraciasADios = this.modal.create('GraciasADiosPage');
-        GraciasADios.present();
-    };
-    DirectorioPage.prototype.LaCeiba = function () {
-        var ceiba = this.modal.create('LaCeibaPage');
-        ceiba.present();
-    };
-    DirectorioPage.prototype.Intibuca = function () {
-        var Intibuca = this.modal.create('IntibucaPage');
-        Intibuca.present();
-    };
-    DirectorioPage.prototype.islas = function () {
-        var islas = this.modal.create('IslasPage');
-        islas.present();
-    };
-    DirectorioPage.prototype.LaPaz = function () {
-        var LaPaz = this.modal.create('LaPazPage');
-        LaPaz.present();
-    };
-    DirectorioPage.prototype.Lempira = function () {
-        var Lempira = this.modal.create('LempiraPage');
-        Lempira.present();
-    };
-    DirectorioPage.prototype.Ocotepeque = function () {
-        var Ocotepeque = this.modal.create('OcotepequePage');
-        Ocotepeque.present();
-    };
-    DirectorioPage.prototype.Olancho = function () {
-        var Olancho = this.modal.create('OlanchoPage');
-        Olancho.present();
-    };
-    DirectorioPage.prototype.SantaBarbara = function () {
-        var SantaBarbara = this.modal.create('SantaBarbaraPage');
-        SantaBarbara.present();
-    };
-    DirectorioPage.prototype.Valle = function () {
-        var Valle = this.modal.create('VallePage');
-        Valle.present();
-    };
-    DirectorioPage.prototype.Yoro = function () {
-        var Yoro = this.modal.create('YoroPage');
-        Yoro.present();
-    };
-    __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_8" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* List */]),
-        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* List */])
-    ], DirectorioPage.prototype, "list", void 0);
-    DirectorioPage = __decorate([
+    ElParaisoPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-directorio',template:/*ion-inline-start:"C:\Users\Amy\Desktop\segurasappio\src\pages\directorio\directorio.html"*/'<!--\n\n  Generated template for the DirectorioPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar color="primary">\n\n    <ion-title>Directorio</ion-title>\n\n    <ion-buttons end>\n\n        <button ion-button (click)="closemodal()">Atrás</button>\n\n      </ion-buttons>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding >\n\n\n\n    <div style=" background-color: #007c33; border-radius: 5px; border: 2px solid #007c33">\n\n  <div style=" color: white; border-radius: 5px; font-size: 20px; border: 2px solid white; padding:5px; ">\n\n    <ion-item no-lines style=" background-color: #007c33; padding-top:5px; font-size:20px;color:white;" (click)="Atlantida()">ATLÁNTIDA \n\n        <ion-img  width="40" height="40" src="assets/imgs/turn-right-sign.png"></ion-img></ion-item>\n\n  </div>\n\n       </div>\n\n\n\n      <br>\n\n\n\n       <div style=" background-color: #007c33; border-radius: 5px; border: 2px solid #007c33">\n\n          <div style=" color: white; border-radius: 5px; font-size: 20px; border: 2px solid white; padding:5px; ">\n\n            <ion-item no-lines style=" background-color: #007c33; padding-top:5px; font-size:20px;color:white;" (click)="Colon()">COLÓN\n\n                <ion-img  width="40" height="40" src="assets/imgs/turn-right-sign.png"></ion-img></ion-item>\n\n          </div>\n\n               </div>\n\n \n\n               <br>\n\n\n\n               <div style=" background-color: #007c33; border-radius: 5px; border: 2px solid #007c33">\n\n                  <div style=" color: white; border-radius: 5px; font-size: 20px; border: 2px solid white; padding:5px; ">\n\n                    <ion-item no-lines style=" background-color: #007c33; padding-top:5px; font-size:20px;color:white;" (click)="Comayagua()">COMAYAGUA\n\n                        <ion-img  width="40" height="40" src="assets/imgs/turn-right-sign.png"></ion-img></ion-item>\n\n                  </div>\n\n                       </div>\n\n\n\n                       <br>\n\n\n\n                       <div style=" background-color: #007c33; border-radius: 5px; border: 2px solid #007c33">\n\n                          <div style=" color: white; border-radius: 5px; font-size: 20px; border: 2px solid white; padding:5px; ">\n\n                            <ion-item no-lines style=" background-color: #007c33; padding-top:5px; font-size:20px;color:white;" (click)="Copan()">COPÁN\n\n                                <ion-img  width="40" height="40" src="assets/imgs/turn-right-sign.png"></ion-img></ion-item>\n\n                          </div>\n\n                               </div>\n\n\n\n                               <br>\n\n                               \n\n\n\n                               <div style=" background-color: #007c33; border-radius: 5px; border: 2px solid #007c33">\n\n                                  <div style=" color: white; border-radius: 5px; font-size: 20px; border: 2px solid white; padding:5px; ">\n\n                                    <ion-item no-lines style=" background-color: #007c33; padding-top:5px; font-size:20px;color:white;" (click)="Cortes()">CORTÉS\n\n                                        <ion-img  width="40" height="40" src="assets/imgs/turn-right-sign.png"></ion-img></ion-item>\n\n                                  </div>\n\n                                       </div>\n\n\n\n                                       <br>\n\n\n\n                                       <div style=" background-color: #007c33; border-radius: 5px; border: 2px solid #007c33">\n\n                                          <div style=" color: white; border-radius: 5px; font-size: 20px; border: 2px solid white; padding:5px; ">\n\n                                            <ion-item no-lines style=" background-color: #007c33; padding-top:5px; font-size:20px;color:white;" (click)="Choluteca()">CHOLUTECA\n\n                                                <ion-img  width="40" height="40" src="assets/imgs/turn-right-sign.png"></ion-img></ion-item>\n\n                                          </div>\n\n                                               </div>\n\n\n\n                                               <br>\n\n\n\n                                               <div style=" background-color: #007c33; border-radius: 5px; border: 2px solid #007c33">\n\n                                                  <div style=" color: white; border-radius: 5px; font-size: 20px; border: 2px solid white; padding:5px; ">\n\n                                                    <ion-item no-lines style=" background-color: #007c33; padding-top:5px; font-size:20px;color:white;" (click)="ElParaiso()">EL PARAÍSO\n\n                                                        <ion-img  width="40" height="40" src="assets/imgs/turn-right-sign.png"></ion-img></ion-item>\n\n                                                  </div>\n\n                                                       </div>\n\n\n\n                                                        <br>\n\n\n\n               <div style=" background-color: #007c33; border-radius: 5px; border: 2px solid #007c33">\n\n                  <div style=" color: white; border-radius: 5px; font-size: 20px; border: 2px solid white; padding:5px; ">\n\n                    <ion-item no-lines style=" background-color: #007c33; padding-top:5px; font-size:20px;color:white;" (click)="FM()">FRANCISCO MORAZÁN \n\n                        <ion-img  width="40" height="40" src="assets/imgs/turn-right-sign.png"></ion-img></ion-item>\n\n                  </div>\n\n                       </div>\n\n\n\n                       <br>\n\n\n\n                       <div style=" background-color: #007c33; border-radius: 5px; border: 2px solid #007c33">\n\n                          <div style=" color: white; border-radius: 5px; font-size: 20px; border: 2px solid white; padding:5px; ">\n\n                            <ion-item no-lines style=" background-color: #007c33; padding-top:5px; font-size:20px;color:white;" (click)="GraciasADios()">GRACIAS A DIOS\n\n                                <ion-img  width="40" height="40" src="assets/imgs/turn-right-sign.png"></ion-img></ion-item>\n\n                          </div>\n\n                               </div>\n\n\n\n                               <br>\n\n\n\n                               <div style=" background-color: #007c33; border-radius: 5px; border: 2px solid #007c33">\n\n                                  <div style=" color: white; border-radius: 5px; font-size: 20px; border: 2px solid white; padding:5px; ">\n\n                                    <ion-item no-lines style=" background-color: #007c33; padding-top:5px; font-size:20px;color:white;" (click)="Intibuca()">INTIBUCÁ\n\n                                        <ion-img  width="40" height="40" src="assets/imgs/turn-right-sign.png"></ion-img></ion-item>\n\n                                  </div>\n\n                                       </div>\n\n\n\n                                       <br>\n\n\n\n                                       <div style=" background-color: #007c33; border-radius: 5px; border: 2px solid #007c33">\n\n                                          <div style=" color: white; border-radius: 5px; font-size: 20px; border: 2px solid white; padding:5px; ">\n\n                                            <ion-item no-lines style=" background-color: #007c33; padding-top:5px; font-size:20px;color:white;" (click)="islas()">ISLAS DE LA BAHÍA\n\n                                                <ion-img  width="40" height="40" src="assets/imgs/turn-right-sign.png"></ion-img></ion-item>\n\n                                          </div>\n\n                                               </div>\n\n\n\n                                               <br>\n\n\n\n                                               <div style=" background-color: #007c33; border-radius: 5px; border: 2px solid #007c33">\n\n                                                  <div style=" color: white; border-radius: 5px; font-size: 20px; border: 2px solid white; padding:5px; ">\n\n                                                    <ion-item no-lines style=" background-color: #007c33; padding-top:5px; font-size:20px;color:white;" (click)="LaPaz()">LA PAZ\n\n                                                        <ion-img  width="40" height="40" src="assets/imgs/turn-right-sign.png"></ion-img></ion-item>\n\n                                                  </div>\n\n                                                       </div>\n\n\n\n                                                       <br>\n\n\n\n                                                       <div style=" background-color: #007c33; border-radius: 5px; border: 2px solid #007c33">\n\n                                                          <div style=" color: white; border-radius: 5px; font-size: 20px; border: 2px solid white; padding:5px; ">\n\n                                                            <ion-item no-lines style=" background-color: #007c33; padding-top:5px; font-size:20px;color:white;" (click)="Lempira()">LEMPIRA\n\n                                                                <ion-img  width="40" height="40" src="assets/imgs/turn-right-sign.png"></ion-img></ion-item>\n\n                                                          </div>\n\n                                                               </div>\n\n\n\n                                                               <br>\n\n\n\n                                                               <div style=" background-color: #007c33; border-radius: 5px; border: 2px solid #007c33">\n\n                                                                  <div style=" color: white; border-radius: 5px; font-size: 20px; border: 2px solid white; padding:5px; ">\n\n                                                                    <ion-item no-lines style=" background-color: #007c33; padding-top:5px; font-size:20px;color:white;" (click)="Ocotepeque()">OCOTEPEQUE\n\n                                                                        <ion-img  width="40" height="40" src="assets/imgs/turn-right-sign.png"></ion-img></ion-item>\n\n                                                                  </div>\n\n                                                                       </div>\n\n\n\n                                                                       <br>\n\n\n\n                                                                       <div style=" background-color: #007c33; border-radius: 5px; border: 2px solid #007c33">\n\n                                                                          <div style=" color: white; border-radius: 5px; font-size: 20px; border: 2px solid white; padding:5px; ">\n\n                                                                            <ion-item no-lines style=" background-color: #007c33; padding-top:5px; font-size:20px;color:white;" (click)="Olancho()">OLANCHO\n\n                                                                                <ion-img  width="40" height="40" src="assets/imgs/turn-right-sign.png"></ion-img></ion-item>\n\n                                                                          </div>\n\n                                                                               </div>\n\n\n\n                                                                               <br>\n\n\n\n                                                                               <div style=" background-color: #007c33; border-radius: 5px; border: 2px solid #007c33">\n\n                                                                                  <div style=" color: white; border-radius: 5px; font-size: 20px; border: 2px solid white; padding:5px; ">\n\n                                                                                    <ion-item no-lines style=" background-color: #007c33; padding-top:5px; font-size:20px;color:white;" (click)="SantaBarbara()">SANTA BÁRBARA\n\n                                                                                        <ion-img  width="40" height="40" src="assets/imgs/turn-right-sign.png"></ion-img></ion-item>\n\n                                                                                  </div>\n\n                                                                                       </div>\n\n\n\n                                                                                       <br>\n\n\n\n                                                                                       <div style=" background-color: #007c33; border-radius: 5px; border: 2px solid #007c33">\n\n                                                                                          <div style=" color: white; border-radius: 5px; font-size: 20px; border: 2px solid white; padding:5px; ">\n\n                                                                                            <ion-item no-lines style=" background-color: #007c33; padding-top:5px; font-size:20px;color:white;" (click)="Valle()">VALLE\n\n                                                                                                <ion-img  width="40" height="40" src="assets/imgs/turn-right-sign.png"></ion-img></ion-item>\n\n                                                                                          </div>\n\n                                                                                               </div>\n\n\n\n                                                                                               <br>\n\n\n\n                                                                                               <div style=" background-color: #007c33; border-radius: 5px; border: 2px solid #007c33">\n\n                                                                                                  <div style=" color: white; border-radius: 5px; font-size: 20px; border: 2px solid white; padding:5px; ">\n\n                                                                                                    <ion-item no-lines style=" background-color: #007c33; padding-top:5px; font-size:20px;color:white;" (click)="Yoro()">YORO\n\n                                                                                                        <ion-img  width="40" height="40" src="assets/imgs/turn-right-sign.png"></ion-img></ion-item>\n\n                                                                                                  </div>\n\n                                                                                                       </div>\n\n          <!--\n\n\n\n            <ion-item > <div style="background-color: #BFD7EA; color: white;">\n\n                <button ion-item (click)="LaCeiba()">\n\n                La Ceiba\n\n              </button></div>\n\n            </ion-item>\n\n\n\n              <ion-item > \n\n                  <button ion-item (click)="islas()">\n\n                   Islas de la Bahía\n\n                    </button>\n\n                  </ion-item>\n\n\n\n                    <ion-item > \n\n                        <button ion-item (click)="comayagua()">\n\n                          Comayagua\n\n                         </button>\n\n                        </ion-item>\n\n\n\n                        \n\n\n\n</ion-item-group>\n\n           \n\n   --> \n\n\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\Amy\Desktop\segurasappio\src\pages\directorio\directorio.html"*/,
+            selector: 'page-el-paraiso',template:/*ion-inline-start:"C:\Users\Amy\Desktop\segurasappio\src\pages\el-paraiso\el-paraiso.html"*/'<!--\n  Generated template for the ElParaisoPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar color="primary">\n    <ion-title>El Paraíso</ion-title>\n      <ion-buttons end>\n          <button ion-button (click)="closemodal()">Atrás</button>\n        </ion-buttons>\n    </ion-navbar>\n  \n  </ion-header>\n  \n  \n  <ion-content padding>\n  \n    <ion-card>\n      <ion-card-header style="color: #0B3954">\n        <strong>Fiscalía de la Mujer</strong>\n      </ion-card-header>\n      <ion-card-content>\n        Barrio el Centro, a una cuadra del Parque Central , Danlí.<br>\n       <strong> Teléfono:</strong> 2763-2963\n      </ion-card-content>\n    </ion-card>\n\n    <ion-card>\n      <ion-card-header style="color: #0B3954">\n        <strong>Fiscalía de la Niñez</strong>\n      </ion-card-header>\n      <ion-card-content>\n        Barrio el Centro, a una cuadra del Parque Central, Danlí.<br>\n       <strong> Teléfono:</strong> 2763-2963\n      </ion-card-content>\n    </ion-card>\n\n    <ion-card>\n      <ion-card-header style="color: #0B3954">\n        <strong>Juzgado II de Letras</strong>\n      </ion-card-header>\n      <ion-card-content>\n        Barrio El Zarzal, Carretera Panamericana hacia Tegucigalpa, Danlí.<br>\n       <strong> Teléfono:</strong> 2763-2063 \n      </ion-card-content>\n    </ion-card>\n\n    <ion-card>\n      <ion-card-header style="color: #0B3954">\n        <strong>Juzgado de Paz Criminal</strong>\n      </ion-card-header>\n      <ion-card-content>\n        Barrio El Zarzal, Carretera Panamericana hacia Tegucigalpa, Danlí.<br>\n       <strong> Teléfono:</strong> 2763-2063 \n      </ion-card-content>\n    </ion-card>\n\n    <ion-card>\n      <ion-card-header style="color: #0B3954">\n        <strong>Alcaldía Municipal</strong>\n      </ion-card-header>\n      <ion-card-content>\n        Barrio El Centro, frente al Parque Ramón Rosa, Danlí.<br>\n       <strong> Teléfono:</strong> 2793-4179\n      </ion-card-content>\n    </ion-card>\n\n    <ion-card>\n      <ion-card-header style="color: #0B3954">\n        <strong>Policia Nacional Preventiva</strong>\n      </ion-card-header>\n      <ion-card-content>\n        Barrio Buenos Aires Arriba, frente a Pulpería La Estrella, Danlí.<br>\n       <strong> Teléfono:</strong> 2763-2739\n      </ion-card-content>\n    </ion-card>\n\n    <ion-card>\n      <ion-card-header style="color: #0B3954">\n        <strong>Hospital Gabriela Alvarado</strong>\n      </ion-card-header>\n      <ion-card-content>\n        San Marcos Abajo, frente a la UNATEC regional UNAH<br>\n       <strong> Teléfono del Director del Hospital:</strong> 9701-9414 <br>\n       <strong>  correo electrónico:</strong>  hga@yahoo.com\n      </ion-card-content>\n    </ion-card>\n\n</ion-content>\n'/*ion-inline-end:"C:\Users\Amy\Desktop\segurasappio\src\pages\el-paraiso\el-paraiso.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* ModalController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* ViewController */]])
-    ], DirectorioPage);
-    return DirectorioPage;
+    ], ElParaisoPage);
+    return ElParaisoPage;
 }());
 
-//# sourceMappingURL=directorio.js.map
+//# sourceMappingURL=el-paraiso.js.map
 
 /***/ })
 

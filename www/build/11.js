@@ -1,14 +1,14 @@
 webpackJsonp([11],{
 
-/***/ 307:
+/***/ 312:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LaPazPageModule", function() { return LaPazPageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LempiraPageModule", function() { return LempiraPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__la_paz__ = __webpack_require__(342);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__lempira__ = __webpack_require__(348);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,31 +18,31 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var LaPazPageModule = /** @class */ (function () {
-    function LaPazPageModule() {
+var LempiraPageModule = /** @class */ (function () {
+    function LempiraPageModule() {
     }
-    LaPazPageModule = __decorate([
+    LempiraPageModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_2__la_paz__["a" /* LaPazPage */],
+                __WEBPACK_IMPORTED_MODULE_2__lempira__["a" /* LempiraPage */],
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__la_paz__["a" /* LaPazPage */]),
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__lempira__["a" /* LempiraPage */]),
             ],
         })
-    ], LaPazPageModule);
-    return LaPazPageModule;
+    ], LempiraPageModule);
+    return LempiraPageModule;
 }());
 
-//# sourceMappingURL=la-paz.module.js.map
+//# sourceMappingURL=lempira.module.js.map
 
 /***/ }),
 
-/***/ 342:
+/***/ 348:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LaPazPage; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LempiraPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -57,34 +57,34 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 /**
- * Generated class for the LaPazPage page.
+ * Generated class for the LempiraPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
  */
-var LaPazPage = /** @class */ (function () {
-    function LaPazPage(navCtrl, navParams, modal, view) {
+var LempiraPage = /** @class */ (function () {
+    function LempiraPage(navCtrl, navParams, modal, view) {
         this.navCtrl = navCtrl;
         this.navParams = navParams;
         this.modal = modal;
         this.view = view;
     }
-    LaPazPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad LaPazPage');
+    LempiraPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad LempiraPage');
     };
-    LaPazPage.prototype.closemodal = function () {
+    LempiraPage.prototype.closemodal = function () {
         this.view.dismiss();
     };
-    LaPazPage = __decorate([
+    LempiraPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-la-paz',template:/*ion-inline-start:"C:\Users\Amy\Desktop\segurasappio\src\pages\la-paz\la-paz.html"*/'<!--\n  Generated template for the LaPazPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n    <ion-navbar color="primary">\n        <ion-title>La Paz</ion-title>\n      <ion-buttons end>\n          <button ion-button (click)="closemodal()">Atrás</button>\n        </ion-buttons>\n    </ion-navbar>\n  \n  </ion-header>\n  \n  \n  <ion-content padding>\n  \n      <ion-card>\n          <ion-card-header style="color: #0B3954">\n            <strong>Ministerio Público\n              </strong>\n          </ion-card-header>\n          <ion-card-content>\n              Barrio La Merced, carretera hacia Marcala, esquina opuesta a COINCA, La Paz.<br>\n           <strong> Teléfonos:</strong> 2774-1433 y 2774-1009\n          </ion-card-content>\n        </ion-card>\n\n        <ion-card>\n            <ion-card-header style="color: #0B3954">\n              <strong>Fiscalía de la Mujer\n                </strong>\n            </ion-card-header>\n            <ion-card-content>\n                Barrio La Merced, carretera hacia Marcala, esquina opuesta a COINCA, La Paz.<br>\n             <strong> Teléfonos:</strong> 2774-1433 y 2774-1009\n            </ion-card-content>\n          </ion-card>\n\n          <ion-card>\n              <ion-card-header style="color: #0B3954">\n                <strong>Fiscalía de la Niñez\n                  </strong>\n              </ion-card-header>\n              <ion-card-content>\n                  Barrio La Merced, carretera hacia Marcala, esquina opuesta a COINCA, La Paz.<br>\n               <strong> Teléfonos:</strong> 2774-1433 y 2774-1009\n              </ion-card-content>\n            </ion-card>\n\n            <ion-card>\n                <ion-card-header style="color: #0B3954">\n                  <strong>Juzgados de Letras <br> Seccionados(Letras, Penal, Civil, <br>Niñez y Adolescencia, Familia)\n                    </strong>\n                </ion-card-header>\n                <ion-card-content>\n                    Barrio La Granja, frente al estadio Roberto Suazo Córdova, La Paz.<br>\n                 <strong> Teléfono:</strong> 2774-1122\n                </ion-card-content>\n              </ion-card>\n\n              <ion-card>\n                  <ion-card-header style="color: #0B3954">\n                    <strong>Policia Nacional Preventiva   \n                      </strong>\n                  </ion-card-header>\n                  <ion-card-content>\n                      Barrio San Antonio, dos cuadras al norte de la Dirección Departamental de Educación, La Paz.<br>\n                   <strong> Teléfono:</strong> 2774-2199\n                  </ion-card-content>\n                </ion-card>\n\n                <ion-card>\n                    <ion-card-header style="color: #0B3954">\n                      <strong>Hospital Roberto Suazo Córdova  \n                        </strong>\n                    </ion-card-header>\n                    <ion-card-content>\n                        Barrio La Trinidad, La Paz.<br>\n                     <strong> Teléfonos:</strong> 2774-1453 y 2774-1454\n                    </ion-card-content>\n                  </ion-card>\n\n</ion-content>\n'/*ion-inline-end:"C:\Users\Amy\Desktop\segurasappio\src\pages\la-paz\la-paz.html"*/,
+            selector: 'page-lempira',template:/*ion-inline-start:"C:\Users\Amy\Desktop\segurasappio\src\pages\lempira\lempira.html"*/'<!--\n  Generated template for the LempiraPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n    <ion-navbar color="primary">\n      <ion-title>Lempira</ion-title>\n      <ion-buttons end>\n          <button ion-button (click)="closemodal()">Atrás</button>\n        </ion-buttons>\n    </ion-navbar>\n  \n  </ion-header>\n  \n  <ion-content padding>\n    \n    <ion-card>\n      <ion-card-header style="color: #0B3954">\n            <strong>Ministerio Público</strong></ion-card-header>\n            <ion-card-content>\n                Barrio El Rosario, frente a la iglesia Amigos y Plan Internacional Honduras, Gracias <br>\n             <strong> Teléfono:</strong> 2656-1253\n            </ion-card-content>\n          </ion-card>\n\n          <ion-card>\n              <ion-card-header style="color: #0B3954">\n                    <strong>Fiscalía de la Mujer</strong></ion-card-header>\n                    <ion-card-content>\n                        Barrio El Rosario, frente a la iglesia Amigos y Plan Internacional Honduras, Gracias <br>\n                     <strong> Teléfono:</strong> 2656-1253\n                    </ion-card-content>\n                  </ion-card>\n\n                  <ion-card>\n                      <ion-card-header style="color: #0B3954">\n                            <strong>Fiscalía de la Niñez</strong></ion-card-header>\n                            <ion-card-content>\n                                Barrio El Rosario, frente a la iglesia Amigos y Plan Internacional Honduras, Gracias <br>\n                             <strong> Teléfono:</strong> 2656-1253\n                            </ion-card-content>\n                          </ion-card>\n\n                          <ion-card>\n                              <ion-card-header style="color: #0B3954">\n                                    <strong>Policia Nacional Preventiva</strong></ion-card-header>\n                                    <ion-card-content>\n                                        Barrio El Rosario, frente al Parque Central, Gracias <br>\n                                     <strong> Teléfono:</strong> 2656-1397\n                                    </ion-card-content>\n                                  </ion-card>\n\n                                  <ion-card>\n                                      <ion-card-header style="color: #0B3954">\n                                            <strong>Juzgados</strong></ion-card-header>\n                                            <ion-card-content>\n                                                Barrio El Rosario, frente al Parque Central, Gracias <br>\n                                             <strong> Teléfono:</strong> 2656-1615\n                                            </ion-card-content>\n                                          </ion-card>\n\n                                          <ion-card>\n                                              <ion-card-header style="color: #0B3954">\n                                                    <strong>Hospital Juan Manuel Gálvez</strong></ion-card-header>\n                                                    <ion-card-content>\n                                                        Barrio Mercedes,Gracias <br>\n                                                     <strong> Teléfono:</strong> 2656-1615\n                                                    </ion-card-content>\n                                                  </ion-card>\n         \n\n</ion-content>\n'/*ion-inline-end:"C:\Users\Amy\Desktop\segurasappio\src\pages\lempira\lempira.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* ModalController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* ViewController */]])
-    ], LaPazPage);
-    return LaPazPage;
+    ], LempiraPage);
+    return LempiraPage;
 }());
 
-//# sourceMappingURL=la-paz.js.map
+//# sourceMappingURL=lempira.js.map
 
 /***/ })
 

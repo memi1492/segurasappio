@@ -25,17 +25,15 @@ export class InfoPage {
   CicloViolencia() {
  const CicloViolencia = this.modal.create('CicloViolenciaPage');
  
+
  CicloViolencia.present();
   }
 
-  ConsejosSeguridad(){
-    const ConsejosSeguridad = this.modal.create('ConsejosSeguridadPage');
-    ConsejosSeguridad.present();
-  }
 
   definicion(){
-    const Definicion = this.modal.create('DefinicionPage');
+    const Definicion = this.modal.create('DefinicionPage', undefined, {cssClass:"my-modal"});
     Definicion.present();
+
   }
 
 }

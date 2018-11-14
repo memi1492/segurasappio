@@ -1,14 +1,14 @@
 webpackJsonp([1],{
 
-/***/ 321:
+/***/ 327:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "VallePageModule", function() { return VallePageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "VintrafPageModule", function() { return VintrafPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__valle__ = __webpack_require__(351);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__vintraf__ = __webpack_require__(358);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,31 +18,31 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var VallePageModule = /** @class */ (function () {
-    function VallePageModule() {
+var VintrafPageModule = /** @class */ (function () {
+    function VintrafPageModule() {
     }
-    VallePageModule = __decorate([
+    VintrafPageModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_2__valle__["a" /* VallePage */],
+                __WEBPACK_IMPORTED_MODULE_2__vintraf__["a" /* VintrafPage */],
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__valle__["a" /* VallePage */]),
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__vintraf__["a" /* VintrafPage */]),
             ],
         })
-    ], VallePageModule);
-    return VallePageModule;
+    ], VintrafPageModule);
+    return VintrafPageModule;
 }());
 
-//# sourceMappingURL=valle.module.js.map
+//# sourceMappingURL=vintraf.module.js.map
 
 /***/ }),
 
-/***/ 351:
+/***/ 358:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return VallePage; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return VintrafPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -57,34 +57,29 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 /**
- * Generated class for the VallePage page.
+ * Generated class for the VintrafPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
  */
-var VallePage = /** @class */ (function () {
-    function VallePage(navCtrl, navParams, modal, view) {
+var VintrafPage = /** @class */ (function () {
+    function VintrafPage(navCtrl, navParams) {
         this.navCtrl = navCtrl;
         this.navParams = navParams;
-        this.modal = modal;
-        this.view = view;
     }
-    VallePage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad VallePage');
+    VintrafPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad VintrafPage');
     };
-    VallePage.prototype.closemodal = function () {
-        this.view.dismiss();
-    };
-    VallePage = __decorate([
+    VintrafPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-valle',template:/*ion-inline-start:"C:\Users\Amy\Desktop\segurasappio\src\pages\valle\valle.html"*/'<!--\n  Generated template for the VallePage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n    <ion-navbar color="primary">\n      <ion-title>Valle</ion-title>\n      <ion-buttons end>\n          <button ion-button (click)="closemodal()">Atrás</button>\n        </ion-buttons>\n    </ion-navbar>\n  \n  </ion-header>\n  \n  <ion-content padding>\n    \n    <ion-card>\n      <ion-card-header style="color: #0B3954">\n            <strong>Ministerio Público</strong></ion-card-header>\n            <ion-card-content>\n                Barrio abajo, antiguas oficinas ADED Valle, Nacaaome<br>\n             <strong> Teléfono:</strong> 2653-3963\n            </ion-card-content>\n          </ion-card>\n\n          <ion-card>\n              <ion-card-header style="color: #0B3954">\n                    <strong>Policia Nacional <br> Preventiva</strong></ion-card-header>\n                    <ion-card-content>\n                        Barrio María Auxiliadora, tres cuadras del estadio hacia el centro, Nacaaome<br>\n                     <strong> Teléfonos:</strong> 2795-4135 y 2795-4637\n                    </ion-card-content>\n                  </ion-card>\n\n                  <ion-card>\n                      <ion-card-header style="color: #0B3954">\n                            <strong>Juzgados de Paz,  <br> Civil, Letras</strong></ion-card-header>\n                            <ion-card-content>\n                                Barrio abajo, esquina opuesta a Hondutel, Nacaaome<br>\n                             <strong> Teléfonos:</strong> 2795-4138\n                            </ion-card-content>\n                          </ion-card>\n\n                          \n                  <ion-card>\n                      <ion-card-header style="color: #0B3954">\n                            <strong>Hospital Policlinio</strong></ion-card-header>\n                            <ion-card-content>\n                                Barrio el Corcovado por la Dirección Departamental de Educación, Nacaaome<br>\n                             <strong> Teléfonos:</strong> No tienen teléfono\n                            </ion-card-content>\n                          </ion-card>\n\n</ion-content>\n'/*ion-inline-end:"C:\Users\Amy\Desktop\segurasappio\src\pages\valle\valle.html"*/,
+            selector: 'page-vintraf',template:/*ion-inline-start:"C:\Users\Amy\Desktop\segurasappio\src\pages\vintraf\vintraf.html"*/'<!--\n  Generated template for the VintrafPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>Vintraf</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"C:\Users\Amy\Desktop\segurasappio\src\pages\vintraf\vintraf.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* ModalController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* ViewController */]])
-    ], VallePage);
-    return VallePage;
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]])
+    ], VintrafPage);
+    return VintrafPage;
 }());
 
-//# sourceMappingURL=valle.js.map
+//# sourceMappingURL=vintraf.js.map
 
 /***/ })
 

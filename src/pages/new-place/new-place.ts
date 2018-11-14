@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { InfoPage } from '../info/info';
 import { Info2Page } from '../info2/info2';
+import { Info3Page } from '../info3/info3';
 /**
  * Generated class for the NewPlacePage page.
  *
@@ -31,5 +32,10 @@ domestica(){
 sexual(){
     console.log("Info2Page")
     this.navCtrl.push(Info2Page);
+} 
+
+intrafamiliar(){
+  console.log("Info2Page")
+  this.navCtrl.push(Info3Page);
 } 
 }

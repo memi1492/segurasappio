@@ -19,6 +19,7 @@ import { ContactPage } from '../pages/contact/contact';
 import { TabsPage } from '../pages/tabs/tabs';
 import { InfoPage } from '../pages/info/info';
 import { Info2Page } from '../pages/info2/info2';
+import { Info3Page } from '../pages/info3/info3';
 import { ConsejosPage } from '../pages/consejos/consejos';
 import { DenunciaPage } from '../pages/denuncia/denuncia';
 import { SiPage } from '../pages/si/si';
@@ -42,6 +43,7 @@ import { NoPage } from '../pages/no/no';
     TabsPage,
     InfoPage,
     Info2Page,
+    Info3Page,
     ConsejosPage,
     DenunciaPage,
     TestPage,
@@ -68,6 +70,7 @@ import { NoPage } from '../pages/no/no';
     TabsPage,
     InfoPage,
     Info2Page,
+    Info3Page,
     ConsejosPage,
     DenunciaPage,
     TestPage,
