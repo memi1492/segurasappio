@@ -21,6 +21,14 @@ import { InfoPage } from '../pages/info/info';
 import { Info2Page } from '../pages/info2/info2';
 import { ConsejosPage } from '../pages/consejos/consejos';
 import { DenunciaPage } from '../pages/denuncia/denuncia';
+import { SiPage } from '../pages/si/si';
+import { AvecesPage } from '../pages/aveces/aveces';
+import { RaravezPage } from '../pages/raravez/raravez';
+import { NoPage } from '../pages/no/no';
+
+
+
+
 
 
 
@@ -36,7 +44,14 @@ import { DenunciaPage } from '../pages/denuncia/denuncia';
     Info2Page,
     ConsejosPage,
     DenunciaPage,
-    TestPage
+    TestPage,
+    SiPage,
+    RaravezPage,
+    AvecesPage,
+    NoPage
+
+
+   
   ],
   imports: [
     BrowserModule,
@@ -55,7 +70,11 @@ import { DenunciaPage } from '../pages/denuncia/denuncia';
     Info2Page,
     ConsejosPage,
     DenunciaPage,
-    TestPage
+    TestPage,
+    SiPage,
+    RaravezPage,
+    AvecesPage,
+    NoPage
   ],
   providers: [
     StatusBar,

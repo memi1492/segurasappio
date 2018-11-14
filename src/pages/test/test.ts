@@ -1,5 +1,9 @@
 import { Component, ViewChild } from '@angular/core';
 import { IonicPage, NavController, NavParams, ModalController, ViewController, Slides } from 'ionic-angular';
+import { SiPage } from '../si/si';
+import { RaravezPage } from '../raravez/raravez';
+import { AvecesPage } from '../aveces/aveces';
+import { NoPage } from '../no/no';
 
 /**
  * Generated class for the TestPage page.
@@ -21,7 +25,7 @@ export class TestPage {
   public crv = 0;
   public cno = 0;
 
-  constructor( private navParams: NavParams, private view: ViewController) {
+  constructor( private navParams: NavParams, private view: ViewController, public navCtrl: NavController) {
   
   }
 
@@ -65,4 +69,54 @@ export class TestPage {
     this.slides.slideNext();
     this.slides.lockSwipes(true);
   }
+  fsifinal(){
+    this.csi++;
+    this.fcomparadora();
+
+      }
+
+  fcomparadora(){
+    if(this.csi  >= this.cav && this.csi  >= this.crv && this.csi  >= this.cno){
+      this.navCtrl.push(SiPage);
+    }
+
+    else if (this.cav  >= this.csi && this.cav  >= this.crv && this.cav  >= this.cno){
+
+      this.navCtrl.push(AvecesPage);
+
+
+    }
+
+    else if (this.crv  >= this.csi && this.crv  >= this.cav && this.crv  >= this.cno){
+      this.navCtrl.push(RaravezPage);
+
+    }
+
+    else if (this.cno  >= this.csi && this.cno  >= this.cav && this.cno  >= this.crv){
+      this.navCtrl.push(NoPage);
+      
+    }
+
+  }
+
+  favecesfinal(){
+    this.cav++;
+    this.fcomparadora();
+
+  }
+
+  fraravezfinal(){
+    this.crv++;
+    this.fcomparadora();
+
+   
+  }
+
+  fnofinal(){
+    this.cno++;
+    
+    this.fcomparadora();
+   
+  }
+
 }
