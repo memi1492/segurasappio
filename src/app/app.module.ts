@@ -37,6 +37,7 @@ import { Test2Page } from '../pages/test2/test2';
 
 
 
+
 @NgModule({
   declarations: [
     MyApp,

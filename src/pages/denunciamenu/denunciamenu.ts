@@ -27,8 +27,8 @@ export class DenunciamenuPage {
   }
 
   Def(){
-    const denuncia = this.modal.create('DenunciaPage');
-    denuncia.present();
+    const Def = this.modal.create('DenunciasDefPage');
+    Def.present()
   }
 
   RutasAtencion(){

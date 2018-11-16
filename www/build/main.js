@@ -538,7 +538,7 @@ var TestPage = /** @class */ (function () {
     ], TestPage.prototype, "slides", void 0);
     TestPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-test',template:/*ion-inline-start:"C:\Users\Amy\Desktop\segurasappio\src\pages\test\test.html"*/'<!--\n\n  Generated template for the TestPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n    <ion-navbar color="primary">\n\n      <ion-title>Test de Violencia</ion-title>\n\n      <ion-buttons end>\n\n      </ion-buttons>\n\n    </ion-navbar>\n\n  \n\n  </ion-header>\n\n  \n\n  \n\n  <ion-content padding style="background-color: #0B3954">\n\n\n\n      <ion-slides pager="true" (ionslideDidChange)="slideChanged()"><!--3 little buttons at the bottom of each slide-->\n\n        \n\n        <ion-slide style="background-color: #0B3954; color:  white">\n\n            <h2 text-center style="padding-top: 10px; color:white4"><strong>¿Crees que estas sufriendo de violencia? </strong> </h2>  \n\n           <div style="text-align: center; " ><img   src="assets/imgs/test/questions.gif" style="padding-bottom: 5px; width: 30%; height: 30%;" ></div> \n\n\n\n            <p style="text-align: center; color: white;"><strong>Responde las siguientes preguntas y averigua \n\n            </strong><ion-icon name="arrow-round-forward" style="align-content: center;"></ion-icon></p>\n\n          \n\n          </ion-slide>\n\n\n\n          <ion-slide style="background-color: #0B3954">\n\n\n\n<img style="align-content: center;width: 30%; height: 30%" src="assets/imgs/test/1.png">\n\n\n\n              <p style="color: white">1.	¿Te acusa que eres infiel?  </p>\n\n       \n\n              <button class="button button-danger customBtn" ion-button large color="danger" (click)="fsi()">Si &nbsp;</button> <br>\n\n              <button class="button button-danger customBtn" ion-button large color="danger" (click)="faveces()">A Veces</button> <br>\n\n              <button class="button button-danger customBtn" ion-button large color="danger" (click)="fno()">No </button> <br>\n\n             <br>\n\n            </ion-slide>\n\n\n\n            <ion-slide style="background-color: #0B3954">\n\n                    <img style="align-content: center;width: 30%; height: 30%" src="assets/imgs/test/2.png">\n\n\n\n \n\n                <p style="color: white">2.	¿No te comunicas con tus amigos/as, familiares, compañeras/os de trabajo para evitar que tu pareja se moleste? </p>\n\n         \n\n                <button class="button button-danger customBtn" ion-button large color="danger" (click)="fsi()">Si &nbsp;</button> <br>\n\n                <button class="button button-danger customBtn" ion-button large color="danger" (click)="faveces()">A Veces</button> <br>\n\n                <button class="button button-danger customBtn" ion-button large color="danger" (click)="fno()">No </button> <br>\n\n  \n\n                <br>\n\n               \n\n              </ion-slide>\n\n\n\n              <ion-slide style="background-color: #0B3954">\n\n                    <img style="align-content: center;width: 30%; height: 30%" src="assets/imgs/test/3.png">\n\n\n\n                  <p style="color: white">3.¿Opina negativamente en público o en privado, sobre tu apariencia, tu forma de ser, el modo en que te vistes? </p>\n\n                  <button class="button button-danger customBtn" ion-button large color="danger" (click)="fsi()">Si &nbsp;</button> <br>\n\n                  <button class="button button-danger customBtn" ion-button large color="danger" (click)="faveces()">A Veces</button> <br>\n\n                  <button class="button button-danger customBtn" ion-button large color="danger" (click)="fno()">No </button> <br>\n\n             \n\n                  <br>\n\n                  </ion-slide>\n\n\n\n                <ion-slide style="background-color: #0B3954">\n\n                        <img style="align-content: center;width: 30%; height: 30%" src="assets/imgs/test/4.png">\n\n\n\n                    <p style="color: white">4.	¿Te ha golpeado cuando se enoja o cuando discuten? </p>\n\n             \n\n                    <button class="button button-danger customBtn" ion-button large color="danger" (click)="fsi()">Si &nbsp;</button> <br>\n\n                    <button class="button button-danger customBtn" ion-button large color="danger" (click)="faveces()">A Veces</button> <br>\n\n                    <button class="button button-danger customBtn" ion-button large color="danger" (click)="fno()">No </button> <br>\n\n               \n\n                    <br>\n\n                  </ion-slide>\n\n\n\n                  <ion-slide style="background-color: #0B3954">\n\n                        <img style="align-content: center;width: 30%; height: 30%" src="assets/imgs/test/7.png">\n\n\n\n                      <p style="color: white">5.	Después de una explosión de violencia, ¿Se muestra cariñoso y atento, te regala cosas y te promete que nunca más volverá a pegarte o insultarte y te dice que “todo cambiará”? </p>\n\n               \n\n                      <button class="button button-danger customBtn" ion-button large color="danger" (click)="fsi()">Si &nbsp;</button> <br>\n\n                      <button class="button button-danger customBtn" ion-button large color="danger" (click)="faveces()">A Veces</button> <br>\n\n                      <button class="button button-danger customBtn" ion-button large color="danger" (click)="fno()">No </button> <br>\n\n                      <br>\n\n                    </ion-slide>\n\n\n\n                    <ion-slide style="background-color: #0B3954">\n\n                            <img style="align-content: center;width: 30%; height: 30%" src="assets/imgs/test/smartphone.png">\n\n\n\n                        <p style="color: white"> 6.	¿Todo el tiempo quiere controlarte, revisa tu celular y siempre quiere saber dónde estás y con quién?\n\n                           </p>\n\n                           <button class="button button-danger customBtn" ion-button large color="danger" (click)="fsi()">Si &nbsp;</button> <br>\n\n                           <button class="button button-danger customBtn" ion-button large color="danger" (click)="faveces()">A Veces</button> <br>\n\n                           <button class="button button-danger customBtn" ion-button large color="danger" (click)="fno()">No </button> <br>\n\n                   \n\n                           <br>\n\n                      </ion-slide>\n\n\n\n                      <ion-slide style="background-color: #0B3954">\n\n                            <img style="align-content: center;width: 30%; height: 30%" src="assets/imgs/test/bed.png">\n\n\n\n                          <p style="color: white">	7.	¿Te ha obligado a tener relaciones sexuales cuando no quieres?\n\n                              </p>\n\n                   \n\n                              <button class="button button-danger customBtn" ion-button large color="danger" (click)="fsi()">Si &nbsp;</button> <br>\n\n                              <button class="button button-danger customBtn" ion-button large color="danger" (click)="faveces()">A Veces</button> <br>\n\n                              <button class="button button-danger customBtn" ion-button large color="danger" (click)="fno()">No </button> <br>\n\n                     \n\n                              <br>\n\n                        </ion-slide>\n\n\n\n                        <ion-slide style="background-color: #0B3954">\n\n                                <img style="align-content: center;width: 30%; height: 30%" src="assets/imgs/test/12.png">\n\n\n\n                            <p style="color: white">8.	¿Te impide usar métodos anticonceptivos?\n\n                                </p>\n\n                     \n\n                                <button class="button button-danger customBtn" ion-button large color="danger" (click)="fsi()">Si &nbsp;</button> <br>\n\n                                <button class="button button-danger customBtn" ion-button large color="danger" (click)="faveces()">A Veces</button> <br>\n\n                                <button class="button button-danger customBtn" ion-button large color="danger" (click)="fno()">No </button> <br>\n\n                                <br>\n\n                           \n\n                          </ion-slide>\n\n\n\n\n\n                     \n\n\n\n                                  <ion-slide style="background-color: #0B3954">\n\n                                        <img style="align-content: center;width: 30%; height: 30%" src="assets/imgs/test/surprised.png">\n\n\n\n                                      <p style="color: white">9.	Cuando se enojan o discuten ¿Has sentido que tu vida está en peligro? \n\n                                          </p>\n\n                                       <button class="button button-danger customBtn" ion-button large color="danger" (click)="fsifinal()">Si &nbsp;</button> <br>\n\n              <button class="button button-danger customBtn" ion-button large color="danger" (click)="favecesfinal()">A Veces</button> <br>\n\n              <button class="button button-danger customBtn" ion-button large color="danger" (click)="fnofinal()">No </button> <br>\n\n                                 \n\n              <br>\n\n                                    </ion-slide>\n\n\n\n                                  \n\n                            \n\n                                     \n\n                                         \n\n\n\n                                    \n\n           \n\n         \n\n        </ion-slides>\n\n  </ion-content>\n\n  \n\n'/*ion-inline-end:"C:\Users\Amy\Desktop\segurasappio\src\pages\test\test.html"*/,
+            selector: 'page-test',template:/*ion-inline-start:"C:\Users\Amy\Desktop\segurasappio\src\pages\test\test.html"*/'<!--\n\n  Generated template for the TestPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n    <ion-navbar color="primary">\n\n      <ion-title>Test de Violencia</ion-title>\n\n      <ion-buttons end>\n\n      </ion-buttons>\n\n    </ion-navbar>\n\n  \n\n  </ion-header>\n\n  \n\n  \n\n  <ion-content padding style="background-color: #0B3954">\n\n\n\n      <ion-slides pager="true" (ionslideDidChange)="slideChanged()"><!--3 little buttons at the bottom of each slide-->\n\n        \n\n        <ion-slide style="background-color: #0B3954; color:  white">\n\n            <h2 text-center style="padding-top: 10px; color:white4"><strong>¿Crees que estas sufriendo de violencia? </strong> </h2>  \n\n           <div style="text-align: center; " ><img   src="assets/imgs/test/test2.png" style="padding-bottom: 5px; width: 30%; height: 30%;" ></div> \n\n\n\n            <p style="text-align: center; color: white;"><strong>Responde las siguientes preguntas y averigua \n\n            </strong><ion-icon name="arrow-round-forward" style="align-content: center;"></ion-icon></p>\n\n          \n\n          </ion-slide>\n\n\n\n          <ion-slide style="background-color: #0B3954">\n\n\n\n<img style="align-content: center;width: 30%; height: 30%" src="assets/imgs/test/1p.png">\n\n\n\n              <p style="color: white">1.	¿Te acusa que eres infiel?  </p>\n\n       \n\n              <button class="button button-danger customBtn" ion-button large color="danger" (click)="fsi()">Si &nbsp;</button> <br>\n\n              <button class="button button-danger customBtn" ion-button large color="danger" (click)="faveces()">A Veces</button> <br>\n\n              <button class="button button-danger customBtn" ion-button large color="danger" (click)="fno()">No </button> <br>\n\n             <br>\n\n            </ion-slide>\n\n\n\n            <ion-slide style="background-color: #0B3954">\n\n                    <img style="align-content: center;width: 30%; height: 30%" src="assets/imgs/test/2p.png">\n\n\n\n \n\n                <p style="color: white">2.	¿No te comunicas con tus amigos/as, familiares, compañeras/os de trabajo para evitar que tu pareja se moleste? </p>\n\n         \n\n                <button class="button button-danger customBtn" ion-button large color="danger" (click)="fsi()">Si &nbsp;</button> <br>\n\n                <button class="button button-danger customBtn" ion-button large color="danger" (click)="faveces()">A Veces</button> <br>\n\n                <button class="button button-danger customBtn" ion-button large color="danger" (click)="fno()">No </button> <br>\n\n  \n\n                <br>\n\n               \n\n              </ion-slide>\n\n\n\n              <ion-slide style="background-color: #0B3954">\n\n                    <img style="align-content: center;width: 30%; height: 30%" src="assets/imgs/test/3p.png">\n\n\n\n                  <p style="color: white">3.¿Opina negativamente en público o en privado, sobre tu apariencia, tu forma de ser, el modo en que te vistes? </p>\n\n                  <button class="button button-danger customBtn" ion-button large color="danger" (click)="fsi()">Si &nbsp;</button> <br>\n\n                  <button class="button button-danger customBtn" ion-button large color="danger" (click)="faveces()">A Veces</button> <br>\n\n                  <button class="button button-danger customBtn" ion-button large color="danger" (click)="fno()">No </button> <br>\n\n             \n\n                  <br>\n\n                  </ion-slide>\n\n\n\n                <ion-slide style="background-color: #0B3954">\n\n                        <img style="align-content: center;width: 30%; height: 30%" src="assets/imgs/test/4.png">\n\n\n\n                    <p style="color: white">4.	¿Te ha golpeado cuando se enoja o cuando discuten? </p>\n\n             \n\n                    <button class="button button-danger customBtn" ion-button large color="danger" (click)="fsi()">Si &nbsp;</button> <br>\n\n                    <button class="button button-danger customBtn" ion-button large color="danger" (click)="faveces()">A Veces</button> <br>\n\n                    <button class="button button-danger customBtn" ion-button large color="danger" (click)="fno()">No </button> <br>\n\n               \n\n                    <br>\n\n                  </ion-slide>\n\n\n\n                  <ion-slide style="background-color: #0B3954">\n\n                        <img style="align-content: center;width: 30%; height: 30%" src="assets/imgs/test/5p.png">\n\n\n\n                      <p style="color: white">5.	Después de una explosión de violencia, ¿Se muestra cariñoso y atento, te regala cosas y te promete que nunca más volverá a pegarte o insultarte y te dice que “todo cambiará”? </p>\n\n               \n\n                      <button class="button button-danger customBtn" ion-button large color="danger" (click)="fsi()">Si &nbsp;</button> <br>\n\n                      <button class="button button-danger customBtn" ion-button large color="danger" (click)="faveces()">A Veces</button> <br>\n\n                      <button class="button button-danger customBtn" ion-button large color="danger" (click)="fno()">No </button> <br>\n\n                      <br>\n\n                    </ion-slide>\n\n\n\n                    <ion-slide style="background-color: #0B3954">\n\n                            <img style="align-content: center;width: 30%; height: 30%" src="assets/imgs/test/smartphone.png">\n\n\n\n                        <p style="color: white"> 6.	¿Todo el tiempo quiere controlarte, revisa tu celular y siempre quiere saber dónde estás y con quién?\n\n                           </p>\n\n                           <button class="button button-danger customBtn" ion-button large color="danger" (click)="fsi()">Si &nbsp;</button> <br>\n\n                           <button class="button button-danger customBtn" ion-button large color="danger" (click)="faveces()">A Veces</button> <br>\n\n                           <button class="button button-danger customBtn" ion-button large color="danger" (click)="fno()">No </button> <br>\n\n                   \n\n                           <br>\n\n                      </ion-slide>\n\n\n\n                      <ion-slide style="background-color: #0B3954">\n\n                            <img style="align-content: center;width: 30%; height: 30%" src="assets/imgs/test/7p.png">\n\n\n\n                          <p style="color: white">	7.	¿Te ha obligado a tener relaciones sexuales cuando no quieres?\n\n                              </p>\n\n                   \n\n                              <button class="button button-danger customBtn" ion-button large color="danger" (click)="fsi()">Si &nbsp;</button> <br>\n\n                              <button class="button button-danger customBtn" ion-button large color="danger" (click)="faveces()">A Veces</button> <br>\n\n                              <button class="button button-danger customBtn" ion-button large color="danger" (click)="fno()">No </button> <br>\n\n                     \n\n                              <br>\n\n                        </ion-slide>\n\n\n\n                        <ion-slide style="background-color: #0B3954">\n\n                                <img style="align-content: center;width: 30%; height: 30%" src="assets/imgs/test/12.png">\n\n\n\n                            <p style="color: white">8.	¿Te impide usar métodos anticonceptivos?\n\n                                </p>\n\n                     \n\n                                <button class="button button-danger customBtn" ion-button large color="danger" (click)="fsi()">Si &nbsp;</button> <br>\n\n                                <button class="button button-danger customBtn" ion-button large color="danger" (click)="faveces()">A Veces</button> <br>\n\n                                <button class="button button-danger customBtn" ion-button large color="danger" (click)="fno()">No </button> <br>\n\n                                <br>\n\n                           \n\n                          </ion-slide>\n\n\n\n\n\n                     \n\n\n\n                                  <ion-slide style="background-color: #0B3954">\n\n                                        <img style="align-content: center;width: 30%; height: 30%" src="assets/imgs/test/9p.png">\n\n\n\n                                      <p style="color: white">9.	Cuando se enojan o discuten ¿Has sentido que tu vida está en peligro? \n\n                                          </p>\n\n                                       <button class="button button-danger customBtn" ion-button large color="danger" (click)="fsifinal()">Si &nbsp;</button> <br>\n\n              <button class="button button-danger customBtn" ion-button large color="danger" (click)="favecesfinal()">A Veces</button> <br>\n\n              <button class="button button-danger customBtn" ion-button large color="danger" (click)="fnofinal()">No </button> <br>\n\n                                 \n\n              <br>\n\n                                    </ion-slide>\n\n\n\n                                  \n\n                            \n\n                                     \n\n                                         \n\n\n\n                                    \n\n           \n\n         \n\n        </ion-slides>\n\n  </ion-content>\n\n  \n\n'/*ion-inline-end:"C:\Users\Amy\Desktop\segurasappio\src\pages\test\test.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* ViewController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */]])
     ], TestPage);
@@ -642,7 +642,7 @@ var Test2Page = /** @class */ (function () {
     ], Test2Page.prototype, "slides", void 0);
     Test2Page = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-test2',template:/*ion-inline-start:"C:\Users\Amy\Desktop\segurasappio\src\pages\test2\test2.html"*/'<!--\n  Generated template for the Test2Page page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar color="primary">\n    <ion-title>Test de Violencia</ion-title>\n    <ion-buttons end>\n    </ion-buttons>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding style="background-color: white">\n\n    <ion-slides pager="true" (ionslideDidChange)="slideChanged()"><!--3 little buttons at the bottom of each slide-->\n      \n      <ion-slide style="background-color: #0B3954; color:  white">\n          <h2 text-center style="padding-top: 10px; color:white4"><strong>¿Crees que estas sufriendo de violencia en tu relación? </strong> </h2>  \n         <div style="text-align: center; " ><img   src="assets/imgs/test/questions.gif" style="padding-bottom: 5px; width: 30%; height: 30%;" ></div> \n\n          <p style="text-align: center; color: white;"><strong>Responde las siguientes preguntas y averigua \n          </strong><ion-icon name="arrow-round-forward" style="align-content: center;"></ion-icon></p>\n        \n        </ion-slide>\n\n        <ion-slide style="background-color: #0B3954">\n\n<img style="align-content: center;width: 40%; height: 40%" src="assets/imgs/test/10.png">\n\n     \n            <p style="color: white">1.	¿Tiene un temperamento explosivo, nunca se sabe cuándo va a estallar? </p>\n       \n              <button class="button button-danger customBtn" ion-button large color="danger" (click)="fsi()">Si &nbsp;</button> <br>\n              <button class="button button-danger customBtn" ion-button large color="danger" (click)="fno()">No </button> <br>\n             <br>\n       \n           \n          </ion-slide>\n\n          <ion-slide style="background-color: #0B3954">\n              <img style="align-content: center;width: 40%; height: 40%" src="assets/imgs/test/1.png">\n\n\n              <p style="color: white">2.	¿Por momentos se vuelve extremadamente celoso o te acusa frecuentemente de engañarlo con otros chavos? </p>\n       \n              <button class="button button-danger customBtn" ion-button large color="danger" (click)="fsi()">Si &nbsp;</button> <br>\n              <button class="button button-danger customBtn" ion-button large color="danger" (click)="fno()">No </button> <br>\n             <br>\n\n         \n             \n            </ion-slide>\n\n            <ion-slide style="background-color: #0B3954">\n                <img style="align-content: center;width: 40%; height: 40%" src="assets/imgs/test/6..png">\n\n                <p style="color: white">3.	¿Te critica continuamente tu forma de ser o de relacionarte con la gente?</p>\n                <button class="button button-danger customBtn" ion-button large color="danger" (click)="fsi()">Si &nbsp;</button> <br>\n                <button class="button button-danger customBtn" ion-button large color="danger" (click)="fno()">No </button> <br>\n               <br>\n  \n           \n               \n                </ion-slide>\n\n                <ion-slide style="background-color: #0B3954">\n                    <img style="align-content: center;width: 40%; height: 40%" src="assets/imgs/test/make-up.png">\n\n                  <p style="color: white">4.	¿Te critica y hasta te prohíbe el uso de alguna ropa o maquillaje? </p>\n           \n                  <button class="button button-danger customBtn" ion-button large color="danger" (click)="fsi()">Si &nbsp;</button> <br>\n                  <button class="button button-danger customBtn" ion-button large color="danger" (click)="fno()">No </button> <br>\n                 <br>\n    \n             \n                 \n                </ion-slide>\n\n                <ion-slide style="background-color: #0B3954">\n                    <img style="align-content: center;width: 40%; height: 40%" src="assets/imgs/test/smartphone.png">\n\n                    <p style="color: white">5.	¿Te llama constantemente al celular, revisa tus mensajes, llamadas o tu correo electrónico? </p>\n             \n                    <button class="button button-danger customBtn" ion-button large color="danger" (click)="fsi()">Si &nbsp;</button> <br>\n                    <button class="button button-danger customBtn" ion-button large color="danger" (click)="fno()">No </button> <br>\n                   <br>\n               \n                   \n                  </ion-slide>\n\n                  <ion-slide style="background-color: #0B3954">\n                      <img style="align-content: center;width: 40%; height: 40%" src="assets/imgs/test/10.png">\n\n                      <p style="color: white"> 6.	¿Te engaña o te amenaza con engañarte con otra chava?\n                         </p>\n               \n                         <button class="button button-danger customBtn" ion-button large color="danger" (click)="fsi()">Si &nbsp;</button> <br>\n                         <button class="button button-danger customBtn" ion-button large color="danger" (click)="fno()">No </button> <br>\n                        <br>\n                     \n                    </ion-slide>\n\n                    <ion-slide style="background-color: #0B3954">\n                        <img style="align-content: center;width: 40%; height: 40%" src="assets/imgs/test/angry.png">\n\n                        <p style="color: white">7.	¿Critica o menosprecia a tus amigos/as o a tu familia?\n                            </p>\n                            <button class="button button-danger customBtn" ion-button large color="danger" (click)="fsi()">Si &nbsp;</button> <br>\n                            <button class="button button-danger customBtn" ion-button large color="danger" (click)="fno()">No </button> <br>\n                           <br>\n                   \n                       \n                      </ion-slide>\n\n                      <ion-slide style="background-color: #0B3954">\n                          <img style="align-content: center;width: 40%; height: 40%" src="assets/imgs/test/quiet.png">\n\n                          <p style="color: white">8.	¿Él toma todas las decisiones sobre qué hacer, a donde ir o con quien salir?\n                              </p>\n                   \n                              <button class="button button-danger customBtn" ion-button large color="danger" (click)="fsi()">Si &nbsp;</button> <br>\n                              <button class="button button-danger customBtn" ion-button large color="danger" (click)="fno()">No </button> <br>\n                             <br>\n                         \n                        </ion-slide>\n\n                        <ion-slide style="background-color: #0B3954">\n                            <img style="align-content: center;width: 40%; height: 40%" src="assets/imgs/test/4.png">\n\n                      <p style="color: white">9.	¿Pega, patea, empuja o tira cosas?\n                          </p>\n               \n                          <button class="button button-danger customBtn" ion-button large color="danger" (click)="fsi()">Si &nbsp;</button> <br>\n                          <button class="button button-danger customBtn" ion-button large color="danger" (click)="fno()">No </button> <br>\n                         <br>\n                 \n                     \n                    </ion-slide>\n\n\n                   \n\n                    <ion-slide style="background-color: #0B3954">\n                        <img style="align-content: center;width: 40%; height: 40%" src="assets/imgs/test/bed.png">\n\n                                    <p style="color: white">10.	¿Te obliga a mantener relaciones sexuales o insiste pidiéndote la prueba de amor?\n                                        </p>\n                                      <button class="button button-danger customBtn" ion-button large color="danger" (click)="fsifinal()">Si</button>\n                                              \n                                           <button class="button button-danger customBtn" ion-button large color="danger" (click)="fnofinal()">No </button>\n                      \n                               \n                                   \n                                  </ion-slide>\n\n                                \n                          \n                                   \n                                       \n\n                                  \n         \n       \n      </ion-slides>\n</ion-content>\n'/*ion-inline-end:"C:\Users\Amy\Desktop\segurasappio\src\pages\test2\test2.html"*/,
+            selector: 'page-test2',template:/*ion-inline-start:"C:\Users\Amy\Desktop\segurasappio\src\pages\test2\test2.html"*/'<!--\n  Generated template for the Test2Page page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar color="primary">\n    <ion-title>Test de Violencia</ion-title>\n    <ion-buttons end>\n    </ion-buttons>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding style="background-color: white">\n\n    <ion-slides pager="true" (ionslideDidChange)="slideChanged()"><!--3 little buttons at the bottom of each slide-->\n      \n      <ion-slide style="background-color: #0B3954; color:  white">\n          <h2 text-center style="padding-top: 10px; color:white4"><strong>¿Crees que estas sufriendo de violencia en tu relación? </strong> </h2>  \n         <div style="text-align: center; " ><img   src="assets/imgs/test/test1.png" style="padding-bottom: 5px; width: 30%; height: 30%;" ></div> \n\n          <p style="text-align: center; color: white;"><strong>Responde las siguientes preguntas y averigua \n          </strong><ion-icon name="arrow-round-forward" style="align-content: center;"></ion-icon></p>\n        \n        </ion-slide>\n\n        <ion-slide style="background-color: #0B3954">\n\n<img style="align-content: center;width: 40%; height: 40%" src="assets/imgs/test/1n.png">\n\n     \n            <p style="color: white">1.	¿Tiene un temperamento explosivo, nunca se sabe cuándo va a estallar? </p>\n       \n              <button class="button button-danger customBtn" ion-button large color="danger" (click)="fsi()">Si &nbsp;</button> <br>\n              <button class="button button-danger customBtn" ion-button large color="danger" (click)="fno()">No </button> <br>\n             <br>\n       \n           \n          </ion-slide>\n\n          <ion-slide style="background-color: #0B3954">\n              <img style="align-content: center;width: 40%; height: 40%" src="assets/imgs/test/2n.png">\n\n\n              <p style="color: white">2.	¿Por momentos se vuelve extremadamente celoso o te acusa frecuentemente de engañarlo con otros chavos? </p>\n       \n              <button class="button button-danger customBtn" ion-button large color="danger" (click)="fsi()">Si &nbsp;</button> <br>\n              <button class="button button-danger customBtn" ion-button large color="danger" (click)="fno()">No </button> <br>\n             <br>\n\n         \n             \n            </ion-slide>\n\n            <ion-slide style="background-color: #0B3954">\n                <img style="align-content: center;width: 40%; height: 40%" src="assets/imgs/test/3n.png">\n\n                <p style="color: white">3.	¿Te critica continuamente tu forma de ser o de relacionarte con la gente?</p>\n                <button class="button button-danger customBtn" ion-button large color="danger" (click)="fsi()">Si &nbsp;</button> <br>\n                <button class="button button-danger customBtn" ion-button large color="danger" (click)="fno()">No </button> <br>\n               <br>\n  \n           \n               \n                </ion-slide>\n\n                <ion-slide style="background-color: #0B3954">\n                    <img style="align-content: center;width: 40%; height: 40%" src="assets/imgs/test/make-up.png">\n\n                  <p style="color: white">4.	¿Te critica y hasta te prohíbe el uso de alguna ropa o maquillaje? </p>\n           \n                  <button class="button button-danger customBtn" ion-button large color="danger" (click)="fsi()">Si &nbsp;</button> <br>\n                  <button class="button button-danger customBtn" ion-button large color="danger" (click)="fno()">No </button> <br>\n                 <br>\n    \n             \n                 \n                </ion-slide>\n\n                <ion-slide style="background-color: #0B3954">\n                    <img style="align-content: center;width: 40%; height: 40%" src="assets/imgs/test/smartphone.png">\n\n                    <p style="color: white">5.	¿Te llama constantemente al celular, revisa tus mensajes, llamadas o tu correo electrónico? </p>\n             \n                    <button class="button button-danger customBtn" ion-button large color="danger" (click)="fsi()">Si &nbsp;</button> <br>\n                    <button class="button button-danger customBtn" ion-button large color="danger" (click)="fno()">No </button> <br>\n                   <br>\n               \n                   \n                  </ion-slide>\n\n                  <ion-slide style="background-color: #0B3954">\n                      <img style="align-content: center;width: 40%; height: 40%" src="assets/imgs/test/6n.png">\n\n                      <p style="color: white"> 6.	¿Te engaña o te amenaza con engañarte con otra chava?\n                         </p>\n               \n                         <button class="button button-danger customBtn" ion-button large color="danger" (click)="fsi()">Si &nbsp;</button> <br>\n                         <button class="button button-danger customBtn" ion-button large color="danger" (click)="fno()">No </button> <br>\n                        <br>\n                     \n                    </ion-slide>\n\n                    <ion-slide style="background-color: #0B3954">\n                        <img style="align-content: center;width: 40%; height: 40%" src="assets/imgs/test/7n.png">\n\n                        <p style="color: white">7.	¿Critica o menosprecia a tus amigos/as o a tu familia?\n                            </p>\n                            <button class="button button-danger customBtn" ion-button large color="danger" (click)="fsi()">Si &nbsp;</button> <br>\n                            <button class="button button-danger customBtn" ion-button large color="danger" (click)="fno()">No </button> <br>\n                           <br>\n                   \n                       \n                      </ion-slide>\n\n                      <ion-slide style="background-color: #0B3954">\n                          <img style="align-content: center;width: 40%; height: 40%" src="assets/imgs/test/8n.png">\n\n                          <p style="color: white">8.	¿Él toma todas las decisiones sobre qué hacer, a donde ir o con quien salir?\n                              </p>\n                   \n                              <button class="button button-danger customBtn" ion-button large color="danger" (click)="fsi()">Si &nbsp;</button> <br>\n                              <button class="button button-danger customBtn" ion-button large color="danger" (click)="fno()">No </button> <br>\n                             <br>\n                         \n                        </ion-slide>\n\n                        <ion-slide style="background-color: #0B3954">\n                            <img style="align-content: center;width: 40%; height: 40%" src="assets/imgs/test/4.png">\n\n                      <p style="color: white">9.	¿Pega, patea, empuja o tira cosas?\n                          </p>\n               \n                          <button class="button button-danger customBtn" ion-button large color="danger" (click)="fsi()">Si &nbsp;</button> <br>\n                          <button class="button button-danger customBtn" ion-button large color="danger" (click)="fno()">No </button> <br>\n                         <br>\n                 \n                     \n                    </ion-slide>\n\n\n                   \n\n                    <ion-slide style="background-color: #0B3954">\n                        <img style="align-content: center;width: 40%; height: 40%" src="assets/imgs/test/10n.png">\n\n                                    <p style="color: white">10.	¿Te obliga a mantener relaciones sexuales o insiste pidiéndote la prueba de amor?\n                                        </p>\n                                      <button class="button button-danger customBtn" ion-button large color="danger" (click)="fsifinal()">Si</button>\n                                              \n                                           <button class="button button-danger customBtn" ion-button large color="danger" (click)="fnofinal()">No </button>\n                      \n                               \n                                   \n                                  </ion-slide>\n\n                                \n                          \n                                   \n                                       \n\n                                  \n         \n       \n      </ion-slides>\n</ion-content>\n'/*ion-inline-end:"C:\Users\Amy\Desktop\segurasappio\src\pages\test2\test2.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* ViewController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */]])
     ], Test2Page);
@@ -675,51 +675,51 @@ webpackEmptyAsyncContext.id = 123;
 
 var map = {
 	"../pages/atlantida/atlantida.module": [
-		290,
+		292,
 		31
 	],
 	"../pages/aveces/aveces.module": [
-		291,
+		290,
 		44
 	],
 	"../pages/choluteca/choluteca.module": [
-		293,
+		291,
 		30
 	],
 	"../pages/ciclo-violencia/ciclo-violencia.module": [
-		292,
+		295,
 		29
 	],
 	"../pages/colon/colon.module": [
-		302,
+		293,
 		28
 	],
 	"../pages/comayagua/comayagua.module": [
-		303,
+		294,
 		27
 	],
 	"../pages/consejos-seguridad/consejos-seguridad.module": [
-		295,
+		296,
 		26
 	],
 	"../pages/consejos/consejos.module": [
-		294,
+		297,
 		43
 	],
 	"../pages/copan/copan.module": [
-		296,
+		298,
 		25
 	],
 	"../pages/cortes/cortes.module": [
-		297,
+		299,
 		24
 	],
 	"../pages/definicion/definicion.module": [
-		298,
+		302,
 		23
 	],
 	"../pages/denuncia/denuncia.module": [
-		299,
+		301,
 		42
 	],
 	"../pages/denunciamenu/denunciamenu.module": [
@@ -727,7 +727,7 @@ var map = {
 		22
 	],
 	"../pages/denuncias-def/denuncias-def.module": [
-		301,
+		303,
 		21
 	],
 	"../pages/directorio/directorio.module": [
@@ -735,23 +735,23 @@ var map = {
 		20
 	],
 	"../pages/el-paraiso/el-paraiso.module": [
-		308,
+		305,
 		19
 	],
 	"../pages/francisco-m/francisco-m.module": [
-		310,
+		315,
 		18
 	],
 	"../pages/gracias-a-dios/gracias-a-dios.module": [
-		305,
+		306,
 		17
 	],
 	"../pages/identifica/identifica.module": [
-		306,
+		307,
 		16
 	],
 	"../pages/info/info.module": [
-		307,
+		308,
 		39
 	],
 	"../pages/info2/info2.module": [
@@ -759,39 +759,39 @@ var map = {
 		41
 	],
 	"../pages/info3/info3.module": [
-		311,
+		310,
 		40
 	],
 	"../pages/intibuca/intibuca.module": [
-		312,
+		311,
 		15
 	],
 	"../pages/islas/islas.module": [
-		313,
+		312,
 		14
 	],
 	"../pages/la-ceiba/la-ceiba.module": [
-		314,
+		313,
 		13
 	],
 	"../pages/la-paz/la-paz.module": [
-		317,
+		314,
 		12
 	],
 	"../pages/lempira/lempira.module": [
-		315,
+		316,
 		11
 	],
 	"../pages/medidas/medidas.module": [
-		318,
+		324,
 		10
 	],
 	"../pages/new-place/new-place.module": [
-		316,
+		317,
 		38
 	],
 	"../pages/ninos/ninos.module": [
-		320,
+		318,
 		9
 	],
 	"../pages/no/no.module": [
@@ -799,19 +799,19 @@ var map = {
 		37
 	],
 	"../pages/ocotepeque/ocotepeque.module": [
-		322,
+		320,
 		8
 	],
 	"../pages/olancho/olancho.module": [
-		321,
+		322,
 		7
 	],
 	"../pages/pasos-denuncia/pasos-denuncia.module": [
-		323,
+		321,
 		6
 	],
 	"../pages/proceso/proceso.module": [
-		324,
+		323,
 		5
 	],
 	"../pages/raravez/raravez.module": [
@@ -819,15 +819,15 @@ var map = {
 		36
 	],
 	"../pages/rutas-atencion/rutas-atencion.module": [
-		327,
+		326,
 		4
 	],
 	"../pages/santa-barbara/santa-barbara.module": [
-		326,
+		327,
 		3
 	],
 	"../pages/si/si.module": [
-		328,
+		334,
 		35
 	],
 	"../pages/test/test.module": [
@@ -835,23 +835,23 @@ var map = {
 		33
 	],
 	"../pages/test2/test2.module": [
-		330,
+		328,
 		34
 	],
 	"../pages/testmenu/testmenu.module": [
-		331,
+		330,
 		32
 	],
 	"../pages/valle/valle.module": [
-		332,
+		331,
 		2
 	],
 	"../pages/vintraf/vintraf.module": [
-		333,
+		332,
 		1
 	],
 	"../pages/yoro/yoro.module": [
-		334,
+		333,
 		0
 	]
 };
@@ -996,7 +996,7 @@ var AboutPage = /** @class */ (function () {
     };
     AboutPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-about',template:/*ion-inline-start:"C:\Users\Amy\Desktop\segurasappio\src\pages\about\about.html"*/'<ion-header>\n\n  <ion-navbar color="primary">\n\n      <ion-title style="text-align: center; ">\n\n      AYUDA\n\n    </ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content padding>\n\n    <div>&nbsp;</div>\n\n    <ion-grid>\n\n        <ion-row (click)= "senSMS()" padding style="background-color: #FC4E50; text-align: center; padding-top: 5px ; border: 10px solid white;">\n\n            \n\n         <ion-col><p style="padding:5px; font-size: 20px; color:white">ENVIAR MENSAJES DE EMERGENCIA</p></ion-col> \n\n            <ion-col>  <img   src="assets/imgs/5Emergencia/alarm.gif" style="padding-bottom: 5px; width: 70%; height: 70%" ></ion-col> \n\n       \n\n        </ion-row>\n\n\n\n<br>\n\n<br>\n\n        <ion-row (click)= "call()" padding style="background-color: #0B3954; text-align: center; padding-top: 5px ; border: 10px solid white; height:200px;">\n\n            \n\n         \n\n               <ion-col>  <img src="assets/imgs/5Emergencia/alert.gif" style="padding-bottom: 5px; width: 70%; height: 70%" ></ion-col> \n\n               <ion-col><p style="padding:5px; font-size: 20px; color:white">LLAMADA DE EMERGENCIA<br> 911</p></ion-col> \n\n           </ion-row>\n\n\n\n\n\n</ion-grid>\n\n\n\n    \n\n\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\Amy\Desktop\segurasappio\src\pages\about\about.html"*/
+            selector: 'page-about',template:/*ion-inline-start:"C:\Users\Amy\Desktop\segurasappio\src\pages\about\about.html"*/'<ion-header>\n\n  <ion-navbar color="primary">\n\n      <ion-title style="text-align: center; ">\n\n      AYUDA\n\n    </ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content padding>\n\n    <div>&nbsp;</div>\n\n    <ion-grid>\n\n        <ion-row (click)= "senSMS()" padding style="background-color: #FC4E50; text-align: center; padding-top: 5px ; border: 10px solid white;">\n\n            \n\n         <ion-col align-self-center><p style="padding:5px; font-size: 20px; color:white">ENVIAR MENSAJES DE EMERGENCIA</p></ion-col> \n\n            <ion-col align-self-center>  <img   src="assets/imgs/5Emergencia/alarm2.gif" style="padding-top:20px; padding-bottom: 5px;" ></ion-col> \n\n       \n\n        </ion-row>\n\n\n\n<br>\n\n<br>\n\n        <ion-row (click)= "call()" padding style="background-color: #0B3954; text-align: center; padding-top: 5px ; border: 10px solid white; height:200px;">\n\n            \n\n         \n\n               <ion-col>  <img src="assets/imgs/5Emergencia/alert.gif" style="padding-bottom: 5px; width: 70%; height: 70%" ></ion-col> \n\n               <ion-col><p style="padding:5px; font-size: 20px; color:white">LLAMADA DE EMERGENCIA<br> 911</p></ion-col> \n\n           </ion-row>\n\n\n\n\n\n</ion-grid>\n\n\n\n    \n\n\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\Amy\Desktop\segurasappio\src\pages\about\about.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__ionic_native_sms__["a" /* SMS */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_call_number__["a" /* CallNumber */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_geolocation__["a" /* Geolocation */], __WEBPACK_IMPORTED_MODULE_4__ionic_storage__["b" /* Storage */]])
     ], AboutPage);
@@ -1217,51 +1217,51 @@ var AppModule = /** @class */ (function () {
                 __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
                 __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["d" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_10__app_component__["a" /* MyApp */], {}, {
                     links: [
-                        { loadChildren: '../pages/atlantida/atlantida.module#AtlantidaPageModule', name: 'AtlantidaPage', segment: 'atlantida', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/aveces/aveces.module#AvecesPageModule', name: 'AvecesPage', segment: 'aveces', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/ciclo-violencia/ciclo-violencia.module#CicloViolenciaPageModule', name: 'CicloViolenciaPage', segment: 'ciclo-violencia', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/choluteca/choluteca.module#CholutecaPageModule', name: 'CholutecaPage', segment: 'choluteca', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/consejos/consejos.module#ConsejosPageModule', name: 'ConsejosPage', segment: 'consejos', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/consejos-seguridad/consejos-seguridad.module#ConsejosSeguridadPageModule', name: 'ConsejosSeguridadPage', segment: 'consejos-seguridad', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/copan/copan.module#CopanPageModule', name: 'CopanPage', segment: 'copan', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/cortes/cortes.module#CortesPageModule', name: 'CortesPage', segment: 'cortes', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/definicion/definicion.module#DefinicionPageModule', name: 'DefinicionPage', segment: 'definicion', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/denuncia/denuncia.module#DenunciaPageModule', name: 'DenunciaPage', segment: 'denuncia', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/denunciamenu/denunciamenu.module#DenunciamenuPageModule', name: 'DenunciamenuPage', segment: 'denunciamenu', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/denuncias-def/denuncias-def.module#DenunciasDefPageModule', name: 'DenunciasDefPage', segment: 'denuncias-def', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/atlantida/atlantida.module#AtlantidaPageModule', name: 'AtlantidaPage', segment: 'atlantida', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/colon/colon.module#ColonPageModule', name: 'ColonPage', segment: 'colon', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/comayagua/comayagua.module#ComayaguaPageModule', name: 'ComayaguaPage', segment: 'comayagua', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/ciclo-violencia/ciclo-violencia.module#CicloViolenciaPageModule', name: 'CicloViolenciaPage', segment: 'ciclo-violencia', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/consejos-seguridad/consejos-seguridad.module#ConsejosSeguridadPageModule', name: 'ConsejosSeguridadPage', segment: 'consejos-seguridad', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/consejos/consejos.module#ConsejosPageModule', name: 'ConsejosPage', segment: 'consejos', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/copan/copan.module#CopanPageModule', name: 'CopanPage', segment: 'copan', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/cortes/cortes.module#CortesPageModule', name: 'CortesPage', segment: 'cortes', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/denunciamenu/denunciamenu.module#DenunciamenuPageModule', name: 'DenunciamenuPage', segment: 'denunciamenu', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/denuncia/denuncia.module#DenunciaPageModule', name: 'DenunciaPage', segment: 'denuncia', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/definicion/definicion.module#DefinicionPageModule', name: 'DefinicionPage', segment: 'definicion', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/denuncias-def/denuncias-def.module#DenunciasDefPageModule', name: 'DenunciasDefPage', segment: 'denuncias-def', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/directorio/directorio.module#DirectorioPageModule', name: 'DirectorioPage', segment: 'directorio', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/el-paraiso/el-paraiso.module#ElParaisoPageModule', name: 'ElParaisoPage', segment: 'el-paraiso', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/gracias-a-dios/gracias-a-dios.module#GraciasADiosPageModule', name: 'GraciasADiosPage', segment: 'gracias-a-dios', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/identifica/identifica.module#IdentificaPageModule', name: 'IdentificaPage', segment: 'identifica', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/info/info.module#InfoPageModule', name: 'InfoPage', segment: 'info', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/el-paraiso/el-paraiso.module#ElParaisoPageModule', name: 'ElParaisoPage', segment: 'el-paraiso', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/info2/info2.module#Info2PageModule', name: 'Info2Page', segment: 'info2', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/francisco-m/francisco-m.module#FranciscoMPageModule', name: 'FranciscoMPage', segment: 'francisco-m', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/info3/info3.module#Info3PageModule', name: 'Info3Page', segment: 'info3', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/intibuca/intibuca.module#IntibucaPageModule', name: 'IntibucaPage', segment: 'intibuca', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/islas/islas.module#IslasPageModule', name: 'IslasPage', segment: 'islas', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/la-ceiba/la-ceiba.module#LaCeibaPageModule', name: 'LaCeibaPage', segment: 'la-ceiba', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/la-paz/la-paz.module#LaPazPageModule', name: 'LaPazPage', segment: 'la-paz', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/francisco-m/francisco-m.module#FranciscoMPageModule', name: 'FranciscoMPage', segment: 'francisco-m', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/lempira/lempira.module#LempiraPageModule', name: 'LempiraPage', segment: 'lempira', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/new-place/new-place.module#NewPlacePageModule', name: 'NewPlacePage', segment: 'new-place', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/la-paz/la-paz.module#LaPazPageModule', name: 'LaPazPage', segment: 'la-paz', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/medidas/medidas.module#MedidasPageModule', name: 'MedidasPage', segment: 'medidas', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/no/no.module#NoPageModule', name: 'NoPage', segment: 'no', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/ninos/ninos.module#NinosPageModule', name: 'NinosPage', segment: 'ninos', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/olancho/olancho.module#OlanchoPageModule', name: 'OlanchoPage', segment: 'olancho', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/no/no.module#NoPageModule', name: 'NoPage', segment: 'no', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/ocotepeque/ocotepeque.module#OcotepequePageModule', name: 'OcotepequePage', segment: 'ocotepeque', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/pasos-denuncia/pasos-denuncia.module#PasosDenunciaPageModule', name: 'PasosDenunciaPage', segment: 'pasos-denuncia', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/olancho/olancho.module#OlanchoPageModule', name: 'OlanchoPage', segment: 'olancho', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/proceso/proceso.module#ProcesoPageModule', name: 'ProcesoPage', segment: 'proceso', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/medidas/medidas.module#MedidasPageModule', name: 'MedidasPage', segment: 'medidas', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/raravez/raravez.module#RaravezPageModule', name: 'RaravezPage', segment: 'raravez', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/santa-barbara/santa-barbara.module#SantaBarbaraPageModule', name: 'SantaBarbaraPage', segment: 'santa-barbara', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/rutas-atencion/rutas-atencion.module#RutasAtencionPageModule', name: 'RutasAtencionPage', segment: 'rutas-atencion', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/si/si.module#SiPageModule', name: 'SiPage', segment: 'si', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/test/test.module#TestPageModule', name: 'TestPage', segment: 'test', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/santa-barbara/santa-barbara.module#SantaBarbaraPageModule', name: 'SantaBarbaraPage', segment: 'santa-barbara', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/test2/test2.module#Test2PageModule', name: 'Test2Page', segment: 'test2', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/test/test.module#TestPageModule', name: 'TestPage', segment: 'test', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/testmenu/testmenu.module#TestmenuPageModule', name: 'TestmenuPage', segment: 'testmenu', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/valle/valle.module#VallePageModule', name: 'VallePage', segment: 'valle', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/vintraf/vintraf.module#VintrafPageModule', name: 'VintrafPage', segment: 'vintraf', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/yoro/yoro.module#YoroPageModule', name: 'YoroPage', segment: 'yoro', priority: 'low', defaultHistory: [] }
+                        { loadChildren: '../pages/yoro/yoro.module#YoroPageModule', name: 'YoroPage', segment: 'yoro', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/si/si.module#SiPageModule', name: 'SiPage', segment: 'si', priority: 'low', defaultHistory: [] }
                     ]
                 }),
                 __WEBPACK_IMPORTED_MODULE_9__ionic_storage__["a" /* IonicStorageModule */].forRoot()
