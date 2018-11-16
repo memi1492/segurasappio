@@ -66,7 +66,7 @@ export class AboutPage {
     }
     SMS2(){
       this.storage.get('contact2').then((contacto2) => {
-      var urlinicial = "AIUUUUDAAA TOY ACA https://www.google.com/maps/search/?api=1&query=";
+      var urlinicial = "Estoy en problema y necesito tu ayuda. Esta es mi ubicación: https://www.google.com/maps/search/?api=1&query=";
     var urlfinal = urlinicial.concat(this.lat, ",", this.lng);
     var options: {
     
@@ -83,7 +83,7 @@ export class AboutPage {
     }
     SMS3(){
       this.storage.get('contact3').then((contacto3) => {
-      var urlinicial = "AIUUUUDAAA TOY ACA https://www.google.com/maps/search/?api=1&query=";
+      var urlinicial = "Estoy en problema y necesito tu ayuda. Esta es mi ubicación: https://www.google.com/maps/search/?api=1&query=";
     var urlfinal = urlinicial.concat(this.lat, ",", this.lng);
     var options: {
     

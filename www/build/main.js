@@ -971,7 +971,7 @@ var AboutPage = /** @class */ (function () {
     AboutPage.prototype.SMS2 = function () {
         var _this = this;
         this.storage.get('contact2').then(function (contacto2) {
-            var urlinicial = "AIUUUUDAAA TOY ACA https://www.google.com/maps/search/?api=1&query=";
+            var urlinicial = "Estoy en problema y necesito tu ayuda. Esta es mi ubicación: https://www.google.com/maps/search/?api=1&query=";
             var urlfinal = urlinicial.concat(_this.lat, ",", _this.lng);
             var options;
             _this.sms.send(contacto2, urlfinal, options).then(function () { console.log('sms worked'); }).catch(function (err) {
@@ -982,7 +982,7 @@ var AboutPage = /** @class */ (function () {
     AboutPage.prototype.SMS3 = function () {
         var _this = this;
         this.storage.get('contact3').then(function (contacto3) {
-            var urlinicial = "AIUUUUDAAA TOY ACA https://www.google.com/maps/search/?api=1&query=";
+            var urlinicial = "Estoy en problema y necesito tu ayuda. Esta es mi ubicación: https://www.google.com/maps/search/?api=1&query=";
             var urlfinal = urlinicial.concat(_this.lat, ",", _this.lng);
             var options;
             _this.sms.send(contacto3, urlfinal, options).then(function () { console.log('sms worked'); }).catch(function (err) {
