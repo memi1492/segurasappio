@@ -25673,6 +25673,17 @@ page-atlantida ion-content {
   background: #BFD7EA !important;
 }
 
+page-aveces ion-content {
+  background: #0B3954 !important;
+  color: #0B3954;
+  font-weight: bold;
+}
+
+page-aveces .button.customBtn {
+  width: 180px;
+  text-align: center;
+}
+
 page-choluteca ion-content {
   background: #BFD7EA !important;
 }
@@ -25719,7 +25730,6 @@ page-consejos .estilodeboton {
   text-align: center;
   padding-top: 5px;
   padding-bottom: 5px;
-  border-radius: 5px;
   -webkit-box-shadow: 0 10px 6px -6px #777;
   box-shadow: 0 10px 6px -6px #777;
 }
@@ -25992,6 +26002,17 @@ page-ninos ion-content {
   background: #BFD7EA !important;
 }
 
+page-no ion-content {
+  background: #0B3954 !important;
+  color: #0B3954;
+  font-weight: bold;
+}
+
+page-no .button.customBtn {
+  width: 180px;
+  text-align: center;
+}
+
 page-ocotepeque ion-content {
   background: #BFD7EA !important;
 }
@@ -26016,10 +26037,43 @@ page-santa-barbara ion-content {
   background: #BFD7EA !important;
 }
 
+page-si ion-content {
+  background: #0B3954 !important;
+  color: #0B3954;
+  font-weight: bold;
+}
+
+page-si .button.customBtn {
+  width: 180px;
+  text-align: center;
+}
+
 page-test ion-content {
   background: #BFD7EA !important;
   color: #0B3954;
   font-weight: bold;
+}
+
+page-test .swiper-pagination-bullet-active {
+  background: #FF6663;
+}
+
+page-test .button.customBtn {
+  width: 180px;
+}
+
+page-test2 ion-content {
+  background: #BFD7EA !important;
+  color: white;
+  font-weight: bold;
+}
+
+page-test2 .swiper-pagination-bullet-active {
+  background: #FF6663;
+}
+
+page-test2 .button.customBtn {
+  width: 180px;
 }
 
 page-testmenu ion-content {
@@ -26037,7 +26091,6 @@ page-testmenu .estilodeboton {
   text-align: center;
   padding-top: 5px;
   padding-bottom: 5px;
-  border-radius: 5px;
   -webkit-box-shadow: 0 10px 6px -6px #777;
   box-shadow: 0 10px 6px -6px #777;
 }

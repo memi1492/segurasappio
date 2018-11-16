@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { HomePage } from '../home/home';
+
 
 /**
  * Generated class for the AvecesPage page.
@@ -22,4 +24,7 @@ export class AvecesPage {
     console.log('ionViewDidLoad AvecesPage');
   }
 
+  volver(){
+    this.navCtrl.push(HomePage);
+  }
 }

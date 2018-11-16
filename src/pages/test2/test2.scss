@@ -1,3 +1,15 @@
 page-test2 {
+    ion-content {
+        background: #BFD7EA !important;
+        color: white;
+        font-weight:bold;
+    }
 
+    .swiper-pagination-bullet-active{
+        background:#FF6663;
+    }
+
+    .button.customBtn{
+        width:180px;
+    }
 }

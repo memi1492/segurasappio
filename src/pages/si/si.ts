@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { HomePage } from '../home/home';
+
 
 /**
  * Generated class for the SiPage page.
@@ -20,6 +22,10 @@ export class SiPage {
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad SiPage');
+  }
+
+  volver(){
+    this.navCtrl.push(HomePage);
   }
 
 }

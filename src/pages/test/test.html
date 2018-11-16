@@ -15,145 +15,130 @@
   </ion-header>
   
   
-  <ion-content padding style="background-color: white">
+  <ion-content padding style="background-color: #0B3954">
 
       <ion-slides pager="true" (ionslideDidChange)="slideChanged()"><!--3 little buttons at the bottom of each slide-->
         
-        <ion-slide style="background-color: #BFD7EA; color:  #23B4B7">
-            <h2 text-center style="padding-top: 10px; color:#0B3954"><strong>¿Crees que estas sufriendo de violencia? </strong> </h2>  
-           <div style="text-align: center; " ><img   src="assets/imgs/unknown.gif" style="padding-bottom: 5px; width: 40%; height: 40%" ></div> 
+        <ion-slide style="background-color: #0B3954; color:  white">
+            <h2 text-center style="padding-top: 10px; color:white4"><strong>¿Crees que estas sufriendo de violencia? </strong> </h2>  
+           <div style="text-align: center; " ><img   src="assets/imgs/test/questions.gif" style="padding-bottom: 5px; width: 30%; height: 30%;" ></div> 
 
-            <p style="text-align: center; color: #FF6663;"><strong>Responde las siguientes preguntas y averigua 
+            <p style="text-align: center; color: white;"><strong>Responde las siguientes preguntas y averigua 
             </strong><ion-icon name="arrow-round-forward" style="align-content: center;"></ion-icon></p>
           
           </ion-slide>
 
-          <ion-slide>
+          <ion-slide style="background-color: #0B3954">
 
-<img style="align-content: center;width: 40%; height: 40%" src="assets/imgs/test/1.png">
+<img style="align-content: center;width: 30%; height: 30%" src="assets/imgs/test/1.png">
 
-              <p>1.	¿Te acusa que eres infiel?  </p>
+              <p style="color: white">1.	¿Te acusa que eres infiel?  </p>
        
-              <button ion-button block (click)="fsi()">Si</button>
-              <button ion-button block color="dark" (click)="faveces()">A Veces</button>
-              <button ion-button block color="dark" (click)="fno()">No </button>
-             
-
-         
-             
+              <button class="button button-danger customBtn" ion-button large color="danger" (click)="fsi()">Si &nbsp;</button> <br>
+              <button class="button button-danger customBtn" ion-button large color="danger" (click)="faveces()">A Veces</button> <br>
+              <button class="button button-danger customBtn" ion-button large color="danger" (click)="fno()">No </button> <br>
+             <br>
             </ion-slide>
 
-            <ion-slide>
-                    <img style="align-content: center;width: 40%; height: 40%" src="assets/imgs/test/2.png">
+            <ion-slide style="background-color: #0B3954">
+                    <img style="align-content: center;width: 30%; height: 30%" src="assets/imgs/test/2.png">
 
  
-                <p>2.	¿No te comunicas con tus amigos/as, familiares, compañeras/os de trabajo para evitar que tu pareja se moleste? </p>
+                <p style="color: white">2.	¿No te comunicas con tus amigos/as, familiares, compañeras/os de trabajo para evitar que tu pareja se moleste? </p>
          
-              <button ion-button block (click)="fsi()">Si</button>
-                           <button ion-button block color="dark" (click)="faveces()">A Veces</button>
-
-                   <button ion-button block color="dark" (click)="fno()">No </button>
+                <button class="button button-danger customBtn" ion-button large color="danger" (click)="fsi()">Si &nbsp;</button> <br>
+                <button class="button button-danger customBtn" ion-button large color="danger" (click)="faveces()">A Veces</button> <br>
+                <button class="button button-danger customBtn" ion-button large color="danger" (click)="fno()">No </button> <br>
   
-           
+                <br>
                
               </ion-slide>
 
-              <ion-slide>
-                    <img style="align-content: center;width: 40%; height: 40%" src="assets/imgs/test/3.png">
+              <ion-slide style="background-color: #0B3954">
+                    <img style="align-content: center;width: 30%; height: 30%" src="assets/imgs/test/3.png">
 
-                  <p>3.¿Opina negativamente en público o en privado, sobre tu apariencia, tu forma de ser, el modo en que te vistes? </p>
-                <button ion-button block (click)="fsi()"  >Si</button>
-                             <button ion-button block color="dark" (click)="faveces()">A Veces</button>
-  
-                     <button ion-button block color="dark" (click)="fno()">No </button>
-    
+                  <p style="color: white">3.¿Opina negativamente en público o en privado, sobre tu apariencia, tu forma de ser, el modo en que te vistes? </p>
+                  <button class="button button-danger customBtn" ion-button large color="danger" (click)="fsi()">Si &nbsp;</button> <br>
+                  <button class="button button-danger customBtn" ion-button large color="danger" (click)="faveces()">A Veces</button> <br>
+                  <button class="button button-danger customBtn" ion-button large color="danger" (click)="fno()">No </button> <br>
              
-                 
+                  <br>
                   </ion-slide>
 
-                <ion-slide>
-                        <img style="align-content: center;width: 40%; height: 40%" src="assets/imgs/test/4.png">
+                <ion-slide style="background-color: #0B3954">
+                        <img style="align-content: center;width: 30%; height: 30%" src="assets/imgs/test/4.png">
 
-                    <p>4.	¿Te ha golpeado cuando se enoja o cuando discuten? </p>
+                    <p style="color: white">4.	¿Te ha golpeado cuando se enoja o cuando discuten? </p>
              
-                  <button ion-button block (click)="fsi()">Si</button>
-                         <button ion-button block color="dark" (click)="faveces()">A Veces</button>
-                      <button ion-button block (click)="fraravez()">Rara Vez</button>
-                 <button ion-button block color="dark" (click)="fno()">No </button>
-      
+                    <button class="button button-danger customBtn" ion-button large color="danger" (click)="fsi()">Si &nbsp;</button> <br>
+                    <button class="button button-danger customBtn" ion-button large color="danger" (click)="faveces()">A Veces</button> <br>
+                    <button class="button button-danger customBtn" ion-button large color="danger" (click)="fno()">No </button> <br>
                
-                   
+                    <br>
                   </ion-slide>
 
-                  <ion-slide>
-                        <img style="align-content: center;width: 40%; height: 40%" src="assets/imgs/test/5.png">
+                  <ion-slide style="background-color: #0B3954">
+                        <img style="align-content: center;width: 30%; height: 30%" src="assets/imgs/test/7.png">
 
-                      <p>5.	Después de una explosión de violencia, ¿Se muestra cariñoso y atento, te regala cosas y te promete que nunca más volverá a pegarte o insultarte y te dice que “todo cambiará”? </p>
+                      <p style="color: white">5.	Después de una explosión de violencia, ¿Se muestra cariñoso y atento, te regala cosas y te promete que nunca más volverá a pegarte o insultarte y te dice que “todo cambiará”? </p>
                
-                    <button ion-button block (click)="fsi()">Si</button>
-                         <button ion-button block color="dark" (click)="faveces()">A Veces</button>
-                      <button ion-button block (click)="fraravez()">Rara Vez</button>
-                 <button ion-button block color="dark" (click)="fno()">No </button>
-                 
-                     
+                      <button class="button button-danger customBtn" ion-button large color="danger" (click)="fsi()">Si &nbsp;</button> <br>
+                      <button class="button button-danger customBtn" ion-button large color="danger" (click)="faveces()">A Veces</button> <br>
+                      <button class="button button-danger customBtn" ion-button large color="danger" (click)="fno()">No </button> <br>
+                      <br>
                     </ion-slide>
 
-                    <ion-slide>
-                            <img style="align-content: center;width: 40%; height: 40%" src="assets/imgs/test/6..png">
+                    <ion-slide style="background-color: #0B3954">
+                            <img style="align-content: center;width: 30%; height: 30%" src="assets/imgs/test/smartphone.png">
 
-                        <p> 6.	¿Todo el tiempo quiere controlarte, revisa tu celular y siempre quiere saber dónde estás y con quién?
+                        <p style="color: white"> 6.	¿Todo el tiempo quiere controlarte, revisa tu celular y siempre quiere saber dónde estás y con quién?
                            </p>
-                 
-                         <button ion-button block (click)="fsi()">Si</button>
-                                      <button ion-button block color="dark" (click)="faveces()">A Veces</button>
-           
-                              <button ion-button block color="dark" (click)="fno()">No </button>
+                           <button class="button button-danger customBtn" ion-button large color="danger" (click)="fsi()">Si &nbsp;</button> <br>
+                           <button class="button button-danger customBtn" ion-button large color="danger" (click)="faveces()">A Veces</button> <br>
+                           <button class="button button-danger customBtn" ion-button large color="danger" (click)="fno()">No </button> <br>
                    
-                       
+                           <br>
                       </ion-slide>
 
-                      <ion-slide>
-                            <img style="align-content: center;width: 40%; height: 40%" src="assets/imgs/test/7.png">
+                      <ion-slide style="background-color: #0B3954">
+                            <img style="align-content: center;width: 30%; height: 30%" src="assets/imgs/test/bed.png">
 
-                          <p>	7.	¿Te ha obligado a tener relaciones sexuales cuando no quieres?
+                          <p style="color: white">	7.	¿Te ha obligado a tener relaciones sexuales cuando no quieres?
                               </p>
                    
-                            <button ion-button block (click)="fsi()">Si</button>
-                                         <button ion-button block color="dark" (click)="faveces()">A Veces</button>
-              
-                                 <button ion-button block color="dark" (click)="fno()">No </button>
+                              <button class="button button-danger customBtn" ion-button large color="danger" (click)="fsi()">Si &nbsp;</button> <br>
+                              <button class="button button-danger customBtn" ion-button large color="danger" (click)="faveces()">A Veces</button> <br>
+                              <button class="button button-danger customBtn" ion-button large color="danger" (click)="fno()">No </button> <br>
                      
-                         
+                              <br>
                         </ion-slide>
 
-                        <ion-slide>
-                                <img style="align-content: center;width: 40%; height: 40%" src="assets/imgs/test/8.png">
+                        <ion-slide style="background-color: #0B3954">
+                                <img style="align-content: center;width: 30%; height: 30%" src="assets/imgs/test/12.png">
 
-                            <p>8.	¿Te impide usar métodos anticonceptivos?
+                            <p style="color: white">8.	¿Te impide usar métodos anticonceptivos?
                                 </p>
                      
-                              <button ion-button block (click)="fsi()">Si</button>
-                                           <button ion-button block color="dark" (click)="faveces()">A Veces</button>
-                
-                                   <button ion-button block color="dark" (click)="fno()">No </button>
-                       
+                                <button class="button button-danger customBtn" ion-button large color="danger" (click)="fsi()">Si &nbsp;</button> <br>
+                                <button class="button button-danger customBtn" ion-button large color="danger" (click)="faveces()">A Veces</button> <br>
+                                <button class="button button-danger customBtn" ion-button large color="danger" (click)="fno()">No </button> <br>
+                                <br>
                            
                           </ion-slide>
 
 
                      
 
-                                  <ion-slide>
-                                        <img style="align-content: center;width: 40%; height: 40%" src="assets/imgs/test/13.png">
+                                  <ion-slide style="background-color: #0B3954">
+                                        <img style="align-content: center;width: 30%; height: 30%" src="assets/imgs/test/surprised.png">
 
-                                      <p>9.	Cuando se enojan o discuten ¿Has sentido que tu vida está en peligro? 
+                                      <p style="color: white">9.	Cuando se enojan o discuten ¿Has sentido que tu vida está en peligro? 
                                           </p>
-                                        <button ion-button block (click)="fsifinal()">Si</button>
-                                                     <button ion-button block color="dark" (click)="favecesfinal()">A Veces</button>
-                                             <button ion-button block color="dark" (click)="fnofinal()">No </button>
-                        
+                                       <button class="button button-danger customBtn" ion-button large color="danger" (click)="fsifinal()">Si &nbsp;</button> <br>
+              <button class="button button-danger customBtn" ion-button large color="danger" (click)="favecesfinal()">A Veces</button> <br>
+              <button class="button button-danger customBtn" ion-button large color="danger" (click)="fnofinal()">No </button> <br>
                                  
-                                     
+              <br>
                                     </ion-slide>
 
                                   
