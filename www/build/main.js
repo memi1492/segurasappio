@@ -1,74 +1,15 @@
-webpackJsonp([44],{
-
-/***/ 105:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ConsejosPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-/**
- * Generated class for the ConsejosPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-var ConsejosPage = /** @class */ (function () {
-    function ConsejosPage(navCtrl, navParams, modal) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-        this.modal = modal;
-    }
-    ConsejosPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad ConsejosPage');
-    };
-    ConsejosPage.prototype.medidas = function () {
-        var Medidas = this.modal.create('MedidasPage');
-        Medidas.present();
-    };
-    ConsejosPage.prototype.proceso = function () {
-        var Proceso = this.modal.create('ProcesoPage');
-        Proceso.present();
-    };
-    ConsejosPage.prototype.ConsejosSeguridad = function () {
-        var ConsejosSeguridad = this.modal.create('ConsejosSeguridadPage');
-        ConsejosSeguridad.present();
-    };
-    ConsejosPage.prototype.Ninos = function () {
-        var Ninos = this.modal.create('NinosPage');
-        Ninos.present();
-    };
-    ConsejosPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-consejos',template:/*ion-inline-start:"C:\Users\Amy\Desktop\segurasappio\src\pages\consejos\consejos.html"*/'\n<ion-header>\n\n    <ion-navbar color="primary">\n      <ion-title>Consejos</ion-title>\n    </ion-navbar>\n  \n  </ion-header>\n  \n  <ion-content padding >\n\n    <div (click)="ConsejosSeguridad()" class="estilodeboton" ><p style="font-size: 20px;"><strong>Medidas de seguridad en caso de violencia doméstica </strong></p>\n      <img  src="assets/imgs/1ViolenciaDomestica/think.gif" style="width: 20%; height: 20%;">\n       <p>Conoce lo que puedes hacer</p>\n</div>\n<br>\n \n             \n          \n          <div (click)="medidas()" class="estilodeboton" ><p style="font-size: 20px;"><strong>Medidas de Seguridad en violencia sexual </strong></p>\n            <img   src="assets/imgs/3Violaciones/lock.gif" style="width: 20%; height: 20%;">\n            <p>Recuerda estar atenta y sigue estos consejos</p>\n          </div>  \n\n          <br>\n\n          <div (click)="Ninos()" class="estilodeboton" ><p style="font-size: 20px;"><strong>	Protección a niños y niñas</strong></p>\n            <img   src="assets/imgs/1ViolenciaDomestica/cipota.gif" style="width: 20%; height: 20%;">\n            <p>Evitemos la violencia sexual</p>\n          </div>  \n\n          <br>\n\n          <div (click)="proceso()" class="estilodeboton" ><p style="font-size: 20px;"><strong>¿Qué hacer en caso de sufrir una violación?</strong></p>\n            <img   src="assets/imgs/3Violaciones/ove.gif" style="width: 20%; height: 20%;">\n            <p>¡No te quedes callada y busca ayuda!</p>\n          </div>  \n\n          <br>\n           \n              \n              \n              \n              \n          </ion-content>\n\n\n\n    <!--\n      \n   <div>&nbsp;</div>\n         <div>&nbsp;</div>\n      <ion-card>\n   \n    <ion-card-content style="height: 100%">\n        <div (click)="medidas()" style="background-color: white; text-align: center; padding-top: 5px; padding-bottom: 5px;" ><p>Medidas de Seguridad</p>\n          <img  src="assets/imgs/3Violaciones/lock.gif" style="width: 20%; height: 20%; vertical-align: middle "> <br>\n          <p>Recuerda estar atenta y sigue estos consejos</p>\n        </div>  \n    </ion-card-content>\n  </ion-card>\n       <div>&nbsp;</div>\n         <div>&nbsp;</div>\n     \n      <ion-card>\n          <ion-card-content style="height: 100%">\n              <div (click)="proceso()" style="background-color: white; text-align: center; padding-top: 5px; padding-bottom: 5px;" ><p>¿Qué hacer en caso de sufrir una violación?</p>\n                <img  src="assets/imgs/3Violaciones/ove.gif" style="width: 20%; height: 20%; vertical-align: middle "> <br>\n                <p>¡No te quedes callada y busca ayuda!</p>\n              </div>  \n          </ion-card-content>\n  </ion-card>\n      \n        \n      \n     \n     \n  </ion-content>-->\n  '/*ion-inline-end:"C:\Users\Amy\Desktop\segurasappio\src\pages\consejos\consejos.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* ModalController */]])
-    ], ConsejosPage);
-    return ConsejosPage;
-}());
-
-//# sourceMappingURL=consejos.js.map
-
-/***/ }),
+webpackJsonp([45],{
 
 /***/ 106:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return DenunciaPage; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return NewPlacePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__info_info__ = __webpack_require__(107);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__info2_info2__ = __webpack_require__(108);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__info3_info3__ = __webpack_require__(109);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -80,101 +21,49 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 
+
+
+
 /**
- * Generated class for the DenunciaPage page.
+ * Generated class for the NewPlacePage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
  */
-var DenunciaPage = /** @class */ (function () {
-    function DenunciaPage(navCtrl, navParams, modal) {
+var NewPlacePage = /** @class */ (function () {
+    function NewPlacePage(navCtrl, navParams) {
         this.navCtrl = navCtrl;
         this.navParams = navParams;
-        this.modal = modal;
     }
-    DenunciaPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad DenunciaPage');
+    NewPlacePage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad NewPlacePage');
     };
-    DenunciaPage.prototype.DenunciasDef = function () {
-        var DenunciasDef = this.modal.create('DenunciasDefPage');
-        DenunciasDef.present();
+    NewPlacePage.prototype.domestica = function () {
+        console.log("InfoPage");
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__info_info__["a" /* InfoPage */]);
     };
-    DenunciaPage.prototype.RutasAtencion = function () {
-        var RutasAtencion = this.modal.create('RutasAtencionPage');
-        RutasAtencion.present();
+    NewPlacePage.prototype.sexual = function () {
+        console.log("Info2Page");
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__info2_info2__["a" /* Info2Page */]);
     };
-    DenunciaPage.prototype.PasosDenuncia = function () {
-        var PasosDenuncia = this.modal.create('PasosDenunciaPage');
-        PasosDenuncia.present();
+    NewPlacePage.prototype.intrafamiliar = function () {
+        console.log("Info2Page");
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_4__info3_info3__["a" /* Info3Page */]);
     };
-    DenunciaPage.prototype.directorio = function () {
-        var directorio = this.modal.create('DirectorioPage');
-        directorio.present();
-    };
-    DenunciaPage = __decorate([
+    NewPlacePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-denuncia',template:/*ion-inline-start:"C:\Users\Amy\Desktop\segurasappio\src\pages\denuncia\denuncia.html"*/'<!--\n  Generated template for the DenunciaPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n\n<ion-header>\n\n    <ion-navbar color="primary">\n      <ion-title>Denuncia</ion-title>\n    </ion-navbar>\n  \n  </ion-header>\n  \n  \n  <ion-content padding >\n      \n      <div (click)="DenunciasDef()" class="estilodeboton"><p style="font-size: 20px;"><strong>¿Que debes saber para denunciar una agresión? </strong></p>\n        <img   src="assets/imgs/law.gif" style="width: 25%; height: 25%;">\n        <p>Veamos algunas cosas importantes que debes saber</p>\n   </div>\n      \n  \n\n   <div>&nbsp;</div>\n     \n   <div (click)="directorio()" class="estilodeboton" ><p style="font-size: 20px;"><strong>¿Adonde puedes buscar ayuda en Honduras?  </strong></p>\n       <img  src="assets/imgs/directorio.gif" style="width: 25%; height: 25%;">\n       <p>Directorio de Instituciones</p>\n </div>\n     \n <p style="text-align: center; color: #FF6663; font-size: 16px;">\n    <strong> ­«­Luego que has reconocido que te has visto sometida a algún tipo de violencia:<br> ¡Es tiempo de actuar! »</strong>\n   </p>    \n      \n      \n  </ion-content>\n'/*ion-inline-end:"C:\Users\Amy\Desktop\segurasappio\src\pages\denuncia\denuncia.html"*/,
+            selector: 'page-new-place',template:/*ion-inline-start:"C:\Users\Amy\Desktop\segurasappio\src\pages\new-place\new-place.html"*/'\n<ion-header>\n\n  <ion-navbar color="primary">\n    <ion-title>Violencia</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n<ion-content padding >\n\n\n    <div (click)="domestica()" class="estilodeboton" >\n      <p style="font-size: 20px;"><strong>Violencia Doméstica</strong></p>\n      <img   src="assets/imgs/Informate/hand.gif" style="width: 20%; height: 20%; padding-bottom: 10px;">\n      <p>¡Tú y tú familia valen mucho!</p>\n </div>\n\n <div>&nbsp;</div>\n\n <div (click)="sexual()" class="estilodeboton" >\n   <p style="font-size: 20px;"><strong>Violencia Sexual</strong></p>\n  <img   src="assets/imgs/Informate/woman2.gif" style="width: 20%; height: 20%; padding-bottom: 10px; ">\n  <p>¡No permitas el abuso!</p>\n</div>\n\n<div>&nbsp;</div>\n\n<div (click)="intrafamiliar()" class="estilodeboton" >\n  <p style="font-size: 20px;"><strong>Violencia Intrafamiliar</strong></p>\n  <img   src="assets/imgs/Informate/network.gif" style="width: 20%; height: 20%; padding-bottom: 10px; ">\n  <p>¡Observa e identifica!</p>\n</div>\n    \n      \n    \n   \n   \n</ion-content>\n'/*ion-inline-end:"C:\Users\Amy\Desktop\segurasappio\src\pages\new-place\new-place.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* ModalController */]])
-    ], DenunciaPage);
-    return DenunciaPage;
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]])
+    ], NewPlacePage);
+    return NewPlacePage;
 }());
 
-//# sourceMappingURL=denuncia.js.map
+//# sourceMappingURL=new-place.js.map
 
 /***/ }),
 
 /***/ 107:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Info3Page; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-/**
- * Generated class for the Info3Page page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-var Info3Page = /** @class */ (function () {
-    function Info3Page(navCtrl, navParams, modal) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-        this.modal = modal;
-    }
-    Info3Page.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad Info3Page');
-    };
-    Info3Page.prototype.Vintraf = function () {
-        var Identificala = this.modal.create('VintrafPage');
-        Identificala.present();
-    };
-    Info3Page = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-info3',template:/*ion-inline-start:"C:\Users\Amy\Desktop\segurasappio\src\pages\info3\info3.html"*/'<!--\n  Generated template for the Info3Page page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n\n<ion-header>\n\n    <ion-navbar color="primary">\n      <ion-title>Violencia Intrafamiliar</ion-title>\n    </ion-navbar>\n  \n  </ion-header>\n  \n  \n  <ion-content padding>\n      <h2 text-center style="padding-top: 10px; color:#0B3954"><strong>¿Sabes qué es la violencia intrafamiliar? </strong> <br></h2>\n      \n  \n      <ion-grid>\n         \n           <ion-row padding  class="estilo" justify-content-center>\n       <ion-col >\n           <br>  <img style="align-content: center; width: 70%; height:70%; " src="assets/imgs/Informate/judging.gif">\n           </ion-col>\n           <ion-col >\n             <p style="text-align:center; color:#0B3954">Esta violencia es considerada un delito penado por la ley. </p>\n           </ion-col>\n           </ion-row>\n       \n           <br> <ion-row padding class="estilo2"  justify-content-center>\n               <ion-col >\n                   <p style="text-align:center; color:#0B3954">Puede ocurrir entre personas que tienen una relación de pareja, pero también incluye la violencia entre familiares como tíos(as), primos(as), hermanos (as), abuelos(as) y otros.  </p> \n                   </ion-col>\n                   <ion-col justify-content-center>\n                      <br>     <img style="align-content: center; width: 70%; height:70%"  src="assets/imgs/Informate/picture.gif">\n                   </ion-col>\n                   </ion-row>\n  \n                   <br> <ion-row padding  class="estilo" justify-content-center>\n                       <ion-col justify-content-center >\n                          <br>     <img style="align-content: center; width: 70%; height:70%" src="assets/imgs/Informate/illness.gif">\n                           </ion-col>\n                           <ion-col >\n                             <p style="text-align:center; color:#0B3954">Esta violencia se diferencia de la violencia doméstica por la gravedad de los daños que causa a la salud física y psicológica de la persona que la recibe. </p>\n                           </ion-col>\n                           </ion-row>\n\n                           <br> <ion-row padding class="estilo2"  justify-content-center>\n                              <ion-col >\n                                  <p style="text-align:center; color:#0B3954"> Además, Cuando se ejerce en presencia de los hijos e hijas es más grave aún. </p> \n                                  </ion-col>\n                                  <ion-col justify-content-center>\n                                     <br>     <img style="align-content: center; width: 70%; height:70%"  src="assets/imgs/Informate/tower.gif">\n                                  </ion-col>\n                                  </ion-row>\n  \n             \n                 </ion-grid>\n    \n    \n    \n    \n    \n    \n    \n    \n    \n  \n  \n  \n      </ion-content>\n  \n  '/*ion-inline-end:"C:\Users\Amy\Desktop\segurasappio\src\pages\info3\info3.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* ModalController */]])
-    ], Info3Page);
-    return Info3Page;
-}());
-
-//# sourceMappingURL=info3.js.map
-
-/***/ }),
-
-/***/ 108:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -277,7 +166,7 @@ var InfoPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 109:
+/***/ 108:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -327,16 +216,13 @@ var Info2Page = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 110:
+/***/ 109:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return NewPlacePage; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Info3Page; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__info_info__ = __webpack_require__(108);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__info2_info2__ = __webpack_require__(109);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__info3_info3__ = __webpack_require__(107);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -348,45 +234,97 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 
-
-
-
 /**
- * Generated class for the NewPlacePage page.
+ * Generated class for the Info3Page page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
  */
-var NewPlacePage = /** @class */ (function () {
-    function NewPlacePage(navCtrl, navParams) {
+var Info3Page = /** @class */ (function () {
+    function Info3Page(navCtrl, navParams, modal) {
         this.navCtrl = navCtrl;
         this.navParams = navParams;
+        this.modal = modal;
     }
-    NewPlacePage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad NewPlacePage');
+    Info3Page.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad Info3Page');
     };
-    NewPlacePage.prototype.domestica = function () {
-        console.log("InfoPage");
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__info_info__["a" /* InfoPage */]);
+    Info3Page.prototype.Vintraf = function () {
+        var Identificala = this.modal.create('VintrafPage');
+        Identificala.present();
     };
-    NewPlacePage.prototype.sexual = function () {
-        console.log("Info2Page");
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__info2_info2__["a" /* Info2Page */]);
-    };
-    NewPlacePage.prototype.intrafamiliar = function () {
-        console.log("Info2Page");
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_4__info3_info3__["a" /* Info3Page */]);
-    };
-    NewPlacePage = __decorate([
+    Info3Page = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-new-place',template:/*ion-inline-start:"C:\Users\Amy\Desktop\segurasappio\src\pages\new-place\new-place.html"*/'\n<ion-header>\n\n  <ion-navbar color="primary">\n    <ion-title>Violencia</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n<ion-content padding >\n\n\n    <div (click)="domestica()" class="estilodeboton" >\n      <p style="font-size: 20px;"><strong>Violencia Doméstica</strong></p>\n      <img   src="assets/imgs/Informate/hand.gif" style="width: 20%; height: 20%; padding-bottom: 10px;">\n      <p>¡Tú y tú familia valen mucho!</p>\n </div>\n\n <div>&nbsp;</div>\n\n <div (click)="sexual()" class="estilodeboton" >\n   <p style="font-size: 20px;"><strong>Violencia Sexual</strong></p>\n  <img   src="assets/imgs/Informate/woman2.gif" style="width: 20%; height: 20%; padding-bottom: 10px; ">\n  <p>¡No permitas el abuso!</p>\n</div>\n\n<div>&nbsp;</div>\n\n<div (click)="intrafamiliar()" class="estilodeboton" >\n  <p style="font-size: 20px;"><strong>Violencia Intrafamiliar</strong></p>\n  <img   src="assets/imgs/Informate/network.gif" style="width: 20%; height: 20%; padding-bottom: 10px; ">\n  <p>¡Observa e identifica!</p>\n</div>\n    \n      \n    \n   \n   \n</ion-content>\n'/*ion-inline-end:"C:\Users\Amy\Desktop\segurasappio\src\pages\new-place\new-place.html"*/,
+            selector: 'page-info3',template:/*ion-inline-start:"C:\Users\Amy\Desktop\segurasappio\src\pages\info3\info3.html"*/'<!--\n  Generated template for the Info3Page page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n\n<ion-header>\n\n    <ion-navbar color="primary">\n      <ion-title>Violencia Intrafamiliar</ion-title>\n    </ion-navbar>\n  \n  </ion-header>\n  \n  \n  <ion-content padding>\n      <h2 text-center style="padding-top: 10px; color:#0B3954"><strong>¿Sabes qué es la violencia intrafamiliar? </strong> <br></h2>\n      \n  \n      <ion-grid>\n         \n           <ion-row padding  class="estilo" justify-content-center>\n       <ion-col >\n           <br>  <img style="align-content: center; width: 70%; height:70%; " src="assets/imgs/Informate/judging.gif">\n           </ion-col>\n           <ion-col >\n             <p style="text-align:center; color:#0B3954">Esta violencia es considerada un delito penado por la ley. </p>\n           </ion-col>\n           </ion-row>\n       \n           <br> <ion-row padding class="estilo2"  justify-content-center>\n               <ion-col >\n                   <p style="text-align:center; color:#0B3954">Puede ocurrir entre personas que tienen una relación de pareja, pero también incluye la violencia entre familiares como tíos(as), primos(as), hermanos (as), abuelos(as) y otros.  </p> \n                   </ion-col>\n                   <ion-col justify-content-center>\n                      <br>     <img style="align-content: center; width: 70%; height:70%"  src="assets/imgs/Informate/picture.gif">\n                   </ion-col>\n                   </ion-row>\n  \n                   <br> <ion-row padding  class="estilo" justify-content-center>\n                       <ion-col justify-content-center >\n                          <br>     <img style="align-content: center; width: 70%; height:70%" src="assets/imgs/Informate/illness.gif">\n                           </ion-col>\n                           <ion-col >\n                             <p style="text-align:center; color:#0B3954">Esta violencia se diferencia de la violencia doméstica por la gravedad de los daños que causa a la salud física y psicológica de la persona que la recibe. </p>\n                           </ion-col>\n                           </ion-row>\n\n                           <br> <ion-row padding class="estilo2"  justify-content-center>\n                              <ion-col >\n                                  <p style="text-align:center; color:#0B3954"> Además, Cuando se ejerce en presencia de los hijos e hijas es más grave aún. </p> \n                                  </ion-col>\n                                  <ion-col justify-content-center>\n                                     <br>     <img style="align-content: center; width: 70%; height:70%"  src="assets/imgs/Informate/tower.gif">\n                                  </ion-col>\n                                  </ion-row>\n  \n             \n                 </ion-grid>\n    \n    \n    \n    \n    \n    \n    \n    \n    \n  \n  \n  \n      </ion-content>\n  \n  '/*ion-inline-end:"C:\Users\Amy\Desktop\segurasappio\src\pages\info3\info3.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]])
-    ], NewPlacePage);
-    return NewPlacePage;
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* ModalController */]])
+    ], Info3Page);
+    return Info3Page;
 }());
 
-//# sourceMappingURL=new-place.js.map
+//# sourceMappingURL=info3.js.map
+
+/***/ }),
+
+/***/ 110:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ConsejosPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+/**
+ * Generated class for the ConsejosPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var ConsejosPage = /** @class */ (function () {
+    function ConsejosPage(navCtrl, navParams, modal) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.modal = modal;
+    }
+    ConsejosPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad ConsejosPage');
+    };
+    ConsejosPage.prototype.medidas = function () {
+        var Medidas = this.modal.create('MedidasPage');
+        Medidas.present();
+    };
+    ConsejosPage.prototype.proceso = function () {
+        var Proceso = this.modal.create('ProcesoPage');
+        Proceso.present();
+    };
+    ConsejosPage.prototype.ConsejosSeguridad = function () {
+        var ConsejosSeguridad = this.modal.create('ConsejosSeguridadPage');
+        ConsejosSeguridad.present();
+    };
+    ConsejosPage.prototype.Ninos = function () {
+        var Ninos = this.modal.create('NinosPage');
+        Ninos.present();
+    };
+    ConsejosPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-consejos',template:/*ion-inline-start:"C:\Users\Amy\Desktop\segurasappio\src\pages\consejos\consejos.html"*/'\n<ion-header>\n\n    <ion-navbar color="primary">\n      <ion-title>Consejos</ion-title>\n    </ion-navbar>\n  \n  </ion-header>\n  \n  <ion-content padding >\n\n    <div (click)="ConsejosSeguridad()" class="estilodeboton" ><p style="font-size: 20px;"><strong>Medidas de seguridad en caso de violencia doméstica </strong></p>\n      <img  src="assets/imgs/1ViolenciaDomestica/think.gif" style="width: 20%; height: 20%;">\n       <p>Conoce lo que puedes hacer</p>\n</div>\n<br>\n \n             \n          \n          <div (click)="medidas()" class="estilodeboton" ><p style="font-size: 20px;"><strong>Medidas de Seguridad en violencia sexual </strong></p>\n            <img   src="assets/imgs/3Violaciones/lock.gif" style="width: 20%; height: 20%;">\n            <p>Recuerda estar atenta y sigue estos consejos</p>\n          </div>  \n\n          <br>\n\n          <div (click)="Ninos()" class="estilodeboton" ><p style="font-size: 20px;"><strong>	Protección a niños y niñas</strong></p>\n            <img   src="assets/imgs/1ViolenciaDomestica/cipota.gif" style="width: 20%; height: 20%;">\n            <p>Evitemos la violencia sexual</p>\n          </div>  \n\n          <br>\n\n          <div (click)="proceso()" class="estilodeboton" ><p style="font-size: 20px;"><strong>¿Qué hacer en caso de sufrir una violación?</strong></p>\n            <img   src="assets/imgs/3Violaciones/ove.gif" style="width: 20%; height: 20%;">\n            <p>¡No te quedes callada y busca ayuda!</p>\n          </div>  \n\n          <br>\n           \n              \n              \n              \n              \n          </ion-content>\n\n\n\n    <!--\n      \n   <div>&nbsp;</div>\n         <div>&nbsp;</div>\n      <ion-card>\n   \n    <ion-card-content style="height: 100%">\n        <div (click)="medidas()" style="background-color: white; text-align: center; padding-top: 5px; padding-bottom: 5px;" ><p>Medidas de Seguridad</p>\n          <img  src="assets/imgs/3Violaciones/lock.gif" style="width: 20%; height: 20%; vertical-align: middle "> <br>\n          <p>Recuerda estar atenta y sigue estos consejos</p>\n        </div>  \n    </ion-card-content>\n  </ion-card>\n       <div>&nbsp;</div>\n         <div>&nbsp;</div>\n     \n      <ion-card>\n          <ion-card-content style="height: 100%">\n              <div (click)="proceso()" style="background-color: white; text-align: center; padding-top: 5px; padding-bottom: 5px;" ><p>¿Qué hacer en caso de sufrir una violación?</p>\n                <img  src="assets/imgs/3Violaciones/ove.gif" style="width: 20%; height: 20%; vertical-align: middle "> <br>\n                <p>¡No te quedes callada y busca ayuda!</p>\n              </div>  \n          </ion-card-content>\n  </ion-card>\n      \n        \n      \n     \n     \n  </ion-content>-->\n  '/*ion-inline-end:"C:\Users\Amy\Desktop\segurasappio\src\pages\consejos\consejos.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* ModalController */]])
+    ], ConsejosPage);
+    return ConsejosPage;
+}());
+
+//# sourceMappingURL=consejos.js.map
 
 /***/ }),
 
@@ -394,11 +332,73 @@ var NewPlacePage = /** @class */ (function () {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return DenunciaPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+/**
+ * Generated class for the DenunciaPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var DenunciaPage = /** @class */ (function () {
+    function DenunciaPage(navCtrl, navParams, modal) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.modal = modal;
+    }
+    DenunciaPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad DenunciaPage');
+    };
+    DenunciaPage.prototype.DenunciaMenu = function () {
+        var DenunciaMenu = this.modal.create('DenunciamenuPage');
+        DenunciaMenu.present();
+    };
+    DenunciaPage.prototype.RutasAtencion = function () {
+        var RutasAtencion = this.modal.create('RutasAtencionPage');
+        RutasAtencion.present();
+    };
+    DenunciaPage.prototype.PasosDenuncia = function () {
+        var PasosDenuncia = this.modal.create('PasosDenunciaPage');
+        PasosDenuncia.present();
+    };
+    DenunciaPage.prototype.directorio = function () {
+        var directorio = this.modal.create('DirectorioPage');
+        directorio.present();
+    };
+    DenunciaPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-denuncia',template:/*ion-inline-start:"C:\Users\Amy\Desktop\segurasappio\src\pages\denuncia\denuncia.html"*/'<!--\n  Generated template for the DenunciaPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n\n<ion-header>\n\n    <ion-navbar color="primary">\n      <ion-title>Denuncia</ion-title>\n    </ion-navbar>\n  \n  </ion-header>\n  \n  \n  <ion-content padding >\n      \n      <div (click)="DenunciaMenu()" class="estilodeboton"><p style="font-size: 20px;"><strong>¿Que debes saber para denunciar una agresión? </strong></p>\n        <img   src="assets/imgs/search-4.gif" style="width: 25%; height: 25%;">\n        <p>Veamos algunas cosas importantes que debes saber</p>\n   </div>\n      \n  \n\n   <div>&nbsp;</div>\n     \n   <div (click)="directorio()" class="estilodeboton" ><p style="font-size: 20px;"><strong>¿Adonde puedes buscar ayuda en Honduras?  </strong></p>\n       <img  src="assets/imgs/agenda.gif" style="width: 25%; height: 25%;">\n       <p>Directorio de Instituciones</p>\n </div>\n     \n <p style="text-align: center; color: #FF6663; font-size: 16px;">\n    <strong> ­«­Luego que has reconocido que te has visto sometida a algún tipo de violencia:<br> ¡Es tiempo de actuar! »</strong>\n   </p>    \n      \n      \n  </ion-content>\n'/*ion-inline-end:"C:\Users\Amy\Desktop\segurasappio\src\pages\denuncia\denuncia.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* ModalController */]])
+    ], DenunciaPage);
+    return DenunciaPage;
+}());
+
+//# sourceMappingURL=denuncia.js.map
+
+/***/ }),
+
+/***/ 112:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TestmenuPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__test_test__ = __webpack_require__(112);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__test2_test2__ = __webpack_require__(113);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__test_test__ = __webpack_require__(113);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__test2_test2__ = __webpack_require__(114);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -445,7 +445,7 @@ var TestmenuPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 112:
+/***/ 113:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -453,8 +453,8 @@ var TestmenuPage = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__si_si__ = __webpack_require__(53);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__aveces_aveces__ = __webpack_require__(51);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__no_no__ = __webpack_require__(52);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__aveces_aveces__ = __webpack_require__(52);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__no_no__ = __webpack_require__(54);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -549,7 +549,7 @@ var TestPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 113:
+/***/ 114:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -557,8 +557,8 @@ var TestPage = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__si_si__ = __webpack_require__(53);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__aveces_aveces__ = __webpack_require__(51);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__no_no__ = __webpack_require__(52);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__aveces_aveces__ = __webpack_require__(52);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__no_no__ = __webpack_require__(54);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -653,7 +653,7 @@ var Test2Page = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 122:
+/***/ 123:
 /***/ (function(module, exports) {
 
 function webpackEmptyAsyncContext(req) {
@@ -666,80 +666,84 @@ function webpackEmptyAsyncContext(req) {
 webpackEmptyAsyncContext.keys = function() { return []; };
 webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
 module.exports = webpackEmptyAsyncContext;
-webpackEmptyAsyncContext.id = 122;
+webpackEmptyAsyncContext.id = 123;
 
 /***/ }),
 
-/***/ 163:
+/***/ 164:
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
 	"../pages/atlantida/atlantida.module": [
-		291,
-		30
+		290,
+		31
 	],
 	"../pages/aveces/aveces.module": [
-		290,
-		43
+		291,
+		44
 	],
 	"../pages/choluteca/choluteca.module": [
 		293,
-		29
+		30
 	],
 	"../pages/ciclo-violencia/ciclo-violencia.module": [
-		294,
-		28
+		292,
+		29
 	],
 	"../pages/colon/colon.module": [
-		292,
-		27
+		302,
+		28
 	],
 	"../pages/comayagua/comayagua.module": [
+		303,
+		27
+	],
+	"../pages/consejos-seguridad/consejos-seguridad.module": [
 		295,
 		26
 	],
-	"../pages/consejos-seguridad/consejos-seguridad.module": [
-		298,
-		25
-	],
 	"../pages/consejos/consejos.module": [
-		299,
-		42
+		294,
+		43
 	],
 	"../pages/copan/copan.module": [
 		296,
-		24
+		25
 	],
 	"../pages/cortes/cortes.module": [
 		297,
-		23
+		24
 	],
 	"../pages/definicion/definicion.module": [
+		298,
+		23
+	],
+	"../pages/denuncia/denuncia.module": [
+		299,
+		42
+	],
+	"../pages/denunciamenu/denunciamenu.module": [
 		300,
 		22
 	],
-	"../pages/denuncia/denuncia.module": [
-		301,
-		41
-	],
 	"../pages/denuncias-def/denuncias-def.module": [
-		303,
+		301,
 		21
 	],
 	"../pages/directorio/directorio.module": [
-		302,
+		304,
 		20
 	],
 	"../pages/el-paraiso/el-paraiso.module": [
-		305,
+		308,
 		19
 	],
 	"../pages/francisco-m/francisco-m.module": [
-		304,
+		310,
 		18
 	],
 	"../pages/gracias-a-dios/gracias-a-dios.module": [
-		311,
+		305,
 		17
 	],
 	"../pages/identifica/identifica.module": [
@@ -747,72 +751,72 @@ var map = {
 		16
 	],
 	"../pages/info/info.module": [
-		310,
-		38
-	],
-	"../pages/info2/info2.module": [
-		317,
-		40
-	],
-	"../pages/info3/info3.module": [
 		307,
 		39
 	],
-	"../pages/intibuca/intibuca.module": [
+	"../pages/info2/info2.module": [
 		309,
+		41
+	],
+	"../pages/info3/info3.module": [
+		311,
+		40
+	],
+	"../pages/intibuca/intibuca.module": [
+		312,
 		15
 	],
 	"../pages/islas/islas.module": [
-		308,
+		313,
 		14
 	],
 	"../pages/la-ceiba/la-ceiba.module": [
-		312,
+		314,
 		13
 	],
 	"../pages/la-paz/la-paz.module": [
-		314,
+		317,
 		12
 	],
 	"../pages/lempira/lempira.module": [
-		313,
+		315,
 		11
 	],
 	"../pages/medidas/medidas.module": [
-		315,
+		318,
 		10
 	],
 	"../pages/new-place/new-place.module": [
-		322,
-		37
+		316,
+		38
 	],
 	"../pages/ninos/ninos.module": [
-		316,
+		320,
 		9
 	],
 	"../pages/no/no.module": [
-		318,
-		36
+		319,
+		37
 	],
 	"../pages/ocotepeque/ocotepeque.module": [
-		323,
+		322,
 		8
 	],
 	"../pages/olancho/olancho.module": [
-		319,
+		321,
 		7
 	],
 	"../pages/pasos-denuncia/pasos-denuncia.module": [
-		325,
+		323,
 		6
 	],
 	"../pages/proceso/proceso.module": [
-		321,
+		324,
 		5
 	],
 	"../pages/raravez/raravez.module": [
-		320,
-		35
+		325,
+		36
 	],
 	"../pages/rutas-atencion/rutas-atencion.module": [
 		327,
@@ -823,31 +827,31 @@ var map = {
 		3
 	],
 	"../pages/si/si.module": [
-		324,
-		34
+		328,
+		35
 	],
 	"../pages/test/test.module": [
-		332,
-		32
-	],
-	"../pages/test2/test2.module": [
-		333,
+		329,
 		33
 	],
-	"../pages/testmenu/testmenu.module": [
+	"../pages/test2/test2.module": [
 		330,
-		31
+		34
+	],
+	"../pages/testmenu/testmenu.module": [
+		331,
+		32
 	],
 	"../pages/valle/valle.module": [
-		329,
+		332,
 		2
 	],
 	"../pages/vintraf/vintraf.module": [
-		328,
+		333,
 		1
 	],
 	"../pages/yoro/yoro.module": [
-		331,
+		334,
 		0
 	]
 };
@@ -862,20 +866,20 @@ function webpackAsyncContext(req) {
 webpackAsyncContext.keys = function webpackAsyncContextKeys() {
 	return Object.keys(map);
 };
-webpackAsyncContext.id = 163;
+webpackAsyncContext.id = 164;
 module.exports = webpackAsyncContext;
 
 /***/ }),
 
-/***/ 210:
+/***/ 211:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TabsPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__about_about__ = __webpack_require__(211);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__contact_contact__ = __webpack_require__(212);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__home_home__ = __webpack_require__(213);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__about_about__ = __webpack_require__(212);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__contact_contact__ = __webpack_require__(213);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__home_home__ = __webpack_require__(40);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -907,16 +911,16 @@ var TabsPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 211:
+/***/ 212:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AboutPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ionic_native_sms__ = __webpack_require__(206);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_call_number__ = __webpack_require__(207);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_geolocation__ = __webpack_require__(208);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_storage__ = __webpack_require__(104);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ionic_native_sms__ = __webpack_require__(207);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_call_number__ = __webpack_require__(208);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_geolocation__ = __webpack_require__(209);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_storage__ = __webpack_require__(105);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -960,7 +964,7 @@ var AboutPage = /** @class */ (function () {
     AboutPage.prototype.SMS1 = function () {
         var _this = this;
         this.storage.get('contact1').then(function (contacto1) {
-            var urlinicial = "AIUUUUDAAA TOY ACA https://www.google.com/maps/search/?api=1&query=";
+            var urlinicial = "Estoy en problema y necesito tu ayuda. Esta es mi ubicación: https://www.google.com/maps/search/?api=1&query=";
             var urlfinal = urlinicial.concat(_this.lat, ",", _this.lng);
             var options;
             _this.sms.send(contacto1, urlfinal, options).then(function () { console.log('sms worked'); }).catch(function (err) {
@@ -971,7 +975,7 @@ var AboutPage = /** @class */ (function () {
     AboutPage.prototype.SMS2 = function () {
         var _this = this;
         this.storage.get('contact2').then(function (contacto2) {
-            var urlinicial = "AIUUUUDAAA TOY ACA https://www.google.com/maps/search/?api=1&query=";
+            var urlinicial = "Estoy en problema y necesito tu ayuda. Esta es mi ubicación: https://www.google.com/maps/search/?api=1&query=";
             var urlfinal = urlinicial.concat(_this.lat, ",", _this.lng);
             var options;
             _this.sms.send(contacto2, urlfinal, options).then(function () { console.log('sms worked'); }).catch(function (err) {
@@ -982,7 +986,7 @@ var AboutPage = /** @class */ (function () {
     AboutPage.prototype.SMS3 = function () {
         var _this = this;
         this.storage.get('contact3').then(function (contacto3) {
-            var urlinicial = "AIUUUUDAAA TOY ACA https://www.google.com/maps/search/?api=1&query=";
+            var urlinicial = "Estoy en problema y necesito tu ayuda. Esta es mi ubicación: https://www.google.com/maps/search/?api=1&query=";
             var urlfinal = urlinicial.concat(_this.lat, ",", _this.lng);
             var options;
             _this.sms.send(contacto3, urlfinal, options).then(function () { console.log('sms worked'); }).catch(function (err) {
@@ -1003,14 +1007,14 @@ var AboutPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 212:
+/***/ 213:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ContactPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_storage__ = __webpack_require__(104);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_storage__ = __webpack_require__(105);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1057,61 +1061,6 @@ var ContactPage = /** @class */ (function () {
 }());
 
 //# sourceMappingURL=contact.js.map
-
-/***/ }),
-
-/***/ 213:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomePage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__new_place_new_place__ = __webpack_require__(110);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__consejos_consejos__ = __webpack_require__(105);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__denuncia_denuncia__ = __webpack_require__(106);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__testmenu_testmenu__ = __webpack_require__(111);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-
-
-
-var HomePage = /** @class */ (function () {
-    function HomePage(navCtrl) {
-        this.navCtrl = navCtrl;
-    }
-    HomePage.prototype.onLoadNewPlace = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__new_place_new_place__["a" /* NewPlacePage */]);
-    };
-    HomePage.prototype.Consejos = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__consejos_consejos__["a" /* ConsejosPage */]);
-    };
-    HomePage.prototype.denunciapage = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_4__denuncia_denuncia__["a" /* DenunciaPage */]);
-    };
-    HomePage.prototype.test = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_5__testmenu_testmenu__["a" /* TestmenuPage */]);
-    };
-    HomePage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-home',template:/*ion-inline-start:"C:\Users\Amy\Desktop\segurasappio\src\pages\home\home.html"*/'<ion-header>\n  <ion-navbar color="primary" >\n    <ion-title style="text-align: center; ">\n      SEGURAS\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content  >\n\n <ion-grid padding>\n     <ion-row> &nbsp;</ion-row>\n  <ion-row height="100">\n\n    <ion-col width="100" padding\n         style=" align-content: center; background-color: white">\n         <div ion-col style="text-align: center; border-radius: 15%;   background-color: white; padding: 10px;"><img (click)="onLoadNewPlace()" src="assets/imgs/woman.png" style="width : 80% ; height : 80%; "> </div>\n      <br>\n      <button ion-button color="light"  full outline (click)="onLoadNewPlace()">  INFÓRMATE </button>\n\n    </ion-col>\n    <ion-col col-1></ion-col>\n\n    <ion-col width="100" padding\n         style="align-content: center; background-color: white">\n         <div ion-col style="text-align: center; border-radius: 15%;  background-color: white; padding: 10px;"> <img (click)="Consejos()" src="assets/imgs/idea.png" style="width : 80% ; height : 80%; "> </div>\n     <br>\n     <button ion-button color="light" full outline (click)="Consejos()">CONSEJOS </button>\n\n    </ion-col>\n\n\n  </ion-row>\n  <ion-row > &nbsp;</ion-row>\n  <ion-row > &nbsp;</ion-row>\n  <ion-row height="100">\n\n      <ion-col width="100" padding\n      style=" align-content: center; background-color: white">\n      <div ion-col style="text-align: center; border-radius: 15%;   background-color: white; padding: 10px;">  <img (click)="test()" src="assets/imgs/exam.png" style="width : 80% ; height : 80%; "> </div>\n    <br>\n       <button ion-button color="light" full outline (click)="test()"> AUTO<br>EVALÚATE</button>\n\n </ion-col>\n <ion-col col-1></ion-col>\n <ion-col width="100" padding\n      style=" align-content: center; background-color: white">\n      <div ion-col style="text-align: center; border-radius: 15%;   background-color: white; padding: 10px;"> <img (click)="denunciapage()" src="assets/imgs/balance.png" style="width : 80% ; height : 80%; "> </div>\n    <br>\n    <button ion-button color="light" full outline (click)="denunciapage()"> TOMA <br> ACCIÓN</button>\n\n </ion-col>\n\n  \n   \n  </ion-row>\n\n</ion-grid>\n   \n\n</ion-content>\n\n<ion-footer no-border style="height:2px;">\n  <ion-toolbar no-border color="danger">\n  </ion-toolbar>\n</ion-footer>'/*ion-inline-end:"C:\Users\Amy\Desktop\segurasappio\src\pages\home\home.html"*/
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */]])
-    ], HomePage);
-    return HomePage;
-}());
-
-//# sourceMappingURL=home.js.map
 
 /***/ }),
 
@@ -1182,30 +1131,30 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(31);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(9);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(203);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_status_bar__ = __webpack_require__(205);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_new_place_new_place__ = __webpack_require__(110);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ionic_native_sms__ = __webpack_require__(206);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ionic_native_call_number__ = __webpack_require__(207);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__ionic_native_geolocation__ = __webpack_require__(208);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__ionic_storage__ = __webpack_require__(104);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(204);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_status_bar__ = __webpack_require__(206);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_new_place_new_place__ = __webpack_require__(106);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ionic_native_sms__ = __webpack_require__(207);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ionic_native_call_number__ = __webpack_require__(208);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__ionic_native_geolocation__ = __webpack_require__(209);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__ionic_storage__ = __webpack_require__(105);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__app_component__ = __webpack_require__(289);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_home_home__ = __webpack_require__(213);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_about_about__ = __webpack_require__(211);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_contact_contact__ = __webpack_require__(212);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_tabs_tabs__ = __webpack_require__(210);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_info_info__ = __webpack_require__(108);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_info2_info2__ = __webpack_require__(109);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__pages_info3_info3__ = __webpack_require__(107);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__pages_consejos_consejos__ = __webpack_require__(105);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__pages_denuncia_denuncia__ = __webpack_require__(106);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_home_home__ = __webpack_require__(40);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_about_about__ = __webpack_require__(212);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_contact_contact__ = __webpack_require__(213);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_tabs_tabs__ = __webpack_require__(211);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_info_info__ = __webpack_require__(107);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_info2_info2__ = __webpack_require__(108);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__pages_info3_info3__ = __webpack_require__(109);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__pages_consejos_consejos__ = __webpack_require__(110);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__pages_denuncia_denuncia__ = __webpack_require__(111);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__pages_si_si__ = __webpack_require__(53);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__pages_aveces_aveces__ = __webpack_require__(51);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__pages_aveces_aveces__ = __webpack_require__(52);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__pages_raravez_raravez__ = __webpack_require__(214);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__pages_no_no__ = __webpack_require__(52);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__pages_testmenu_testmenu__ = __webpack_require__(111);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__pages_test_test__ = __webpack_require__(112);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__pages_test2_test2__ = __webpack_require__(113);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__pages_no_no__ = __webpack_require__(54);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__pages_testmenu_testmenu__ = __webpack_require__(112);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__pages_test_test__ = __webpack_require__(113);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__pages_test2_test2__ = __webpack_require__(114);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1268,50 +1217,51 @@ var AppModule = /** @class */ (function () {
                 __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
                 __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["d" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_10__app_component__["a" /* MyApp */], {}, {
                     links: [
-                        { loadChildren: '../pages/aveces/aveces.module#AvecesPageModule', name: 'AvecesPage', segment: 'aveces', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/atlantida/atlantida.module#AtlantidaPageModule', name: 'AtlantidaPage', segment: 'atlantida', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/colon/colon.module#ColonPageModule', name: 'ColonPage', segment: 'colon', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/choluteca/choluteca.module#CholutecaPageModule', name: 'CholutecaPage', segment: 'choluteca', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/aveces/aveces.module#AvecesPageModule', name: 'AvecesPage', segment: 'aveces', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/ciclo-violencia/ciclo-violencia.module#CicloViolenciaPageModule', name: 'CicloViolenciaPage', segment: 'ciclo-violencia', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/comayagua/comayagua.module#ComayaguaPageModule', name: 'ComayaguaPage', segment: 'comayagua', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/choluteca/choluteca.module#CholutecaPageModule', name: 'CholutecaPage', segment: 'choluteca', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/consejos/consejos.module#ConsejosPageModule', name: 'ConsejosPage', segment: 'consejos', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/consejos-seguridad/consejos-seguridad.module#ConsejosSeguridadPageModule', name: 'ConsejosSeguridadPage', segment: 'consejos-seguridad', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/copan/copan.module#CopanPageModule', name: 'CopanPage', segment: 'copan', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/cortes/cortes.module#CortesPageModule', name: 'CortesPage', segment: 'cortes', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/consejos-seguridad/consejos-seguridad.module#ConsejosSeguridadPageModule', name: 'ConsejosSeguridadPage', segment: 'consejos-seguridad', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/consejos/consejos.module#ConsejosPageModule', name: 'ConsejosPage', segment: 'consejos', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/definicion/definicion.module#DefinicionPageModule', name: 'DefinicionPage', segment: 'definicion', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/denuncia/denuncia.module#DenunciaPageModule', name: 'DenunciaPage', segment: 'denuncia', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/directorio/directorio.module#DirectorioPageModule', name: 'DirectorioPage', segment: 'directorio', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/denunciamenu/denunciamenu.module#DenunciamenuPageModule', name: 'DenunciamenuPage', segment: 'denunciamenu', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/denuncias-def/denuncias-def.module#DenunciasDefPageModule', name: 'DenunciasDefPage', segment: 'denuncias-def', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/francisco-m/francisco-m.module#FranciscoMPageModule', name: 'FranciscoMPage', segment: 'francisco-m', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/el-paraiso/el-paraiso.module#ElParaisoPageModule', name: 'ElParaisoPage', segment: 'el-paraiso', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/identifica/identifica.module#IdentificaPageModule', name: 'IdentificaPage', segment: 'identifica', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/info3/info3.module#Info3PageModule', name: 'Info3Page', segment: 'info3', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/islas/islas.module#IslasPageModule', name: 'IslasPage', segment: 'islas', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/intibuca/intibuca.module#IntibucaPageModule', name: 'IntibucaPage', segment: 'intibuca', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/info/info.module#InfoPageModule', name: 'InfoPage', segment: 'info', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/colon/colon.module#ColonPageModule', name: 'ColonPage', segment: 'colon', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/comayagua/comayagua.module#ComayaguaPageModule', name: 'ComayaguaPage', segment: 'comayagua', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/directorio/directorio.module#DirectorioPageModule', name: 'DirectorioPage', segment: 'directorio', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/gracias-a-dios/gracias-a-dios.module#GraciasADiosPageModule', name: 'GraciasADiosPage', segment: 'gracias-a-dios', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/identifica/identifica.module#IdentificaPageModule', name: 'IdentificaPage', segment: 'identifica', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/info/info.module#InfoPageModule', name: 'InfoPage', segment: 'info', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/el-paraiso/el-paraiso.module#ElParaisoPageModule', name: 'ElParaisoPage', segment: 'el-paraiso', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/info2/info2.module#Info2PageModule', name: 'Info2Page', segment: 'info2', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/francisco-m/francisco-m.module#FranciscoMPageModule', name: 'FranciscoMPage', segment: 'francisco-m', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/info3/info3.module#Info3PageModule', name: 'Info3Page', segment: 'info3', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/intibuca/intibuca.module#IntibucaPageModule', name: 'IntibucaPage', segment: 'intibuca', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/islas/islas.module#IslasPageModule', name: 'IslasPage', segment: 'islas', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/la-ceiba/la-ceiba.module#LaCeibaPageModule', name: 'LaCeibaPage', segment: 'la-ceiba', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/lempira/lempira.module#LempiraPageModule', name: 'LempiraPage', segment: 'lempira', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/new-place/new-place.module#NewPlacePageModule', name: 'NewPlacePage', segment: 'new-place', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/la-paz/la-paz.module#LaPazPageModule', name: 'LaPazPage', segment: 'la-paz', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/medidas/medidas.module#MedidasPageModule', name: 'MedidasPage', segment: 'medidas', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/ninos/ninos.module#NinosPageModule', name: 'NinosPage', segment: 'ninos', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/info2/info2.module#Info2PageModule', name: 'Info2Page', segment: 'info2', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/no/no.module#NoPageModule', name: 'NoPage', segment: 'no', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/ninos/ninos.module#NinosPageModule', name: 'NinosPage', segment: 'ninos', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/olancho/olancho.module#OlanchoPageModule', name: 'OlanchoPage', segment: 'olancho', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/raravez/raravez.module#RaravezPageModule', name: 'RaravezPage', segment: 'raravez', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/proceso/proceso.module#ProcesoPageModule', name: 'ProcesoPage', segment: 'proceso', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/new-place/new-place.module#NewPlacePageModule', name: 'NewPlacePage', segment: 'new-place', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/ocotepeque/ocotepeque.module#OcotepequePageModule', name: 'OcotepequePage', segment: 'ocotepeque', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/si/si.module#SiPageModule', name: 'SiPage', segment: 'si', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/pasos-denuncia/pasos-denuncia.module#PasosDenunciaPageModule', name: 'PasosDenunciaPage', segment: 'pasos-denuncia', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/proceso/proceso.module#ProcesoPageModule', name: 'ProcesoPage', segment: 'proceso', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/raravez/raravez.module#RaravezPageModule', name: 'RaravezPage', segment: 'raravez', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/santa-barbara/santa-barbara.module#SantaBarbaraPageModule', name: 'SantaBarbaraPage', segment: 'santa-barbara', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/rutas-atencion/rutas-atencion.module#RutasAtencionPageModule', name: 'RutasAtencionPage', segment: 'rutas-atencion', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/vintraf/vintraf.module#VintrafPageModule', name: 'VintrafPage', segment: 'vintraf', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/valle/valle.module#VallePageModule', name: 'VallePage', segment: 'valle', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/testmenu/testmenu.module#TestmenuPageModule', name: 'TestmenuPage', segment: 'testmenu', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/yoro/yoro.module#YoroPageModule', name: 'YoroPage', segment: 'yoro', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/si/si.module#SiPageModule', name: 'SiPage', segment: 'si', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/test/test.module#TestPageModule', name: 'TestPage', segment: 'test', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/test2/test2.module#Test2PageModule', name: 'Test2Page', segment: 'test2', priority: 'low', defaultHistory: [] }
+                        { loadChildren: '../pages/test2/test2.module#Test2PageModule', name: 'Test2Page', segment: 'test2', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/testmenu/testmenu.module#TestmenuPageModule', name: 'TestmenuPage', segment: 'testmenu', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/valle/valle.module#VallePageModule', name: 'VallePage', segment: 'valle', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/vintraf/vintraf.module#VintrafPageModule', name: 'VintrafPage', segment: 'vintraf', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/yoro/yoro.module#YoroPageModule', name: 'YoroPage', segment: 'yoro', priority: 'low', defaultHistory: [] }
                     ]
                 }),
                 __WEBPACK_IMPORTED_MODULE_9__ionic_storage__["a" /* IonicStorageModule */].forRoot()
@@ -1362,9 +1312,9 @@ var AppModule = /** @class */ (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyApp; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(205);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(203);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_tabs_tabs__ = __webpack_require__(210);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(206);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(204);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_tabs_tabs__ = __webpack_require__(211);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1401,14 +1351,69 @@ var MyApp = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 51:
+/***/ 40:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomePage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__new_place_new_place__ = __webpack_require__(106);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__consejos_consejos__ = __webpack_require__(110);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__denuncia_denuncia__ = __webpack_require__(111);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__testmenu_testmenu__ = __webpack_require__(112);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+var HomePage = /** @class */ (function () {
+    function HomePage(navCtrl) {
+        this.navCtrl = navCtrl;
+    }
+    HomePage.prototype.onLoadNewPlace = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__new_place_new_place__["a" /* NewPlacePage */]);
+    };
+    HomePage.prototype.Consejos = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__consejos_consejos__["a" /* ConsejosPage */]);
+    };
+    HomePage.prototype.denunciapage = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_4__denuncia_denuncia__["a" /* DenunciaPage */]);
+    };
+    HomePage.prototype.test = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_5__testmenu_testmenu__["a" /* TestmenuPage */]);
+    };
+    HomePage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-home',template:/*ion-inline-start:"C:\Users\Amy\Desktop\segurasappio\src\pages\home\home.html"*/'<ion-header>\n  <ion-navbar color="primary" >\n    <ion-title style="text-align: center; ">\n      SEGURAS\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content  >\n\n <ion-grid padding>\n     <ion-row> &nbsp;</ion-row>\n  <ion-row height="100">\n\n    <ion-col width="100" padding\n         style=" align-content: center; background-color: white">\n         <div ion-col style="text-align: center; border-radius: 15%;   background-color: white; padding: 10px;"><img (click)="onLoadNewPlace()" src="assets/imgs/woman.png" style="width : 80% ; height : 80%; "> </div>\n      <br>\n      <button ion-button color="light"  full outline (click)="onLoadNewPlace()">  INFÓRMATE </button>\n\n    </ion-col>\n    <ion-col col-1></ion-col>\n\n    <ion-col width="100" padding\n         style="align-content: center; background-color: white">\n         <div ion-col style="text-align: center; border-radius: 15%;  background-color: white; padding: 10px;"> <img (click)="Consejos()" src="assets/imgs/idea.png" style="width : 80% ; height : 80%; "> </div>\n     <br>\n     <button ion-button color="light" full outline (click)="Consejos()">CONSEJOS </button>\n\n    </ion-col>\n\n\n  </ion-row>\n  <ion-row > &nbsp;</ion-row>\n  <ion-row > &nbsp;</ion-row>\n  <ion-row height="100">\n\n      <ion-col width="100" padding\n      style=" align-content: center; background-color: white">\n      <div ion-col style="text-align: center; border-radius: 15%;   background-color: white; padding: 10px;">  <img (click)="test()" src="assets/imgs/exam.png" style="width : 80% ; height : 80%; "> </div>\n    <br>\n       <button ion-button color="light" full outline (click)="test()"> AUTO<br>EVALÚATE</button>\n\n </ion-col>\n <ion-col col-1></ion-col>\n <ion-col width="100" padding\n      style=" align-content: center; background-color: white">\n      <div ion-col style="text-align: center; border-radius: 15%;   background-color: white; padding: 10px;"> <img (click)="denunciapage()" src="assets/imgs/balance.png" style="width : 80% ; height : 80%; "> </div>\n    <br>\n    <button ion-button color="light" full outline (click)="denunciapage()"> TOMA <br> ACCIÓN</button>\n\n </ion-col>\n\n  \n   \n  </ion-row>\n\n</ion-grid>\n   \n\n</ion-content>\n\n<ion-footer no-border style="height:2px;">\n  <ion-toolbar no-border color="danger">\n  </ion-toolbar>\n</ion-footer>'/*ion-inline-end:"C:\Users\Amy\Desktop\segurasappio\src\pages\home\home.html"*/
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */]])
+    ], HomePage);
+    return HomePage;
+}());
+
+//# sourceMappingURL=home.js.map
+
+/***/ }),
+
+/***/ 52:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AvecesPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__home_home__ = __webpack_require__(213);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__home_home__ = __webpack_require__(40);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1442,64 +1447,12 @@ var AvecesPage = /** @class */ (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-aveces',template:/*ion-inline-start:"C:\Users\Amy\Desktop\segurasappio\src\pages\aveces\aveces.html"*/'<!--\n  Generated template for the AvecesPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n    <ion-navbar color="primary">\n        <ion-title>Resultados</ion-title>\n        <ion-buttons end>\n        </ion-buttons>\n      </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n<br>\n  <p style="color: white; text-align: center; font-size: 20px"><strong>VIVES EN UNA RELACIÓN NO SALUDABLE</strong></p>\n   <div style="text-align: center"> <img style="text-align: center;width: 50%; height: 50%" src="assets/imgs/test/test.png"> </div>\n\n  \n    <p style="color: white; text-align: center; font-size: 15px">\n        Tu relación tiene signos de ser una relación abusiva. Busca ayuda, puedes prevenir y parar esta situación.  \n        </p>\n\n    <div style="text-align: center" > <button class="button button-danger customBtn" ion-button large color="danger" (click)="volver()">Volver al Menú  </button> </div>  \n\n</ion-content>\n'/*ion-inline-end:"C:\Users\Amy\Desktop\segurasappio\src\pages\aveces\aveces.html"*/,
         }),
-        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]) === "function" && _b || Object])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]])
     ], AvecesPage);
     return AvecesPage;
-    var _a, _b;
 }());
 
 //# sourceMappingURL=aveces.js.map
-
-/***/ }),
-
-/***/ 52:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return NoPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__home_home__ = __webpack_require__(213);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-/**
- * Generated class for the NoPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-var NoPage = /** @class */ (function () {
-    function NoPage(navCtrl, navParams) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-    }
-    NoPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad NoPage');
-    };
-    NoPage.prototype.volver = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__home_home__["a" /* HomePage */]);
-    };
-    NoPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-no',template:/*ion-inline-start:"C:\Users\Amy\Desktop\segurasappio\src\pages\no\no.html"*/'<!--\n  Generated template for the NoPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n    <ion-navbar color="primary">\n        <ion-title>Resultados</ion-title>\n        <ion-buttons end>\n        </ion-buttons>\n      </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n<br>\n  <p style="color: white; text-align: center; font-size: 20px"><strong>­¡FELICIDADES!­</strong></p>\n   <div style="text-align: center"> <img style="text-align: center;width: 50%; height: 50%" src="assets/imgs/test/test.png"> </div>\n\n  \n    <p style="color: white; text-align: center; font-size: 15px">\n        Tu relación es saludable.  \n        </p>\n\n    <div style="text-align: center" > <button class="button button-danger customBtn" ion-button large color="danger" (click)="volver()">Volver al Menú  </button> </div>  \n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\Amy\Desktop\segurasappio\src\pages\no\no.html"*/,
-        }),
-        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]) === "function" && _b || Object])
-    ], NoPage);
-    return NoPage;
-    var _a, _b;
-}());
-
-//# sourceMappingURL=no.js.map
 
 /***/ }),
 
@@ -1510,7 +1463,7 @@ var NoPage = /** @class */ (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SiPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__home_home__ = __webpack_require__(213);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__home_home__ = __webpack_require__(40);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1544,13 +1497,62 @@ var SiPage = /** @class */ (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-si',template:/*ion-inline-start:"C:\Users\Amy\Desktop\segurasappio\src\pages\si\si.html"*/'<!--\n  Generated template for the SiPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n    <ion-navbar color="primary">\n        <ion-title>Resultados</ion-title>\n        <ion-buttons end>\n        </ion-buttons>\n      </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n<br>\n  <p style="color: white; text-align: center; font-size: 20px"><strong>¡TEN CUIDADO!</strong></p>\n   <div style="text-align: center"> <img style="text-align: center;width: 50%; height: 50%" src="assets/imgs/test/test.png"> </div>\n\n  \n    <p style="color: white; text-align: center; font-size: 15px">\n      Esto puede volver a pasar, pide ayuda, tu vida y la de tu familia puede estar en peligro. \n        </p>\n\n    <div style="text-align: center" > <button class="button button-danger customBtn" ion-button large color="danger" (click)="volver()">Volver al Menú  </button> </div>  \n\n</ion-content>\n'/*ion-inline-end:"C:\Users\Amy\Desktop\segurasappio\src\pages\si\si.html"*/,
         }),
-        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]) === "function" && _b || Object])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]])
     ], SiPage);
     return SiPage;
-    var _a, _b;
 }());
 
 //# sourceMappingURL=si.js.map
+
+/***/ }),
+
+/***/ 54:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return NoPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__home_home__ = __webpack_require__(40);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+/**
+ * Generated class for the NoPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var NoPage = /** @class */ (function () {
+    function NoPage(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+    }
+    NoPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad NoPage');
+    };
+    NoPage.prototype.volver = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__home_home__["a" /* HomePage */]);
+    };
+    NoPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-no',template:/*ion-inline-start:"C:\Users\Amy\Desktop\segurasappio\src\pages\no\no.html"*/'<!--\n  Generated template for the NoPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n    <ion-navbar color="primary">\n        <ion-title>Resultados</ion-title>\n        <ion-buttons end>\n        </ion-buttons>\n      </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n<br>\n  <p style="color: white; text-align: center; font-size: 20px"><strong>­¡FELICIDADES!­</strong></p>\n   <div style="text-align: center"> <img style="text-align: center;width: 50%; height: 50%" src="assets/imgs/test/test.png"> </div>\n\n  \n    <p style="color: white; text-align: center; font-size: 15px">\n        Tu relación es saludable.  \n        </p>\n\n    <div style="text-align: center" > <button class="button button-danger customBtn" ion-button large color="danger" (click)="volver()">Volver al Menú  </button> </div>  \n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\Amy\Desktop\segurasappio\src\pages\no\no.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]])
+    ], NoPage);
+    return NoPage;
+}());
+
+//# sourceMappingURL=no.js.map
 
 /***/ })
 

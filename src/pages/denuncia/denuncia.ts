@@ -22,9 +22,9 @@ export class DenunciaPage {
     console.log('ionViewDidLoad DenunciaPage');
   }
  
-  DenunciasDef(){
-    const DenunciasDef = this.modal.create('DenunciasDefPage');
-    DenunciasDef.present();
+  DenunciaMenu(){
+    const DenunciaMenu = this.modal.create('DenunciamenuPage');
+    DenunciaMenu.present();
   }
 
   RutasAtencion(){

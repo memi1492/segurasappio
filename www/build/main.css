@@ -25797,7 +25797,20 @@ page-denuncia .estilodeboton {
   text-align: center;
   padding-top: 5px;
   padding-bottom: 5px;
-  border-radius: 5px;
+  -webkit-box-shadow: 0 10px 6px -6px #777;
+  box-shadow: 0 10px 6px -6px #777;
+}
+
+page-denunciamenu ion-content {
+  background: #BFD7EA !important;
+}
+
+page-denunciamenu .estilodeboton {
+  background-color: white;
+  text-align: center;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
   -webkit-box-shadow: 0 10px 6px -6px #777;
   box-shadow: 0 10px 6px -6px #777;
 }
