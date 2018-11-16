@@ -25887,22 +25887,35 @@ page-info .estilodeboton {
   text-align: center;
   padding-top: 5px;
   padding-bottom: 5px;
-  border-radius: 5px;
   -webkit-box-shadow: 0 10px 6px -6px #777;
   box-shadow: 0 10px 6px -6px #777;
+}
+
+page-info .violencia {
+  background-color: white;
+  text-align: center;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 5px;
 }
 
 page-info2 ion-content {
   background: #BFD7EA !important;
 }
 
-page-info2 .estilodeboton {
+page-info2 .estilo {
+  color: black;
   background-color: white;
   text-align: center;
+  -webkit-box-shadow: 0 10px 6px -6px #777;
+  box-shadow: 0 10px 6px -6px #777;
+}
+
+page-info2 .estilo2 {
+  color: black;
+  background-color: white;
   text-align: center;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  border-radius: 5px;
   -webkit-box-shadow: 0 10px 6px -6px #777;
   box-shadow: 0 10px 6px -6px #777;
 }
@@ -25911,13 +25924,22 @@ page-info3 ion-content {
   background: #BFD7EA !important;
 }
 
-page-info3 .estilodeboton {
+page-info3 ion-row {
+  height: auto;
+}
+
+page-info3 .estilo {
+  color: black;
   background-color: white;
   text-align: center;
+  -webkit-box-shadow: 0 10px 6px -6px #777;
+  box-shadow: 0 10px 6px -6px #777;
+}
+
+page-info3 .estilo2 {
+  color: black;
+  background-color: white;
   text-align: center;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  border-radius: 5px;
   -webkit-box-shadow: 0 10px 6px -6px #777;
   box-shadow: 0 10px 6px -6px #777;
 }
@@ -25962,7 +25984,6 @@ page-new-place .estilodeboton {
   text-align: center;
   padding-top: 5px;
   padding-bottom: 5px;
-  border-radius: 5px;
   -webkit-box-shadow: 0 10px 6px -6px #777;
   box-shadow: 0 10px 6px -6px #777;
 }
@@ -25999,6 +26020,26 @@ page-test ion-content {
   background: #BFD7EA !important;
   color: #0B3954;
   font-weight: bold;
+}
+
+page-testmenu ion-content {
+  background: #BFD7EA !important;
+}
+
+page-testmenu ion-card {
+  position: relative;
+  text-align: center;
+}
+
+page-testmenu .estilodeboton {
+  background-color: white;
+  text-align: center;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 10px 6px -6px #777;
+  box-shadow: 0 10px 6px -6px #777;
 }
 
 page-valle ion-content {

@@ -1,21 +1,28 @@
 page-info2 {
- ion-content {
+    ion-content {
         background: #BFD7EA !important;
     }
+    .estilo{
+        color: black;
+         background-color: white; 
+         text-align: center;
+      
+         
+           
+           -webkit-box-shadow: 0 10px 6px -6px #777;
+          -moz-box-shadow: 0 10px 6px -6px #777;
+               box-shadow: 0 10px 6px -6px #777; 
+    }
 
-    .estilodeboton{
-        background-color: white;
-    text-align: center;
-    text-align: center; 
-    padding-top: 5px;
-     padding-bottom: 5px;
-    border-radius: 5px;
-    
+    .estilo2{
+        color: black; 
+        background-color: white; 
+        text-align: center; 
+   
+      
 
-    
-        -webkit-box-shadow: 0 10px 6px -6px #777;
-           -moz-box-shadow: 0 10px 6px -6px #777;
-                box-shadow: 0 10px 6px -6px #777;
-
+         -webkit-box-shadow: 0 10px 6px -6px #777;
+          -moz-box-shadow: 0 10px 6px -6px #777;
+               box-shadow: 0 10px 6px -6px #777; 
     }
 }

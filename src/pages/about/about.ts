@@ -49,7 +49,7 @@ export class AboutPage {
 
     SMS1(){
       this.storage.get('contact1').then((contacto1) => {
-      var urlinicial = "AIUUUUDAAA TOY ACA https://www.google.com/maps/search/?api=1&query=";
+      var urlinicial = "Estoy en problema y necesito tu ayuda. Esta es mi ubicación: https://www.google.com/maps/search/?api=1&query=";
      var urlfinal = urlinicial.concat(this.lat, ",", this.lng);
       var options: {
     

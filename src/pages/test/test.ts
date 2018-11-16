@@ -22,7 +22,6 @@ export class TestPage {
   @ViewChild(Slides) slides: Slides; 
   public csi = 0;
   public cav = 0;
-  public crv = 0;
   public cno = 0;
 
   constructor( private navParams: NavParams, private view: ViewController, public navCtrl: NavController) {
@@ -56,12 +55,7 @@ export class TestPage {
     this.slides.lockSwipes(true);
   }
 
-  fraravez(){
-    this.crv++;
-    this.slides.lockSwipes(false);
-    this.slides.slideNext();
-    this.slides.lockSwipes(true);
-  }
+ 
 
   fno(){
     this.cno++;
@@ -76,23 +70,19 @@ export class TestPage {
       }
 
   fcomparadora(){
-    if(this.csi  >= this.cav && this.csi  >= this.crv && this.csi  >= this.cno){
+    if(this.csi  >= this.cav && this.csi  >= this.cno){
       this.navCtrl.push(SiPage);
     }
 
-    else if (this.cav  >= this.csi && this.cav  >= this.crv && this.cav  >= this.cno){
+    else if (this.cav  >= this.csi && this.cav  >= this.cno){
 
       this.navCtrl.push(AvecesPage);
 
 
     }
 
-    else if (this.crv  >= this.csi && this.crv  >= this.cav && this.crv  >= this.cno){
-      this.navCtrl.push(RaravezPage);
 
-    }
-
-    else if (this.cno  >= this.csi && this.cno  >= this.cav && this.cno  >= this.crv){
+    else if (this.cno  >= this.csi && this.cno  >= this.cav){
       this.navCtrl.push(NoPage);
       
     }
@@ -105,12 +95,7 @@ export class TestPage {
 
   }
 
-  fraravezfinal(){
-    this.crv++;
-    this.fcomparadora();
-
-   
-  }
+  
 
   fnofinal(){
     this.cno++;

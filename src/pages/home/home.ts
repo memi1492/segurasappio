@@ -3,7 +3,7 @@ import { NavController } from 'ionic-angular';
 import { NewPlacePage } from '../new-place/new-place';
 import { ConsejosPage } from '../consejos/consejos';
 import { DenunciaPage } from '../denuncia/denuncia';
-import { TestPage } from '../test/test';
+import { TestmenuPage } from '../testmenu/testmenu';
 
 
 
@@ -33,7 +33,7 @@ export class HomePage {
 }
 
 test(){
-  this.navCtrl.push(TestPage);
+  this.navCtrl.push(TestmenuPage);
 }
 
 }

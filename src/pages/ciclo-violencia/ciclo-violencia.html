@@ -19,7 +19,7 @@
 <ion-content padding>
  
     <ion-slides pager="true" (ionslideDidChange)="slideChanged()"><!--3 little buttons at the bottom of each slide-->
-        <ion-slide style=" color:  #0B3954">
+        <ion-slide style=" color:  #0B3954; background-color: white">
          <h2 style="padding-top: 10px; color:#0B3954;" ><strong> FASES DEL CICLO DE VIOLENCIA</strong></h2>
               
           <div>&nbsp;</div>
@@ -31,76 +31,60 @@
           </strong> <ion-icon name="arrow-round-forward" style="align-content: center; color:#23B4B7"></ion-icon></p>
          
         </ion-slide>
-        <ion-slide >
-            <h4 style="padding-top: 10px;  color:#0B3954"><strong>Acumulación de Tensión</strong> </h4>
-            <p style="padding: 5px;text-align: center; color:#FF6663; font-size: 15px;"> Aprende las características de cada uno:</p>
-            <div padding style="background-color: white; text-align: center; padding: 10px ; border: 2px solid #0B3954; margin: 30px; border-radius: 5px;   -webkit-box-shadow: 0 10px 6px -6px #777;
-            -moz-box-shadow: 0 10px 6px -6px #777;
-                 box-shadow: 0 10px 6px -6px #777;">
+        <ion-slide style="background-color: white" >
+       
+            <h4 style="padding-top: 10px;  color:#0B3954"><strong>1. ACUMULACIÓN DE LA TENSIÓN</strong> </h4>
+           <br>
+            <img   src="assets/imgs/Informate/warning.png" style=" width: 40%; height: 40%; align-content: center; " >
 
-               <div style="text-align: center; color:#0B3954">EL AGRESOR </div>
-                <img   src="assets/imgs/1ViolenciaDomestica/1CicloViolencia/manpic.png" style=" width: 40%; height: 40%; align-content: center; " >
-               <ion-buttons><button ion-button center (click)="agresor1()"> Características  </button></ion-buttons> </div>
+             <br>
+             <br>
+                              <ion-buttons><button ion-button center (click)="agresor1()" color="dark"> CARACTERÍSTICAS DEL AGRESOR  </button></ion-buttons> 
+                              <br>
+                              <ion-buttons><button ion-button center (click)="victima1()" color="dark"> CARACTERÍSTICAS DE LA VÍCTIMA  </button></ion-buttons> 
                   
                 <!-- <ion-col col-6><p style="padding:2px; font-size: 14px; ">Se burla de su pareja, la ignora, la compara con otras personas, la corrige en público, la insulta, le grita y la culpa de todo.</p></ion-col>
                 --> 
               
-                <div padding style="background-color: white; text-align: center; padding: 10px ; border: 2px solid #0B3954; margin: 30px; border-radius: 5px;   -webkit-box-shadow: 0 10px 6px -6px #777;
-                -moz-box-shadow: 0 10px 6px -6px #777;
-                     box-shadow: 0 10px 6px -6px #777;">                    
-                <!--    <ion-col col-6><p style="padding:5px;font-size: 14px; ">Siente miedo de hablar o actuar por temor a las criticas, se siente deprimida y débil.</p></ion-col> 
-                -->      <div style="text-align: center; color:#0B3954">LA VÍCTIMA </div> 
-                 <img   src="assets/imgs/1ViolenciaDomestica/1CicloViolencia/womanpic.png" style="width: 40%; height: 40%;  align-content: center; " >
-                <ion-buttons><button ion-button center (click)="victima1()"> Características  </button></ion-buttons> </div>
+              
+              <br>
               
 
               <p style="padding: 5px;text-align: center; color:#FF6663; "><strong>Desliza a la derecha para fase 2
               </strong> </p>
           </ion-slide>
-          <ion-slide >
-              <h4 style="padding-top: 10px;  color:#0B3954"><strong>Estallido de la Tensión</strong> </h4>
-              <p style="padding: 5px;text-align: center; color:#FF6663; font-size: 15px;"> Aprende las características de cada uno:</p>
-              <div padding style="background-color: white; text-align: center; padding: 10px ; border: 2px solid #0B3954; margin: 30px; border-radius: 5px;   -webkit-box-shadow: 0 10px 6px -6px #777;
-              -moz-box-shadow: 0 10px 6px -6px #777;
-                   box-shadow: 0 10px 6px -6px #777;">
+          <ion-slide style="background-color: white" >
+       
+              <h4 style="padding-top: 10px;  color:#0B3954"><strong>2. ESTALLIDO DE LA TENSIÓN</strong> </h4>
   
-                 <div style="text-align: center; color:#0B3954">EL AGRESOR </div>
-                  <img   src="assets/imgs/1ViolenciaDomestica/1CicloViolencia/manpic.png" style=" width: 40%; height: 40%; align-content: center; " >
-                 <ion-buttons><button ion-button center (click)="agresor2()"> Características  </button></ion-buttons> </div>
-                    
-                  <!-- <ion-col col-6><p style="padding:2px; font-size: 14px; ">Se burla de su pareja, la ignora, la compara con otras personas, la corrige en público, la insulta, le grita y la culpa de todo.</p></ion-col>
-                  --> 
-                
-                  <div padding style="background-color: white; text-align: center; padding: 10px ; border: 2px solid #0B3954; margin: 30px; border-radius: 5px;   -webkit-box-shadow: 0 10px 6px -6px #777;
-                  -moz-box-shadow: 0 10px 6px -6px #777;
-                       box-shadow: 0 10px 6px -6px #777;">                    
-                    <div style="text-align: center; color:#0B3954">LA VÍCTIMA </div> 
-                   <img   src="assets/imgs/1ViolenciaDomestica/1CicloViolencia/womanpic.png" style="width: 40%; height: 40%;  align-content: center; " >
-                  <ion-buttons><button ion-button center (click)="victima2()"> Características  </button></ion-buttons> </div>
-                
+              <br>
+              <img   src="assets/imgs/Informate/alarm.png" style=" width: 40%; height: 40%; align-content: center; " >
   
+               <br>
+               <br>
+                                <ion-buttons><button ion-button center (click)="agresor2()" color="dark"> CARACTERÍSTICAS DEL AGRESOR  </button></ion-buttons> 
+                                <br>
+                                <ion-buttons><button ion-button center (click)="victima2()" color="dark"> CARACTERÍSTICAS DE LA VÍCTIMA  </button></ion-buttons> 
+                
+  <br>
                 <p style="padding: 5px;text-align: center; color:#FF6663; "><strong>Desliza a la derecha para fase 3
                 </strong> </p>
             </ion-slide>
 
-            <ion-slide >
-                <h4 style="padding-top: 10px;  color:#0B3954"><strong>Reconciliación</strong> </h4>
-                <p style="padding: 5px;text-align: center; color:#FF6663; font-size: 15px;"> Aprende las características de cada uno:</p>
-                <div padding style="background-color: white; text-align: center; padding: 10px ; border: 2px solid #0B3954; margin: 30px; border-radius: 5px;   -webkit-box-shadow: 0 10px 6px -6px #777;
-                -moz-box-shadow: 0 10px 6px -6px #777;
-                     box-shadow: 0 10px 6px -6px #777;">
-    
-                   <div style="text-align: center; color:#0B3954">EL AGRESOR </div>
-                    <img   src="assets/imgs/1ViolenciaDomestica/1CicloViolencia/manpic.png" style=" width: 40%; height: 40%; align-content: center; " >
-                   <ion-buttons><button ion-button center (click)="agresor3()"> Características  </button></ion-buttons> </div>
-                      
-                  
-                    <div padding style="background-color: white; text-align: center; padding: 10px ; border: 2px solid #0B3954; margin: 30px; border-radius: 5px;   -webkit-box-shadow: 0 10px 6px -6px #777;
-                    -moz-box-shadow: 0 10px 6px -6px #777;
-                         box-shadow: 0 10px 6px -6px #777;">                    
-                          <div style="text-align: center; color:#0B3954">LA VÍCTIMA </div> 
-                     <img   src="assets/imgs/1ViolenciaDomestica/1CicloViolencia/womanpic.png" style="width: 40%; height: 40%;  align-content: center; " >
-                    <ion-buttons><button ion-button center (click)="victima3()"> Características  </button></ion-buttons> </div>
+            <ion-slide style="background-color: white">
+            
+                <h4 style="padding-top: 10px;  color:#0B3954"><strong>3. RECONCILIACIÓN</strong> </h4>
+               
+              <br>
+              <img   src="assets/imgs/Informate/barrier.png" style=" width: 40%; height: 40%; align-content: center; " >
+  
+               <br>
+               <br>
+                                <ion-buttons><button ion-button center (click)="agresor3()" color="dark"> CARACTERÍSTICAS DEL AGRESOR  </button></ion-buttons> 
+                                <br>
+                                <ion-buttons><button ion-button center (click)="victima3()" color="dark"> CARACTERÍSTICAS DE LA VÍCTIMA  </button></ion-buttons> 
+                
+  <br>
                   
     
                   <p style="padding: 5px;text-align: center; color:#FF6663; "><strong>¡Rompe el Ciclo!

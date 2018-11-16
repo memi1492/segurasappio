@@ -33,4 +33,16 @@ export class ConsejosPage {
     Proceso.present();
   }
 
+  ConsejosSeguridad(){
+    const ConsejosSeguridad = this.modal.create('ConsejosSeguridadPage');
+    ConsejosSeguridad.present();
+  }
+  
+  Ninos() {
+    const Ninos = this.modal.create('NinosPage');
+    
+    Ninos.present();
+     }
+
+
 }

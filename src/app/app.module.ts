@@ -8,7 +8,6 @@ import { SMS } from "@ionic-native/sms";
 import { CallNumber } from "@ionic-native/call-number";
 import { Geolocation } from "@ionic-native/geolocation";
 
-import { TestPage } from '../pages/test/test';
 import { IonicStorageModule } from '@ionic/storage';
 
 
@@ -26,6 +25,11 @@ import { SiPage } from '../pages/si/si';
 import { AvecesPage } from '../pages/aveces/aveces';
 import { RaravezPage } from '../pages/raravez/raravez';
 import { NoPage } from '../pages/no/no';
+import { TestmenuPage } from '../pages/testmenu/testmenu';
+import { TestPage } from '../pages/test/test';
+import { Test2Page } from '../pages/test2/test2';
+
+
 
 
 
@@ -50,7 +54,9 @@ import { NoPage } from '../pages/no/no';
     SiPage,
     RaravezPage,
     AvecesPage,
-    NoPage
+    NoPage,
+    TestmenuPage,
+    Test2Page
 
 
    
@@ -77,7 +83,9 @@ import { NoPage } from '../pages/no/no';
     SiPage,
     RaravezPage,
     AvecesPage,
-    NoPage
+    NoPage,
+    TestmenuPage,
+    Test2Page
   ],
   providers: [
     StatusBar,
