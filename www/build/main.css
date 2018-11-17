@@ -26046,6 +26046,12 @@ page-rutas-atencion ion-content {
   background: #BFD7EA !important;
 }
 
+page-rutas-atencion .alineado {
+  text-align: center !important;
+  vertical-align: middle !important;
+  padding: 5px;
+}
+
 page-santa-barbara ion-content {
   background: #BFD7EA !important;
 }
