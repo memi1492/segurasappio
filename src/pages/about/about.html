@@ -1,13 +1,15 @@
 <ion-header>
   <ion-navbar color="primary">
       <ion-title style="text-align: center; ">
-      AYUDA
+     Botón de Pánico
     </ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-    <div>&nbsp;</div>
+    <p style="text-align: center; color: #0B3954;">Lo debes utilizar solamente en caso de emergencia y cuando te encuentres en peligro, este botón será una llamada directamente al 911 y las personas de tu confianza y que te puedan auxiliar en caso de una emergencia.
+    </p>
+  
     <ion-grid>
         <ion-row (click)= "senSMS()" padding style="background-color: #FC4E50; text-align: center; padding-top: 5px ; border: 10px solid white;">
             
@@ -18,10 +20,10 @@
 
 <br>
 <br>
-        <ion-row (click)= "call()" padding style="background-color: #0B3954; text-align: center; padding-top: 5px ; border: 10px solid white; height:200px;">
+        <ion-row (click)= "call()" padding style="background-color: #0B3954; text-align: center; padding-top: 5px ; border: 10px solid white; height:200px; ">
             
          
-               <ion-col align-self-center>  <img src="assets/imgs/5Emergencia/alert.gif" style="padding-top:10px; padding-bottom: 5px;"></ion-col> 
+               <ion-col align-self-center>  <img src="assets/imgs/5Emergencia/alert.gif" style="padding-top:10px; padding-bottom: 5px; display: block;"></ion-col> 
                <ion-col align-self-center ><p style="padding:5px; font-size: 20px; color:white">LLAMADA DE EMERGENCIA<br> 911</p></ion-col> 
            </ion-row>
 

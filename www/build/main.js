@@ -683,175 +683,175 @@ var map = {
 		44
 	],
 	"../pages/choluteca/choluteca.module": [
-		292,
+		293,
 		30
 	],
 	"../pages/ciclo-violencia/ciclo-violencia.module": [
-		298,
+		294,
 		29
 	],
 	"../pages/colon/colon.module": [
-		294,
+		292,
 		28
 	],
 	"../pages/comayagua/comayagua.module": [
-		299,
+		296,
 		27
 	],
 	"../pages/consejos-seguridad/consejos-seguridad.module": [
-		293,
+		299,
 		26
 	],
 	"../pages/consejos/consejos.module": [
-		296,
+		295,
 		43
 	],
 	"../pages/copan/copan.module": [
-		295,
+		297,
 		25
 	],
 	"../pages/cortes/cortes.module": [
-		297,
+		298,
 		24
 	],
 	"../pages/definicion/definicion.module": [
-		300,
+		301,
 		23
 	],
 	"../pages/denuncia/denuncia.module": [
-		302,
+		300,
 		42
 	],
 	"../pages/denunciamenu/denunciamenu.module": [
-		303,
+		302,
 		22
 	],
 	"../pages/denuncias-def/denuncias-def.module": [
-		301,
+		303,
 		21
 	],
 	"../pages/directorio/directorio.module": [
-		306,
+		304,
 		20
 	],
 	"../pages/el-paraiso/el-paraiso.module": [
-		304,
+		305,
 		19
 	],
 	"../pages/francisco-m/francisco-m.module": [
-		305,
+		306,
 		18
 	],
 	"../pages/gracias-a-dios/gracias-a-dios.module": [
-		315,
+		308,
 		17
 	],
 	"../pages/identifica/identifica.module": [
-		307,
+		309,
 		16
 	],
 	"../pages/info/info.module": [
-		317,
+		319,
 		39
 	],
 	"../pages/info2/info2.module": [
-		320,
+		318,
 		41
 	],
 	"../pages/info3/info3.module": [
-		308,
+		307,
 		40
 	],
 	"../pages/intibuca/intibuca.module": [
-		309,
+		311,
 		15
 	],
 	"../pages/islas/islas.module": [
-		312,
+		310,
 		14
 	],
 	"../pages/la-ceiba/la-ceiba.module": [
-		310,
+		312,
 		13
 	],
 	"../pages/la-paz/la-paz.module": [
-		311,
+		313,
 		12
 	],
 	"../pages/lempira/lempira.module": [
-		313,
+		314,
 		11
 	],
 	"../pages/medidas/medidas.module": [
-		314,
+		315,
 		10
 	],
 	"../pages/new-place/new-place.module": [
-		323,
+		321,
 		38
 	],
 	"../pages/ninos/ninos.module": [
-		318,
+		316,
 		9
 	],
 	"../pages/no/no.module": [
-		316,
+		317,
 		37
 	],
 	"../pages/ocotepeque/ocotepeque.module": [
-		327,
+		324,
 		8
 	],
 	"../pages/olancho/olancho.module": [
-		319,
+		320,
 		7
 	],
 	"../pages/pasos-denuncia/pasos-denuncia.module": [
-		326,
+		323,
 		6
 	],
 	"../pages/proceso/proceso.module": [
-		324,
+		322,
 		5
 	],
 	"../pages/raravez/raravez.module": [
-		321,
+		325,
 		36
 	],
 	"../pages/rutas-atencion/rutas-atencion.module": [
-		322,
+		327,
 		4
 	],
 	"../pages/santa-barbara/santa-barbara.module": [
-		328,
+		330,
 		3
 	],
 	"../pages/si/si.module": [
-		325,
+		326,
 		35
 	],
 	"../pages/test/test.module": [
-		332,
+		328,
 		33
 	],
 	"../pages/test2/test2.module": [
-		334,
+		333,
 		34
 	],
 	"../pages/testmenu/testmenu.module": [
-		333,
+		334,
 		32
 	],
 	"../pages/valle/valle.module": [
-		330,
+		329,
 		2
 	],
 	"../pages/vintraf/vintraf.module": [
-		329,
+		331,
 		1
 	],
 	"../pages/yoro/yoro.module": [
-		331,
+		332,
 		0
 	]
 };
@@ -996,7 +996,7 @@ var AboutPage = /** @class */ (function () {
     };
     AboutPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-about',template:/*ion-inline-start:"C:\Users\Amy\Desktop\segurasappio\src\pages\about\about.html"*/'<ion-header>\n\n  <ion-navbar color="primary">\n\n      <ion-title style="text-align: center; ">\n\n      AYUDA\n\n    </ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content padding>\n\n    <div>&nbsp;</div>\n\n    <ion-grid>\n\n        <ion-row (click)= "senSMS()" padding style="background-color: #FC4E50; text-align: center; padding-top: 5px ; border: 10px solid white;">\n\n            \n\n         <ion-col align-self-center><p style="padding:5px; font-size: 20px; color:white">ENVIAR MENSAJES DE EMERGENCIA</p></ion-col> \n\n            <ion-col align-self-center>  <img   src="assets/imgs/5Emergencia/alarm-2.gif" style="padding-top:20px; padding-bottom: 5px;" ></ion-col> \n\n       \n\n        </ion-row>\n\n\n\n<br>\n\n<br>\n\n        <ion-row (click)= "call()" padding style="background-color: #0B3954; text-align: center; padding-top: 5px ; border: 10px solid white; height:200px;">\n\n            \n\n         \n\n               <ion-col align-self-center>  <img src="assets/imgs/5Emergencia/alert.gif" style="padding-top:10px; padding-bottom: 5px;"></ion-col> \n\n               <ion-col align-self-center ><p style="padding:5px; font-size: 20px; color:white">LLAMADA DE EMERGENCIA<br> 911</p></ion-col> \n\n           </ion-row>\n\n\n\n\n\n</ion-grid>\n\n\n\n    \n\n\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\Amy\Desktop\segurasappio\src\pages\about\about.html"*/
+            selector: 'page-about',template:/*ion-inline-start:"C:\Users\Amy\Desktop\segurasappio\src\pages\about\about.html"*/'<ion-header>\n\n  <ion-navbar color="primary">\n\n      <ion-title style="text-align: center; ">\n\n     Botón de Pánico\n\n    </ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content padding>\n\n    <p style="text-align: center; color: #0B3954;">Lo debes utilizar solamente en caso de emergencia y cuando te encuentres en peligro, este botón será una llamada directamente al 911 y las personas de tu confianza y que te puedan auxiliar en caso de una emergencia.\n\n    </p>\n\n  \n\n    <ion-grid>\n\n        <ion-row (click)= "senSMS()" padding style="background-color: #FC4E50; text-align: center; padding-top: 5px ; border: 10px solid white;">\n\n            \n\n         <ion-col align-self-center><p style="padding:5px; font-size: 20px; color:white">ENVIAR MENSAJES DE EMERGENCIA</p></ion-col> \n\n            <ion-col align-self-center>  <img   src="assets/imgs/5Emergencia/alarm-2.gif" style="padding-top:20px; padding-bottom: 5px;" ></ion-col> \n\n       \n\n        </ion-row>\n\n\n\n<br>\n\n<br>\n\n        <ion-row (click)= "call()" padding style="background-color: #0B3954; text-align: center; padding-top: 5px ; border: 10px solid white; height:200px; ">\n\n            \n\n         \n\n               <ion-col align-self-center>  <img src="assets/imgs/5Emergencia/alert.gif" style="padding-top:10px; padding-bottom: 5px; display: block;"></ion-col> \n\n               <ion-col align-self-center ><p style="padding:5px; font-size: 20px; color:white">LLAMADA DE EMERGENCIA<br> 911</p></ion-col> \n\n           </ion-row>\n\n\n\n\n\n</ion-grid>\n\n\n\n    \n\n\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\Amy\Desktop\segurasappio\src\pages\about\about.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__ionic_native_sms__["a" /* SMS */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_call_number__["a" /* CallNumber */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_geolocation__["a" /* Geolocation */], __WEBPACK_IMPORTED_MODULE_4__ionic_storage__["b" /* Storage */]])
     ], AboutPage);
@@ -1219,49 +1219,49 @@ var AppModule = /** @class */ (function () {
                     links: [
                         { loadChildren: '../pages/aveces/aveces.module#AvecesPageModule', name: 'AvecesPage', segment: 'aveces', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/atlantida/atlantida.module#AtlantidaPageModule', name: 'AtlantidaPage', segment: 'atlantida', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/choluteca/choluteca.module#CholutecaPageModule', name: 'CholutecaPage', segment: 'choluteca', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/consejos-seguridad/consejos-seguridad.module#ConsejosSeguridadPageModule', name: 'ConsejosSeguridadPage', segment: 'consejos-seguridad', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/colon/colon.module#ColonPageModule', name: 'ColonPage', segment: 'colon', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/copan/copan.module#CopanPageModule', name: 'CopanPage', segment: 'copan', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/consejos/consejos.module#ConsejosPageModule', name: 'ConsejosPage', segment: 'consejos', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/cortes/cortes.module#CortesPageModule', name: 'CortesPage', segment: 'cortes', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/choluteca/choluteca.module#CholutecaPageModule', name: 'CholutecaPage', segment: 'choluteca', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/ciclo-violencia/ciclo-violencia.module#CicloViolenciaPageModule', name: 'CicloViolenciaPage', segment: 'ciclo-violencia', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/consejos/consejos.module#ConsejosPageModule', name: 'ConsejosPage', segment: 'consejos', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/comayagua/comayagua.module#ComayaguaPageModule', name: 'ComayaguaPage', segment: 'comayagua', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/definicion/definicion.module#DefinicionPageModule', name: 'DefinicionPage', segment: 'definicion', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/denuncias-def/denuncias-def.module#DenunciasDefPageModule', name: 'DenunciasDefPage', segment: 'denuncias-def', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/copan/copan.module#CopanPageModule', name: 'CopanPage', segment: 'copan', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/cortes/cortes.module#CortesPageModule', name: 'CortesPage', segment: 'cortes', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/consejos-seguridad/consejos-seguridad.module#ConsejosSeguridadPageModule', name: 'ConsejosSeguridadPage', segment: 'consejos-seguridad', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/denuncia/denuncia.module#DenunciaPageModule', name: 'DenunciaPage', segment: 'denuncia', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/definicion/definicion.module#DefinicionPageModule', name: 'DefinicionPage', segment: 'definicion', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/denunciamenu/denunciamenu.module#DenunciamenuPageModule', name: 'DenunciamenuPage', segment: 'denunciamenu', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/denuncias-def/denuncias-def.module#DenunciasDefPageModule', name: 'DenunciasDefPage', segment: 'denuncias-def', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/directorio/directorio.module#DirectorioPageModule', name: 'DirectorioPage', segment: 'directorio', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/el-paraiso/el-paraiso.module#ElParaisoPageModule', name: 'ElParaisoPage', segment: 'el-paraiso', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/francisco-m/francisco-m.module#FranciscoMPageModule', name: 'FranciscoMPage', segment: 'francisco-m', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/directorio/directorio.module#DirectorioPageModule', name: 'DirectorioPage', segment: 'directorio', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/identifica/identifica.module#IdentificaPageModule', name: 'IdentificaPage', segment: 'identifica', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/info3/info3.module#Info3PageModule', name: 'Info3Page', segment: 'info3', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/gracias-a-dios/gracias-a-dios.module#GraciasADiosPageModule', name: 'GraciasADiosPage', segment: 'gracias-a-dios', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/identifica/identifica.module#IdentificaPageModule', name: 'IdentificaPage', segment: 'identifica', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/islas/islas.module#IslasPageModule', name: 'IslasPage', segment: 'islas', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/intibuca/intibuca.module#IntibucaPageModule', name: 'IntibucaPage', segment: 'intibuca', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/la-ceiba/la-ceiba.module#LaCeibaPageModule', name: 'LaCeibaPage', segment: 'la-ceiba', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/la-paz/la-paz.module#LaPazPageModule', name: 'LaPazPage', segment: 'la-paz', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/islas/islas.module#IslasPageModule', name: 'IslasPage', segment: 'islas', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/lempira/lempira.module#LempiraPageModule', name: 'LempiraPage', segment: 'lempira', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/medidas/medidas.module#MedidasPageModule', name: 'MedidasPage', segment: 'medidas', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/gracias-a-dios/gracias-a-dios.module#GraciasADiosPageModule', name: 'GraciasADiosPage', segment: 'gracias-a-dios', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/no/no.module#NoPageModule', name: 'NoPage', segment: 'no', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/info/info.module#InfoPageModule', name: 'InfoPage', segment: 'info', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/ninos/ninos.module#NinosPageModule', name: 'NinosPage', segment: 'ninos', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/olancho/olancho.module#OlanchoPageModule', name: 'OlanchoPage', segment: 'olancho', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/no/no.module#NoPageModule', name: 'NoPage', segment: 'no', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/info2/info2.module#Info2PageModule', name: 'Info2Page', segment: 'info2', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/raravez/raravez.module#RaravezPageModule', name: 'RaravezPage', segment: 'raravez', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/rutas-atencion/rutas-atencion.module#RutasAtencionPageModule', name: 'RutasAtencionPage', segment: 'rutas-atencion', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/info/info.module#InfoPageModule', name: 'InfoPage', segment: 'info', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/olancho/olancho.module#OlanchoPageModule', name: 'OlanchoPage', segment: 'olancho', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/new-place/new-place.module#NewPlacePageModule', name: 'NewPlacePage', segment: 'new-place', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/proceso/proceso.module#ProcesoPageModule', name: 'ProcesoPage', segment: 'proceso', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/si/si.module#SiPageModule', name: 'SiPage', segment: 'si', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/pasos-denuncia/pasos-denuncia.module#PasosDenunciaPageModule', name: 'PasosDenunciaPage', segment: 'pasos-denuncia', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/ocotepeque/ocotepeque.module#OcotepequePageModule', name: 'OcotepequePage', segment: 'ocotepeque', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/raravez/raravez.module#RaravezPageModule', name: 'RaravezPage', segment: 'raravez', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/si/si.module#SiPageModule', name: 'SiPage', segment: 'si', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/rutas-atencion/rutas-atencion.module#RutasAtencionPageModule', name: 'RutasAtencionPage', segment: 'rutas-atencion', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/test/test.module#TestPageModule', name: 'TestPage', segment: 'test', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/valle/valle.module#VallePageModule', name: 'VallePage', segment: 'valle', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/santa-barbara/santa-barbara.module#SantaBarbaraPageModule', name: 'SantaBarbaraPage', segment: 'santa-barbara', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/vintraf/vintraf.module#VintrafPageModule', name: 'VintrafPage', segment: 'vintraf', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/valle/valle.module#VallePageModule', name: 'VallePage', segment: 'valle', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/yoro/yoro.module#YoroPageModule', name: 'YoroPage', segment: 'yoro', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/test/test.module#TestPageModule', name: 'TestPage', segment: 'test', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/testmenu/testmenu.module#TestmenuPageModule', name: 'TestmenuPage', segment: 'testmenu', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/test2/test2.module#Test2PageModule', name: 'Test2Page', segment: 'test2', priority: 'low', defaultHistory: [] }
+                        { loadChildren: '../pages/test2/test2.module#Test2PageModule', name: 'Test2Page', segment: 'test2', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/testmenu/testmenu.module#TestmenuPageModule', name: 'TestmenuPage', segment: 'testmenu', priority: 'low', defaultHistory: [] }
                     ]
                 }),
                 __WEBPACK_IMPORTED_MODULE_9__ionic_storage__["a" /* IonicStorageModule */].forRoot()
@@ -1395,7 +1395,7 @@ var HomePage = /** @class */ (function () {
     };
     HomePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-home',template:/*ion-inline-start:"C:\Users\Amy\Desktop\segurasappio\src\pages\home\home.html"*/'<ion-header>\n  <ion-navbar color="primary" >\n    <ion-title style="text-align: center; ">\n      SEGURAS\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content  >\n\n <ion-grid padding>\n     <ion-row> &nbsp;</ion-row>\n  <ion-row height="100">\n\n    <ion-col width="100" padding\n         style=" align-content: center; background-color: white">\n         <div ion-col style="text-align: center; border-radius: 15%;   background-color: white; padding: 10px;"><img (click)="onLoadNewPlace()" src="assets/imgs/woman.png" style="width : 80% ; height : 80%; "> </div>\n      <br>\n      <button ion-button color="light"  full outline (click)="onLoadNewPlace()">  INFÓRMATE </button>\n\n    </ion-col>\n    <ion-col col-1></ion-col>\n\n    <ion-col width="100" padding\n         style="align-content: center; background-color: white">\n         <div ion-col style="text-align: center; border-radius: 15%;  background-color: white; padding: 10px;"> <img (click)="Consejos()" src="assets/imgs/idea.png" style="width : 80% ; height : 80%; "> </div>\n     <br>\n     <button ion-button color="light" full outline (click)="Consejos()">CONSEJOS </button>\n\n    </ion-col>\n\n\n  </ion-row>\n  <ion-row > &nbsp;</ion-row>\n  <ion-row > &nbsp;</ion-row>\n  <ion-row height="100">\n\n      <ion-col width="100" padding\n      style=" align-content: center; background-color: white">\n      <div ion-col style="text-align: center; border-radius: 15%;   background-color: white; padding: 10px;">  <img (click)="test()" src="assets/imgs/exam.png" style="width : 80% ; height : 80%; "> </div>\n    <br>\n       <button ion-button color="light" full outline (click)="test()"> AUTO<br>EVALÚATE</button>\n\n </ion-col>\n <ion-col col-1></ion-col>\n <ion-col width="100" padding\n      style=" align-content: center; background-color: white">\n      <div ion-col style="text-align: center; border-radius: 15%;   background-color: white; padding: 10px;"> <img (click)="denunciapage()" src="assets/imgs/balance.png" style="width : 80% ; height : 80%; "> </div>\n    <br>\n    <button ion-button color="light" full outline (click)="denunciapage()"> TOMA <br> ACCIÓN</button>\n\n </ion-col>\n\n  \n   \n  </ion-row>\n\n</ion-grid>\n   \n\n</ion-content>\n\n<ion-footer no-border style="height:2px;">\n  <ion-toolbar no-border color="danger">\n  </ion-toolbar>\n</ion-footer>'/*ion-inline-end:"C:\Users\Amy\Desktop\segurasappio\src\pages\home\home.html"*/
+            selector: 'page-home',template:/*ion-inline-start:"C:\Users\Amy\Desktop\segurasappio\src\pages\home\home.html"*/'<ion-header>\n  <ion-navbar color="primary" >\n    <ion-title style="text-align: center; ">\n      SEGURAS\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content  >\n\n <ion-grid padding>\n     <ion-row> &nbsp;</ion-row>\n  <ion-row height="100">\n\n    <ion-col width="100" padding\n         style=" align-content: center; background-color: white">\n         <div ion-col style="text-align: center; border-radius: 15%;   background-color: white; padding: 10px;"><img (click)="onLoadNewPlace()" src="assets/imgs/megaphone-2.png" style="width : 80% ; height : 80%; "> </div>\n      \n      <p style="text-align: center; font-size: 20px" (click)="onLoadNewPlace()">  INFÓRMATE </p>\n\n    </ion-col>\n    <ion-col col-1></ion-col>\n\n    <ion-col width="100" padding\n         style="align-content: center; background-color: white">\n         <div ion-col style="text-align: center; border-radius: 15%;  background-color: white; padding: 10px;"> <img (click)="Consejos()" src="assets/imgs/shopping-list.png" style="width : 80% ; height : 80%; "> </div>\n     \n     <p style="text-align: center; font-size: 20px" (click)="Consejos()">CONSEJOS </p>\n\n    </ion-col>\n\n\n  </ion-row>\n  <ion-row > &nbsp;</ion-row>\n  <ion-row > &nbsp;</ion-row>\n  <ion-row height="100">\n\n      <ion-col width="100" padding\n      style=" align-content: center; background-color: white">\n      <div ion-col style="text-align: center; border-radius: 15%;   background-color: white; padding: 10px;">  <img (click)="test()" src="assets/imgs/wishlist.png" style="width : 80% ; height : 80%; "> </div>\n   \n       <p style="text-align: center; font-size: 20px" (click)="test()"> AUTO<br>EVALÚATE</p>\n\n </ion-col>\n <ion-col col-1></ion-col>\n <ion-col width="100" padding\n      style=" align-content: center; background-color: white">\n      <div ion-col style="text-align: center; border-radius: 15%;   background-color: white; padding: 10px;"> <img (click)="denunciapage()" src="assets/imgs/protection.png" style="width : 80% ; height : 80%; "> </div>\n    \n    <p style="text-align: center; font-size: 20px" (click)="denunciapage()"> TOMA <br> ACCIÓN</p>\n\n </ion-col>\n\n  \n   \n  </ion-row>\n\n</ion-grid>\n   \n\n</ion-content>\n\n<ion-footer no-border style="height:2px;">\n  <ion-toolbar no-border color="danger">\n  </ion-toolbar>\n</ion-footer>'/*ion-inline-end:"C:\Users\Amy\Desktop\segurasappio\src\pages\home\home.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */]])
     ], HomePage);

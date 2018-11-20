@@ -3774,6 +3774,15 @@ h1, h2, button, p {
   font-family: "Open Sans" !important;
 }
 
+ion-modal .modal-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
 ion-action-sheet {
   left: 0;
   top: 0;
@@ -25905,7 +25914,7 @@ page-info ion-content {
 }
 
 page-info .estilodeboton {
-  background-color: white;
+  background-color: white !important;
   text-align: center;
   text-align: center;
   padding-top: 5px;
