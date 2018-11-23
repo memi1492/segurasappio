@@ -155,7 +155,7 @@ var InfoPage = /** @class */ (function () {
     };
     InfoPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-info',template:/*ion-inline-start:"C:\Users\Amy\Desktop\segurasappio\src\pages\info\info.html"*/'\n<ion-header>\n\n  <ion-navbar color="primary">\n    <ion-title>Violencia Doméstica</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n    <ion-content padding>\n        <h2 text-center style="padding-top: 10px; color:#0B3954"><strong>­Tipos de Violencia Doméstica </strong> </h2>\n      <p text-center style="padding-top: 10px; color:#0B3954"><strong> Cuando los actos de tu pareja o ex-pareja te producen cualquiera de estos tipos de violencia, estas siendo víctima de violencia doméstica: </strong> </p>\n    \n       <br>\n        \n            <!--   <ion-col>  <img   src="assets/imgs/1ViolenciaDomestica/handymod.gif" style=" align-content: center; padding-bottom: 5px; width: 50%; height: 50%" ></ion-col>-->\n\n         <!--  <ion-col><p style="padding:5px;">Existen golpes. empujadas y cachetadas</p></ion-col> -->\n         <ion-grid >\n       <ion-row padding >\n     \n         <ion-col  \n              style=" align-content: center; background-color: white">\n             \n            <div (click)="vfisica()" class="violencia">\n                <img  src="assets/imgs/Informate/strong.png" style="width : 70% ; height : 70%; "> \n                <p style="align-content: center;"><strong>Violencia Física</strong></p>\n            \n            \n         </div>   \n         </ion-col>\n        \n           <!--   <div>  <img   src="assets/imgs/1ViolenciaDomestica/sex.gif" style=" align-content: center; padding-bottom: 5px; width: 30%; height: 30%" ></div> \n\n          <ion-col><p style="padding:5px;">Existen golpes. empujadas y cachetadas</p></ion-col> -->\n          <ion-col col-1 ></ion-col>\n          <ion-col  \n          style=" align-content: center; background-color: white">\n\n          <div (click)="vsexual()" class="violencia">\n              <img  src="assets/imgs/Informate/bed.png" style="width : 70% ; height : 70%; "> \n              <p style="align-content: center;"><strong>Violencia Sexual</strong></p>\n          \n          \n       </div>   \n\n          </ion-col>\n\n        </ion-row>\n             <!-- <div> <img   src="assets/imgs/1ViolenciaDomestica/1CicloViolencia/swear.gif" style="padding-bottom: 5px; width: 25%; height: 25%" >\n              </div> \n\n          <ion-col><p style="padding:5px;">Existen golpes. empujadas y cachetadas</p></ion-col> -->\n        \n          <ion-row padding>\n            <ion-col  \n              style=" align-content: center; background-color: white">\n             \n            <div (click)="vpsicologica()" class="violencia">\n                <img  src="assets/imgs/Informate/illness.png" style="width : 70% ; height : 70%; "> \n                <p style="align-content: center;"><strong>Violencia Psicológica</strong></p>\n            \n            \n         </div>   \n         </ion-col>\n\n        <ion-col col-1 ></ion-col>\n\n              <!-- <img   src="assets/imgs/1ViolenciaDomestica/man.gif" style=" align-content: center; padding-bottom: 5px; width: 30%; height: 30%" ></div> \n\n        <ion-col><p style="padding:5px;">Existen golpes. empujadas y cachetadas</p></ion-col> -->\n        <ion-col  \n        style=" align-content: center; background-color: white">\n       \n      <div (click)="vpatrimonial()" class="violencia">\n          <img  src="assets/imgs/Informate/money.png" style="width : 70% ; height : 70%; "> \n          <p style="align-content: center;"><strong>Violencia Patrimonial</strong></p>\n      \n      \n   </div>   \n   </ion-col> \n     \n      </ion-row>\n\n     \n\n\n  <!--  <div (click)="definicion()" class="estilodeboton"><p style="font-size: 10px;"><strong>¿Qué es la violencia doméstica?</strong></p>\n      <img   src="assets/imgs/1ViolenciaDomestica/warnmodif.gif" style="width: 25%; height: 25%;">\n      <p>Infórmate</p>\n </div> -->\n <ion-row item-height="20">\n <h2 style="padding-top: 10px; color:#0B3954; text-align: center"><strong>Ciclo de Violencia Doméstica </strong> </h2>\n \n   \n<br>\n</ion-row>\n\n</ion-grid>\n<div >\n<button ion-item no-lines detail-none (click)="CicloViolencia()" class="estilodeboton"><p style="font-size: 20px; color: black"><strong>Ciclo de Violencia</strong></p><br>\n  <img (click)="CicloViolencia()"  src="assets/imgs/1ViolenciaDomestica/rotate.gif" style="width: 30%; height: 30%;">\n  <p style="color: black">¡Rompe el Ciclo!</p> </button>\n</div>\n    \n</ion-content>\n'/*ion-inline-end:"C:\Users\Amy\Desktop\segurasappio\src\pages\info\info.html"*/,
+            selector: 'page-info',template:/*ion-inline-start:"C:\Users\Amy\Desktop\segurasappio\src\pages\info\info.html"*/'\n<ion-header>\n\n  <ion-navbar color="primary">\n    <ion-title>Violencia Doméstica</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n    <ion-content padding>\n        <h2 text-center style="padding-top: 10px; color:#0B3954"><strong>­Tipos de Violencia Doméstica </strong> </h2>\n      <p text-center style="padding-top: 10px; color:#0B3954"><strong> Cuando los actos de tu pareja o ex-pareja te producen cualquiera de estos tipos de violencia, estas siendo víctima de violencia doméstica: </strong> </p>\n    \n       <br>\n        \n            <!--   <ion-col>  <img   src="assets/imgs/1ViolenciaDomestica/handymod.gif" style=" align-content: center; padding-bottom: 5px; width: 50%; height: 50%" ></ion-col>-->\n\n         <!--  <ion-col><p style="padding:5px;">Existen golpes. empujadas y cachetadas</p></ion-col> -->\n         <ion-grid >\n       <ion-row padding >\n     \n         <ion-col  \n              style=" align-content: center; background-color: white">\n             \n            <div (click)="vfisica()" class="violencia">\n                <img  src="assets/imgs/Informate/strong.png" style="width : 70% ; height : 70%; "> \n                <p style="align-content: center;"><strong>Violencia Física</strong></p>\n            \n            \n         </div>   \n         </ion-col>\n        \n           <!--   <div>  <img   src="assets/imgs/1ViolenciaDomestica/sex.gif" style=" align-content: center; padding-bottom: 5px; width: 30%; height: 30%" ></div> \n\n          <ion-col><p style="padding:5px;">Existen golpes. empujadas y cachetadas</p></ion-col> -->\n          <ion-col col-1 ></ion-col>\n          <ion-col  \n          style=" align-content: center; background-color: white">\n\n          <div (click)="vsexual()" class="violencia">\n              <img  src="assets/imgs/Informate/bed.png" style="width : 70% ; height : 70%; "> \n              <p style="align-content: center;"><strong>Violencia Sexual</strong></p>\n          \n          \n       </div>   \n\n          </ion-col>\n\n        </ion-row>\n             <!-- <div> <img   src="assets/imgs/1ViolenciaDomestica/1CicloViolencia/swear.gif" style="padding-bottom: 5px; width: 25%; height: 25%" >\n              </div> \n\n          <ion-col><p style="padding:5px;">Existen golpes. empujadas y cachetadas</p></ion-col> -->\n        \n          <ion-row padding>\n            <ion-col  \n              style=" align-content: center; background-color: white">\n             \n            <div (click)="vpsicologica()" class="violencia">\n                <img  src="assets/imgs/Informate/illness.png" style="width : 70% ; height : 70%; "> \n                <p style="align-content: center;"><strong>Violencia Psicológica</strong></p>\n            \n            \n         </div>   \n         </ion-col>\n\n        <ion-col col-1 ></ion-col>\n\n              <!-- <img   src="assets/imgs/1ViolenciaDomestica/man.gif" style=" align-content: center; padding-bottom: 5px; width: 30%; height: 30%" ></div> \n\n        <ion-col><p style="padding:5px;">Existen golpes. empujadas y cachetadas</p></ion-col> -->\n        <ion-col  \n        style=" align-content: center; background-color: white">\n       \n      <div (click)="vpatrimonial()" class="violencia">\n          <img  src="assets/imgs/Informate/money.png" style="width : 70% ; height : 70%; "> \n          <p style="align-content: center;"><strong>Violencia Patrimonial</strong></p>\n      \n      \n   </div>   \n   </ion-col> \n     \n      </ion-row>\n\n     \n\n\n  <!--  <div (click)="definicion()" class="estilodeboton"><p style="font-size: 10px;"><strong>¿Qué es la violencia doméstica?</strong></p>\n      <img   src="assets/imgs/1ViolenciaDomestica/warnmodif.gif" style="width: 25%; height: 25%;">\n      <p>Infórmate</p>\n </div> -->\n <ion-row item-height="20">\n <h2 style="padding-top: 10px; color:#0B3954; text-align: center"><strong>Ciclo de Violencia Doméstica </strong> </h2>\n \n   \n<br>\n</ion-row>\n\n</ion-grid>\n\n<button ion-item no-lines detail-none (click)="CicloViolencia()" class="estilodeboton"><p style="font-size: 20px; color: black"><strong>Ciclo de Violencia</strong></p><br>\n  <img (click)="CicloViolencia()"  src="assets/imgs/1ViolenciaDomestica/rotate.gif" style="width: 30%; height: 30%;">\n  <p style="color: black">¡Rompe el Ciclo!</p> </button>\n\n    \n</ion-content>\n'/*ion-inline-end:"C:\Users\Amy\Desktop\segurasappio\src\pages\info\info.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* ModalController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */]])
     ], InfoPage);
@@ -679,67 +679,67 @@ var map = {
 		31
 	],
 	"../pages/aveces/aveces.module": [
-		294,
+		292,
 		44
 	],
 	"../pages/choluteca/choluteca.module": [
-		291,
+		293,
 		30
 	],
 	"../pages/ciclo-violencia/ciclo-violencia.module": [
-		292,
+		295,
 		29
 	],
 	"../pages/colon/colon.module": [
-		293,
+		291,
 		28
 	],
 	"../pages/comayagua/comayagua.module": [
-		297,
+		294,
 		27
 	],
 	"../pages/consejos-seguridad/consejos-seguridad.module": [
-		295,
+		301,
 		26
 	],
 	"../pages/consejos/consejos.module": [
-		296,
+		297,
 		43
 	],
 	"../pages/copan/copan.module": [
-		298,
+		296,
 		25
 	],
 	"../pages/cortes/cortes.module": [
-		299,
+		302,
 		24
 	],
 	"../pages/definicion/definicion.module": [
-		319,
+		298,
 		23
 	],
 	"../pages/denuncia/denuncia.module": [
-		300,
+		299,
 		42
 	],
 	"../pages/denunciamenu/denunciamenu.module": [
-		301,
+		300,
 		22
 	],
 	"../pages/denuncias-def/denuncias-def.module": [
-		302,
+		303,
 		21
 	],
 	"../pages/directorio/directorio.module": [
-		303,
+		304,
 		20
 	],
 	"../pages/el-paraiso/el-paraiso.module": [
-		304,
+		305,
 		19
 	],
 	"../pages/francisco-m/francisco-m.module": [
-		305,
+		321,
 		18
 	],
 	"../pages/gracias-a-dios/gracias-a-dios.module": [
@@ -747,111 +747,111 @@ var map = {
 		17
 	],
 	"../pages/identifica/identifica.module": [
-		307,
+		308,
 		16
 	],
 	"../pages/info/info.module": [
-		308,
+		316,
 		39
 	],
 	"../pages/info2/info2.module": [
-		309,
+		318,
 		41
 	],
 	"../pages/info3/info3.module": [
-		311,
+		307,
 		40
 	],
 	"../pages/intibuca/intibuca.module": [
-		310,
+		311,
 		15
 	],
 	"../pages/islas/islas.module": [
-		312,
+		309,
 		14
 	],
 	"../pages/la-ceiba/la-ceiba.module": [
-		313,
+		310,
 		13
 	],
 	"../pages/la-paz/la-paz.module": [
-		314,
+		312,
 		12
 	],
 	"../pages/lempira/lempira.module": [
-		315,
+		313,
 		11
 	],
 	"../pages/medidas/medidas.module": [
-		317,
+		329,
 		10
 	],
 	"../pages/new-place/new-place.module": [
-		316,
+		333,
 		38
 	],
 	"../pages/ninos/ninos.module": [
-		324,
+		314,
 		9
 	],
 	"../pages/no/no.module": [
-		318,
+		315,
 		37
 	],
 	"../pages/ocotepeque/ocotepeque.module": [
-		320,
+		322,
 		8
 	],
 	"../pages/olancho/olancho.module": [
-		322,
+		317,
 		7
 	],
 	"../pages/pasos-denuncia/pasos-denuncia.module": [
-		321,
+		324,
 		6
 	],
 	"../pages/proceso/proceso.module": [
-		323,
+		319,
 		5
 	],
 	"../pages/raravez/raravez.module": [
-		325,
+		320,
 		36
 	],
 	"../pages/rutas-atencion/rutas-atencion.module": [
-		326,
+		325,
 		4
 	],
 	"../pages/santa-barbara/santa-barbara.module": [
-		327,
+		326,
 		3
 	],
 	"../pages/si/si.module": [
-		328,
+		323,
 		35
 	],
 	"../pages/test/test.module": [
-		329,
+		330,
 		33
 	],
 	"../pages/test2/test2.module": [
-		330,
+		331,
 		34
 	],
 	"../pages/testmenu/testmenu.module": [
-		331,
+		332,
 		32
 	],
 	"../pages/valle/valle.module": [
-		334,
+		327,
 		2
 	],
 	"../pages/vintraf/vintraf.module": [
-		332,
+		328,
 		1
 	],
 	"../pages/yoro/yoro.module": [
-		333,
+		334,
 		0
 	]
 };
@@ -1218,50 +1218,50 @@ var AppModule = /** @class */ (function () {
                 __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["d" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_10__app_component__["a" /* MyApp */], {}, {
                     links: [
                         { loadChildren: '../pages/atlantida/atlantida.module#AtlantidaPageModule', name: 'AtlantidaPage', segment: 'atlantida', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/choluteca/choluteca.module#CholutecaPageModule', name: 'CholutecaPage', segment: 'choluteca', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/ciclo-violencia/ciclo-violencia.module#CicloViolenciaPageModule', name: 'CicloViolenciaPage', segment: 'ciclo-violencia', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/colon/colon.module#ColonPageModule', name: 'ColonPage', segment: 'colon', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/aveces/aveces.module#AvecesPageModule', name: 'AvecesPage', segment: 'aveces', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/consejos-seguridad/consejos-seguridad.module#ConsejosSeguridadPageModule', name: 'ConsejosSeguridadPage', segment: 'consejos-seguridad', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/consejos/consejos.module#ConsejosPageModule', name: 'ConsejosPage', segment: 'consejos', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/choluteca/choluteca.module#CholutecaPageModule', name: 'CholutecaPage', segment: 'choluteca', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/comayagua/comayagua.module#ComayaguaPageModule', name: 'ComayaguaPage', segment: 'comayagua', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/ciclo-violencia/ciclo-violencia.module#CicloViolenciaPageModule', name: 'CicloViolenciaPage', segment: 'ciclo-violencia', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/copan/copan.module#CopanPageModule', name: 'CopanPage', segment: 'copan', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/cortes/cortes.module#CortesPageModule', name: 'CortesPage', segment: 'cortes', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/consejos/consejos.module#ConsejosPageModule', name: 'ConsejosPage', segment: 'consejos', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/definicion/definicion.module#DefinicionPageModule', name: 'DefinicionPage', segment: 'definicion', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/denuncia/denuncia.module#DenunciaPageModule', name: 'DenunciaPage', segment: 'denuncia', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/denunciamenu/denunciamenu.module#DenunciamenuPageModule', name: 'DenunciamenuPage', segment: 'denunciamenu', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/consejos-seguridad/consejos-seguridad.module#ConsejosSeguridadPageModule', name: 'ConsejosSeguridadPage', segment: 'consejos-seguridad', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/cortes/cortes.module#CortesPageModule', name: 'CortesPage', segment: 'cortes', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/denuncias-def/denuncias-def.module#DenunciasDefPageModule', name: 'DenunciasDefPage', segment: 'denuncias-def', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/directorio/directorio.module#DirectorioPageModule', name: 'DirectorioPage', segment: 'directorio', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/el-paraiso/el-paraiso.module#ElParaisoPageModule', name: 'ElParaisoPage', segment: 'el-paraiso', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/francisco-m/francisco-m.module#FranciscoMPageModule', name: 'FranciscoMPage', segment: 'francisco-m', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/gracias-a-dios/gracias-a-dios.module#GraciasADiosPageModule', name: 'GraciasADiosPage', segment: 'gracias-a-dios', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/identifica/identifica.module#IdentificaPageModule', name: 'IdentificaPage', segment: 'identifica', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/info/info.module#InfoPageModule', name: 'InfoPage', segment: 'info', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/info2/info2.module#Info2PageModule', name: 'Info2Page', segment: 'info2', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/intibuca/intibuca.module#IntibucaPageModule', name: 'IntibucaPage', segment: 'intibuca', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/info3/info3.module#Info3PageModule', name: 'Info3Page', segment: 'info3', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/identifica/identifica.module#IdentificaPageModule', name: 'IdentificaPage', segment: 'identifica', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/islas/islas.module#IslasPageModule', name: 'IslasPage', segment: 'islas', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/la-ceiba/la-ceiba.module#LaCeibaPageModule', name: 'LaCeibaPage', segment: 'la-ceiba', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/intibuca/intibuca.module#IntibucaPageModule', name: 'IntibucaPage', segment: 'intibuca', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/la-paz/la-paz.module#LaPazPageModule', name: 'LaPazPage', segment: 'la-paz', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/lempira/lempira.module#LempiraPageModule', name: 'LempiraPage', segment: 'lempira', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/new-place/new-place.module#NewPlacePageModule', name: 'NewPlacePage', segment: 'new-place', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/medidas/medidas.module#MedidasPageModule', name: 'MedidasPage', segment: 'medidas', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/no/no.module#NoPageModule', name: 'NoPage', segment: 'no', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/definicion/definicion.module#DefinicionPageModule', name: 'DefinicionPage', segment: 'definicion', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/ocotepeque/ocotepeque.module#OcotepequePageModule', name: 'OcotepequePage', segment: 'ocotepeque', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/pasos-denuncia/pasos-denuncia.module#PasosDenunciaPageModule', name: 'PasosDenunciaPage', segment: 'pasos-denuncia', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/olancho/olancho.module#OlanchoPageModule', name: 'OlanchoPage', segment: 'olancho', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/proceso/proceso.module#ProcesoPageModule', name: 'ProcesoPage', segment: 'proceso', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/ninos/ninos.module#NinosPageModule', name: 'NinosPage', segment: 'ninos', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/no/no.module#NoPageModule', name: 'NoPage', segment: 'no', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/info/info.module#InfoPageModule', name: 'InfoPage', segment: 'info', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/olancho/olancho.module#OlanchoPageModule', name: 'OlanchoPage', segment: 'olancho', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/info2/info2.module#Info2PageModule', name: 'Info2Page', segment: 'info2', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/proceso/proceso.module#ProcesoPageModule', name: 'ProcesoPage', segment: 'proceso', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/raravez/raravez.module#RaravezPageModule', name: 'RaravezPage', segment: 'raravez', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/francisco-m/francisco-m.module#FranciscoMPageModule', name: 'FranciscoMPage', segment: 'francisco-m', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/ocotepeque/ocotepeque.module#OcotepequePageModule', name: 'OcotepequePage', segment: 'ocotepeque', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/si/si.module#SiPageModule', name: 'SiPage', segment: 'si', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/pasos-denuncia/pasos-denuncia.module#PasosDenunciaPageModule', name: 'PasosDenunciaPage', segment: 'pasos-denuncia', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/rutas-atencion/rutas-atencion.module#RutasAtencionPageModule', name: 'RutasAtencionPage', segment: 'rutas-atencion', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/santa-barbara/santa-barbara.module#SantaBarbaraPageModule', name: 'SantaBarbaraPage', segment: 'santa-barbara', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/si/si.module#SiPageModule', name: 'SiPage', segment: 'si', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/valle/valle.module#VallePageModule', name: 'VallePage', segment: 'valle', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/vintraf/vintraf.module#VintrafPageModule', name: 'VintrafPage', segment: 'vintraf', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/medidas/medidas.module#MedidasPageModule', name: 'MedidasPage', segment: 'medidas', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/test/test.module#TestPageModule', name: 'TestPage', segment: 'test', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/test2/test2.module#Test2PageModule', name: 'Test2Page', segment: 'test2', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/testmenu/testmenu.module#TestmenuPageModule', name: 'TestmenuPage', segment: 'testmenu', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/vintraf/vintraf.module#VintrafPageModule', name: 'VintrafPage', segment: 'vintraf', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/yoro/yoro.module#YoroPageModule', name: 'YoroPage', segment: 'yoro', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/valle/valle.module#VallePageModule', name: 'VallePage', segment: 'valle', priority: 'low', defaultHistory: [] }
+                        { loadChildren: '../pages/new-place/new-place.module#NewPlacePageModule', name: 'NewPlacePage', segment: 'new-place', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/yoro/yoro.module#YoroPageModule', name: 'YoroPage', segment: 'yoro', priority: 'low', defaultHistory: [] }
                     ]
                 }),
                 __WEBPACK_IMPORTED_MODULE_9__ionic_storage__["a" /* IonicStorageModule */].forRoot()

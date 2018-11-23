@@ -2,6 +2,10 @@ page-identifica {
     ion-content {
         background: #BFD7EA !important;
     }
+    ion-row {
+        display: flex;
+justify-content: center;
+    }
     .estilo{
         color: black;
          background-color: white; 
@@ -25,4 +29,11 @@ page-identifica {
           -moz-box-shadow: 0 10px 6px -6px #777;
                box-shadow: 0 10px 6px -6px #777; 
     }
+
+    .vertical-align-content > *
+{
+     display: flex!important;
+     align-content: center!important;
+     align-items: center!important;
+}
 }

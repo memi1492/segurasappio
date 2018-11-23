@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { NavController } from 'ionic-angular';
 import { SMS } from "@ionic-native/sms";
 import { CallNumber } from "@ionic-native/call-number";
 import { Geolocation } from "@ionic-native/geolocation";
