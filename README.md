@@ -31,8 +31,12 @@ sudo xcode-select -s /Applications/dir/a/xcode
 
 ionic cordova emulate ios -- --buildFlag="-UseModernBuildSystem=0"
 
+3.5- Ver dispositivos disponibles 
+
+ionic cordova emulate --list
+
 4- Emular Ipad con el comando:
 
-ionic cordova emulate ios -- --buildFlag="-UseModernBuildSystem=0" --target="iPad-Pro--12-9-inch---3rd-generation-, 12.1"
+ionic cordova emulate ios -- --buildFlag="-UseModernBuildSystem=0" --target="iPhone-5s, 12.1"
 
 * A storage se añade el SQLite que se muestra en el mismo link.
