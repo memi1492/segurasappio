@@ -25889,17 +25889,6 @@ page-identifica ion-content {
   background: #BFD7EA !important;
 }
 
-page-identifica ion-row {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-}
-
 page-identifica .estilo {
   color: black;
   background-color: white;
@@ -25918,20 +25907,6 @@ page-identifica .estilo2 {
   border: 10px solid #23B4B7;
   -webkit-box-shadow: 0 10px 6px -6px #777;
   box-shadow: 0 10px 6px -6px #777;
-}
-
-page-identifica .vertical-align-content > * {
-  display: -webkit-box !important;
-  display: -webkit-flex !important;
-  display: -ms-flexbox !important;
-  display: flex !important;
-  -webkit-align-content: center !important;
-  -ms-flex-line-pack: center !important;
-  align-content: center !important;
-  -webkit-box-align: center !important;
-  -webkit-align-items: center !important;
-  -ms-flex-align: center !important;
-  align-items: center !important;
 }
 
 page-info ion-content {
