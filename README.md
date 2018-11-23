@@ -10,6 +10,11 @@ https://ionicframework.com/docs/native/call-number/
 
 https://ionicframework.com/docs/storage/
 
+https://ionicframework.com/docs/native/mobile-accessibility/#getTextZoomCallback *para hacer el texto mas grande en ipad
+
+
+
+
 
 Soporte para Mac:
 
@@ -25,5 +30,9 @@ sudo xcode-select -s /Applications/dir/a/xcode
 3- Emular con el comando
 
 ionic cordova emulate ios -- --buildFlag="-UseModernBuildSystem=0"
+
+4- Emular Ipad con el comando:
+
+ionic cordova emulate ios -- --buildFlag="-UseModernBuildSystem=0" --target="iPad-Pro--12-9-inch---3rd-generation-, 12.1"
 
 * A storage se añade el SQLite que se muestra en el mismo link.

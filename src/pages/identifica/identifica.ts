@@ -1,6 +1,7 @@
 import { Component, ViewChild } from '@angular/core';
 import { IonicPage, NavController, NavParams, ModalController, ViewController } from 'ionic-angular';
 
+
 /**
  * Generated class for the IdentificaPage page.
  *
@@ -15,7 +16,7 @@ import { IonicPage, NavController, NavParams, ModalController, ViewController } 
 })
 export class IdentificaPage {
 
-  constructor(public navCtrl: NavController,  private view: ViewController, public navParams: NavParams) {
+  constructor(public navCtrl: NavController,  private view: ViewController, public navParams: NavParams){
   }
 
   ionViewDidLoad() {
@@ -24,4 +25,7 @@ export class IdentificaPage {
   closemodal(){
     this.view.dismiss();
   }
+
+
+
 }

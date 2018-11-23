@@ -25674,6 +25674,61 @@ ion-navbar.toolbar {
   }
 }
 
+@media screen and (max-width: 320px) {
+  ion-content {
+    font-size: 20px;
+    text-align: center;
+  }
+  p {
+    font-size: 20px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  ion-content {
+    font-size: 20px;
+    text-align: center;
+  }
+  p {
+    font-size: 20px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  ion-content {
+    font-size: 20px;
+    text-align: center;
+  }
+  p {
+    font-size: 20px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  ion-content {
+    font-size: 30px;
+    text-align: center;
+  }
+  p {
+    font-size: 30px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 1028px) {
+  ion-content {
+    font-size: 30px;
+    text-align: center;
+  }
+  p {
+    font-size: 30px;
+    text-align: center;
+  }
+}
+
 page-about ion-content {
   background: #BFD7EA !important;
 }
@@ -25907,6 +25962,57 @@ page-identifica .estilo2 {
   border: 10px solid #23B4B7;
   -webkit-box-shadow: 0 10px 6px -6px #777;
   box-shadow: 0 10px 6px -6px #777;
+}
+
+@media screen and (max-width: 320px) {
+  page-identifica ion-content {
+    font-size: 20px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  page-identifica ion-content {
+    font-size: 20px;
+    text-align: center;
+  }
+  page-identifica p {
+    font-size: 20px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  page-identifica ion-content {
+    font-size: 20px;
+    text-align: center;
+  }
+  page-identifica p {
+    font-size: 20px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  page-identifica ion-content {
+    font-size: 30px;
+    text-align: center;
+  }
+  page-identifica p {
+    font-size: 30px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 1028px) {
+  page-identifica ion-content {
+    font-size: 30px;
+    text-align: center;
+  }
+  page-identifica p {
+    font-size: 30px;
+    text-align: center;
+  }
 }
 
 page-info ion-content {

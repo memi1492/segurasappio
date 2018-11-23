@@ -675,183 +675,183 @@ webpackEmptyAsyncContext.id = 123;
 
 var map = {
 	"../pages/atlantida/atlantida.module": [
-		290,
+		291,
 		31
 	],
 	"../pages/aveces/aveces.module": [
-		291,
+		292,
 		44
 	],
 	"../pages/choluteca/choluteca.module": [
-		292,
+		293,
 		30
 	],
 	"../pages/ciclo-violencia/ciclo-violencia.module": [
-		293,
+		294,
 		29
 	],
 	"../pages/colon/colon.module": [
-		294,
+		295,
 		28
 	],
 	"../pages/comayagua/comayagua.module": [
-		295,
+		296,
 		27
 	],
 	"../pages/consejos-seguridad/consejos-seguridad.module": [
-		296,
+		297,
 		26
 	],
 	"../pages/consejos/consejos.module": [
-		297,
+		298,
 		43
 	],
 	"../pages/copan/copan.module": [
-		298,
+		299,
 		25
 	],
 	"../pages/cortes/cortes.module": [
-		299,
+		300,
 		24
 	],
 	"../pages/definicion/definicion.module": [
-		300,
+		301,
 		23
 	],
 	"../pages/denuncia/denuncia.module": [
-		301,
+		302,
 		42
 	],
 	"../pages/denunciamenu/denunciamenu.module": [
-		302,
+		303,
 		22
 	],
 	"../pages/denuncias-def/denuncias-def.module": [
-		303,
+		304,
 		21
 	],
 	"../pages/directorio/directorio.module": [
-		304,
+		305,
 		20
 	],
 	"../pages/el-paraiso/el-paraiso.module": [
-		305,
+		306,
 		19
 	],
 	"../pages/francisco-m/francisco-m.module": [
-		306,
+		307,
 		18
 	],
 	"../pages/gracias-a-dios/gracias-a-dios.module": [
-		307,
+		308,
 		17
 	],
 	"../pages/identifica/identifica.module": [
-		308,
+		309,
 		16
 	],
 	"../pages/info/info.module": [
-		309,
+		310,
 		41
 	],
 	"../pages/info2/info2.module": [
-		310,
+		311,
 		40
 	],
 	"../pages/info3/info3.module": [
-		311,
+		312,
 		39
 	],
 	"../pages/intibuca/intibuca.module": [
-		312,
+		313,
 		15
 	],
 	"../pages/islas/islas.module": [
-		313,
+		314,
 		14
 	],
 	"../pages/la-ceiba/la-ceiba.module": [
-		314,
+		315,
 		13
 	],
 	"../pages/la-paz/la-paz.module": [
-		315,
+		316,
 		12
 	],
 	"../pages/lempira/lempira.module": [
-		316,
+		317,
 		11
 	],
 	"../pages/medidas/medidas.module": [
-		317,
+		318,
 		10
 	],
 	"../pages/new-place/new-place.module": [
-		318,
+		319,
 		38
 	],
 	"../pages/ninos/ninos.module": [
-		319,
+		320,
 		9
 	],
 	"../pages/no/no.module": [
-		320,
+		321,
 		37
 	],
 	"../pages/ocotepeque/ocotepeque.module": [
-		321,
+		322,
 		8
 	],
 	"../pages/olancho/olancho.module": [
-		322,
+		323,
 		7
 	],
 	"../pages/pasos-denuncia/pasos-denuncia.module": [
-		323,
+		324,
 		6
 	],
 	"../pages/proceso/proceso.module": [
-		324,
+		325,
 		5
 	],
 	"../pages/raravez/raravez.module": [
-		325,
+		326,
 		36
 	],
 	"../pages/rutas-atencion/rutas-atencion.module": [
-		326,
+		327,
 		4
 	],
 	"../pages/santa-barbara/santa-barbara.module": [
-		327,
+		328,
 		3
 	],
 	"../pages/si/si.module": [
-		328,
+		329,
 		35
 	],
 	"../pages/test/test.module": [
-		329,
+		330,
 		34
 	],
 	"../pages/test2/test2.module": [
-		330,
+		331,
 		33
 	],
 	"../pages/testmenu/testmenu.module": [
-		331,
+		332,
 		32
 	],
 	"../pages/valle/valle.module": [
-		332,
+		333,
 		2
 	],
 	"../pages/vintraf/vintraf.module": [
-		333,
+		334,
 		1
 	],
 	"../pages/yoro/yoro.module": [
-		334,
+		335,
 		0
 	]
 };
@@ -879,7 +879,7 @@ module.exports = webpackAsyncContext;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__about_about__ = __webpack_require__(212);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__contact_contact__ = __webpack_require__(213);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__home_home__ = __webpack_require__(40);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__home_home__ = __webpack_require__(41);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -996,7 +996,7 @@ var AboutPage = /** @class */ (function () {
     };
     AboutPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-about',template:/*ion-inline-start:"/Users/cloudcen/Documents/GitHub/segurasappio/src/pages/about/about.html"*/'<ion-header>\n  <ion-navbar color="primary">\n      <ion-title style="text-align: center; ">\n     Botón de Pánico\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n    <p style="text-align: center; color: #0B3954;">Lo debes utilizar solamente en caso de emergencia y cuando te encuentres en peligro, este botón será una llamada directamente al 911 y las personas de tu confianza y que te puedan auxiliar en caso de una emergencia.\n    </p>\n  \n    <ion-grid>\n        <ion-row (click)= "senSMS()" padding style="background-color: #FC4E50; text-align: center; padding-top: 5px ; border: 10px solid white;">\n            \n         <ion-col align-self-center><p style="padding:5px; font-size: 20px; color:white">ENVIAR MENSAJES DE EMERGENCIA</p></ion-col> \n            <ion-col align-self-center>  <img   src="assets/imgs/5Emergencia/alarm-2.gif" style="padding-top:20px; padding-bottom: 5px;" ></ion-col> \n       \n        </ion-row>\n\n<br>\n<br>\n        <ion-row (click)= "call()" padding style="background-color: #0B3954; text-align: center; padding-top: 5px ; border: 10px solid white; height:200px; ">\n            \n         \n               <ion-col align-self-center>  <img src="assets/imgs/5Emergencia/alert.gif" style="padding-top:10px; padding-bottom: 5px; display: block;"></ion-col> \n               <ion-col align-self-center ><p style="padding:5px; font-size: 20px; color:white">LLAMADA DE EMERGENCIA<br> 911</p></ion-col> \n           </ion-row>\n\n\n</ion-grid>\n\n    \n\n</ion-content>\n'/*ion-inline-end:"/Users/cloudcen/Documents/GitHub/segurasappio/src/pages/about/about.html"*/
+            selector: 'page-about',template:/*ion-inline-start:"/Users/cloudcen/Documents/GitHub/segurasappio/src/pages/about/about.html"*/'<ion-header>\n  <ion-navbar color="primary">\n      <ion-title style="text-align: center; ">\n     Botón de Pánico\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n    <p style="text-align: center; color: #0B3954;">Lo debes utilizar solamente en caso de emergencia y cuando te encuentres en peligro, este botón será una llamada directamente al 911 y las personas de tu confianza y que te puedan auxiliar en caso de una emergencia.\n    </p>\n  \n    <ion-grid>\n        <ion-row (click)= "senSMS()" padding style="background-color: #FC4E50; text-align: center; padding-top: 5px ; border: 10px solid white;">\n           <ion-col align-self-center><p style="padding:5px; color:white">ENVIAR MENSAJES DE EMERGENCIA</p></ion-col> \n            <ion-col align-self-center>  <img   src="assets/imgs/5Emergencia/alarm-2.gif" style="padding-top:20px; padding-bottom: 5px;" ></ion-col> \n      \n        </ion-row>\n\n<br>\n<br>\n        <ion-row (click)= "call()" padding style="background-color: #0B3954; text-align: center; padding-top: 5px ; border: 10px solid white; height:200px; ">\n            \n         \n               <ion-col align-self-center>  <img src="assets/imgs/5Emergencia/alert.gif" style="padding-top:10px; padding-bottom: 5px; -webkit-column-width: 10%"></ion-col> \n               <ion-col align-self-center ><p style="padding:5px; color:white">LLAMADA DE EMERGENCIA<br> 911</p></ion-col> \n           \n           </ion-row>\n\n\n</ion-grid>\n\n    \n\n</ion-content>\n'/*ion-inline-end:"/Users/cloudcen/Documents/GitHub/segurasappio/src/pages/about/about.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__ionic_native_sms__["a" /* SMS */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_call_number__["a" /* CallNumber */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_geolocation__["a" /* Geolocation */], __WEBPACK_IMPORTED_MODULE_4__ionic_storage__["b" /* Storage */]])
     ], AboutPage);
@@ -1138,23 +1138,24 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ionic_native_call_number__ = __webpack_require__(208);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__ionic_native_geolocation__ = __webpack_require__(209);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__ionic_storage__ = __webpack_require__(105);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__app_component__ = __webpack_require__(289);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_home_home__ = __webpack_require__(40);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_about_about__ = __webpack_require__(212);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_contact_contact__ = __webpack_require__(213);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_tabs_tabs__ = __webpack_require__(211);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_info_info__ = __webpack_require__(107);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_info2_info2__ = __webpack_require__(108);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__pages_info3_info3__ = __webpack_require__(109);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__pages_consejos_consejos__ = __webpack_require__(110);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__pages_denuncia_denuncia__ = __webpack_require__(111);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__pages_si_si__ = __webpack_require__(53);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__pages_aveces_aveces__ = __webpack_require__(52);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__pages_raravez_raravez__ = __webpack_require__(214);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__pages_no_no__ = __webpack_require__(54);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__pages_testmenu_testmenu__ = __webpack_require__(112);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__pages_test_test__ = __webpack_require__(113);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__pages_test2_test2__ = __webpack_require__(114);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__ionic_native_mobile_accessibility__ = __webpack_require__(289);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__app_component__ = __webpack_require__(290);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_home_home__ = __webpack_require__(41);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_about_about__ = __webpack_require__(212);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_contact_contact__ = __webpack_require__(213);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_tabs_tabs__ = __webpack_require__(211);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_info_info__ = __webpack_require__(107);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__pages_info2_info2__ = __webpack_require__(108);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__pages_info3_info3__ = __webpack_require__(109);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__pages_consejos_consejos__ = __webpack_require__(110);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__pages_denuncia_denuncia__ = __webpack_require__(111);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__pages_si_si__ = __webpack_require__(53);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__pages_aveces_aveces__ = __webpack_require__(52);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__pages_raravez_raravez__ = __webpack_require__(214);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__pages_no_no__ = __webpack_require__(54);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__pages_testmenu_testmenu__ = __webpack_require__(112);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__pages_test_test__ = __webpack_require__(113);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__pages_test2_test2__ = __webpack_require__(114);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1188,34 +1189,35 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
+
 var AppModule = /** @class */ (function () {
     function AppModule() {
     }
     AppModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["I" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_10__app_component__["a" /* MyApp */],
-                __WEBPACK_IMPORTED_MODULE_11__pages_home_home__["a" /* HomePage */],
+                __WEBPACK_IMPORTED_MODULE_11__app_component__["a" /* MyApp */],
+                __WEBPACK_IMPORTED_MODULE_12__pages_home_home__["a" /* HomePage */],
                 __WEBPACK_IMPORTED_MODULE_5__pages_new_place_new_place__["a" /* NewPlacePage */],
-                __WEBPACK_IMPORTED_MODULE_12__pages_about_about__["a" /* AboutPage */],
-                __WEBPACK_IMPORTED_MODULE_13__pages_contact_contact__["a" /* ContactPage */],
-                __WEBPACK_IMPORTED_MODULE_14__pages_tabs_tabs__["a" /* TabsPage */],
-                __WEBPACK_IMPORTED_MODULE_15__pages_info_info__["a" /* InfoPage */],
-                __WEBPACK_IMPORTED_MODULE_16__pages_info2_info2__["a" /* Info2Page */],
-                __WEBPACK_IMPORTED_MODULE_17__pages_info3_info3__["a" /* Info3Page */],
-                __WEBPACK_IMPORTED_MODULE_18__pages_consejos_consejos__["a" /* ConsejosPage */],
-                __WEBPACK_IMPORTED_MODULE_19__pages_denuncia_denuncia__["a" /* DenunciaPage */],
-                __WEBPACK_IMPORTED_MODULE_25__pages_test_test__["a" /* TestPage */],
-                __WEBPACK_IMPORTED_MODULE_20__pages_si_si__["a" /* SiPage */],
-                __WEBPACK_IMPORTED_MODULE_22__pages_raravez_raravez__["a" /* RaravezPage */],
-                __WEBPACK_IMPORTED_MODULE_21__pages_aveces_aveces__["a" /* AvecesPage */],
-                __WEBPACK_IMPORTED_MODULE_23__pages_no_no__["a" /* NoPage */],
-                __WEBPACK_IMPORTED_MODULE_24__pages_testmenu_testmenu__["a" /* TestmenuPage */],
-                __WEBPACK_IMPORTED_MODULE_26__pages_test2_test2__["a" /* Test2Page */]
+                __WEBPACK_IMPORTED_MODULE_13__pages_about_about__["a" /* AboutPage */],
+                __WEBPACK_IMPORTED_MODULE_14__pages_contact_contact__["a" /* ContactPage */],
+                __WEBPACK_IMPORTED_MODULE_15__pages_tabs_tabs__["a" /* TabsPage */],
+                __WEBPACK_IMPORTED_MODULE_16__pages_info_info__["a" /* InfoPage */],
+                __WEBPACK_IMPORTED_MODULE_17__pages_info2_info2__["a" /* Info2Page */],
+                __WEBPACK_IMPORTED_MODULE_18__pages_info3_info3__["a" /* Info3Page */],
+                __WEBPACK_IMPORTED_MODULE_19__pages_consejos_consejos__["a" /* ConsejosPage */],
+                __WEBPACK_IMPORTED_MODULE_20__pages_denuncia_denuncia__["a" /* DenunciaPage */],
+                __WEBPACK_IMPORTED_MODULE_26__pages_test_test__["a" /* TestPage */],
+                __WEBPACK_IMPORTED_MODULE_21__pages_si_si__["a" /* SiPage */],
+                __WEBPACK_IMPORTED_MODULE_23__pages_raravez_raravez__["a" /* RaravezPage */],
+                __WEBPACK_IMPORTED_MODULE_22__pages_aveces_aveces__["a" /* AvecesPage */],
+                __WEBPACK_IMPORTED_MODULE_24__pages_no_no__["a" /* NoPage */],
+                __WEBPACK_IMPORTED_MODULE_25__pages_testmenu_testmenu__["a" /* TestmenuPage */],
+                __WEBPACK_IMPORTED_MODULE_27__pages_test2_test2__["a" /* Test2Page */],
             ],
             imports: [
                 __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
-                __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["d" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_10__app_component__["a" /* MyApp */], {}, {
+                __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["d" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_11__app_component__["a" /* MyApp */], {}, {
                     links: [
                         { loadChildren: '../pages/atlantida/atlantida.module#AtlantidaPageModule', name: 'AtlantidaPage', segment: 'atlantida', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/aveces/aveces.module#AvecesPageModule', name: 'AvecesPage', segment: 'aveces', priority: 'low', defaultHistory: [] },
@@ -1268,24 +1270,24 @@ var AppModule = /** @class */ (function () {
             ],
             bootstrap: [__WEBPACK_IMPORTED_MODULE_2_ionic_angular__["b" /* IonicApp */]],
             entryComponents: [
-                __WEBPACK_IMPORTED_MODULE_10__app_component__["a" /* MyApp */],
-                __WEBPACK_IMPORTED_MODULE_11__pages_home_home__["a" /* HomePage */],
+                __WEBPACK_IMPORTED_MODULE_11__app_component__["a" /* MyApp */],
+                __WEBPACK_IMPORTED_MODULE_12__pages_home_home__["a" /* HomePage */],
                 __WEBPACK_IMPORTED_MODULE_5__pages_new_place_new_place__["a" /* NewPlacePage */],
-                __WEBPACK_IMPORTED_MODULE_12__pages_about_about__["a" /* AboutPage */],
-                __WEBPACK_IMPORTED_MODULE_13__pages_contact_contact__["a" /* ContactPage */],
-                __WEBPACK_IMPORTED_MODULE_14__pages_tabs_tabs__["a" /* TabsPage */],
-                __WEBPACK_IMPORTED_MODULE_15__pages_info_info__["a" /* InfoPage */],
-                __WEBPACK_IMPORTED_MODULE_16__pages_info2_info2__["a" /* Info2Page */],
-                __WEBPACK_IMPORTED_MODULE_17__pages_info3_info3__["a" /* Info3Page */],
-                __WEBPACK_IMPORTED_MODULE_18__pages_consejos_consejos__["a" /* ConsejosPage */],
-                __WEBPACK_IMPORTED_MODULE_19__pages_denuncia_denuncia__["a" /* DenunciaPage */],
-                __WEBPACK_IMPORTED_MODULE_25__pages_test_test__["a" /* TestPage */],
-                __WEBPACK_IMPORTED_MODULE_20__pages_si_si__["a" /* SiPage */],
-                __WEBPACK_IMPORTED_MODULE_22__pages_raravez_raravez__["a" /* RaravezPage */],
-                __WEBPACK_IMPORTED_MODULE_21__pages_aveces_aveces__["a" /* AvecesPage */],
-                __WEBPACK_IMPORTED_MODULE_23__pages_no_no__["a" /* NoPage */],
-                __WEBPACK_IMPORTED_MODULE_24__pages_testmenu_testmenu__["a" /* TestmenuPage */],
-                __WEBPACK_IMPORTED_MODULE_26__pages_test2_test2__["a" /* Test2Page */]
+                __WEBPACK_IMPORTED_MODULE_13__pages_about_about__["a" /* AboutPage */],
+                __WEBPACK_IMPORTED_MODULE_14__pages_contact_contact__["a" /* ContactPage */],
+                __WEBPACK_IMPORTED_MODULE_15__pages_tabs_tabs__["a" /* TabsPage */],
+                __WEBPACK_IMPORTED_MODULE_16__pages_info_info__["a" /* InfoPage */],
+                __WEBPACK_IMPORTED_MODULE_17__pages_info2_info2__["a" /* Info2Page */],
+                __WEBPACK_IMPORTED_MODULE_18__pages_info3_info3__["a" /* Info3Page */],
+                __WEBPACK_IMPORTED_MODULE_19__pages_consejos_consejos__["a" /* ConsejosPage */],
+                __WEBPACK_IMPORTED_MODULE_20__pages_denuncia_denuncia__["a" /* DenunciaPage */],
+                __WEBPACK_IMPORTED_MODULE_26__pages_test_test__["a" /* TestPage */],
+                __WEBPACK_IMPORTED_MODULE_21__pages_si_si__["a" /* SiPage */],
+                __WEBPACK_IMPORTED_MODULE_23__pages_raravez_raravez__["a" /* RaravezPage */],
+                __WEBPACK_IMPORTED_MODULE_22__pages_aveces_aveces__["a" /* AvecesPage */],
+                __WEBPACK_IMPORTED_MODULE_24__pages_no_no__["a" /* NoPage */],
+                __WEBPACK_IMPORTED_MODULE_25__pages_testmenu_testmenu__["a" /* TestmenuPage */],
+                __WEBPACK_IMPORTED_MODULE_27__pages_test2_test2__["a" /* Test2Page */]
             ],
             providers: [
                 __WEBPACK_IMPORTED_MODULE_4__ionic_native_status_bar__["a" /* StatusBar */],
@@ -1294,7 +1296,8 @@ var AppModule = /** @class */ (function () {
                 __WEBPACK_IMPORTED_MODULE_6__ionic_native_sms__["a" /* SMS */],
                 __WEBPACK_IMPORTED_MODULE_7__ionic_native_call_number__["a" /* CallNumber */],
                 __WEBPACK_IMPORTED_MODULE_8__ionic_native_geolocation__["a" /* Geolocation */],
-                Storage
+                Storage,
+                __WEBPACK_IMPORTED_MODULE_10__ionic_native_mobile_accessibility__["a" /* MobileAccessibility */]
             ]
         })
     ], AppModule);
@@ -1305,7 +1308,7 @@ var AppModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 289:
+/***/ 290:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1351,7 +1354,7 @@ var MyApp = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 40:
+/***/ 41:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1413,7 +1416,7 @@ var HomePage = /** @class */ (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AvecesPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__home_home__ = __webpack_require__(40);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__home_home__ = __webpack_require__(41);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1463,7 +1466,7 @@ var AvecesPage = /** @class */ (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SiPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__home_home__ = __webpack_require__(40);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__home_home__ = __webpack_require__(41);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1513,7 +1516,7 @@ var SiPage = /** @class */ (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return NoPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__home_home__ = __webpack_require__(40);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__home_home__ = __webpack_require__(41);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
