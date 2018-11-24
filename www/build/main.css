@@ -25674,47 +25674,17 @@ ion-navbar.toolbar {
   }
 }
 
-@media screen and (max-width: 320px) {
-  ion-content {
-    font-size: 20px;
-    text-align: center;
-  }
-  p {
-    font-size: 20px;
-    text-align: center;
-  }
-}
-
-@media screen and (max-width: 640px) {
-  ion-content {
-    font-size: 20px;
-    text-align: center;
-  }
-  p {
-    font-size: 20px;
-    text-align: center;
-  }
-}
-
-@media screen and (max-width: 800px) {
-  ion-content {
-    font-size: 20px;
-    text-align: center;
-  }
-  p {
-    font-size: 20px;
-    text-align: center;
-  }
-}
-
 @media screen and (max-width: 1024px) {
   ion-content {
-    font-size: 30px;
+    font-size: 12px;
     text-align: center;
   }
   p {
-    font-size: 30px;
+    font-size: 12px;
     text-align: center;
+  }
+  ion-title {
+    font-size: 12px;
   }
 }
 
@@ -25723,9 +25693,15 @@ ion-navbar.toolbar {
     font-size: 30px;
     text-align: center;
   }
+  h2 {
+    font-size: 40px;
+  }
   p {
     font-size: 30px;
     text-align: center;
+  }
+  ion-title {
+    font-size: 30px;
   }
 }
 
@@ -25768,7 +25744,7 @@ page-ciclo-violencia ion-slide.swiper-slide {
 }
 
 page-ciclo-violencia ion-slides {
-  height: auto;
+  height: 100%;
 }
 
 page-colon ion-content {
