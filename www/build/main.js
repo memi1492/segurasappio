@@ -155,7 +155,7 @@ var InfoPage = /** @class */ (function () {
     };
     InfoPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-info',template:/*ion-inline-start:"C:\Users\Amy\Desktop\segurasappio\src\pages\info\info.html"*/'\n\n<ion-header>\n\n\n\n  <ion-navbar color="primary">\n\n    <ion-title>Violencia Doméstica</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n    <ion-content padding>\n\n        <h2 text-center style="padding-top: 10px; color:#0B3954"><strong>­Tipos de Violencia Doméstica </strong> </h2>\n\n      <p text-center style="padding-top: 10px; color:#0B3954"><strong> Cuando los actos de tu pareja o ex-pareja te producen cualquiera de estos tipos de violencia, estas siendo víctima de violencia doméstica: </strong> </p>\n\n    \n\n       <br>\n\n        \n\n            <!--   <ion-col>  <img   src="assets/imgs/1ViolenciaDomestica/handymod.gif" style=" align-content: center; padding-bottom: 5px; width: 50%; height: 50%" ></ion-col>-->\n\n\n\n         <!--  <ion-col><p style="padding:5px;">Existen golpes. empujadas y cachetadas</p></ion-col> -->\n\n         <ion-grid >\n\n       <ion-row padding >\n\n     \n\n         <ion-col  \n\n              style=" align-content: center; background-color: white">\n\n             \n\n            <div (click)="vfisica()" class="violencia">\n\n                <img  src="assets/imgs/Informate/strong.png" style="width : 70% ; height : 70%; "> \n\n                <p style="align-content: center;"><strong>Violencia Física</strong></p>\n\n            \n\n            \n\n         </div>   \n\n         </ion-col>\n\n        \n\n           <!--   <div>  <img   src="assets/imgs/1ViolenciaDomestica/sex.gif" style=" align-content: center; padding-bottom: 5px; width: 30%; height: 30%" ></div> \n\n\n\n          <ion-col><p style="padding:5px;">Existen golpes. empujadas y cachetadas</p></ion-col> -->\n\n          <ion-col col-1 ></ion-col>\n\n          <ion-col  \n\n          style=" align-content: center; background-color: white">\n\n\n\n          <div (click)="vsexual()" class="violencia">\n\n              <img  src="assets/imgs/Informate/bed.png" style="width : 70% ; height : 70%; "> \n\n              <p style="align-content: center;"><strong>Violencia Sexual</strong></p>\n\n          \n\n          \n\n       </div>   \n\n\n\n          </ion-col>\n\n\n\n        </ion-row>\n\n             <!-- <div> <img   src="assets/imgs/1ViolenciaDomestica/1CicloViolencia/swear.gif" style="padding-bottom: 5px; width: 25%; height: 25%" >\n\n              </div> \n\n\n\n          <ion-col><p style="padding:5px;">Existen golpes. empujadas y cachetadas</p></ion-col> -->\n\n        \n\n          <ion-row padding>\n\n            <ion-col  \n\n              style=" align-content: center; background-color: white">\n\n             \n\n            <div (click)="vpsicologica()" class="violencia">\n\n                <img  src="assets/imgs/Informate/illness.png" style="width : 70% ; height : 70%; "> \n\n                <p style="align-content: center;"><strong>Violencia Psicológica</strong></p>\n\n            \n\n            \n\n         </div>   \n\n         </ion-col>\n\n\n\n        <ion-col col-1 ></ion-col>\n\n\n\n              <!-- <img   src="assets/imgs/1ViolenciaDomestica/man.gif" style=" align-content: center; padding-bottom: 5px; width: 30%; height: 30%" ></div> \n\n\n\n        <ion-col><p style="padding:5px;">Existen golpes. empujadas y cachetadas</p></ion-col> -->\n\n        <ion-col  \n\n        style=" align-content: center; background-color: white">\n\n       \n\n      <div (click)="vpatrimonial()" class="violencia">\n\n          <img  src="assets/imgs/Informate/money.png" style="width : 70% ; height : 70%; "> \n\n          <p style="align-content: center;"><strong>Violencia Patrimonial</strong></p>\n\n      \n\n      \n\n   </div>   \n\n   </ion-col> \n\n     \n\n      </ion-row>\n\n\n\n     \n\n\n\n\n\n  <!--  <div (click)="definicion()" class="estilodeboton"><p style="font-size: 10px;"><strong>¿Qué es la violencia doméstica?</strong></p>\n\n      <img   src="assets/imgs/1ViolenciaDomestica/warnmodif.gif" style="width: 25%; height: 25%;">\n\n      <p>Infórmate</p>\n\n </div> -->\n\n <ion-row item-height="20">\n\n <h2 style="padding-top: 10px; color:#0B3954; text-align: center"><strong>Ciclo de Violencia Doméstica </strong> </h2>\n\n \n\n   \n\n<br>\n\n</ion-row>\n\n\n\n</ion-grid>\n\n<div >\n\n<button ion-item no-lines detail-none (click)="CicloViolencia()" class="estilodeboton"><p style="font-size: 20px; color: black"><strong>Ciclo de Violencia</strong></p><br>\n\n  <img (click)="CicloViolencia()"  src="assets/imgs/1ViolenciaDomestica/rotate.gif" style="width: 30%; height: 30%;">\n\n  <p style="color: black">¡Rompe el Ciclo!</p> </button>\n\n</div>\n\n    \n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\Amy\Desktop\segurasappio\src\pages\info\info.html"*/,
+            selector: 'page-info',template:/*ion-inline-start:"C:\Users\Amy\Desktop\segurasappio\src\pages\info\info.html"*/'\n\n<ion-header>\n\n\n\n  <ion-navbar color="primary">\n\n    <ion-title>Violencia Doméstica</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n    <ion-content padding>\n\n        <h2 text-center style="padding-top: 10px; color:#0B3954"><strong>­Tipos de Violencia Doméstica </strong> </h2>\n\n      <p text-center style="padding-top: 10px; color:#0B3954"><strong> Cuando los actos de tu pareja o ex-pareja te producen cualquiera de estos tipos de violencia, estas siendo víctima de violencia doméstica: </strong> </p>\n\n    \n\n       <br>\n\n        \n\n            <!--   <ion-col>  <img   src="assets/imgs/1ViolenciaDomestica/handymod.gif" style=" align-content: center; padding-bottom: 5px; width: 50%; height: 50%" ></ion-col>-->\n\n\n\n         <!--  <ion-col><p style="padding:5px;">Existen golpes. empujadas y cachetadas</p></ion-col> -->\n\n         <ion-grid >\n\n       <ion-row padding >\n\n     \n\n         <ion-col  \n\n              style=" align-content: center; background-color: white">\n\n             \n\n            <div (click)="vfisica()" class="violencia">\n\n                <img  src="assets/imgs/Informate/strong.png" style="width : 70% ; height : 70%; "> \n\n                <p style="align-content: center;"><strong>Violencia Física</strong></p>\n\n            \n\n            \n\n         </div>   \n\n         </ion-col>\n\n        \n\n           <!--   <div>  <img   src="assets/imgs/1ViolenciaDomestica/sex.gif" style=" align-content: center; padding-bottom: 5px; width: 30%; height: 30%" ></div> \n\n\n\n          <ion-col><p style="padding:5px;">Existen golpes. empujadas y cachetadas</p></ion-col> -->\n\n          <ion-col col-1 ></ion-col>\n\n          <ion-col  \n\n          style=" align-content: center; background-color: white">\n\n\n\n          <div (click)="vsexual()" class="violencia">\n\n              <img  src="assets/imgs/Informate/bed.png" style="width : 70% ; height : 70%; "> \n\n              <p style="align-content: center;"><strong>Violencia Sexual</strong></p>\n\n          \n\n          \n\n       </div>   \n\n\n\n          </ion-col>\n\n\n\n        </ion-row>\n\n             <!-- <div> <img   src="assets/imgs/1ViolenciaDomestica/1CicloViolencia/swear.gif" style="padding-bottom: 5px; width: 25%; height: 25%" >\n\n              </div> \n\n\n\n          <ion-col><p style="padding:5px;">Existen golpes. empujadas y cachetadas</p></ion-col> -->\n\n        \n\n          <ion-row padding>\n\n            <ion-col  \n\n              style=" align-content: center; background-color: white">\n\n             \n\n            <div (click)="vpsicologica()" class="violencia">\n\n                <img  src="assets/imgs/Informate/illness.png" style="width : 70% ; height : 70%; "> \n\n                <p style="align-content: center;"><strong>Violencia Psicológica</strong></p>\n\n            \n\n            \n\n         </div>   \n\n         </ion-col>\n\n\n\n        <ion-col col-1 ></ion-col>\n\n\n\n              <!-- <img   src="assets/imgs/1ViolenciaDomestica/man.gif" style=" align-content: center; padding-bottom: 5px; width: 30%; height: 30%" ></div> \n\n\n\n        <ion-col><p style="padding:5px;">Existen golpes. empujadas y cachetadas</p></ion-col> -->\n\n        <ion-col  \n\n        style=" align-content: center; background-color: white">\n\n       \n\n      <div (click)="vpatrimonial()" class="violencia">\n\n          <img  src="assets/imgs/Informate/money.png" style="width : 70% ; height : 70%; "> \n\n          <p style="align-content: center;"><strong>Violencia Patrimonial</strong></p>\n\n      \n\n      \n\n   </div>   \n\n   </ion-col> \n\n     \n\n      </ion-row>\n\n\n\n     \n\n\n\n\n\n  <!--  <div (click)="definicion()" class="estilodeboton"><p style="font-size: 10px;"><strong>¿Qué es la violencia doméstica?</strong></p>\n\n      <img   src="assets/imgs/1ViolenciaDomestica/warnmodif.gif" style="width: 25%; height: 25%;">\n\n      <p>Infórmate</p>\n\n </div> -->\n\n <ion-row item-height="20">\n\n\n\n \n\n   \n\n\n\n</ion-row>\n\n\n\n</ion-grid>\n\n<h2 style="padding-top: 10px; color:#0B3954; text-align: center"><strong>Ciclo de Violencia Doméstica </strong> </h2> <br>\n\n<div >\n\n<button ion-item no-lines detail-none (click)="CicloViolencia()" class="estilodeboton"><p style="font-size: 20px; color: black"><strong>Ciclo de Violencia</strong></p><br>\n\n  <img (click)="CicloViolencia()"  src="assets/imgs/1ViolenciaDomestica/rotate.gif" style="width: 30%; height: 30%;">\n\n  <p style="color: black">¡Rompe el Ciclo!</p> </button>\n\n</div>\n\n    \n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\Amy\Desktop\segurasappio\src\pages\info\info.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* ModalController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */]])
     ], InfoPage);
@@ -675,7 +675,7 @@ webpackEmptyAsyncContext.id = 123;
 
 var map = {
 	"../pages/atlantida/atlantida.module": [
-		294,
+		290,
 		31
 	],
 	"../pages/aveces/aveces.module": [
@@ -691,7 +691,7 @@ var map = {
 		29
 	],
 	"../pages/colon/colon.module": [
-		296,
+		294,
 		28
 	],
 	"../pages/comayagua/comayagua.module": [
@@ -699,11 +699,11 @@ var map = {
 		27
 	],
 	"../pages/consejos-seguridad/consejos-seguridad.module": [
-		297,
+		296,
 		26
 	],
 	"../pages/consejos/consejos.module": [
-		299,
+		297,
 		43
 	],
 	"../pages/copan/copan.module": [
@@ -711,7 +711,7 @@ var map = {
 		25
 	],
 	"../pages/cortes/cortes.module": [
-		301,
+		299,
 		24
 	],
 	"../pages/definicion/definicion.module": [
@@ -719,27 +719,27 @@ var map = {
 		23
 	],
 	"../pages/denuncia/denuncia.module": [
-		302,
+		301,
 		42
 	],
 	"../pages/denunciamenu/denunciamenu.module": [
-		303,
+		302,
 		22
 	],
 	"../pages/denuncias-def/denuncias-def.module": [
-		304,
+		303,
 		21
 	],
 	"../pages/directorio/directorio.module": [
-		305,
+		304,
 		20
 	],
 	"../pages/el-paraiso/el-paraiso.module": [
-		306,
+		305,
 		19
 	],
 	"../pages/francisco-m/francisco-m.module": [
-		315,
+		306,
 		18
 	],
 	"../pages/gracias-a-dios/gracias-a-dios.module": [
@@ -751,11 +751,11 @@ var map = {
 		16
 	],
 	"../pages/info/info.module": [
-		310,
+		309,
 		39
 	],
 	"../pages/info2/info2.module": [
-		309,
+		310,
 		41
 	],
 	"../pages/info3/info3.module": [
@@ -775,11 +775,11 @@ var map = {
 		13
 	],
 	"../pages/la-paz/la-paz.module": [
-		316,
+		315,
 		12
 	],
 	"../pages/lempira/lempira.module": [
-		318,
+		316,
 		11
 	],
 	"../pages/medidas/medidas.module": [
@@ -787,7 +787,7 @@ var map = {
 		10
 	],
 	"../pages/new-place/new-place.module": [
-		320,
+		318,
 		38
 	],
 	"../pages/ninos/ninos.module": [
@@ -795,27 +795,27 @@ var map = {
 		9
 	],
 	"../pages/no/no.module": [
-		321,
+		320,
 		37
 	],
 	"../pages/ocotepeque/ocotepeque.module": [
-		322,
+		321,
 		8
 	],
 	"../pages/olancho/olancho.module": [
-		323,
+		322,
 		7
 	],
 	"../pages/pasos-denuncia/pasos-denuncia.module": [
-		324,
+		323,
 		6
 	],
 	"../pages/proceso/proceso.module": [
-		325,
+		324,
 		5
 	],
 	"../pages/raravez/raravez.module": [
-		327,
+		325,
 		36
 	],
 	"../pages/rutas-atencion/rutas-atencion.module": [
@@ -823,35 +823,35 @@ var map = {
 		4
 	],
 	"../pages/santa-barbara/santa-barbara.module": [
-		328,
+		327,
 		3
 	],
 	"../pages/si/si.module": [
-		329,
+		328,
 		35
 	],
 	"../pages/test/test.module": [
-		330,
+		329,
 		33
 	],
 	"../pages/test2/test2.module": [
-		331,
+		330,
 		34
 	],
 	"../pages/testmenu/testmenu.module": [
-		332,
+		331,
 		32
 	],
 	"../pages/valle/valle.module": [
-		333,
+		332,
 		2
 	],
 	"../pages/vintraf/vintraf.module": [
-		334,
+		333,
 		1
 	],
 	"../pages/yoro/yoro.module": [
-		335,
+		334,
 		0
 	]
 };
@@ -879,7 +879,7 @@ module.exports = webpackAsyncContext;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__about_about__ = __webpack_require__(212);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__contact_contact__ = __webpack_require__(213);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__home_home__ = __webpack_require__(41);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__home_home__ = __webpack_require__(40);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1138,24 +1138,23 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ionic_native_call_number__ = __webpack_require__(208);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__ionic_native_geolocation__ = __webpack_require__(209);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__ionic_storage__ = __webpack_require__(105);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__ionic_native_mobile_accessibility__ = __webpack_require__(289);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__app_component__ = __webpack_require__(290);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_home_home__ = __webpack_require__(41);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_about_about__ = __webpack_require__(212);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_contact_contact__ = __webpack_require__(213);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_tabs_tabs__ = __webpack_require__(211);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_info_info__ = __webpack_require__(107);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__pages_info2_info2__ = __webpack_require__(108);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__pages_info3_info3__ = __webpack_require__(109);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__pages_consejos_consejos__ = __webpack_require__(110);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__pages_denuncia_denuncia__ = __webpack_require__(111);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__pages_si_si__ = __webpack_require__(53);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__pages_aveces_aveces__ = __webpack_require__(52);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__pages_raravez_raravez__ = __webpack_require__(214);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__pages_no_no__ = __webpack_require__(54);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__pages_testmenu_testmenu__ = __webpack_require__(112);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__pages_test_test__ = __webpack_require__(113);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__pages_test2_test2__ = __webpack_require__(114);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__app_component__ = __webpack_require__(289);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_home_home__ = __webpack_require__(40);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_about_about__ = __webpack_require__(212);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_contact_contact__ = __webpack_require__(213);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_tabs_tabs__ = __webpack_require__(211);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_info_info__ = __webpack_require__(107);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_info2_info2__ = __webpack_require__(108);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__pages_info3_info3__ = __webpack_require__(109);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__pages_consejos_consejos__ = __webpack_require__(110);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__pages_denuncia_denuncia__ = __webpack_require__(111);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__pages_si_si__ = __webpack_require__(53);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__pages_aveces_aveces__ = __webpack_require__(52);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__pages_raravez_raravez__ = __webpack_require__(214);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__pages_no_no__ = __webpack_require__(54);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__pages_testmenu_testmenu__ = __webpack_require__(112);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__pages_test_test__ = __webpack_require__(113);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__pages_test2_test2__ = __webpack_require__(114);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1189,73 +1188,72 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-
 var AppModule = /** @class */ (function () {
     function AppModule() {
     }
     AppModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["I" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_11__app_component__["a" /* MyApp */],
-                __WEBPACK_IMPORTED_MODULE_12__pages_home_home__["a" /* HomePage */],
+                __WEBPACK_IMPORTED_MODULE_10__app_component__["a" /* MyApp */],
+                __WEBPACK_IMPORTED_MODULE_11__pages_home_home__["a" /* HomePage */],
                 __WEBPACK_IMPORTED_MODULE_5__pages_new_place_new_place__["a" /* NewPlacePage */],
-                __WEBPACK_IMPORTED_MODULE_13__pages_about_about__["a" /* AboutPage */],
-                __WEBPACK_IMPORTED_MODULE_14__pages_contact_contact__["a" /* ContactPage */],
-                __WEBPACK_IMPORTED_MODULE_15__pages_tabs_tabs__["a" /* TabsPage */],
-                __WEBPACK_IMPORTED_MODULE_16__pages_info_info__["a" /* InfoPage */],
-                __WEBPACK_IMPORTED_MODULE_17__pages_info2_info2__["a" /* Info2Page */],
-                __WEBPACK_IMPORTED_MODULE_18__pages_info3_info3__["a" /* Info3Page */],
-                __WEBPACK_IMPORTED_MODULE_19__pages_consejos_consejos__["a" /* ConsejosPage */],
-                __WEBPACK_IMPORTED_MODULE_20__pages_denuncia_denuncia__["a" /* DenunciaPage */],
-                __WEBPACK_IMPORTED_MODULE_26__pages_test_test__["a" /* TestPage */],
-                __WEBPACK_IMPORTED_MODULE_21__pages_si_si__["a" /* SiPage */],
-                __WEBPACK_IMPORTED_MODULE_23__pages_raravez_raravez__["a" /* RaravezPage */],
-                __WEBPACK_IMPORTED_MODULE_22__pages_aveces_aveces__["a" /* AvecesPage */],
-                __WEBPACK_IMPORTED_MODULE_24__pages_no_no__["a" /* NoPage */],
-                __WEBPACK_IMPORTED_MODULE_25__pages_testmenu_testmenu__["a" /* TestmenuPage */],
-                __WEBPACK_IMPORTED_MODULE_27__pages_test2_test2__["a" /* Test2Page */],
+                __WEBPACK_IMPORTED_MODULE_12__pages_about_about__["a" /* AboutPage */],
+                __WEBPACK_IMPORTED_MODULE_13__pages_contact_contact__["a" /* ContactPage */],
+                __WEBPACK_IMPORTED_MODULE_14__pages_tabs_tabs__["a" /* TabsPage */],
+                __WEBPACK_IMPORTED_MODULE_15__pages_info_info__["a" /* InfoPage */],
+                __WEBPACK_IMPORTED_MODULE_16__pages_info2_info2__["a" /* Info2Page */],
+                __WEBPACK_IMPORTED_MODULE_17__pages_info3_info3__["a" /* Info3Page */],
+                __WEBPACK_IMPORTED_MODULE_18__pages_consejos_consejos__["a" /* ConsejosPage */],
+                __WEBPACK_IMPORTED_MODULE_19__pages_denuncia_denuncia__["a" /* DenunciaPage */],
+                __WEBPACK_IMPORTED_MODULE_25__pages_test_test__["a" /* TestPage */],
+                __WEBPACK_IMPORTED_MODULE_20__pages_si_si__["a" /* SiPage */],
+                __WEBPACK_IMPORTED_MODULE_22__pages_raravez_raravez__["a" /* RaravezPage */],
+                __WEBPACK_IMPORTED_MODULE_21__pages_aveces_aveces__["a" /* AvecesPage */],
+                __WEBPACK_IMPORTED_MODULE_23__pages_no_no__["a" /* NoPage */],
+                __WEBPACK_IMPORTED_MODULE_24__pages_testmenu_testmenu__["a" /* TestmenuPage */],
+                __WEBPACK_IMPORTED_MODULE_26__pages_test2_test2__["a" /* Test2Page */]
             ],
             imports: [
                 __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
-                __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["d" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_11__app_component__["a" /* MyApp */], {}, {
+                __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["d" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_10__app_component__["a" /* MyApp */], {}, {
                     links: [
+                        { loadChildren: '../pages/atlantida/atlantida.module#AtlantidaPageModule', name: 'AtlantidaPage', segment: 'atlantida', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/aveces/aveces.module#AvecesPageModule', name: 'AvecesPage', segment: 'aveces', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/choluteca/choluteca.module#CholutecaPageModule', name: 'CholutecaPage', segment: 'choluteca', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/ciclo-violencia/ciclo-violencia.module#CicloViolenciaPageModule', name: 'CicloViolenciaPage', segment: 'ciclo-violencia', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/atlantida/atlantida.module#AtlantidaPageModule', name: 'AtlantidaPage', segment: 'atlantida', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/comayagua/comayagua.module#ComayaguaPageModule', name: 'ComayaguaPage', segment: 'comayagua', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/colon/colon.module#ColonPageModule', name: 'ColonPage', segment: 'colon', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/comayagua/comayagua.module#ComayaguaPageModule', name: 'ComayaguaPage', segment: 'comayagua', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/consejos-seguridad/consejos-seguridad.module#ConsejosSeguridadPageModule', name: 'ConsejosSeguridadPage', segment: 'consejos-seguridad', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/copan/copan.module#CopanPageModule', name: 'CopanPage', segment: 'copan', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/consejos/consejos.module#ConsejosPageModule', name: 'ConsejosPage', segment: 'consejos', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/definicion/definicion.module#DefinicionPageModule', name: 'DefinicionPage', segment: 'definicion', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/copan/copan.module#CopanPageModule', name: 'CopanPage', segment: 'copan', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/cortes/cortes.module#CortesPageModule', name: 'CortesPage', segment: 'cortes', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/definicion/definicion.module#DefinicionPageModule', name: 'DefinicionPage', segment: 'definicion', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/denuncia/denuncia.module#DenunciaPageModule', name: 'DenunciaPage', segment: 'denuncia', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/denunciamenu/denunciamenu.module#DenunciamenuPageModule', name: 'DenunciamenuPage', segment: 'denunciamenu', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/denuncias-def/denuncias-def.module#DenunciasDefPageModule', name: 'DenunciasDefPage', segment: 'denuncias-def', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/directorio/directorio.module#DirectorioPageModule', name: 'DirectorioPage', segment: 'directorio', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/el-paraiso/el-paraiso.module#ElParaisoPageModule', name: 'ElParaisoPage', segment: 'el-paraiso', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/francisco-m/francisco-m.module#FranciscoMPageModule', name: 'FranciscoMPage', segment: 'francisco-m', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/gracias-a-dios/gracias-a-dios.module#GraciasADiosPageModule', name: 'GraciasADiosPage', segment: 'gracias-a-dios', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/identifica/identifica.module#IdentificaPageModule', name: 'IdentificaPage', segment: 'identifica', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/info2/info2.module#Info2PageModule', name: 'Info2Page', segment: 'info2', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/info/info.module#InfoPageModule', name: 'InfoPage', segment: 'info', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/info2/info2.module#Info2PageModule', name: 'Info2Page', segment: 'info2', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/info3/info3.module#Info3PageModule', name: 'Info3Page', segment: 'info3', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/intibuca/intibuca.module#IntibucaPageModule', name: 'IntibucaPage', segment: 'intibuca', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/islas/islas.module#IslasPageModule', name: 'IslasPage', segment: 'islas', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/la-ceiba/la-ceiba.module#LaCeibaPageModule', name: 'LaCeibaPage', segment: 'la-ceiba', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/francisco-m/francisco-m.module#FranciscoMPageModule', name: 'FranciscoMPage', segment: 'francisco-m', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/la-paz/la-paz.module#LaPazPageModule', name: 'LaPazPage', segment: 'la-paz', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/medidas/medidas.module#MedidasPageModule', name: 'MedidasPage', segment: 'medidas', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/lempira/lempira.module#LempiraPageModule', name: 'LempiraPage', segment: 'lempira', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/ninos/ninos.module#NinosPageModule', name: 'NinosPage', segment: 'ninos', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/medidas/medidas.module#MedidasPageModule', name: 'MedidasPage', segment: 'medidas', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/new-place/new-place.module#NewPlacePageModule', name: 'NewPlacePage', segment: 'new-place', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/ninos/ninos.module#NinosPageModule', name: 'NinosPage', segment: 'ninos', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/no/no.module#NoPageModule', name: 'NoPage', segment: 'no', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/ocotepeque/ocotepeque.module#OcotepequePageModule', name: 'OcotepequePage', segment: 'ocotepeque', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/olancho/olancho.module#OlanchoPageModule', name: 'OlanchoPage', segment: 'olancho', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/pasos-denuncia/pasos-denuncia.module#PasosDenunciaPageModule', name: 'PasosDenunciaPage', segment: 'pasos-denuncia', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/proceso/proceso.module#ProcesoPageModule', name: 'ProcesoPage', segment: 'proceso', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/rutas-atencion/rutas-atencion.module#RutasAtencionPageModule', name: 'RutasAtencionPage', segment: 'rutas-atencion', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/raravez/raravez.module#RaravezPageModule', name: 'RaravezPage', segment: 'raravez', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/rutas-atencion/rutas-atencion.module#RutasAtencionPageModule', name: 'RutasAtencionPage', segment: 'rutas-atencion', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/santa-barbara/santa-barbara.module#SantaBarbaraPageModule', name: 'SantaBarbaraPage', segment: 'santa-barbara', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/si/si.module#SiPageModule', name: 'SiPage', segment: 'si', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/test/test.module#TestPageModule', name: 'TestPage', segment: 'test', priority: 'low', defaultHistory: [] },
@@ -1270,24 +1268,24 @@ var AppModule = /** @class */ (function () {
             ],
             bootstrap: [__WEBPACK_IMPORTED_MODULE_2_ionic_angular__["b" /* IonicApp */]],
             entryComponents: [
-                __WEBPACK_IMPORTED_MODULE_11__app_component__["a" /* MyApp */],
-                __WEBPACK_IMPORTED_MODULE_12__pages_home_home__["a" /* HomePage */],
+                __WEBPACK_IMPORTED_MODULE_10__app_component__["a" /* MyApp */],
+                __WEBPACK_IMPORTED_MODULE_11__pages_home_home__["a" /* HomePage */],
                 __WEBPACK_IMPORTED_MODULE_5__pages_new_place_new_place__["a" /* NewPlacePage */],
-                __WEBPACK_IMPORTED_MODULE_13__pages_about_about__["a" /* AboutPage */],
-                __WEBPACK_IMPORTED_MODULE_14__pages_contact_contact__["a" /* ContactPage */],
-                __WEBPACK_IMPORTED_MODULE_15__pages_tabs_tabs__["a" /* TabsPage */],
-                __WEBPACK_IMPORTED_MODULE_16__pages_info_info__["a" /* InfoPage */],
-                __WEBPACK_IMPORTED_MODULE_17__pages_info2_info2__["a" /* Info2Page */],
-                __WEBPACK_IMPORTED_MODULE_18__pages_info3_info3__["a" /* Info3Page */],
-                __WEBPACK_IMPORTED_MODULE_19__pages_consejos_consejos__["a" /* ConsejosPage */],
-                __WEBPACK_IMPORTED_MODULE_20__pages_denuncia_denuncia__["a" /* DenunciaPage */],
-                __WEBPACK_IMPORTED_MODULE_26__pages_test_test__["a" /* TestPage */],
-                __WEBPACK_IMPORTED_MODULE_21__pages_si_si__["a" /* SiPage */],
-                __WEBPACK_IMPORTED_MODULE_23__pages_raravez_raravez__["a" /* RaravezPage */],
-                __WEBPACK_IMPORTED_MODULE_22__pages_aveces_aveces__["a" /* AvecesPage */],
-                __WEBPACK_IMPORTED_MODULE_24__pages_no_no__["a" /* NoPage */],
-                __WEBPACK_IMPORTED_MODULE_25__pages_testmenu_testmenu__["a" /* TestmenuPage */],
-                __WEBPACK_IMPORTED_MODULE_27__pages_test2_test2__["a" /* Test2Page */]
+                __WEBPACK_IMPORTED_MODULE_12__pages_about_about__["a" /* AboutPage */],
+                __WEBPACK_IMPORTED_MODULE_13__pages_contact_contact__["a" /* ContactPage */],
+                __WEBPACK_IMPORTED_MODULE_14__pages_tabs_tabs__["a" /* TabsPage */],
+                __WEBPACK_IMPORTED_MODULE_15__pages_info_info__["a" /* InfoPage */],
+                __WEBPACK_IMPORTED_MODULE_16__pages_info2_info2__["a" /* Info2Page */],
+                __WEBPACK_IMPORTED_MODULE_17__pages_info3_info3__["a" /* Info3Page */],
+                __WEBPACK_IMPORTED_MODULE_18__pages_consejos_consejos__["a" /* ConsejosPage */],
+                __WEBPACK_IMPORTED_MODULE_19__pages_denuncia_denuncia__["a" /* DenunciaPage */],
+                __WEBPACK_IMPORTED_MODULE_25__pages_test_test__["a" /* TestPage */],
+                __WEBPACK_IMPORTED_MODULE_20__pages_si_si__["a" /* SiPage */],
+                __WEBPACK_IMPORTED_MODULE_22__pages_raravez_raravez__["a" /* RaravezPage */],
+                __WEBPACK_IMPORTED_MODULE_21__pages_aveces_aveces__["a" /* AvecesPage */],
+                __WEBPACK_IMPORTED_MODULE_23__pages_no_no__["a" /* NoPage */],
+                __WEBPACK_IMPORTED_MODULE_24__pages_testmenu_testmenu__["a" /* TestmenuPage */],
+                __WEBPACK_IMPORTED_MODULE_26__pages_test2_test2__["a" /* Test2Page */]
             ],
             providers: [
                 __WEBPACK_IMPORTED_MODULE_4__ionic_native_status_bar__["a" /* StatusBar */],
@@ -1296,8 +1294,7 @@ var AppModule = /** @class */ (function () {
                 __WEBPACK_IMPORTED_MODULE_6__ionic_native_sms__["a" /* SMS */],
                 __WEBPACK_IMPORTED_MODULE_7__ionic_native_call_number__["a" /* CallNumber */],
                 __WEBPACK_IMPORTED_MODULE_8__ionic_native_geolocation__["a" /* Geolocation */],
-                Storage,
-                __WEBPACK_IMPORTED_MODULE_10__ionic_native_mobile_accessibility__["a" /* MobileAccessibility */]
+                Storage
             ]
         })
     ], AppModule);
@@ -1308,7 +1305,7 @@ var AppModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 290:
+/***/ 289:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1354,7 +1351,7 @@ var MyApp = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 41:
+/***/ 40:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1416,7 +1413,7 @@ var HomePage = /** @class */ (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AvecesPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__home_home__ = __webpack_require__(41);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__home_home__ = __webpack_require__(40);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1466,7 +1463,7 @@ var AvecesPage = /** @class */ (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SiPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__home_home__ = __webpack_require__(41);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__home_home__ = __webpack_require__(40);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1516,7 +1513,7 @@ var SiPage = /** @class */ (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return NoPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__home_home__ = __webpack_require__(41);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__home_home__ = __webpack_require__(40);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);

@@ -25713,7 +25713,7 @@ page-ciclo-violencia ion-slide.swiper-slide {
 }
 
 page-ciclo-violencia ion-slides {
-  height: auto;
+  height: 100%;
 }
 
 page-colon ion-content {
