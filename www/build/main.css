@@ -25674,6 +25674,52 @@ ion-navbar.toolbar {
   }
 }
 
+/*@media screen and (max-width: 320px) {
+    ion-content {font-size: 10px;
+        text-align: center;}
+        p {font-size: 10px;
+            text-align: center;}
+    }
+    
+    @media screen and (max-width: 640px) {
+        ion-content {font-size: 10px;
+         text-align: center;}
+         p {font-size: 10px;
+            text-align: center;}
+    }
+    
+    @media screen and (max-width: 800px) {
+        ion-content {font-size: 10px;
+        text-align: center;}
+        p {font-size: 10px;
+            text-align: center;}
+    }
+    @media screen and (max-width: 1024px) {
+        ion-content {font-size: 12px;
+         text-align: center;}
+         p {font-size: 12px;
+            text-align: center;}
+            ion-title { font-size: 12px;
+            }
+    }
+    */
+@media screen and (min-width: 768px) {
+  ion-content {
+    font-size: 30px;
+    text-align: center;
+  }
+  h2 {
+    font-size: 40px;
+  }
+  p {
+    font-size: 30px;
+    text-align: center;
+  }
+  ion-title {
+    font-size: 30px;
+  }
+}
+
 page-about ion-content {
   background: #BFD7EA !important;
 }
@@ -26059,6 +26105,26 @@ page-rutas-atencion .alineado {
   text-align: center !important;
   vertical-align: middle !important;
   padding: 5px;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+}
+
+@media screen and (min-width: 768px) {
+  page-rutas-atencion ion-item ion-content {
+    font-size: 30px;
+    text-align: center;
+  }
+  page-rutas-atencion ion-item h2 {
+    font-size: 40px;
+  }
+  page-rutas-atencion ion-item p {
+    font-size: 30px;
+    text-align: center;
+  }
+  page-rutas-atencion ion-item ion-title {
+    font-size: 30px;
+  }
 }
 
 page-santa-barbara ion-content {

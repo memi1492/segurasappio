@@ -18,6 +18,7 @@
 
     }
 }
+
 // App Global Sass
 // --------------------------------------------------
 // Put style rules here that you want to apply globally. These
@@ -44,3 +45,43 @@
      } 
    }
  }
+
+ /*@media screen and (max-width: 320px) {
+    ion-content {font-size: 10px;
+        text-align: center;}
+        p {font-size: 10px;
+            text-align: center;}
+    }
+    
+    @media screen and (max-width: 640px) {
+        ion-content {font-size: 10px;
+         text-align: center;}
+         p {font-size: 10px;
+            text-align: center;}
+    }
+    
+    @media screen and (max-width: 800px) {
+        ion-content {font-size: 10px;
+        text-align: center;}
+        p {font-size: 10px;
+            text-align: center;}
+    }
+    @media screen and (max-width: 1024px) {
+        ion-content {font-size: 12px;
+         text-align: center;}
+         p {font-size: 12px;
+            text-align: center;}
+            ion-title { font-size: 12px;
+            }
+    }
+    */
+    @media screen and (min-width: 768px) {
+        ion-content {font-size: 30px;
+        text-align: center;}
+        h2 { font-size: 40px; }
+        p  {font-size: 30px;
+            text-align: center;}
+        ion-title { font-size: 30px;
+             }
+    }
+     

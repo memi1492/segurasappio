@@ -8,5 +8,19 @@ page-rutas-atencion {
         
          vertical-align: middle !important;
          padding: 5px;
+
+         align-content: center;
     }
+
+    ion-item {
+        @media screen and (min-width: 768px) {
+            ion-content {font-size: 30px;
+            text-align: center;}
+            h2 { font-size: 40px; }
+            p  {font-size: 30px;
+                text-align: center;}
+            ion-title { font-size: 30px;}
+                 
+    }
+}
 }
