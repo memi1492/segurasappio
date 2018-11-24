@@ -9,8 +9,6 @@ import { CallNumber } from "@ionic-native/call-number";
 import { Geolocation } from "@ionic-native/geolocation";
 
 import { IonicStorageModule } from '@ionic/storage';
-import { MobileAccessibility } from '@ionic-native/mobile-accessibility';
-
 
 
 import { MyApp } from './app.component';
@@ -59,8 +57,7 @@ import { Test2Page } from '../pages/test2/test2';
     AvecesPage,
     NoPage,
     TestmenuPage,
-    Test2Page, 
-    
+    Test2Page
 
 
    
@@ -98,8 +95,7 @@ import { Test2Page } from '../pages/test2/test2';
     SMS,
     CallNumber,
     Geolocation,
-    Storage,
-    MobileAccessibility
+    Storage
   ]
 })
 export class AppModule {}

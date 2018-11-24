@@ -10,11 +10,6 @@ https://ionicframework.com/docs/native/call-number/
 
 https://ionicframework.com/docs/storage/
 
-https://ionicframework.com/docs/native/mobile-accessibility/#getTextZoomCallback *para hacer el texto mas grande en ipad
-
-
-
-
 
 Soporte para Mac:
 
@@ -31,6 +26,7 @@ sudo xcode-select -s /Applications/dir/a/xcode
 
 ionic cordova emulate ios -- --buildFlag="-UseModernBuildSystem=0"
 
+<<<<<<< HEAD
 3.5- Ver dispositivos disponibles 
 
 ionic cordova emulate --list
@@ -40,3 +36,6 @@ ionic cordova emulate --list
 ionic cordova emulate ios -- --buildFlag="-UseModernBuildSystem=0" --target="iPhone-5s, 12.1"
 
 * A storage se añade el SQLite que se muestra en el mismo link.
+=======
+* A storage se añade el SQLite que se muestra en el mismo link.
+>>>>>>> parent of 434f192... arreglos de ipad2
