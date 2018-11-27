@@ -2,6 +2,9 @@ import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import { Storage } from "@ionic/storage";
 import { THIS_EXPR } from '@angular/compiler/src/output/output_ast';
+import { AboutPage } from '../about/about';
+
+
 
 @Component({
   selector: 'page-contact',
@@ -41,6 +44,8 @@ export class ContactPage {
     this.storage.set('contact3', contact3);
   }
 
-
+  atras(){
+    this.navCtrl.push(AboutPage);
+  }
 
 }

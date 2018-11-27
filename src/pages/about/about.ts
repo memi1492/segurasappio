@@ -4,6 +4,7 @@ import { SMS } from "@ionic-native/sms";
 import { CallNumber } from "@ionic-native/call-number";
 import { Geolocation } from "@ionic-native/geolocation";
 import { Storage } from "@ionic/storage";
+import { ContactPage } from '../contact/contact';
 
 @Component({
   selector: 'page-about',
@@ -30,6 +31,10 @@ export class AboutPage {
     }).catch((err)=>{
       alert(JSON.stringify(err))
     })
+  }
+
+  config(){
+    this.navCtrl.push(ContactPage);
   }
 
 
