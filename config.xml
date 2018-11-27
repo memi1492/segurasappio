@@ -1,8 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="io.ionic.starter" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>segurasappio</name>
-    <description>An awesome Ionic/Cordova app.</description>
-    <author email="hi@ionicframework" href="http://ionicframework.com/">Ionic Framework Team</author>
+    <name>Seguras</name>
+    <description>La aplicación móvil “Seguras” es para que las mujeres puedan acceder de manera rápida a servicios de protección en casos de violencia doméstica y violencia sexual,
+     tiene un botón de pánico o emergencia (llamar) y otro para envío de mensaje urgente a tres personas de su confianza (mensajes). </description>
+    <author email="hi@ionicframework" href="http://ionicframework.com/">DETECAP</author>
     <content src="index.html" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
