@@ -155,4 +155,17 @@
         ion-title { font-size: 30px;
              }
     }
+
+    @media only screen and (min-width: 320px) and (max-width: 374px) and (-webkit-min-device-pixel-ratio: 2) {
+      ion-content {font-size: 15px;
+        text-align: center;}
+        h2 { font-size: 20px; }
+        p  {font-size: 15px;
+            text-align: center;}
+        ion-title { font-size: 20px;
+             }
+
+    }
+
+
      
