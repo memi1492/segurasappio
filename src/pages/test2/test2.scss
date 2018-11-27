@@ -12,4 +12,8 @@ page-test2 {
     .button.customBtn{
         width:180px;
     }
+    .swiper-slide {
+        overflow-y: scroll;
+        display: block;
+    }
 }

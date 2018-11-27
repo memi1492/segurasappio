@@ -2,4 +2,8 @@ page-proceso {
     ion-content {
         background: #BFD7EA !important;
     }
+    .swiper-slide {
+        overflow-y: scroll;
+        display: block;
+    }
 }

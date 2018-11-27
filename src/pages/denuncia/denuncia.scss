@@ -17,5 +17,9 @@ page-denuncia {
                 box-shadow: 0 10px 6px -6px #777;
 
     }
+    .swiper-slide {
+        overflow-y: scroll;
+        display: block;
+    }
 
 }
