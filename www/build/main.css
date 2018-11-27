@@ -25948,6 +25948,11 @@ page-denuncia .estilodeboton {
   box-shadow: 0 10px 6px -6px #777;
 }
 
+page-denuncia .swiper-slide {
+  overflow-y: scroll;
+  display: block;
+}
+
 page-denunciamenu ion-content {
   background: #BFD7EA !important;
 }
@@ -25982,6 +25987,11 @@ page-denuncias-def .estilo {
   text-align: center;
   padding-top: 10px;
   margin: 10px;
+}
+
+page-denuncias-def .swiper-slide {
+  overflow-y: scroll;
+  display: block;
 }
 
 page-directorio ion-content {
@@ -26185,8 +26195,18 @@ page-pasos-denuncia ion-content {
   background: #BFD7EA !important;
 }
 
+page-pasos-denuncia .swiper-slide {
+  overflow-y: scroll;
+  display: block;
+}
+
 page-proceso ion-content {
   background: #BFD7EA !important;
+}
+
+page-proceso .swiper-slide {
+  overflow-y: scroll;
+  display: block;
 }
 
 page-rutas-atencion ion-content {
@@ -26248,6 +26268,11 @@ page-test .button.customBtn {
   width: 180px;
 }
 
+page-test .swiper-slide {
+  overflow-y: scroll;
+  display: block;
+}
+
 page-test2 ion-content {
   background: #BFD7EA !important;
   color: white;
@@ -26260,6 +26285,11 @@ page-test2 .swiper-pagination-bullet-active {
 
 page-test2 .button.customBtn {
   width: 180px;
+}
+
+page-test2 .swiper-slide {
+  overflow-y: scroll;
+  display: block;
 }
 
 page-testmenu ion-content {

@@ -65,7 +65,7 @@ export class AboutPage {
         
         }
         this.sms.send(contacto1, urlfinal, options).then(() => {console.log('sms worked');}).catch((err)=>{
-        alert(JSON.stringify(err))
+        alert("No tienes configurado Contacto 1")
         });
       })
     }
@@ -82,7 +82,7 @@ export class AboutPage {
     
     }
     this.sms.send(contacto2, urlfinal, options).then(() => {console.log('sms worked');}).catch((err)=>{
-    alert(JSON.stringify(err))
+      alert("No tienes configurado Contacto 2")
     });
   })
     }
@@ -99,7 +99,7 @@ export class AboutPage {
     
     }
     this.sms.send(contacto3, urlfinal, options).then(() => {console.log('sms worked');}).catch((err)=>{
-    alert(JSON.stringify(err))
+      alert("No tienes configurado Contacto 3")
     });
   })
     }    
