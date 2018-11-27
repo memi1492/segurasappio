@@ -28,6 +28,8 @@ import { NoPage } from '../pages/no/no';
 import { TestmenuPage } from '../pages/testmenu/testmenu';
 import { TestPage } from '../pages/test/test';
 import { Test2Page } from '../pages/test2/test2';
+import { IntroPage } from '../pages/intro/intro';
+
 
 
 
@@ -57,7 +59,8 @@ import { Test2Page } from '../pages/test2/test2';
     AvecesPage,
     NoPage,
     TestmenuPage,
-    Test2Page
+    Test2Page,
+    IntroPage
 
 
    
@@ -86,7 +89,8 @@ import { Test2Page } from '../pages/test2/test2';
     AvecesPage,
     NoPage,
     TestmenuPage,
-    Test2Page
+    Test2Page,
+    IntroPage
   ],
   providers: [
     StatusBar,

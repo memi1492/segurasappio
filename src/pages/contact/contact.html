@@ -47,15 +47,13 @@
                   
                    </ion-row>
 <br>
-                   <ion-row padding-top style=" text-align: center; padding-top: 5px ;">
-          
-                      <ion-col><ion-buttons> <button ion-button color="primary">Mensaje de Prueba </button></ion-buttons></ion-col>
-                  <ion-col> <ion-buttons> <button (click)= "setData()" ion-button color="secondary">Aceptar </button> </ion-buttons>      </ion-col>
-                    </ion-row>
-
+                   
                 </ion-grid>
 
 
-               
+               <div style="text-align: center"> 
+                <ion-buttons> <button (click)= "setData()" ion-button color="secondary">Aceptar y Guardar </button>
+                               <button (click)= "atras()" ion-button color="secondary">Atrás </button>
+                </ion-buttons>     </div>
 
       </ion-content>

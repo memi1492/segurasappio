@@ -12,7 +12,7 @@ import { Storage } from "@ionic/storage";
 export class AboutPage {
   lat:any;
   lng:any;
-  constructor(private sms: SMS, private callSvc: CallNumber, public geo: Geolocation, private storage: Storage) {
+  constructor(private navCtrl: NavController, private sms: SMS, private callSvc: CallNumber, public geo: Geolocation, private storage: Storage) {
 
   }
 
@@ -98,6 +98,9 @@ export class AboutPage {
     });
   })
     }    
+
+  
+    
  
 
 }
