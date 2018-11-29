@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { ContactPage } from '../contact/contact';
+
 
 /**
  * Generated class for the IntroPage page.
@@ -22,4 +24,7 @@ export class IntroPage {
     console.log('ionViewDidLoad IntroPage');
   }
 
+  config(){
+    this.navCtrl.push(ContactPage);
+  }
 }

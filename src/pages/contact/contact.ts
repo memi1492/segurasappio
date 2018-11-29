@@ -3,6 +3,7 @@ import { NavController } from 'ionic-angular';
 import { Storage } from "@ionic/storage";
 import { THIS_EXPR } from '@angular/compiler/src/output/output_ast';
 import { AboutPage } from '../about/about';
+import { HomePage } from '../home/home';
 
 
 
@@ -45,7 +46,7 @@ export class ContactPage {
   }
 
   atras(){
-    this.navCtrl.push(AboutPage);
+    this.navCtrl.push(HomePage);
   }
 
 }

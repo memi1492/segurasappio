@@ -6,6 +6,8 @@ import { DenunciaPage } from '../denuncia/denuncia';
 import { TestmenuPage } from '../testmenu/testmenu';
 import { Platform } from 'ionic-angular'; 
 import { Storage } from "@ionic/storage";
+import { ContactPage } from '../contact/contact';
+import { IntroPage } from '../intro/intro';
 
 
 
@@ -31,8 +33,8 @@ export class HomePage {
 
         if (primeravez == null){
           this.storage.set('primeravez', 'primeravez');
-              //mandar a pagina de acerca de.
-        }
+this.navCtrl.push(IntroPage)  ;
+      }
         else{
 
 
@@ -40,9 +42,9 @@ export class HomePage {
 
 
             if (contact1 == null){
-             
-              //mandar a pagina contactos.
+             alert("Debes agregar al menos 1 contacto de Emergencia antes de utilizar el App!")
 
+              this.navCtrl.push(ContactPage);
 
             }
 
