@@ -44,11 +44,11 @@ export class AboutPage {
     this.SMS2();
     this.SMS3();
 
-    
-      
-    
-   
-   
+
+
+
+
+
     }
 
 
@@ -57,29 +57,31 @@ export class AboutPage {
       var urlinicial = "Estoy en problema y necesito tu ayuda. Esta es mi ubicación: https://www.google.com/maps/search/?api=1&query=";
      var urlfinal = urlinicial.concat(this.lat, ",", this.lng);
       var options: {
-    
+
       replaceLineBreaks: true,
         android: {
-        
+
         }
-        
+
         }
         this.sms.send(contacto1, urlfinal, options).then(() => {console.log('sms worked');}).catch((err)=>{
         alert("No tienes configurado Contacto 1")
         });
       })
     }
+
+
     SMS2(){
       this.storage.get('contact2').then((contacto2) => {
       var urlinicial = "Estoy en problema y necesito tu ayuda. Esta es mi ubicación: https://www.google.com/maps/search/?api=1&query=";
     var urlfinal = urlinicial.concat(this.lat, ",", this.lng);
     var options: {
-    
+
     replaceLineBreaks: true,
     android: {
-    
+
     }
-    
+
     }
     this.sms.send(contacto2, urlfinal, options).then(() => {console.log('sms worked');}).catch((err)=>{
       alert("No tienes configurado Contacto 2")
@@ -91,21 +93,21 @@ export class AboutPage {
       var urlinicial = "Estoy en problema y necesito tu ayuda. Esta es mi ubicación: https://www.google.com/maps/search/?api=1&query=";
     var urlfinal = urlinicial.concat(this.lat, ",", this.lng);
     var options: {
-    
+
     replaceLineBreaks: true,
     android: {
-    
+
     }
-    
+
     }
     this.sms.send(contacto3, urlfinal, options).then(() => {console.log('sms worked');}).catch((err)=>{
       alert("No tienes configurado Contacto 3")
     });
   })
-    }    
+    }
 
-  
-    
- 
+
+
+
 
 }
