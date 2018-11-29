@@ -1,6 +1,6 @@
 webpackJsonp([2],{
 
-/***/ 341:
+/***/ 343:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8,7 +8,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "VallePageModule", function() { return VallePageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(8);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__valle__ = __webpack_require__(373);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__valle__ = __webpack_require__(375);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -38,7 +38,7 @@ var VallePageModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 373:
+/***/ 375:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -77,7 +77,7 @@ var VallePage = /** @class */ (function () {
     };
     VallePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-valle',template:/*ion-inline-start:"C:\Users\Amy\Desktop\segurasappio\src\pages\valle\valle.html"*/'<!--\n  Generated template for the VallePage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n    <ion-navbar color="primary">\n      <ion-title>Valle</ion-title>\n      <ion-buttons end>\n          <button ion-button (click)="closemodal()">Atrás</button>\n        </ion-buttons>\n    </ion-navbar>\n  \n  </ion-header>\n  \n  <ion-content padding>\n    \n    <ion-card>\n      <ion-card-header style="color: #0B3954">\n            <strong>Ministerio Público</strong></ion-card-header>\n            <ion-card-content>\n                Barrio abajo, antiguas oficinas ADED Valle, Nacaaome<br>\n             <strong> Teléfono:</strong> 2653-3963\n            </ion-card-content>\n          </ion-card>\n\n          <ion-card>\n              <ion-card-header style="color: #0B3954">\n                    <strong>Policia Nacional <br> Preventiva</strong></ion-card-header>\n                    <ion-card-content>\n                        Barrio María Auxiliadora, tres cuadras del estadio hacia el centro, Nacaaome<br>\n                     <strong> Teléfonos:</strong> 2795-4135 y 2795-4637\n                    </ion-card-content>\n                  </ion-card>\n\n                  <ion-card>\n                      <ion-card-header style="color: #0B3954">\n                            <strong>Juzgados de Paz,  <br> Civil, Letras</strong></ion-card-header>\n                            <ion-card-content>\n                                Barrio abajo, esquina opuesta a Hondutel, Nacaaome<br>\n                             <strong> Teléfonos:</strong> 2795-4138\n                            </ion-card-content>\n                          </ion-card>\n\n                          \n                  <ion-card>\n                      <ion-card-header style="color: #0B3954">\n                            <strong>Hospital Policlinio</strong></ion-card-header>\n                            <ion-card-content>\n                                Barrio el Corcovado por la Dirección Departamental de Educación, Nacaaome<br>\n                             <strong> Teléfonos:</strong> No tienen teléfono\n                            </ion-card-content>\n                          </ion-card>\n\n</ion-content>\n'/*ion-inline-end:"C:\Users\Amy\Desktop\segurasappio\src\pages\valle\valle.html"*/,
+            selector: 'page-valle',template:/*ion-inline-start:"C:\segurasappio\src\pages\valle\valle.html"*/'<!--\n\n  Generated template for the VallePage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n    <ion-navbar color="primary">\n\n      <ion-title>Valle</ion-title>\n\n      <ion-buttons end>\n\n          <button ion-button (click)="closemodal()">Atrás</button>\n\n        </ion-buttons>\n\n    </ion-navbar>\n\n  \n\n  </ion-header>\n\n  \n\n  <ion-content padding>\n\n    \n\n    <ion-card>\n\n      <ion-card-header style="color: #0B3954">\n\n            <strong>Ministerio Público</strong></ion-card-header>\n\n            <ion-card-content>\n\n                Barrio abajo, antiguas oficinas ADED Valle, Nacaaome<br>\n\n             <strong> Teléfono:</strong> 2653-3963\n\n            </ion-card-content>\n\n          </ion-card>\n\n\n\n          <ion-card>\n\n              <ion-card-header style="color: #0B3954">\n\n                    <strong>Policia Nacional <br> Preventiva</strong></ion-card-header>\n\n                    <ion-card-content>\n\n                        Barrio María Auxiliadora, tres cuadras del estadio hacia el centro, Nacaaome<br>\n\n                     <strong> Teléfonos:</strong> 2795-4135 y 2795-4637\n\n                    </ion-card-content>\n\n                  </ion-card>\n\n\n\n                  <ion-card>\n\n                      <ion-card-header style="color: #0B3954">\n\n                            <strong>Juzgados de Paz,  <br> Civil, Letras</strong></ion-card-header>\n\n                            <ion-card-content>\n\n                                Barrio abajo, esquina opuesta a Hondutel, Nacaaome<br>\n\n                             <strong> Teléfonos:</strong> 2795-4138\n\n                            </ion-card-content>\n\n                          </ion-card>\n\n\n\n                          \n\n                  <ion-card>\n\n                      <ion-card-header style="color: #0B3954">\n\n                            <strong>Hospital Policlinio</strong></ion-card-header>\n\n                            <ion-card-content>\n\n                                Barrio el Corcovado por la Dirección Departamental de Educación, Nacaaome<br>\n\n                             <strong> Teléfonos:</strong> No tienen teléfono\n\n                            </ion-card-content>\n\n                          </ion-card>\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"C:\segurasappio\src\pages\valle\valle.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* ModalController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* ViewController */]])
     ], VallePage);
