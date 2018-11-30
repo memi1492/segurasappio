@@ -87,7 +87,7 @@ export class AboutPage {
 
         }
         this.sms.send(contactos, urlfinal, options).then(() => {console.log('sms worked');}).catch((err)=>{
-        alert("No tienes configurado Contacto 1")
+        console.log("didntwork")
         });
       })})})
     }
