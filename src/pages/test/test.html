@@ -11,21 +11,21 @@
       <ion-buttons end>
       </ion-buttons>
     </ion-navbar>
-  
+
   </ion-header>
-  
-  
+
+
   <ion-content padding style="background-color: #0B3954">
 
       <ion-slides pager="true" (ionslideDidChange)="slideChanged()"><!--3 little buttons at the bottom of each slide-->
-        
-        <ion-slide style="background-color: #0B3954; color:  white">
-            <h2 text-center style="padding-top: 10px; color:white4"><strong>¿Crees que estas sufriendo de violencia? </strong> </h2>  
-           <div style="text-align: center; " ><img   src="assets/imgs/test/test2.png" style="padding-bottom: 5px; width: 30%; height: 30%;" ></div> 
 
-            <p style="text-align: center; color: white;"><strong>Responde las siguientes preguntas y averigua 
+        <ion-slide style="background-color: #0B3954; color:  white">
+            <h2 text-center style="padding-top: 130px; color:white4"><strong>¿Crees que estas sufriendo de violencia? </strong> </h2>  
+           <div style="text-align: center; " ><img   src="assets/imgs/test/test2.png" style="padding-bottom: 5px; width: 30%; height: 30%;" ></div>
+
+            <p style="text-align: center; color: white;"><strong>Responde las siguientes preguntas y averigua
             </strong><ion-icon name="arrow-round-forward" style="align-content: center;"></ion-icon></p>
-          
+
           </ion-slide>
 
           <ion-slide style="background-color: #0B3954">
@@ -33,7 +33,7 @@
 <img style="align-content: center;width: 30%; height: 30%; padding-top:8%; " src="assets/imgs/test/1p.png">
 
               <p style="color: white">1.	¿Te acusa que eres infiel?  </p>
-       
+
               <button class="button button-danger customBtn" ion-button large color="danger" (click)="fsi()">Si &nbsp;</button> <br>
               <button class="button button-danger customBtn" ion-button large color="danger" (click)="faveces()">A Veces</button> <br>
               <button class="button button-danger customBtn" ion-button large color="danger" (click)="fno()">No </button> <br>
@@ -43,15 +43,15 @@
             <ion-slide style="background-color: #0B3954">
                     <img style="align-content: center;width: 30%; height: 30%; padding-top:8%" src="assets/imgs/test/2p.png">
 
- 
+
                 <p style="color: white">2.	¿No te comunicas con tus amigos/as, familiares, compañeras/os de trabajo para evitar que tu pareja se moleste? </p>
-         
+
                 <button class="button button-danger customBtn" ion-button large color="danger" (click)="fsi()">Si &nbsp;</button> <br>
                 <button class="button button-danger customBtn" ion-button large color="danger" (click)="faveces()">A Veces</button> <br>
                 <button class="button button-danger customBtn" ion-button large color="danger" (click)="fno()">No </button> <br>
-  
+
                 <br>
-               
+
               </ion-slide>
 
               <ion-slide style="background-color: #0B3954">
@@ -61,7 +61,7 @@
                   <button class="button button-danger customBtn" ion-button large color="danger" (click)="fsi()">Si &nbsp;</button> <br>
                   <button class="button button-danger customBtn" ion-button large color="danger" (click)="faveces()">A Veces</button> <br>
                   <button class="button button-danger customBtn" ion-button large color="danger" (click)="fno()">No </button> <br>
-             
+
                   <br>
                   </ion-slide>
 
@@ -69,11 +69,11 @@
                         <img style="align-content: center;width: 30%; height: 30%; padding-top:8%" src="assets/imgs/test/4.png">
 
                     <p style="color: white">4.	¿Te ha golpeado cuando se enoja o cuando discuten? </p>
-             
+
                     <button class="button button-danger customBtn" ion-button large color="danger" (click)="fsi()">Si &nbsp;</button> <br>
                     <button class="button button-danger customBtn" ion-button large color="danger" (click)="faveces()">A Veces</button> <br>
                     <button class="button button-danger customBtn" ion-button large color="danger" (click)="fno()">No </button> <br>
-               
+
                     <br>
                   </ion-slide>
 
@@ -81,7 +81,7 @@
                         <img style="align-content: center;width: 30%; height: 30%; padding-top:8%" src="assets/imgs/test/5p.png">
 
                       <p style="color: white">5.	Después de una explosión de violencia, ¿Se muestra cariñoso y atento, te regala cosas y te promete que nunca más volverá a pegarte o insultarte y te dice que “todo cambiará”? </p>
-               
+
                       <button class="button button-danger customBtn" ion-button large color="danger" (click)="fsi()">Si &nbsp;</button> <br>
                       <button class="button button-danger customBtn" ion-button large color="danger" (click)="faveces()">A Veces</button> <br>
                       <button class="button button-danger customBtn" ion-button large color="danger" (click)="fno()">No </button> <br>
@@ -96,7 +96,7 @@
                            <button class="button button-danger customBtn" ion-button large color="danger" (click)="fsi()">Si &nbsp;</button> <br>
                            <button class="button button-danger customBtn" ion-button large color="danger" (click)="faveces()">A Veces</button> <br>
                            <button class="button button-danger customBtn" ion-button large color="danger" (click)="fno()">No </button> <br>
-                   
+
                            <br>
                       </ion-slide>
 
@@ -105,11 +105,11 @@
 
                           <p style="color: white">	7.	¿Te ha obligado a tener relaciones sexuales cuando no quieres?
                               </p>
-                   
+
                               <button class="button button-danger customBtn" ion-button large color="danger" (click)="fsi()">Si &nbsp;</button> <br>
                               <button class="button button-danger customBtn" ion-button large color="danger" (click)="faveces()">A Veces</button> <br>
                               <button class="button button-danger customBtn" ion-button large color="danger" (click)="fno()">No </button> <br>
-                     
+
                               <br>
                         </ion-slide>
 
@@ -118,37 +118,36 @@
 
                             <p style="color: white">8.	¿Te impide usar métodos anticonceptivos?
                                 </p>
-                     
+
                                 <button class="button button-danger customBtn" ion-button large color="danger" (click)="fsi()">Si &nbsp;</button> <br>
                                 <button class="button button-danger customBtn" ion-button large color="danger" (click)="faveces()">A Veces</button> <br>
                                 <button class="button button-danger customBtn" ion-button large color="danger" (click)="fno()">No </button> <br>
                                 <br>
-                           
+
                           </ion-slide>
 
 
-                     
+
 
                                   <ion-slide style="background-color: #0B3954">
                                         <img style="align-content: center;width: 30%; height: 30%; padding-top:8%" src="assets/imgs/test/9p.png">
 
-                                      <p style="color: white">9.	Cuando se enojan o discuten ¿Has sentido que tu vida está en peligro? 
+                                      <p style="color: white">9.	Cuando se enojan o discuten ¿Has sentido que tu vida está en peligro?
                                           </p>
                                        <button class="button button-danger customBtn" ion-button large color="danger" (click)="fsifinal()">Si &nbsp;</button> <br>
               <button class="button button-danger customBtn" ion-button large color="danger" (click)="favecesfinal()">A Veces</button> <br>
               <button class="button button-danger customBtn" ion-button large color="danger" (click)="fnofinal()">No </button> <br>
-                                 
+
               <br>
                                     </ion-slide>
 
-                                  
-                            
-                                     
-                                         
 
-                                    
-           
-         
+
+
+
+
+
+
+
         </ion-slides>
   </ion-content>
-  
