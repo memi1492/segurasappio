@@ -52,11 +52,12 @@ export class AboutPage {
 
     SMS1(){
       this.storage.get('contact1').then((contacto1) => {
-        this.storage.get('contact1').then((contacto2) => {
-          this.storage.get('contact1').then((contacto3) => {
+        this.storage.get('contact2').then((contacto2) => {
+          this.storage.get('contact3').then((contacto3) => {
       var urlinicial = "Estoy en problema y necesito tu ayuda. Esta es mi ubicación: https://www.google.com/maps/search/?api=1&query=";
      var urlfinal = urlinicial.concat(this.lat, ",", this.lng);
-     var contactos = contacto1.concat(",", contacto2, ",",  contacto3)
+     var contactos = contacto1.concat(",", contacto2, ",",  contacto3);
+   
       var options: {
 
       replaceLineBreaks: true,
