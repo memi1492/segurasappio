@@ -41,8 +41,6 @@ export class AboutPage {
 
   senSMS(){
     this.SMS1();
-    this.SMS2();
-    this.SMS3();
 
 
 
@@ -54,8 +52,11 @@ export class AboutPage {
 
     SMS1(){
       this.storage.get('contact1').then((contacto1) => {
+        this.storage.get('contact1').then((contacto2) => {
+          this.storage.get('contact1').then((contacto3) => {
       var urlinicial = "Estoy en problema y necesito tu ayuda. Esta es mi ubicación: https://www.google.com/maps/search/?api=1&query=";
      var urlfinal = urlinicial.concat(this.lat, ",", this.lng);
+     var contactos = contacto1.concat(",", contacto2, ",",  contacto3)
       var options: {
 
       replaceLineBreaks: true,
@@ -64,10 +65,10 @@ export class AboutPage {
         }
 
         }
-        this.sms.send(contacto1, urlfinal, options).then(() => {console.log('sms worked');}).catch((err)=>{
+        this.sms.send(contactos, urlfinal, options).then(() => {console.log('sms worked');}).catch((err)=>{
         alert("No tienes configurado Contacto 1")
         });
-      })
+      })})})
     }
 
 
