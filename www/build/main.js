@@ -976,12 +976,27 @@ var AboutPage = /** @class */ (function () {
         this.storage.get('contact1').then(function (contacto1) {
             _this.storage.get('contact2').then(function (contacto2) {
                 _this.storage.get('contact3').then(function (contacto3) {
+                    var coma = ",";
+                    if (contacto1 == "") {
+                        contacto1 = null;
+                    }
+                    if (contacto2 == "") {
+                        contacto2 = null;
+                    }
+                    else {
+                        contacto2 = coma.concat(contacto2);
+                    }
+                    if (contacto3 == "") {
+                        contacto3 = null;
+                    }
+                    else {
+                        contacto3 = coma.concat(contacto3);
+                    }
                     var urlinicial = "Estoy en problema y necesito tu ayuda. Esta es mi ubicación: https://www.google.com/maps/search/?api=1&query=";
                     var urlfinal = urlinicial.concat(_this.lat, ",", _this.lng);
-                    var contactos = contacto1.concat(",", contacto2, ",", contacto3);
+                    var contactos = contacto1.concat(contacto2, ",", contacto3);
                     var options;
                     _this.sms.send(contactos, urlfinal, options).then(function () { console.log('sms worked'); }).catch(function (err) {
-                        alert("No tienes configurado Contacto 1");
                     });
                 });
             });
