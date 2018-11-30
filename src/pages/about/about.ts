@@ -54,27 +54,9 @@ export class AboutPage {
       this.storage.get('contact1').then((contacto1) => {
         this.storage.get('contact2').then((contacto2) => {
           this.storage.get('contact3').then((contacto3) => {
-            var coma = ",";
-
-            if (contacto1 == ""){
-              contacto1 = null;
-            }
-
-            if (contacto2 == ""){
-              contacto2 = null;
-            }
-            else{
-              contacto2 = coma.concat(contacto2);
-            }
-            if (contacto3 == ""){
-              contacto3 = null;
-            }
-            else{
-              contacto3 = coma.concat(contacto3);
-            }
       var urlinicial = "Estoy en problema y necesito tu ayuda. Esta es mi ubicación: https://www.google.com/maps/search/?api=1&query=";
      var urlfinal = urlinicial.concat(this.lat, ",", this.lng);
-     var contactos = contacto1.concat(contacto2, ",",  contacto3);
+     var contactos = contacto1.concat(",", contacto2, ",",  contacto3);
    
       var options: {
 
@@ -85,7 +67,7 @@ export class AboutPage {
 
         }
         this.sms.send(contactos, urlfinal, options).then(() => {console.log('sms worked');}).catch((err)=>{
-        
+        alert("No tienes configurado Contacto 1")
         });
       })})})
     }
