@@ -74,7 +74,7 @@ export class TestPage {
       this.navCtrl.push(SiPage);
     }
 
-    else if (this.cav  >= this.csi && this.cav  >= this.cno){
+    else if ((this.cav  >= this.csi && this.cav  >= this.cno) || (this.csi >=1)){
 
       this.navCtrl.push(AvecesPage);
 
