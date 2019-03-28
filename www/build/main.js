@@ -517,7 +517,7 @@ var TestPage = /** @class */ (function () {
         if (this.csi >= this.cav && this.csi >= this.cno) {
             this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__si_si__["a" /* SiPage */]);
         }
-        else if (this.cav >= this.csi && this.cav >= this.cno) {
+        else if ((this.cav >= this.csi && this.cav >= this.cno) || (this.csi >= 1)) {
             this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__aveces_aveces__["a" /* AvecesPage */]);
         }
         else if (this.cno >= this.csi && this.cno >= this.cav) {
@@ -621,7 +621,7 @@ var Test2Page = /** @class */ (function () {
         if (this.csi >= this.cav && this.csi >= this.cno) {
             this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__si_si__["a" /* SiPage */]);
         }
-        else if (this.cav >= this.csi && this.cav >= this.cno) {
+        else if ((this.cav >= this.csi && this.cav >= this.cno) || (this.csi >= 1)) {
             this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__aveces_aveces__["a" /* AvecesPage */]);
         }
         else if (this.cno >= this.csi && this.cno >= this.cav) {
@@ -791,15 +791,15 @@ var map = {
 		10
 	],
 	"../pages/new-place/new-place.module": [
-		329,
+		331,
 		38
 	],
 	"../pages/ninos/ninos.module": [
-		330,
+		329,
 		9
 	],
 	"../pages/no/no.module": [
-		331,
+		330,
 		37
 	],
 	"../pages/ocotepeque/ocotepeque.module": [
@@ -807,11 +807,11 @@ var map = {
 		8
 	],
 	"../pages/olancho/olancho.module": [
-		334,
+		333,
 		7
 	],
 	"../pages/pasos-denuncia/pasos-denuncia.module": [
-		333,
+		334,
 		6
 	],
 	"../pages/proceso/proceso.module": [
@@ -823,23 +823,23 @@ var map = {
 		36
 	],
 	"../pages/rutas-atencion/rutas-atencion.module": [
-		337,
+		339,
 		4
 	],
 	"../pages/santa-barbara/santa-barbara.module": [
-		338,
+		337,
 		3
 	],
 	"../pages/si/si.module": [
-		339,
+		338,
 		35
 	],
 	"../pages/test/test.module": [
-		340,
+		341,
 		34
 	],
 	"../pages/test2/test2.module": [
-		341,
+		340,
 		33
 	],
 	"../pages/testmenu/testmenu.module": [
@@ -851,11 +851,11 @@ var map = {
 		2
 	],
 	"../pages/vintraf/vintraf.module": [
-		344,
+		345,
 		1
 	],
 	"../pages/yoro/yoro.module": [
-		345,
+		344,
 		0
 	]
 };
@@ -1223,23 +1223,23 @@ var AppModule = /** @class */ (function () {
                         { loadChildren: '../pages/la-paz/la-paz.module#LaPazPageModule', name: 'LaPazPage', segment: 'la-paz', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/lempira/lempira.module#LempiraPageModule', name: 'LempiraPage', segment: 'lempira', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/medidas/medidas.module#MedidasPageModule', name: 'MedidasPage', segment: 'medidas', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/new-place/new-place.module#NewPlacePageModule', name: 'NewPlacePage', segment: 'new-place', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/ninos/ninos.module#NinosPageModule', name: 'NinosPage', segment: 'ninos', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/no/no.module#NoPageModule', name: 'NoPage', segment: 'no', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/new-place/new-place.module#NewPlacePageModule', name: 'NewPlacePage', segment: 'new-place', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/ocotepeque/ocotepeque.module#OcotepequePageModule', name: 'OcotepequePage', segment: 'ocotepeque', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/pasos-denuncia/pasos-denuncia.module#PasosDenunciaPageModule', name: 'PasosDenunciaPage', segment: 'pasos-denuncia', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/olancho/olancho.module#OlanchoPageModule', name: 'OlanchoPage', segment: 'olancho', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/pasos-denuncia/pasos-denuncia.module#PasosDenunciaPageModule', name: 'PasosDenunciaPage', segment: 'pasos-denuncia', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/proceso/proceso.module#ProcesoPageModule', name: 'ProcesoPage', segment: 'proceso', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/raravez/raravez.module#RaravezPageModule', name: 'RaravezPage', segment: 'raravez', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/rutas-atencion/rutas-atencion.module#RutasAtencionPageModule', name: 'RutasAtencionPage', segment: 'rutas-atencion', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/santa-barbara/santa-barbara.module#SantaBarbaraPageModule', name: 'SantaBarbaraPage', segment: 'santa-barbara', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/si/si.module#SiPageModule', name: 'SiPage', segment: 'si', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/test/test.module#TestPageModule', name: 'TestPage', segment: 'test', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/rutas-atencion/rutas-atencion.module#RutasAtencionPageModule', name: 'RutasAtencionPage', segment: 'rutas-atencion', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/test2/test2.module#Test2PageModule', name: 'Test2Page', segment: 'test2', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/test/test.module#TestPageModule', name: 'TestPage', segment: 'test', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/testmenu/testmenu.module#TestmenuPageModule', name: 'TestmenuPage', segment: 'testmenu', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/valle/valle.module#VallePageModule', name: 'VallePage', segment: 'valle', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/vintraf/vintraf.module#VintrafPageModule', name: 'VintrafPage', segment: 'vintraf', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/yoro/yoro.module#YoroPageModule', name: 'YoroPage', segment: 'yoro', priority: 'low', defaultHistory: [] }
+                        { loadChildren: '../pages/yoro/yoro.module#YoroPageModule', name: 'YoroPage', segment: 'yoro', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/vintraf/vintraf.module#VintrafPageModule', name: 'VintrafPage', segment: 'vintraf', priority: 'low', defaultHistory: [] }
                     ]
                 }),
                 __WEBPACK_IMPORTED_MODULE_9__ionic_storage__["a" /* IonicStorageModule */].forRoot()
@@ -1520,7 +1520,7 @@ var AvecesPage = /** @class */ (function () {
     };
     AvecesPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-aveces',template:/*ion-inline-start:"/Users/mariajcoello/Documents/GitHub/Seguras/src/pages/aveces/aveces.html"*/'<!--\n  Generated template for the AvecesPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n    <ion-navbar color="primary">\n        <ion-title>Resultados</ion-title>\n        <ion-buttons end>\n        </ion-buttons>\n      </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n<br>\n  <p style="color: white; text-align: center; font-size: 20px"><strong>VIVES EN UNA RELACIÓN NO SALUDABLE</strong></p>\n   <div style="text-align: center"> <img style="text-align: center;width: 50%; height: 50%" src="assets/imgs/test/test.png"> </div>\n\n  \n    <p style="color: white; text-align: center; font-size: 15px">\n        Tu relación tiene signos de ser una relación abusiva. Busca ayuda, puedes prevenir y parar esta situación.  \n        </p>\n\n    <div style="text-align: center" > <button class="button button-danger customBtn" ion-button large color="danger" (click)="volver()">Volver al Menú  </button> </div>  \n\n</ion-content>\n'/*ion-inline-end:"/Users/mariajcoello/Documents/GitHub/Seguras/src/pages/aveces/aveces.html"*/,
+            selector: 'page-aveces',template:/*ion-inline-start:"/Users/mariajcoello/Documents/GitHub/Seguras/src/pages/aveces/aveces.html"*/'<!--\n  Generated template for the AvecesPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n    <ion-navbar color="primary">\n        <ion-title>Resultados</ion-title>\n        <ion-buttons end>\n        </ion-buttons>\n      </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n<br>\n  <p style="color: white; text-align: center; font-size: 20px"><strong>¡CUIDADO! Puedes estar en una relación no saludable</strong></p>\n   <div style="text-align: center"> <img style="text-align: center;width: 50%; height: 50%" src="assets/imgs/test/testaveces.png"> </div>\n\n  \n    <p style="color: white; text-align: center; font-size: 15px">\n        Tu relación tiene signos de ser una relación abusiva. Busca ayuda, puedes prevenir y parar esta situación.  \n        </p>\n\n    <div style="text-align: center" > <button class="button button-danger customBtn" ion-button large color="danger" (click)="volver()">Volver al Menú  </button> </div>  \n\n</ion-content>\n'/*ion-inline-end:"/Users/mariajcoello/Documents/GitHub/Seguras/src/pages/aveces/aveces.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]])
     ], AvecesPage);
@@ -1570,7 +1570,7 @@ var SiPage = /** @class */ (function () {
     };
     SiPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-si',template:/*ion-inline-start:"/Users/mariajcoello/Documents/GitHub/Seguras/src/pages/si/si.html"*/'<!--\n  Generated template for the SiPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n    <ion-navbar color="primary">\n        <ion-title>Resultados</ion-title>\n        <ion-buttons end>\n        </ion-buttons>\n      </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n<br>\n  <p style="color: white; text-align: center; font-size: 20px"><strong>¡TEN CUIDADO!</strong></p>\n   <div style="text-align: center"> <img style="text-align: center;width: 50%; height: 50%" src="assets/imgs/test/test.png"> </div>\n\n  \n    <p style="color: white; text-align: center; font-size: 15px">\n      Esto puede volver a pasar, pide ayuda, tu vida y la de tu familia puede estar en peligro. \n        </p>\n\n    <div style="text-align: center" > <button class="button button-danger customBtn" ion-button large color="danger" (click)="volver()">Volver al Menú  </button> </div>  \n\n</ion-content>\n'/*ion-inline-end:"/Users/mariajcoello/Documents/GitHub/Seguras/src/pages/si/si.html"*/,
+            selector: 'page-si',template:/*ion-inline-start:"/Users/mariajcoello/Documents/GitHub/Seguras/src/pages/si/si.html"*/'<!--\n  Generated template for the SiPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n    <ion-navbar color="primary">\n        <ion-title>Resultados</ion-title>\n        <ion-buttons end>\n        </ion-buttons>\n      </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n<br>\n  <p style="color: white; text-align: center; font-size: 20px"><strong>¡ALERTA! <br> Puede que estés en una relación de violencia</strong></p>\n   <div style="text-align: center"> <img style="text-align: center;width: 50%; height: 50%" src="assets/imgs/test/testsi.png"> </div>\n\n  \n    <p style="color: white; text-align: center; font-size: 15px">\n      Esto puede volver a pasar, pide ayuda, tu vida y la de tu familia puede estar en peligro. \n        </p>\n\n    <div style="text-align: center" > <button class="button button-danger customBtn" ion-button large color="danger" (click)="volver()">Volver al Menú  </button> </div>  \n\n</ion-content>\n'/*ion-inline-end:"/Users/mariajcoello/Documents/GitHub/Seguras/src/pages/si/si.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]])
     ], SiPage);
@@ -1620,7 +1620,7 @@ var NoPage = /** @class */ (function () {
     };
     NoPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-no',template:/*ion-inline-start:"/Users/mariajcoello/Documents/GitHub/Seguras/src/pages/no/no.html"*/'<!--\n  Generated template for the NoPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n    <ion-navbar color="primary">\n        <ion-title>Resultados</ion-title>\n        <ion-buttons end>\n        </ion-buttons>\n      </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n<br>\n  <p style="color: white; text-align: center; font-size: 20px"><strong>­¡FELICIDADES!­</strong></p>\n   <div style="text-align: center"> <img style="text-align: center;width: 50%; height: 50%" src="assets/imgs/test/test.png"> </div>\n\n  \n    <p style="color: white; text-align: center; font-size: 15px">\n        Tu relación es saludable.  \n        </p>\n\n    <div style="text-align: center" > <button class="button button-danger customBtn" ion-button large color="danger" (click)="volver()">Volver al Menú  </button> </div>  \n\n</ion-content>\n\n'/*ion-inline-end:"/Users/mariajcoello/Documents/GitHub/Seguras/src/pages/no/no.html"*/,
+            selector: 'page-no',template:/*ion-inline-start:"/Users/mariajcoello/Documents/GitHub/Seguras/src/pages/no/no.html"*/'<!--\n  Generated template for the NoPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n    <ion-navbar color="primary">\n        <ion-title>Resultados</ion-title>\n        <ion-buttons end>\n        </ion-buttons>\n      </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n<br>\n  <p style="color: white; text-align: center; font-size: 20px"><strong>­¡FELICIDADES!­</strong></p>\n   <div style="text-align: center"> <img style="text-align: center;width: 50%; height: 50%" src="assets/imgs/test/testno.png"> </div>\n\n  \n    <p style="color: white; text-align: center; font-size: 15px">\n        Tu relación es saludable.  \n        </p>\n\n    <div style="text-align: center" > <button class="button button-danger customBtn" ion-button large color="danger" (click)="volver()">Volver al Menú  </button> </div>  \n\n</ion-content>\n\n'/*ion-inline-end:"/Users/mariajcoello/Documents/GitHub/Seguras/src/pages/no/no.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]])
     ], NoPage);
