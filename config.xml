@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="io.ionic.starter" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="seguras.detecap.starte2r" version="0.2.2" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>Seguras</name>
     <description>La aplicación móvil “Seguras” es para que las mujeres puedan acceder de manera rápida a servicios de protección en casos de violencia doméstica y violencia sexual,
      tiene un botón de pánico o emergencia (llamar) y otro para envío de mensaje urgente a tres personas de su confianza (mensajes). </description>
@@ -90,6 +90,6 @@
     </plugin>
     <plugin name="mx.ferreyra.callnumber" spec="0.0.2" />
     <plugin name="cordova-sqlite-storage" spec="2.5.1" />
-    <engine name="android" spec="7.1.1" />
+    <engine name="android" spec="^6.3.0" />
     <engine name="ios" spec="4.5.5" />
 </widget>
