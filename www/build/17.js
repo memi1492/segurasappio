@@ -1,14 +1,14 @@
 webpackJsonp([17],{
 
-/***/ 317:
+/***/ 321:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "GraciasADiosPageModule", function() { return GraciasADiosPageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IdentificaPageModule", function() { return IdentificaPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(7);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__gracias_a_dios__ = __webpack_require__(360);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__identifica__ = __webpack_require__(363);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,31 +18,31 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var GraciasADiosPageModule = /** @class */ (function () {
-    function GraciasADiosPageModule() {
+var IdentificaPageModule = /** @class */ (function () {
+    function IdentificaPageModule() {
     }
-    GraciasADiosPageModule = __decorate([
+    IdentificaPageModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_2__gracias_a_dios__["a" /* GraciasADiosPage */],
+                __WEBPACK_IMPORTED_MODULE_2__identifica__["a" /* IdentificaPage */],
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__gracias_a_dios__["a" /* GraciasADiosPage */]),
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__identifica__["a" /* IdentificaPage */]),
             ],
         })
-    ], GraciasADiosPageModule);
-    return GraciasADiosPageModule;
+    ], IdentificaPageModule);
+    return IdentificaPageModule;
 }());
 
-//# sourceMappingURL=gracias-a-dios.module.js.map
+//# sourceMappingURL=identifica.module.js.map
 
 /***/ }),
 
-/***/ 360:
+/***/ 363:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return GraciasADiosPage; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return IdentificaPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(7);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -57,34 +57,33 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 /**
- * Generated class for the GraciasADiosPage page.
+ * Generated class for the IdentificaPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
  */
-var GraciasADiosPage = /** @class */ (function () {
-    function GraciasADiosPage(navCtrl, navParams, modal, view) {
+var IdentificaPage = /** @class */ (function () {
+    function IdentificaPage(navCtrl, view, navParams) {
         this.navCtrl = navCtrl;
-        this.navParams = navParams;
-        this.modal = modal;
         this.view = view;
+        this.navParams = navParams;
     }
-    GraciasADiosPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad GraciasADiosPage');
+    IdentificaPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad IdentificaPage');
     };
-    GraciasADiosPage.prototype.closemodal = function () {
+    IdentificaPage.prototype.closemodal = function () {
         this.view.dismiss();
     };
-    GraciasADiosPage = __decorate([
+    IdentificaPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-gracias-a-dios',template:/*ion-inline-start:"C:\Users\Amy\Desktop\segurasappio\src\pages\gracias-a-dios\gracias-a-dios.html"*/'<!--\n  Generated template for the GraciasADiosPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n    <ion-navbar color="primary">\n      <ion-title>Gracias a Dios</ion-title>\n        <ion-buttons end>\n            <button ion-button (click)="closemodal()">Atrás</button>\n          </ion-buttons>\n      </ion-navbar>\n    \n    </ion-header>\n    \n    \n    <ion-content padding>\n    \n      <ion-card>\n        <ion-card-header style="color: #0B3954">\n          <strong>Hospital  Puerto Lempira\n            </strong>\n        </ion-card-header>\n        <ion-card-content>\n            Barrio el manchen,calle principal frente a la terminal de buses, Puerto Lempira.<br>\n         <strong> Teléfonos:</strong> 2433-6078/2433-6012\n        </ion-card-content>\n      </ion-card>\n\n      <ion-card>\n          <ion-card-header style="color: #0B3954">\n            <strong>Policia Preventiva Puerto Lempira \n              </strong>\n          </ion-card-header>\n          <ion-card-content>\n              Barrio las Minas,frente al instituto José Cecilio del Valle, Puerto Lempira.<br>\n           <strong> Teléfonos:</strong> 2433-6033  -35-88\n          </ion-card-content>\n        </ion-card>\n\n        <ion-card>\n            <ion-card-header style="color: #0B3954">\n              <strong>Ministerio Público\n                </strong>\n            </ion-card-header>\n            <ion-card-content>\n                Barrio la Mora, esquina opuesta al campo de futbol.<br>\n             <strong> Teléfono:</strong>  2433-6072\n            </ion-card-content>\n          </ion-card>\n\n          <ion-card>\n              <ion-card-header style="color: #0B3954">\n                <strong>Juzgado de Letras Puerto Lempira\n                  </strong>\n              </ion-card-header>\n              <ion-card-content>\n                  Barrio el centro esquina opuesta a la Departamental de Educacion<br>\n               <strong> Teléfono:</strong> 2433-6005\n              </ion-card-content>\n            </ion-card>\n\n            <ion-card>\n                <ion-card-header style="color: #0B3954">\n                  <strong>Defensa Pública Puerto Lempira\n                    </strong>\n                </ion-card-header>\n                <ion-card-content>\n                    Frente a la Iglesia de Dios, a la par de la Asociación de busos liciados Ambly<br>\n                 <strong> Teléfono:</strong> 2433-6066\n                </ion-card-content>\n              </ion-card>\n  \n\n</ion-content>\n'/*ion-inline-end:"C:\Users\Amy\Desktop\segurasappio\src\pages\gracias-a-dios\gracias-a-dios.html"*/,
+            selector: 'page-identifica',template:/*ion-inline-start:"C:\Users\Amy\Desktop\Proyectos\segurasappio\src\pages\identifica\identifica.html"*/'\n\n<ion-header>\n\n\n\n    <ion-navbar color="primary">\n\n      <ion-title>Violencia Sexual</ion-title>\n\n      <ion-buttons end>\n\n        <button ion-button (click)="closemodal()">Atrás</button>\n\n      </ion-buttons>\n\n    </ion-navbar>\n\n  \n\n  </ion-header>\n\n  \n\n  \n\n  <ion-content padding>\n\n      <h2 text-center style="padding-top: 10px; color:#0B3954"><strong>­Violencia Sexual </strong> <br>\n\n      <span style="text-align: center; color: #23B4B7; font-size: 16px;">\n\n         <strong> ¡Identificala!</strong></span>\n\n        </h2> \n\n\n\n      <ion-grid>\n\n          <br> <ion-row padding-top  class="estilo">\n\n       <ion-col >\n\n             <img style="align-content: center; width: 80%; height:80%" src="assets/imgs/2ViolenciaSexual/1ViolenciaSexualIdentificala/no.gif">\n\n           </ion-col>\n\n           <ion-col >\n\n             <p style="text-align:center">Estas sufriendo violencia sexual cuando eres victima de cualquier acto sexual que no desees.</p>\n\n           </ion-col>\n\n           </ion-row>\n\n       \n\n           <br> <ion-row padding-top  class="estilo2" >\n\n               <ion-col >\n\n                   <p style="text-align:center">La violencia sexual incluye el acoso sexual (manoseo, propuestas sexuales, miradas, piropos no deseados) y la violación sexual.</p> \n\n                   </ion-col>\n\n                   <ion-col >\n\n                       <img style="align-content: center; width: 80%; height:80%" src="assets/imgs/2ViolenciaSexual/1ViolenciaSexualIdentificala/chat.gif">\n\n                   </ion-col>\n\n                   </ion-row>\n\n\n\n                   <br> <ion-row padding-top  class="estilo" >\n\n                       <ion-col >\n\n                             <img style="align-content: center; width: 80%; height:80%" src="assets/imgs/2ViolenciaSexual/1ViolenciaSexualIdentificala/target.gif">\n\n                           </ion-col>\n\n                           <ion-col >\n\n                             <p style="text-align:center">Puede darse a través de violencia, de una amenaza grave, aprovechándose de tu situación o de tu incapacidad de resistir.</p>\n\n                           </ion-col>\n\n                           </ion-row>\n\n\n\n             \n\n                 </ion-grid>\n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n\n\n\n\n\n\n      </ion-content>\n\n  '/*ion-inline-end:"C:\Users\Amy\Desktop\Proyectos\segurasappio\src\pages\identifica\identifica.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* ModalController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* ViewController */]])
-    ], GraciasADiosPage);
-    return GraciasADiosPage;
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* ViewController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]])
+    ], IdentificaPage);
+    return IdentificaPage;
 }());
 
-//# sourceMappingURL=gracias-a-dios.js.map
+//# sourceMappingURL=identifica.js.map
 
 /***/ })
 

@@ -1,14 +1,14 @@
 webpackJsonp([10],{
 
-/***/ 327:
+/***/ 328:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MedidasPageModule", function() { return MedidasPageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NinosPageModule", function() { return NinosPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(7);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__medidas__ = __webpack_require__(367);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ninos__ = __webpack_require__(369);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,31 +18,31 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var MedidasPageModule = /** @class */ (function () {
-    function MedidasPageModule() {
+var NinosPageModule = /** @class */ (function () {
+    function NinosPageModule() {
     }
-    MedidasPageModule = __decorate([
+    NinosPageModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_2__medidas__["a" /* MedidasPage */],
+                __WEBPACK_IMPORTED_MODULE_2__ninos__["a" /* NinosPage */],
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__medidas__["a" /* MedidasPage */]),
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__ninos__["a" /* NinosPage */]),
             ],
         })
-    ], MedidasPageModule);
-    return MedidasPageModule;
+    ], NinosPageModule);
+    return NinosPageModule;
 }());
 
-//# sourceMappingURL=medidas.module.js.map
+//# sourceMappingURL=ninos.module.js.map
 
 /***/ }),
 
-/***/ 367:
+/***/ 369:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MedidasPage; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return NinosPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(7);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -57,33 +57,33 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 /**
- * Generated class for the MedidasPage page.
+ * Generated class for the NinosPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
  */
-var MedidasPage = /** @class */ (function () {
-    function MedidasPage(navCtrl, navParams, view) {
+var NinosPage = /** @class */ (function () {
+    function NinosPage(navCtrl, view, navParams) {
         this.navCtrl = navCtrl;
-        this.navParams = navParams;
         this.view = view;
+        this.navParams = navParams;
     }
-    MedidasPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad MedidasPage');
+    NinosPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad NinosPage');
     };
-    MedidasPage.prototype.closemodal = function () {
+    NinosPage.prototype.closemodal = function () {
         this.view.dismiss();
     };
-    MedidasPage = __decorate([
+    NinosPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-medidas',template:/*ion-inline-start:"C:\Users\Amy\Desktop\segurasappio\src\pages\medidas\medidas.html"*/'\n<ion-header>\n\n    <ion-navbar color="primary">\n      <ion-title>Medidas de Seguridad</ion-title>\n      <ion-buttons end>\n        <button ion-button (click)="closemodal()">Atrás</button>\n      </ion-buttons>\n    </ion-navbar>\n  \n  </ion-header>\n \n  \n  <ion-content padding>\n      <h2 text-center style="padding-top: 10px; color:#0B3954 "><strong>¿Qué medidas debes tomar para evitar ser victima de violación?</strong> </h2>\n      <p text-center style="padding-top: 10px;  color:#FF6663"> <strong>Es difícil evitar ser víctima de una violación, recuerda que en la mayoría de los casos los agresores son personas conocidas.</strong></p>  \n\n     \n      <ion-grid>\n          <ion-row justify-content-center style="color: #0B3954; background-color: white; text-align: center; padding-top: 5px ; border: 10px solid #23B4B7;">\n              \n           <ion-col><br><p style="padding:10px; text-align: center">Trata de caminar por lugares iluminados cuando sea de noche.</p></ion-col> \n              <ion-col>  <img   src="assets/imgs/3Violaciones/1MedidasSeguridad/street-light.gif" style="padding-top: 10px; padding-bottom: 5px; width: 90%; height: 90%" ></ion-col> \n         \n          </ion-row>\n\n<div>&nbsp;</div>\n<div>&nbsp;</div>\n      \n        <ion-row justify-content-center style="color: #0B3954; background-color: white; text-align: center; padding-top: 5px ; border: 10px solid #0B3954;">\n          \n              <ion-col>  <img   src="assets/imgs/3Violaciones/1MedidasSeguridad/smartphone.gif" style="padding-bottom: 5px; width: 90%; height: 90%" ></ion-col>\n          <ion-col>      <br>    <p style="padding:5px;">Ten siempre el celular cargado y a mano.</p>          </ion-col>\n            </ion-row>\n\n            <div>&nbsp;</div>\n            <div>&nbsp;</div>\n\n          <ion-row justify-content-center style="color: #0B3954; background-color: white; text-align: center; padding-top: 5px ; border: 10px solid #23B4B7;">\n              <ion-col><p style="padding:5px;">Decide bien en quien confiar, antes de aceptar que te lleven en un carro o aceptar la compañia de cualquier persona.</p></ion-col>\n              <ion-col> <img   src="assets/imgs/3Violaciones/1MedidasSeguridad/search-4.gif" style="padding-bottom: 5px; width: 90%; height: 90%" ></ion-col>\n          \n              </ion-row>\n\n              <div>&nbsp;</div>\n<div>&nbsp;</div>\n\n            <ion-row justify-content-center style="color: #0B3954; background-color: white; text-align: center; padding-top: 5px ; border: 10px solid #0B3954;">\n              <ion-col>  <img   src="assets/imgs/3Violaciones/1MedidasSeguridad/rich-people.gif" style="padding-bottom: 5px; width: 90%; height: 90%" >   </ion-col>\n              <ion-col><p style="padding:5px;">Si te sientes en peligro o amenazada, trata de dirigirte a un lugar que no sea solitario.</p></ion-col>\n                </ion-row>\n                </ion-grid>\n\n\n               \n\n      </ion-content>\n  '/*ion-inline-end:"C:\Users\Amy\Desktop\segurasappio\src\pages\medidas\medidas.html"*/,
+            selector: 'page-ninos',template:/*ion-inline-start:"C:\Users\Amy\Desktop\Proyectos\segurasappio\src\pages\ninos\ninos.html"*/'\n<ion-header>\n\n    <ion-navbar color="primary">\n      <ion-title>Violencia Sexual</ion-title>\n      <ion-buttons end>\n        <button ion-button (click)="closemodal()">Atrás</button>\n      </ion-buttons>\n    </ion-navbar>\n  \n  </ion-header>\n  \n  \n  <ion-content padding>\n      <h2 text-center style="padding-top: 10px; color:#0B3954"><strong>¿Y qué hacer con los niños y niñas y adolescentes\n          para evitar la violencia sexual?</strong>\n      </h2>    \n      \n        <ion-grid>\n           <br> <ion-row padding-top  style="color: black; background-color: white; text-align: center; padding-top: 5px ; border: 10px solid #0B3954;" >\n        <ion-col >\n              <img style="align-content: center;" src="assets/imgs/2ViolenciaSexual/2NiñosYAdolescentes/family.gif">\n            </ion-col>\n            <ion-col >\n              <p style="text-align:center">Se debe crear un ambiente de confianza con los hijos e hijas, donde sientan que son escuchados y escuchadas.</p>\n            </ion-col>\n            </ion-row>\n        \n            <br> <ion-row padding-top  style="color: black; background-color: white; text-align: center; padding-top: 5px ; border: 10px solid #23B4B7;" >\n                <ion-col >\n                    <p style="text-align:center">Enseñarles que nadie tiene derecho a tocar su cuerpo sin su consentimiento.</p> \n                    </ion-col>\n                    <ion-col >\n                        <img style="align-content: center;" src="assets/imgs/2ViolenciaSexual/2NiñosYAdolescentes/no.gif">\n                    </ion-col>\n                    </ion-row>\n\n                    <br> <ion-row padding-top  style="color: black; background-color: white; text-align: center; padding-top: 5px ; border: 10px solid #0B3954;" >\n                        <ion-col >\n                              <img style="align-content: center;" src="assets/imgs/2ViolenciaSexual/2NiñosYAdolescentes/stop.gif">\n                            </ion-col>\n                            <ion-col >\n                              <p style="text-align:center">Decirles que deben decir "no" ante cualquier propuesta que les incomode, de cualquier persona extraña o conocida.</p>\n                            </ion-col>\n                            </ion-row>\n\n                            <br> <ion-row padding-top  style="color: black; background-color: white; text-align: center; padding-top: 5px ; border: 10px solid #23B4B7;" >\n                                <ion-col >\n                                    <p style="text-align:center">Explicarles que no se deben abrir puertas a extraños, ni ir a sus casas, ni a pasear con ellos sin el permiso de sus padres y madres.</p> \n                                    </ion-col>\n                                    <ion-col >\n                                        <img style="align-content: center;" src="assets/imgs/2ViolenciaSexual/2NiñosYAdolescentes/lock.gif">\n                                    </ion-col>\n                                    </ion-row>\n\n              \n                  </ion-grid>\n\n\n\n\n\n      </ion-content>'/*ion-inline-end:"C:\Users\Amy\Desktop\Proyectos\segurasappio\src\pages\ninos\ninos.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* ViewController */]])
-    ], MedidasPage);
-    return MedidasPage;
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* ViewController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]])
+    ], NinosPage);
+    return NinosPage;
 }());
 
-//# sourceMappingURL=medidas.js.map
+//# sourceMappingURL=ninos.js.map
 
 /***/ })
 

@@ -122,6 +122,11 @@ GraciasADios(){
     Yoro.present();
   }
 
+  Nacional(){
+    const Nacional = this.modal.create('NivelnacionalPage');
+    Nacional.present();
+  }
+
 
   
   
